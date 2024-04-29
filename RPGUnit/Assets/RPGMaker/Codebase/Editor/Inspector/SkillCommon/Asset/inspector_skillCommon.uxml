@@ -1,0 +1,90 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout text="WORD_0415" value="false" name="attack">
+            <ex:InspectorItemUnit>
+                <ui:Label name="attack_template_formula_text" picking-mode="Ignore" text="WORD_0416"/>
+                <ui:Label name="attack_template_formula" picking-mode="Ignore" text=""/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0417"/>
+                    <ui:Label text=" (a.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="attack_a_mag" picking-mode="Ignore" value="1"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0418"/>
+                    <ui:Label text=" (b.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="attack_b_mag" picking-mode="Ignore" value="1"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label name="attack_formula_text" picking-mode="Ignore" text="WORD_0493"/>
+                <ui:Label name="attack_formula" picking-mode="Ignore" text="(a.atk * atkmag - b.def * defmag)"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0420" value="false" name="magic">
+            <ex:InspectorItemUnit>
+                <ui:Label name="magic_template_formula_text" picking-mode="Ignore" text="WORD_0416"/>
+                <ui:Label name="magic_template_formula" picking-mode="Ignore" text=""/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0421"/>
+                    <ui:Label text=" (cdmg)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="magic_base_param" picking-mode="Ignore" value="10" style="height: 19px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0417"/>
+                    <ui:Label text=" (a.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="magic_a_mag" picking-mode="Ignore" value="0.350" style="height: 19px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0418"/>
+                    <ui:Label text=" (b.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="magic_b_mag" picking-mode="Ignore" value="0.600"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label name="magic_formula_text" picking-mode="Ignore" text="WORD_0493"/>
+                <ui:Label name="magic_formula" picking-mode="Ignore" text="(a.atk * atkmag - b.def * defmag)"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0422" value="false" name="special">
+            <ex:InspectorItemUnit>
+                <ui:Label name="special_template_formula_text" picking-mode="Ignore" text="WORD_0416"/>
+                <ui:Label name="special_template_formula" picking-mode="Ignore" text=""/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0421"/>
+                    <ui:Label text=" (cdmg)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="special_base_param" picking-mode="Ignore" value="30" style="height: 19px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0417"/>
+                    <ui:Label text=" (a.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="special_a_mag" picking-mode="Ignore" value="2" style="height: 19px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0418"/>
+                    <ui:Label text=" (b.mag)"/>
+                </ui:VisualElement>
+                <uie:FloatField name="special_b_mag" picking-mode="Ignore" value="0"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label name="special_formula_text" picking-mode="Ignore" text="WORD_0416"/>
+                <ui:Label name="special_formula" picking-mode="Ignore" text=""/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

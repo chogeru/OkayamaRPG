@@ -1,0 +1,60 @@
+.row {
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.row_element {
+    flex-direction: row;
+    padding-bottom: 2px;
+}
+.row_reverse {
+    flex-direction: row-reverse;
+}
+.row_reverse_element {
+    width: 75px;
+}
+.column {
+    flex-direction: column;
+    background-color: gray;
+}
+.class_gold{
+    width: 60px;
+}
+.class_popup{
+    width: 140px;
+}
+.class_button{
+    justify-content: center;
+    width: 65px;
+    height: 80px;
+    background-color: gray;
+}
+.class_image{
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+}
+.class_label{
+    width: 60px;
+    top: 3px;
+}
+
+/*3桁用のField*/
+
+IntegerField.input_field_3{
+    min-width: 40px;
+}
+
+GroupBox {
+  margin-top:0px !important;
+  margin-bottom:0px !important;
+  padding-top:0px !important;
+  padding-bottom:0px !important;  
+}
+
+/* 1行にアイテムを並べる場合 */
+.multiple_item_in_row {
+    flex-direction: row;
+    flex-grow: 1;
+}

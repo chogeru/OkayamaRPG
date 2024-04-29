@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_1009">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1009" class="main_elem" />
+            <ui:VisualElement name="vehicle_fold_down"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0807"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="is_pass_toggle"/>
+                <ui:Label text="WORD_0808"/>
+                <ui:Toggle name="is_pass_under_toggle"/>
+                <ui:Label text="WORD_0809"/>
+                <ui:VisualElement name="vehicle_pass_type_select_container"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Button name="vehicle_delete" text="WORD_0383"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

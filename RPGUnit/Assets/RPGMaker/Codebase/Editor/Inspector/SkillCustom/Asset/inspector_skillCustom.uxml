@@ -1,0 +1,531 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="skill_custom_id"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="skill_custom_name" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0524"/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="icon_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="icon_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="icon_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="icon_image"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0423"/>
+                <ex:ImTextField name="skill_description" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0380" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="skill_type" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0424"/>
+                <uie:IntegerField name="use_MP" picking-mode="Ignore" value="2"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0425"/>
+                <uie:IntegerField name="use_TP" picking-mode="Ignore" value="2"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0426" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="usage_time" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0044"/>
+                <ex:ImTextField name="item_memo" multiline="true" max-length="140"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0434">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0434"/>
+                <ex:ImTextField name="skill_message" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0439">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0440" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="weapon_type1" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0441" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="weapon_type2" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0442">
+            <ui:Foldout name="foldout_5" text="WORD_1014">
+                <ui:GroupBox>
+                    <ui:VisualElement class="toggle_foldout_wrapper">
+                        <ui:RadioButton name="radioButton-skillEdit-display1"/>
+                        <ui:Label text="WORD_0113"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="toggle_foldout_wrapper">
+                        <ui:RadioButton name="radioButton-skillEdit-display2"/>
+                        <ui:Foldout text="WORD_0443" class="foldout_transparent" name="item_target_foldout1">
+                            <ui:VisualElement class="toggle_contents">
+                                <ex:InspectorItemUnit>
+                                    <ui:Label text="WORD_0444"/>
+                                    <ui:GroupBox>
+                                        <ui:VisualElement class="multiple_item_in_row">
+                                            <ui:RadioButton name="radioButton-skillEdit-display5"/>
+                                            <ui:Label text="WORD_0445"/>
+                                            <ui:RadioButton name="radioButton-skillEdit-display6"/>
+                                            <ui:Label text="WORD_0446"/>
+                                            <ui:RadioButton name="radioButton-skillEdit-display7"/>
+                                            <ui:Label text="WORD_0447"/>
+                                            <uie:IntegerField name="item_randomNum"/>
+                                        </ui:VisualElement>
+                                    </ui:GroupBox>
+                                </ex:InspectorItemUnit>
+                            </ui:VisualElement>
+                        </ui:Foldout>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="toggle_foldout_wrapper">
+                        <ui:RadioButton name="radioButton-skillEdit-display3"/>
+                        <ui:Foldout text="WORD_0448" class="foldout_transparent" name="item_target_foldout2">
+                            <ui:VisualElement class="toggle_contents">
+                                <ex:InspectorItemUnit>
+                                    <ui:Label text="WORD_0444"/>
+                                    <ui:GroupBox>
+                                        <ui:VisualElement class="multiple_item_in_row">
+                                            <ui:RadioButton name="radioButton-skillEdit-display8"/>
+                                            <ui:Label text="WORD_0445"/>
+                                            <ui:RadioButton name="radioButton-skillEdit-display9"/>
+                                            <ui:Label text="WORD_0446"/>
+                                        </ui:VisualElement>
+                                    </ui:GroupBox>
+                                </ex:InspectorItemUnit>
+                                <ex:InspectorItemUnit>
+                                    <ui:Label text="WORD_0449"/>
+                                    <ui:GroupBox>
+                                        <ui:VisualElement class="multiple_item_in_row">
+                                            <ui:RadioButton name="radioButton-skillEdit-display10"/>
+                                            <ui:Label text="WORD_0450"/>
+                                            <ui:RadioButton name="radioButton-skillEdit-display11"/>
+                                            <ui:Label text="WORD_0451"/>
+                                            <ui:RadioButton name="radioButton-skillEdit-display12"/>
+                                            <ui:Label text="WORD_0452"/>
+                                        </ui:VisualElement>
+                                    </ui:GroupBox>
+                                </ex:InspectorItemUnit>
+                            </ui:VisualElement>
+                        </ui:Foldout>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="toggle_foldout_wrapper">
+                        <ui:RadioButton name="radioButton-skillEdit-display4"/>
+                        <ui:Foldout text="WORD_0453" class="foldout_transparent" name="item_target_foldout3">
+                            <ui:VisualElement class="toggle_contents">
+                                <ex:InspectorItemUnit>
+                                    <ui:Label text="WORD_0444"/>
+                                    <ui:Label text="WORD_0446"/>
+                                </ex:InspectorItemUnit>
+                            </ui:VisualElement>
+                        </ui:Foldout>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="item_target_toggle5"/>
+                        <ui:Label text="WORD_0454"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_6" text="WORD_0455">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0456"/>
+                    <uie:IntegerField name="item_speed_correction"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0457"/>
+                    <uie:IntegerField name="item_success_rate"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0458"/>
+                    <uie:IntegerField name="item_consecutive_num"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0459"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="item_hit_type1"/>
+                        <ui:Label text="WORD_0460"/>
+                        <ui:Toggle name="item_hit_type2"/>
+                        <ui:Label text="WORD_0481"/>
+                        <ui:Toggle name="item_hit_type3"/>
+                        <ui:Label text="WORD_0462"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0463"/>
+                    <ui:VisualElement name="animatiou_folddown"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_7" text="WORD_0464">
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_hp_toggle"/>
+                    <ui:Foldout text="WORD_0465" class="foldout_transparent" name="item_hp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-HP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_input_field_HP_contents">
+                                    <ex:ImTextField name="item_input_field_HP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-HP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_rate_HP_contents">
+                                    <uie:IntegerField name="item_rate_HP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_HP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_HP_max_value_contents">
+                                    <uie:IntegerField name="item_HP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-HP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_HP_fixed_value_contents">
+                                    <uie:IntegerField name="item_HP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_HP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_HP_dispersity_contents">
+                                    <uie:IntegerField name="item_HP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_mp_toggle"/>
+                    <ui:Foldout text="WORD_0470" class="foldout_transparent" name="item_mp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-MP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_input_field_MP_contents">
+                                    <ex:ImTextField name="item_input_field_MP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-MP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_rate_MP_contents">
+                                    <uie:IntegerField name="item_rate_MP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_MP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_MP_max_value_contents">
+                                    <uie:IntegerField name="item_MP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-MP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_MP_fixed_value_contents">
+                                    <uie:IntegerField name="item_MP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_MP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_MP_dispersity_contents">
+                                    <uie:IntegerField name="item_MP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_tp_toggle"/>
+                    <ui:Foldout text="WORD_0555" class="foldout_transparent" name="item_tp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-TP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_input_field_TP_contents">
+                                    <ex:ImTextField name="item_input_field_TP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-TP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_rate_TP_contents">
+                                    <uie:IntegerField name="item_rate_TP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_TP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_TP_max_value_contents">
+                                    <uie:IntegerField name="item_TP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-TP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_TP_fixed_value_contents">
+                                    <uie:IntegerField name="item_TP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_TP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_TP_dispersity_contents">
+                                    <uie:IntegerField name="item_TP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_8" text="WORD_0509">
+                <ui:VisualElement name="item_damage_list"/>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_9" text="WORD_0504">
+                <ui:VisualElement name="item_traits"/>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_10" text="WORD_0507">
+            <ui:Foldout name="foldout_11" text="WORD_0455">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0508"/>
+                    <uie:IntegerField name="item_tp_earned_value"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_12" text="WORD_0464">
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_user_hp_toggle"/>
+                    <ui:Foldout text="WORD_0465" class="foldout_transparent" name="item_user_hp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_HP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_input_field_HP_contents">
+                                    <ex:ImTextField name="item_user_impact_input_field_HP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_HP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_rate_HP_contents">
+                                    <uie:IntegerField name="item_user_impact_rate_HP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_HP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_HP_max_value_contents">
+                                    <uie:IntegerField name="item_user_impact_HP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_HP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_HP_fixed_value_contents">
+                                    <uie:IntegerField name="item_user_impact_HP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_HP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_HP_dispersity_contents">
+                                    <uie:IntegerField name="item_user_impact_HP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_user_mp_toggle"/>
+                    <ui:Foldout text="WORD_0470" class="foldout_transparent" name="item_user_mp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_MP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_input_field_MP_contents">
+                                    <ex:ImTextField name="item_user_impact_input_field_MP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_MP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_rate_MP_contents">
+                                    <uie:IntegerField name="item_user_impact_rate_MP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_MP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_MP_max_value_contents">
+                                    <uie:IntegerField name="item_user_impact_MP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_MP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_MP_fixed_value_contents">
+                                    <uie:IntegerField name="item_user_impact_MP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_MP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_MP_dispersity_contents">
+                                    <uie:IntegerField name="item_user_impact_MP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:Toggle name="item_user_tp_toggle" style="display: none;" />
+                    <ui:Foldout text="WORD_0555" style="display: none;" class="foldout_transparent" name="item_user_tp_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ui:GroupBox>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_TP1"/>
+                                    <ui:Label text="WORD_0416"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_input_field_TP_contents">
+                                    <ex:ImTextField name="item_user_impact_input_field_TP" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_TP2"/>
+                                    <ui:Label text="WORD_0466"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_rate_TP_contents">
+                                    <uie:IntegerField name="item_user_impact_rate_TP" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_TP_max_value_toggle"/>
+                                    <ui:Label text="WORD_0467"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_TP_max_value_contents">
+                                    <uie:IntegerField name="item_user_impact_TP_max_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:RadioButton name="radioButton-skillEdit-display-user_impact_TP3"/>
+                                    <ui:Label text="WORD_0468"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_TP_fixed_value_contents">
+                                    <uie:IntegerField name="item_user_impact_TP_fixed_value" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <ui:Toggle name="item_user_impact_TP_dispersity_toggle"/>
+                                    <ui:Label text="WORD_0469"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_TP_dispersity_contents">
+                                    <uie:IntegerField name="item_user_impact_TP_dispersity" class="toggle_contents"/>
+                                    <ui:Label text="%" class="toggle_contents"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            </ui:GroupBox>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_13" text="WORD_0509">
+                <ui:VisualElement name="item_user_impact_damage_list"/>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_14" text="WORD_0504">
+                <ui:VisualElement name="item_user_impact_traits"/>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ex:InspectorItemUnit>
+        <ui:Label text="WORD_0510"/>
+        <ui:VisualElement name="item_damage_type"/>
+    </ex:InspectorItemUnit>
+    <ui:VisualElement name="item_impact_damage_area">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0480"/>
+            <ui:VisualElement name="item_attribute_type"/>
+        </ex:InspectorItemUnit>
+        <ui:Foldout name="foldout_1" text="WORD_0491">
+            <ui:VisualElement name="item_damage_type_contents">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0493"/>
+                    <ex:ImTextField name="item_damage_formula" class="toggle_contents"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="item_damage_dispersity_toggle"/>
+                        <ui:Label text="WORD_0469"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="item_damage_dispersity_contents">
+                        <uie:IntegerField name="item_damage_dispersity" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="item_damage_max_value_toggle"/>
+                        <ui:Label text="WORD_0495"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="item_damage_max_value_contents">
+                        <uie:IntegerField name="item_damage_max_value" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="item_damage_min_value_toggle"/>
+                        <ui:Label text="WORD_0494"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="item_damage_min_value_contents">
+                        <uie:IntegerField name="item_damage_min_value" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0497"/>
+                    <ui:VisualElement name="item_satisfaction_contents">
+                        <ui:VisualElement name="item_satisfaction" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

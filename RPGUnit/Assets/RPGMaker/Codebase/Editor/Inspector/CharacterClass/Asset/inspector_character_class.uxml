@@ -1,0 +1,373 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="True">
+    <Style src="/Assets/RPGMaker/Codebase/Editor/Inspector/Character/Asset/inspector_character.uss"/>
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label picking-mode="Ignore" name="class_basic_id"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField picking-mode="Ignore" name="class_basic_name"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0340">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0340"/>
+                <ui:VisualElement name="elementType_area"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0378">
+            <ui:VisualElement name="weaponType_area"/>
+            <ui:Button text="WORD_0050" name="add_weaponType"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0379">
+            <ui:VisualElement name="armorType_area"/>
+            <ui:Button text="WORD_0050" name="add_armorType"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_5" text="WORD_0381">
+            <ui:VisualElement name="skillType_area"/>
+            <ui:Button text="WORD_0050" name="add_skillType"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_6" text="WORD_0384" value="false">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0385" display-tooltip-when-elided="true"/>
+                <uie:IntegerField value="0" name="increase_value_a" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0386" display-tooltip-when-elided="true"/>
+                <uie:IntegerField value="0" name="increase_value_b" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0387" display-tooltip-when-elided="true"/>
+                <uie:IntegerField value="0" name="growth_param" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement style="flex-grow:1">
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true" style="align-self: flex-start"/>
+                    <ui:VisualElement style="flex-direction: row;">
+                        <ui:Button text="WORD_0189" display-tooltip-when-elided="true" name="next_exp_table" focusable="false"
+                                   style="flex-grow: 1; flex-shrink: 1; margin-right: 0; padding-right: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; margin-bottom: 0; padding-bottom: 0; border-bottom-left-radius: 0; margin-left: 0; padding-left: 0;"/>
+                        <ui:Button text="WORD_3068" display-tooltip-when-elided="true" name="total_exp_table"
+                                   style="flex-shrink: 1; flex-grow: 1; margin-left: 0; padding-left: 0; border-top-right-radius: 3px; border-bottom-right-radius: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; margin-right: 51px; margin-bottom: 0; padding-bottom: 0;"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:ScrollView mode="VerticalAndHorizontal" name="graph_scroll_view" style="flex-grow: 1;">
+                <RPGMaker.Codebase.Editor.Inspector.ExpGraph.View.ExpGraphElement name="exp_graph"
+                                                                                  style="background-color: rgb(17, 17, 17); margin-bottom: 0; -unity-background-image-tint-color: rgb(34, 34, 34); color: rgb(210, 210, 210); width:560px;height: 300px; margin-right: 21px; flex-wrap: wrap; overflow: hidden;"/>
+            </ui:ScrollView>
+            <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: space-between; margin-left: 5px;"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_7" text="WORD_0085" value="false">
+            <ui:Foldout name="foldout_8" text="WORD_0389" value="false">
+                <RPGMaker.Codebase.Editor.Inspector.StatusAutoGuide.View.StatusAutoGuideElement name="status_auto_guide"/>
+                <ui:Button name="autogide_apply" text="WORD_0394" display-tooltip-when-elided="true" style="width: 100px;"/>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_9" text="WORD_0175" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                        </ui:VisualElement>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="WORD_0133"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_10" text="WORD_0176" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>                        
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="WORD_0135"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_11" text="WORD_0177" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>                    
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="Attack"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_12" text="WORD_0159" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="Defense"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_13" text="WORD_0179" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="MagicAttack"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_14" text="WORD_0180" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="MagicDefence"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_15" text="WORD_0181" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="Speed"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_16" text="WORD_0182" value="false">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0396"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_min"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0397"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_max"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0398"/>
+                    <uie:IntegerField picking-mode="Ignore" name="class_param_peak"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0399"/>
+                    <ui:VisualElement style="flex-grow:1">
+                        <!--<ui:VisualElement style="flex-direction: row-reverse; justify-content: space-between;">
+                            <ui:Label text="WORD_0401" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Label text="WORD_0850" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;"/>
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column; margin-left: 136px;"/>
+                        </ui:VisualElement>
+                        <ui:Slider picking-mode="Ignore" label="WORD_1452" value="42" high-value="100" name="growth_type"/>-->
+                        <ui:VisualElement style="flex-direction: row;">
+                            <ui:Label text="WORD_0400" display-tooltip-when-elided="true" style="flex-direction: column;"/>
+                            <ui:Slider picking-mode="Ignore" value="42" high-value="100" name="growth_type" style="width: 60%;" />
+                            <ui:Label text="WORD_0401" />
+                            <uie:IntegerField name="growth_type_field" />
+                        </ui:VisualElement>                        
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0388" display-tooltip-when-elided="true"/>
+                    <RPGMaker.Codebase.Editor.Inspector.StatusGraph.View.StatusGraphElement type="Luck"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_17" text="WORD_0402">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0183"/>
+                <uie:FloatField picking-mode="Ignore" name="class_ability_add_hit_rate"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0184"/>
+                <uie:FloatField picking-mode="Ignore" name="class_ability_add_evasion_rate"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0403"/>
+                <uie:FloatField picking-mode="Ignore" name="class_ability_add_critical_rate"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_18" text="WORD_0404">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0405"/>
+                <uie:FloatField picking-mode="Ignore" name="class_ability_sp_targeted_rate"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_19" text="WORD_0406">
+            <ui:VisualElement label="WORD_0381" name="class_ability_other_area"/>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

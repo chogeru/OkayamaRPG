@@ -1,0 +1,75 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ui:VisualElement name="vehicles_list_area">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038" display-tooltip-when-elided="true"/>
+                    <ui:Label name="vehicles_id" display-tooltip-when-elided="true"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField name="vehicles_name" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit style="display: none;">
+                    <ui:Label text="WORD_0363"/>
+                    <ui:VisualElement name="move_aria"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0365"/>
+                    <ui:VisualElement name="vehicles_speedArea" />
+                </ex:InspectorItemUnit>
+                <ui:Foldout name="foldout_2" text="WORD_0354">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0043"/>
+                        <ui:VisualElement>
+                            <ui:VisualElement name="selectMap_dropdown"/>
+                            <ui:Button text="WORD_0356" name="designation_button"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0295"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <uie:IntegerField label="X" picking-mode="Ignore" name="map_X"/>
+                            <uie:IntegerField label="Y" picking-mode="Ignore" name="map_Y"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+            </ui:VisualElement>
+        </ui:Foldout>
+
+        <ui:Foldout name="foldout_3" text="WORD_3015">
+            <ex:InspectorItemUnit name="sound_list_area" class="sound_list_area">
+                <ui:Label text="WORD_1320" display-tooltip-when-elided="true" />
+                <ui:VisualElement>
+                    <ui:VisualElement text="WORD_1320" name="Soundsetting_dropdown"/>
+                    <ui:Button name="musicStart" text="WORD_0932" display-tooltip-when-elided="true" />
+                    <ui:Button name="musicStop" text="WORD_0933" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="volume_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="pitch_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="pan_sliderArea" />
+            </ex:InspectorItemUnit>
+
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0348">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="vehicle_image_change_btn" text="WORD_0583"/>
+                    <ui:Label name="vehicle_image_name"/>
+                    <ui:Image name="vehicle_image_preview"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

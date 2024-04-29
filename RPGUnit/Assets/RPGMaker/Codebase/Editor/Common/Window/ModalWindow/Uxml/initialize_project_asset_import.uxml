@@ -1,0 +1,43 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="project://database/Assets/RPGMaker/Codebase/Editor/Common/Window/ModalWindow/Uxml/initialize_project_asset_import.uss?fileID=7433441132597879392&amp;guid=d51e2e4d756444511b6ecdd9386e27d0&amp;type=3#initialize_project_asset_import" />
+    <ui:VisualElement class="class_base" style="height: 450px; width: 600px;">
+        <ui:VisualElement style="height:70px;">
+            <ui:Label text="WORD_2107" display-tooltip-when-elided="true" name="description_text" style="margin-left: 16px; margin-right: 16px; margin-top: 16px; margin-bottom: 16px; align-items: flex-start; flex-wrap: wrap; white-space: normal;" />
+        </ui:VisualElement>
+        <ui:VisualElement style="height:220px">
+            <ui:VisualElement style="flex-direction: row; height: 190px; width: auto; justify-content: center;">
+                <ui:Label text="WORD_2105" display-tooltip-when-elided="true" name="basic_assets_label" style="height: 160px; width: 192px; -unity-text-align: lower-center; white-space: nowrap; color: rgb(255, 255, 255); -unity-font-style: bold; padding-bottom: 8px;" />
+                <ui:Label text="WORD_2106" display-tooltip-when-elided="true" name="full_game_label" style="height: 160px; width: 192px; -unity-text-align: lower-center; color: rgb(255, 255, 255); -unity-font-style: bold; font-size: 12px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; padding-bottom: 8px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: center; height:20px;">
+                <ui:RadioButton value="true" name="radio_basic_asset" style="width: auto; justify-content: space-between; margin-left: 88px; margin-right: 88px;" />
+                <ui:RadioButton value="false" name="radio_full_asset" style="flex-direction: row; width: auto; margin-left: 88px; margin-right: 88px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="height:10px" />
+        <ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; align-items: center; justify-content: space-between;">
+                <ui:Label text="WORD_2101" style="width: 150px; margin-left: 20px; -unity-text-align: upper-left; height:20px;" />
+                <ui:VisualElement name="langSelect" style="flex-grow: 1; margin-left: 16px; margin-right: 16px; width: 100%; height: 20px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="class_path" style="height:100px;" >
+            <ui:VisualElement class="class_path_bottom_margin">
+                <ui:Label name="project_name_label" text="" style="height:20px" />
+                <ex:ImTextField name="project_name" picking-mode="Ignore" text="" style="height:20px" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label name="path_label" text="" style="height:22px" />
+                <ui:VisualElement class="row_path">
+                    <ex:ImTextField name="path" picking-mode="Ignore" text="" style="flex-grow: 1; flex-shrink: 1; height:20px; margin-top:2px;" />
+                    <ui:Button name="path_button" style="height:20px; width:20px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement class="row_center" style="flex-direction: row; align-items: flex-start; justify-content: center;">
+            <ui:Button text="OK" name="OK_button" class="row_reverse_element" style="width: 80px; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height:20;" />
+            <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" style="width: 80px; margin-left: 8px; margin-right: 8px; margin-top: 8px; margin-bottom: 8px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; height:20;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="systemSetting_changeVehiclePicture">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1085" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="vehicle_area">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1009" display-tooltip-when-elided="true"/>
+                <ui:VisualElement text="" name="vehicle_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0287" display-tooltip-when-elided="true"/>
+                <ui:VisualElement text="WORD_0109" name="character_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:Image name="preview"
+                                  style="width: 80px; height: 80px; margin-left: 3px; margin-right: 3px; margin-top: 1px; margin-bottom: 1px; padding-left: 3px; padding-right: 3px; padding-top: 3px; padding-bottom: 3px; border-left-color: rgba(0, 0, 0, 255); border-right-color: rgba(0, 0, 0, 255); border-top-color: rgba(0, 0, 0, 255); border-bottom-color: rgba(0, 0, 0, 255); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px;"/>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

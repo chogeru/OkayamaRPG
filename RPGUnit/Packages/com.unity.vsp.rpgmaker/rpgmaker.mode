@@ -1,0 +1,160 @@
+rpgmaker = {
+
+    label = "RPG Maker Unite"
+
+    /**
+     * Define the mode available layouts, the first layout will act as the default one.
+     */
+    layouts = [
+        // ここに定義しても適用されないようなので、プログラムで設定している。
+        "Packages/com.unity.vsp.rpgmaker/Layouts/RPGMaker.wlt"
+    ]
+    
+    layout = {
+        top_view = { class_name = "MenuWindow" size = 20 }
+    }
+    
+    // 表示するメインメニュー。
+    //     全て未定義にしてもルートの File, Edit, Window, Help は消えなかった。
+    //     以下のコメントがドキュメント中にあったので、必須のメニュー項目らしい。    
+    //         File, Edit, Window, and Help are mandatory menu item
+    menus = [   
+        {
+            name = "File"
+            children = [
+                // プログラムが使用していて、未定義だと例外が発生するので定義。
+                { name = "Save" }
+                null,
+                { name = "Open Project..." }
+                { name = "Save Project" }
+                null,
+                { name = "Build Settings..." }
+                null,
+                { name = "Exit" }
+            ]
+        }
+
+        {
+            name = "Edit"
+            children = [
+                // アンドゥができなくなるので定義。
+                { name = "Undo" }
+                null,
+
+                { name = "Play" }
+                { name = "Pause" }
+                { name = "Step" }
+                null,
+                { name = "Preferences..." }
+                { name = "Shortcuts..." }
+                null,
+                { name = "Project Settings..." }
+                null,
+                { name = "Sign in..." }
+                { name = "Sign out" }
+            ]
+        }
+
+        {
+            name = "Window"
+            children = [
+                { name = "Panels" 
+                  children = "*"
+                }            
+                { name = "Next Window" }
+                { name = "Previous Window" }
+                null,
+                {
+                    name = "General"
+                    children = [
+                        { name = "Game" }
+                        { name = "Progress" }
+                        { name = "Console" }
+                    ]
+                }
+                null,
+                { name = "Asset Store" }
+                null,
+                { name = "RPG Maker" 
+                  children = "*"
+                }
+            ]
+        }
+
+        {
+            name = "Help"
+            children = [
+                { name = "About RPG Maker Unite..." }
+                { name = "RPG Maker Unite Help..." }
+                null,
+                { name = "Unity Learn" }
+                { name = "Unity Forum" }
+                null,
+                { name = "Check for Updates" }
+                null,
+                { name = "Release Notes" }
+                { name = "Software Licenses" }
+                { name = "Report a Bug..." }
+            ]
+        }
+    ]
+    
+    // 多分[Add Tab]で選択できるもの。
+    // [Add Tab]自体は使用できない設定にしているが、初期表示されるものを設定しておく。
+    pane_types = [
+        "SceneView"
+        "MapEditWindow"
+        "AnimationWindow"
+        "GameView"
+        "InspectorWindow"
+    ]
+    
+    capabilities = {
+    
+        // メインツールバーの表示/非表示にする。
+        main_toolbar = false
+    
+        // モードを変更するときにモード固有のレイアウトに切り替えます。
+        layout_switching = true
+        
+        // ユーザーレイアウトとウィンドウパネルのサブメニューの表示/非表示。
+        // Hide the user layout and window panels sub menus
+        layout_window_menu = false
+        
+        // ドックエリア汎用メニューの表示/非表示 ([︙]メニュー)。
+        // Hide the dock area generic menu
+        host_view_generic_menu = false
+
+        // ゲームビューツールバーの表示/非表示。
+        // If false, the game view toolbar will be hidden
+        game_view_toolbar = true
+
+        // シーンビューツールバーの表示/非表示。
+        // If false, the scene view toolbar will be hidden
+        scene_view_toolbar = false
+
+        // ドメイン再読み込み後にデフォルトモードのC# MenuItemを再読み込み/非再読み込み。
+        // This will prevent default mode C# MenuItem from being reloaded after a domain reload occurs
+        script_rebuild_os_menu = true
+        
+        // プレイバーの表示/非表示。
+        playbar = false
+
+        // メインツールバーの[レイヤー]ドロップダウンを表示/非表示にする。
+        layers = false
+
+        // 許可するアセット作成。
+        allow_asset_creation = false
+    }
+    
+    execute_handlers = {
+        gui_playbar = "RpgMaker/Gui/Playbar"
+    }
+}
+
+// 開発用のWindowモード。
+rpgmaker_window = {
+
+    label = "RPG Maker Unite Window"
+
+}

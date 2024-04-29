@@ -1,0 +1,48 @@
+.row {
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.row_element {
+    flex-direction: row;
+    padding-bottom: 2px;
+}
+
+.row_reverse {
+    flex-direction: row-reverse;
+}
+
+.row_reverse_element {
+    width: 75px;
+}
+
+.column {
+    flex-direction: column;
+    background-color: gray;
+}
+
+.column_size{
+    width: 430px;
+    height: 300px;
+}
+
+.class_gold {
+    width: 60px;
+}
+
+.class_popup {
+    width: 140px;
+}
+
+.class_image {
+    align-self: center;
+    width: 66px !important;
+    height: 76px !important;
+    background-color: gray;
+}
+
+.class_label {
+    width: 60px;
+    top: 3px;
+}

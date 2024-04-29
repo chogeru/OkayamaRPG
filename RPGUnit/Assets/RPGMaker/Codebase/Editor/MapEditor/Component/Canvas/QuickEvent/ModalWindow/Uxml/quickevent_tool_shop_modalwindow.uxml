@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="quickevent_tool_shop_modalwindow.uss" />
+    <ui:VisualElement class="row">
+        <ui:VisualElement style="margin-right: 15;">
+            <ui:Label text="WORD_0093" />
+            <ui:Button name="button" text="WORD_0583"/>
+            <ui:Image name="image" class="class_image" />
+        </ui:VisualElement>
+        <ui:VisualElement class="column column_size">
+            <ui:Toggle text="WORD_1060" name="buy_toggle" />
+            <ui:ScrollView name="item_aria" />
+            <ui:Button text="WORD_0050" name="add" class="row_reverse_element" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+        <ui:VisualElement class="row_reverse">
+            <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+            <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+        </ui:VisualElement>
+</ui:UXML>

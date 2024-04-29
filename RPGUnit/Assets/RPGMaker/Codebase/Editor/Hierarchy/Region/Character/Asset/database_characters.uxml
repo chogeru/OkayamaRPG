@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="WORD_0287" name="characterMasterFoldout" class="AnalyticsTag__page_view__character">
+        <ui:Button text="WORD_0311" name="initialPartySettingButton" />
+        <ui:Foldout text="WORD_0301" name="actorFoldout">
+            <ui:VisualElement name="actorListContainer" />
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0306" name="npcFoldout">
+            <ui:VisualElement name="npcListContainer" />
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0312" name="vehicleFoldout" class="AnalyticsTag__page_view__vehicle">
+            <ui:VisualElement name="vehicleListContainer" />
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0320" name="jobFoldout" class="class_setting AnalyticsTag__page_view__job">
+            <ui:Button text="WORD_0065" name="jobCommonSettingButton" />
+            <ui:VisualElement name="jobListContainer" />
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

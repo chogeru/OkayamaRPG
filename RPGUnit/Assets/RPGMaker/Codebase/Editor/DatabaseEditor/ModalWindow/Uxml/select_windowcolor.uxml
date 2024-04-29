@@ -1,0 +1,76 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="select_windowcolor.uss" />
+    <ui:VisualElement style="height: 112px; align-items: stretch; justify-content: space-around; flex-direction: row;">
+        <ui:VisualElement style="flex-direction: column; align-items: stretch; justify-content: space-around;">
+            <ui:Label text="Base Value" />
+            
+            <ui:VisualElement class="RGB_aria">
+                <ui:VisualElement style="flex-direction: row; width: 290px;">
+                    
+                    <ui:Label text="Red" />
+                    <ui:Slider  name="System_Slide_Red" class="RGB_sldier" />
+                    <ui:VisualElement class="RGB_value">
+                        <uie:IntegerField value="255" name="System_Integer_Red" />
+                        <ui:VisualElement >
+                            <ui:Button text="▲" name="up_button_Red" class="arrow" />
+                            <ui:Button text="▼" name="down_button_Red" class="arrow" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="RGB_aria">
+                <ui:VisualElement style="width: 290px;" class="row">
+                    
+                    <ui:Label text="Green" />
+                    <ui:Slider  name="System_Slide_Green" class="RGB_sldier" />
+                    <ui:VisualElement class="RGB_value">
+                        <uie:IntegerField value="255" name="System_Integer_Green" />
+                        <ui:VisualElement >
+                            <ui:Button text="▲" name="up_button_Green" class="arrow" />
+                            <ui:Button text="▼" name="down_button_Green" class="arrow" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+            <ui:VisualElement class="RGB_aria">
+                <ui:VisualElement style="flex-direction: row; width: 290px;">
+                    
+                    <ui:Label text="Blue" />
+                    <ui:Slider name="System_Slide_Blue" class="RGB_sldier" />
+                    <ui:VisualElement class="RGB_value">
+                        <uie:IntegerField value="255" name="System_Integer_Blue" />
+                        <ui:VisualElement >
+                            <ui:Button text="▲" name="up_button_Blue" class="arrow" />
+                            <ui:Button text="▼" name="down_button_Blue" class="arrow" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    
+                </ui:VisualElement>
+            </ui:VisualElement>
+            
+            <!--<ui:VisualElement class="RGB_aria">
+                <ui:VisualElement style="flex-direction: row; width: 290px;">
+                    <ui:Label text="Gray" />
+                    <ui:Slider  name="System_Slide_Gray" class="RGB_sldier" />
+                    <ui:VisualElement class="RGB_value">
+                        <uie:IntegerField value="255" name="System_Integer_Gray" />
+                        <ui:VisualElement >
+                            <ui:Button text="▲" name="up_button_Gray" class="arrow" />
+                            <ui:Button text="▼" name="down_button_Gray" class="arrow" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>-->
+            
+        </ui:VisualElement>
+        <ui:VisualElement name="System_Box_Window" class="RGB_title" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-direction: row-reverse; flex-wrap: wrap-reverse;">
+        <ui:Button text="Cancel" name="Common_Button_Cancel" style="width: 11%;" />
+        <ui:Button text="OK" name="Common_Button_Ok" style="width: 11%;" />
+    </ui:VisualElement>
+</ui:UXML>

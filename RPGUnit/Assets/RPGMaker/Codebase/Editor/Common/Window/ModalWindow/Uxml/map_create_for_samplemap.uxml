@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="map_create_for_samplemap.uss" />
+    <ui:VisualElement class="class_base" >
+        <ui:VisualElement>
+            <ui:VisualElement class="row">
+                <ui:Label text="WORD_0644"/>
+                <ui:VisualElement name="mapSelect" style="flex-grow: 1;"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="row_center" >
+            <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+            <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

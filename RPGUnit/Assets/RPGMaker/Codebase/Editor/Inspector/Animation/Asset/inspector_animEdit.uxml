@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="anim_ID" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="anim_name" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0708" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="anim_display_type"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0094" display-tooltip-when-elided="true" name="anim_display_pos_label"/>
+                <ui:VisualElement name="anim_display_pos"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0713">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0714" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="anim_particle_select"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0715" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="anim_expansion_rate_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0716" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="anim_playback_speed_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0717"/>
+                <uie:Vector3IntField name="anim_rotation_setting" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0718"/>
+                <uie:Vector2IntField name="anim_offset_setting" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0719">
+            <ex:InspectorItemUnit>
+                <ui:Button name="anim_sound_add" text="WORD_2597"/>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="anim_sound_list"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_2588">
+            <ex:InspectorItemUnit>
+                <ui:Button name="anim_flash_add" text="WORD_2598"/>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="anim_flash_list"/>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

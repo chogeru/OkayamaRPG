@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="battle_forced">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1111"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display159"/>
+                    <ui:Label text="WORD_0443"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="enemy_select_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display160"/>
+                    <ui:Label text="WORD_0301"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="actor_dropdown"/>
+            </ex:InspectorItemUnit>
+        </ui:GroupBox>
+        <ui:Foldout text="WORD_1112">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_2592"/>
+                <ui:VisualElement name="skill_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0728"/>
+                <ui:VisualElement name="subject_dropdown"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

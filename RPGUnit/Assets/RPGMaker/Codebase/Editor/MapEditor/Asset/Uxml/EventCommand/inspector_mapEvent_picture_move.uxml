@@ -1,0 +1,113 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_movePicture" focusable="true">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1121" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1117" display-tooltip-when-elided="true"/>
+            <ui:VisualElement picking-mode="Ignore" name="number" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1122" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="easing" />
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0295" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0289" display-tooltip-when-elided="true"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display136"/>
+                        <ui:Label text="WORD_0294" display-tooltip-when-elided="true"/>
+                        <ui:RadioButton name="radioButton-eventCommand-display137"/>
+                        <ui:Label text="WORD_0290" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+            <ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display138"/>
+                        <ui:Label text="WORD_0922" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="X :"/>
+                    <uie:IntegerField name="x_num" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="Y :"/>
+                    <uie:IntegerField name="y_num" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display139"/>
+                        <ui:Label text="WORD_0924" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="X :"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Label text="[" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="x_variable" />
+                        <ui:Label text="]" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="Y :"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Label text="[" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="y_variable" />
+                        <ui:Label text="]" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:GroupBox>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0715" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0764"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="[" display-tooltip-when-elided="true"/>
+                    <uie:IntegerField picking-mode="Ignore" text="000" name="width"/>
+                    <ui:Label text="] ％" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0765"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="[" display-tooltip-when-elided="true"/>
+                    <uie:IntegerField picking-mode="Ignore" text="000" name="height" />
+                    <ui:Label text="] ％" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_1119" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1120"/>
+                <uie:IntegerField picking-mode="Ignore" name="opacity" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0975"/>
+                <ui:VisualElement name="synthetic" />
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0724" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1127"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField picking-mode="Ignore" name="flame" />
+                    <ui:Label text="WORD_1088" display-tooltip-when-elided="true"/>
+                    <ui:Label text="WORD_1219" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="wait_toggle"/>
+                    <ui:Label text="WORD_0952" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

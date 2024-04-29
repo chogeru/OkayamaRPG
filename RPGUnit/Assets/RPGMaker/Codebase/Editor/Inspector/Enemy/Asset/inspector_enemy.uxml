@@ -1,0 +1,202 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="../../Character/Asset/inspector_character.uss"/>
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038" display-tooltip-when-elided="true"/>
+                <ui:Label name="enemy_id_text" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039" display-tooltip-when-elided="true"/>
+                <ex:ImTextField picking-mode="Ignore" name="enemy_name"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0340" display-tooltip-when-elided="true"/>
+                <ui:VisualElement text="WORD_0480" name="enemy_elements_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0139"/>
+                <uie:IntegerField picking-mode="Ignore" name="enemy_level"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0044"/>
+                <ex:ImTextField picking-mode="Ignore" name="enemy_memo" multiline="true" max-length="140"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0085">
+            <ui:Foldout name="foldout_3" text="WORD_0389" class="character_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0040"/>
+                    <uie:IntegerField label="" picking-mode="Ignore" name="enemy_autoguide_level"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0576"/>
+                    <uie:FloatField label="" picking-mode="Ignore" name="enemy_autoguide_attackTurn"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0577"/>
+                    <uie:FloatField label="" picking-mode="Ignore" name="enemy_autoguide_guardTurn"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0179"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-battleEdit-display7"/>
+                            <ui:Label text="WORD_0113"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display8"/>
+                            <ui:Label text="WORD_0578"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display9"/>
+                            <ui:Label text="WORD_0579"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0180" style="width: 116px;"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-battleEdit-display10"/>
+                            <ui:Label text="WORD_0113"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display11"/>
+                            <ui:Label text="WORD_0578"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display12"/>
+                            <ui:Label text="WORD_0579"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Button name="enemy_autoguide_reflect" text="WORD_0394" display-tooltip-when-elided="true"/>
+                </ex:InspectorItemUnit>
+                <!--以下、不要なため非表示-->
+                <ui:VisualElement style="display:none;">
+                    <uie:IntegerField label="WORD_0395" picking-mode="Ignore" name="enemy_autoguide_maxHp"/>
+                    <uie:IntegerField label="WORD_0539" picking-mode="Ignore" name="enemy_autoguide_maxMp"/>
+                    <uie:IntegerField label="WORD_0177" picking-mode="Ignore" name="enemy_autoguide_attack"/>
+                    <uie:IntegerField label="WORD_0178" picking-mode="Ignore" name="enemy_autoguide_guard"/>
+                    <uie:IntegerField label="WORD_0179" picking-mode="Ignore" name="enemy_autoguide_magic"/>
+                    <uie:IntegerField label="WORD_0180" picking-mode="Ignore" name="enemy_autoguide_magicGuard"/>
+                    <uie:IntegerField label="WORD_0181" picking-mode="Ignore" name="enemy_autoguide_speed"/>
+                    <uie:IntegerField label="WORD_0182" picking-mode="Ignore" name="enemy_autoguide_luck"/>
+                    <uie:IntegerField label="WORD_0144" picking-mode="Ignore" name="enemy_autoguide_exp"/>
+                    <uie:IntegerField label="WORD_0581" picking-mode="Ignore" name="enemy_autoguide_money"/>
+                </ui:VisualElement>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_4" text="WORD_0582" class="character_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0395"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_maxHp"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0539"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_maxMp"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0177"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_attack"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0178"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_guard"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0179"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_magic"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0180"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_magicGuard"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0181"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_speed"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0182"/>
+                    <uie:IntegerField picking-mode="Ignore" name="enemy_luck"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_5" text="WORD_0348">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="enemy_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="enemy_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="enemy_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="enemy_image" class="class_button"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_6" text="WORD_0584" class="character_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Label text="WORD_0708"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="enemy_automatic_pullDown"/>
+                </ex:InspectorItemUnit>
+                <ui:GroupBox>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-battleEdit-display13"/>
+                            <ui:Label text="WORD_0585"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-battleEdit-display14"/>
+                            <ui:Label text="WORD_0589"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="enemy_displaySize_sliderArea" />
+                    </ex:InspectorItemUnit>
+                </ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-battleEdit-display15"/>
+                            <ui:Label text="WORD_0591" display-tooltip-when-elided="true"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display16"/>
+                            <ui:Label text="WORD_0592" display-tooltip-when-elided="true"/>
+                            <ui:RadioButton name="radioButton-battleEdit-display17"/>
+                            <ui:Label text="WORD_0593" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_7" text="WORD_0594">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0144"/>
+                <uie:IntegerField label="" picking-mode="Ignore" name="enemy_exp" value="filler text" text="filler text"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0581"/>
+                <uie:IntegerField label="" picking-mode="Ignore" name="enemy_gold" value="filler text" text="filler text"/>
+            </ex:InspectorItemUnit>
+            <ui:Foldout text="WORD_0597" name="enemy_dropitem_foldout" class="enemy_dropitem_foldout">
+                <ui:VisualElement name="enemy_dropItems_area"/>
+                <ui:Button name="enemy_dropItem_add" text="WORD_3016" />
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0599" name="enemy_actionPattern_foldout">
+            <ui:VisualElement name="enemy_actionPattern_area"/>
+            <ui:Button name="enemy_actionPattern_add" text="WORD_3016" />
+       </ui:Foldout>
+        <ui:Foldout name="foldout_8" text="WORD_0347">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0183"/>
+                <uie:FloatField label="" picking-mode="Ignore" name="enemy_trait_fixed1"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0184"/>
+                <uie:FloatField label="" picking-mode="Ignore" name="enemy_trait_fixed2"/>
+                <ui:Label text="%"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1414" picking-mode="Ignore"/>
+                <ui:VisualElement name="enemy_trait_fixed3" width="10" style=""/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_9" text="WORD_0406">
+            <ui:VisualElement name="class_traits_area"/>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

@@ -1,0 +1,133 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ex:InspectorItemUnit>
+        <ui:Label text="WORD_0510"/>
+        <ui:VisualElement name="item_damage_type"/>
+    </ex:InspectorItemUnit>
+    <ui:VisualElement name="item_impact_damage_area">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0479"/>
+            <ui:VisualElement name="item_attack_type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0480"/>
+            <ui:VisualElement name="item_attribute_type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0490"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-skillEdit-display13"/>
+                    <ui:Label text="WORD_0491"/>
+                    <ui:RadioButton name="radioButton-skillEdit-display14"/>
+                    <ui:Label text="WORD_0492"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0491" name="autoguide_not_use_params">
+            <ui:VisualElement class="toggle_contents">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0493"/>
+                    <ex:ImTextField name="item_damage_formula"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="toggle_damage_min_value"/>
+                        <ui:Label text="WORD_0494"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="item_damage_min_value_contents">
+                        <uie:IntegerField name="item_damage_min_value" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="toggle_damage_max_value"/>
+                        <ui:Label text="WORD_0495"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="item_damage_max_value_contents">
+                        <uie:IntegerField name="item_damage_max_value" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="toggle_damage_dispersity"/>
+                        <ui:Label text="WORD_0469"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row" name="item_damage_dispersity_contents">
+                        <uie:IntegerField name="item_damage_dispersity" class="toggle_contents"/>
+                        <ui:Label text="%" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0497"/>
+                    <ui:VisualElement name="item_satisfaction"/>
+                </ex:InspectorItemUnit>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0389" name="autoguide_use_params">
+            <ui:VisualElement class="toggle_contents">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0431"/>
+                    <uie:IntegerField name="item_level_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0499"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-skillEdit-display17"/>
+                            <ui:Label text="WORD_0445" class="label_5" style="-unity-text-align: middle-left;"/>
+                            <ui:RadioButton name="radioButton-skillEdit-display18"/>
+                            <ui:Label text="WORD_0446" class="label_5" style="-unity-text-align: middle-left;"/>
+                            <ui:RadioButton name="radioButton-skillEdit-display19"/>
+                            <ui:Label text="WORD_0447" class="label_5" style="-unity-text-align: middle-left;"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Button text="WORD_0394" name="button_calc"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0421"/>
+                    <ui:Label name="label_fix_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0501"/>
+                    <ui:Label name="label_amag_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0502"/>
+                    <ui:Label name="label_bmag_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0424"/>
+                    <ui:Label name="label_mp_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0493"/>
+                    <ui:Label name="label_calc_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0494"/>
+                    <ui:Label name="label_min_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0495"/>
+                    <ui:Label name="label_max_autoguide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="toggle_damage_dispersity_autoguide"/>
+                        <ui:Label text="WORD_0469"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row" name="item_distribute_autoguide_contents">
+                        <uie:IntegerField name="item_distribute_autoguide" class="toggle_contents"/>
+                        <ui:Label text="%" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0497"/>
+                    <ui:VisualElement name="item_satisfaction_autoguide"/>
+                </ex:InspectorItemUnit>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0600">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="switch_toggle"/>
+                    <ui:Label text="WORD_0605"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="switch_fold_down"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="variable_toggle"/>
+                    <ui:Label text="WORD_0839"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="variable_fold_down"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="text_toggle"/>
+                    <ui:Label text="WORD_0092"/>
+                </ui:VisualElement>
+                <ex:ImTextField name="event_text"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Button name="search" text="WORD_1464"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_1484">
+            <ui:VisualElement name="search_result_area"/>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

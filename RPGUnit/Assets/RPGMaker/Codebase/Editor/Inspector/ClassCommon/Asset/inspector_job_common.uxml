@@ -1,0 +1,48 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout text="WORD_0065" name="job_common">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0368"/>
+                <uie:IntegerField name="max_level" picking-mode="Ignore" value="99" style="height: 19px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0369"/>
+                <uie:IntegerField name="clear_level" picking-mode="Ignore" value="60"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0370"/>
+                <uie:IntegerField name="exp_gain_increase_value" picking-mode="Ignore" value="9999999"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0371"/>
+                <uie:IntegerField name="base_hp_max_value" picking-mode="Ignore" value="10000"/>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_1" text="WORD_0372">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0135"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0136"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0179"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0180"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0181"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0182"/>
+                    <ui:Toggle name="status_toggle" value="true" text="WORD_3029"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

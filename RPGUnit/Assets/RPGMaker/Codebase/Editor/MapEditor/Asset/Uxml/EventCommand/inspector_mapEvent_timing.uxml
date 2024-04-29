@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_timing">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1087" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0724"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <uie:IntegerField picking-mode="Ignore" name="flame" style="width: 50px; height: 15px;"/>
+                <ui:Label text="WORD_1088" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1219" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

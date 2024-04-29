@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0073">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0272"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_0"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0273"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_1"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0274"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_2"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0275"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_3"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit style="display:none;">
+                <ui:Label text="WORD_0276"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_4"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0277"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_5"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0278"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="option_6"/>
+                    <ui:Label text="WORD_3029"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        >
+    </ui:ScrollView>
+</ui:UXML>

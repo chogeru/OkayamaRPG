@@ -1,0 +1,39 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_direction">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0858" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:VisualElement style="align-self: center;">
+                <ui:Label text="WORD_0043" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:VisualElement name="provisional_map_popupfield_container" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0287"/>
+            <ui:VisualElement name="character" style="height: auto;"/>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0858" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="direction"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0966" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display7"/>
+                    <ui:Label text="WORD_0052" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display8"/>
+                    <ui:Label text="WORD_0533" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0780">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0093"/>
+                <ui:VisualElement name="background_view_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="display_toggle"/>
+                    <ui:Label text="WORD_3021"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_3022">
+            <ex:InspectorItemUnit>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-mapEdit-display14"/>
+                        <ui:Label text="WORD_0061"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display15"/>
+                        <ui:Label text="WORD_3026"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display16"/>
+                        <ui:Label text="WORD_3027"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

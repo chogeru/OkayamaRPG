@@ -1,0 +1,63 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="systemSetting_change_sound">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1008" display-tooltip-when-elided="true" name="sound_type_name"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="sound_area">
+            <ui:VisualElement name="sound_vehicle" style="display: none;">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1634" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement text="WORD_1634" name="vehicle_dropdown"/>
+                </ex:InspectorItemUnit>
+            </ui:VisualElement>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0931" display-tooltip-when-elided="true" name="sound_type"/>
+                <ui:VisualElement name="Soundsetting_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:Button name="sound_import" text="WORD_0047"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:Button name="musicStart" text="WORD_0932" display-tooltip-when-elided="true" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:Button name="musicStop" text="WORD_0933" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="90" low-value="0" high-value="100" name="volume_slider"/>
+                    <ui:VisualElement style="flex-direction: row; width: 50px;">
+                        <uie:IntegerField picking-mode="Ignore" value="90" name="volume_text"/>
+                        <ui:Label text="%" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="100" low-value="50" high-value="150" name="pitch_slider"/>
+                    <ui:VisualElement style="flex-direction: row; width: 50px;">
+                        <uie:IntegerField picking-mode="Ignore" value="100" name="pitch_text"/>
+                        <ui:Label text="%" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" low-value="-100" high-value="100" name="pan_slider"/>
+                    <ui:VisualElement style="flex-direction: row; width: 50px;">
+                        <uie:IntegerField picking-mode="Ignore" value="0" name="pan_text"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

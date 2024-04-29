@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_battleBackGroundChange" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1179" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1180" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0297" display-tooltip-when-elided="true" name="battle_scene_bg_bottom_image_title"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="image_manage_unit">
+                <ui:Label name="battle_scene_bg_bottom_image_name"/>
+                <ui:Button name="battle_scene_bg_bottom_image_change" text="WORD_0583"/>
+                <ui:Button name="battle_scene_bg_bottom_image_import" text="WORD_0047"/>
+                <ui:Image name="battle_scene_bg_bottom_image"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1180" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0299" display-tooltip-when-elided="true" name="battle_scene_bg_top_image_title"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="image_manage_unit">
+                <ui:Label name="battle_scene_bg_top_image_name"/>
+                <ui:Button name="battle_scene_bg_top_image_change" text="WORD_0583"/>
+                <ui:Button name="battle_scene_bg_top_image_import" text="WORD_0047"/>
+                <ui:Image name="battle_scene_bg_top_image"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

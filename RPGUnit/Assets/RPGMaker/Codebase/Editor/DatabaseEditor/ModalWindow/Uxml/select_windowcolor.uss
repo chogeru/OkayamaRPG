@@ -1,0 +1,52 @@
+.unity-base-field__label {
+    min-width: 15px;
+}
+.row{
+    flex-direction: row;
+}
+.rowReverse{
+    flex-direction: row-reverse;
+}
+.RGB_aria {
+    flex-direction: column;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.RGB_sldier {
+    width: 180px;
+    flex-direction: row-reverse;
+    left: 35px;
+    position: absolute;
+    
+}
+
+.RGB_value {
+    flex-direction: row;
+    right: 0;
+    position: absolute;
+    background-color: rgb(42, 42, 42);
+    height: 100%;
+}
+
+.RGB_title {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90px;
+    height: 90px;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    margin-top: 17px;
+    background-color: rgb(41, 27, 27);
+}
+.arrow{
+    height: 50%; 
+    font-size: 8px; 
+    color: rgba(255, 255, 255, 255);
+}

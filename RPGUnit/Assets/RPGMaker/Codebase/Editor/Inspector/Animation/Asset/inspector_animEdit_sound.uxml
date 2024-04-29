@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="anim_sound_foldout" text="WORD_1301">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1301" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="anim_sound_type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1088"/>
+            <uie:IntegerField name="anim_sound_flame" picking-mode="Ignore"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Button name="anim_sound_delete" text="WORD_1061"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

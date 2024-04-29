@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_textScroll">
+        <ex:InspectorItemUnit>
+            <ui:Label text="" display-tooltip-when-elided="true" name="title"/>
+            <ui:Button text="WORD_0991" display-tooltip-when-elided="true" name="preview"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1129"/>
+            <uie:IntegerField name="speed" picking-mode="Ignore" value="2"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="toggle"/>
+                <ui:Label text="WORD_1214" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

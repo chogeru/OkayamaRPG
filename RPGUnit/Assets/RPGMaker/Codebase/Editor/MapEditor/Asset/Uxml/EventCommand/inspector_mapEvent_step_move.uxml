@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_stepMove" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_2802" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0510"/>
+            <ui:VisualElement name="type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row" name="positionContainer">
+                <ui:Label text="WORD_0983" display-tooltip-when-elided="true"/>
+                <ui:Label text="X:"/>
+                <uie:IntegerField name="positionX"/>
+                <ui:Label text="Y:"/>
+                <uie:IntegerField name="positionY"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

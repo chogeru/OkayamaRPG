@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_1293">
+            <ex:InspectorItemUnit name="sound_list_area" class="sound_list_area">
+                <ui:Label text="WORD_1320"/>
+                <ui:VisualElement>
+                    <ui:VisualElement text="WORD_1320" name="sound_setting_dropdown"/>
+                    <ui:Button name="sound_import" text="WORD_0047"/>
+                    <ui:Button name="musicStart" text="WORD_0932"/>
+                    <ui:Button name="musicStop" text="WORD_0933"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="volume_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="pitch_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="pan_sliderArea" />
+            </ex:InspectorItemUnit>
+
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

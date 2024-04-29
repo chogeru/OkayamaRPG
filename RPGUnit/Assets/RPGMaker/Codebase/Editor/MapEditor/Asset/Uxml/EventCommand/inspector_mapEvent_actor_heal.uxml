@@ -1,0 +1,28 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_actorFullRecovery" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0903" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0301" value="true" style="display: flex;">
+            <ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display63"/>
+                        <ui:Label text="WORD_0844" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="fix"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display64"/>
+                        <ui:Label text="WORD_2603" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="variable"/>
+                </ex:InspectorItemUnit>
+            </ui:GroupBox>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

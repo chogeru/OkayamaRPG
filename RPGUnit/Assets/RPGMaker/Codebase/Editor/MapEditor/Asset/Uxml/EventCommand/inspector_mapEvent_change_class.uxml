@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_actorClass" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0913" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0301" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="actor"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0336" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="class"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Toggle name="lvelSave_toggle"/>
+            <ui:Label text="WORD_1599" display-tooltip-when-elided="true"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

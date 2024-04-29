@@ -1,0 +1,98 @@
+.traits_area{
+    width: auto;
+    flex-grow: 1;
+}
+
+.traits_list_area {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.traits_block_50_first {
+    min-width: auto;
+    flex-basis: 50%;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.traits_block_50_second {
+    min-width: auto;
+    flex-basis: 50%;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.traits_list_area Label {
+    min-width: auto;
+}
+
+.traits_block_50_second FloatField {
+    flex-grow: 1;
+    max-width: 95%;
+}
+
+.traits_block_50_second IntegerField {
+    flex-grow: 1;
+}
+
+
+
+/*.traits_width {
+    width: auto;
+    flex-grow: 1;
+}
+.traits_width_1 {
+    width: 95;
+    flex-grow: 0;
+}
+.traits_width_2 {
+    width: 135;
+    flex-grow: 0;
+}
+.traits_width_4 {
+    width: 45;
+    flex-grow: 0;
+}*/
+.traits_width Button {
+    -unity-text-align: middle-left;
+}
+.traits_width_1 Button {
+    -unity-text-align: middle-left;
+}
+.traits_width_2 Button {
+    -unity-text-align: middle-left;
+}
+.traits_width_4 Button {
+    -unity-text-align: middle-left;
+}
+.add_trait{
+    width: 20px;
+    height: 20px;
+    border-radius: 50;
+}
+
+/*.effect_width {
+    width: auto;
+}
+.effect_width_1 {
+    width: 105;
+}
+.effect_width_2 {
+    width: 125;
+}
+.effect_width_4 {
+    width: 90;
+}*/
+.effect_width Button {
+    -unity-text-align: middle-left;
+}
+.effect_width_1 Button {
+    -unity-text-align: middle-left;
+}
+.effect_width_2 Button {
+    -unity-text-align: middle-left;
+}
+.effect_width_4 Button {
+    -unity-text-align: middle-left;
+}
+

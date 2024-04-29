@@ -1,0 +1,33 @@
+/*---------------------------------------------------------------------------------------------------------------------- 
+ ボタンのスタイル
+ ---------------------------------------------------------------------------------------------------------------------*/
+.unity-button {
+    visibility: visible;
+    white-space: nowrap;
+    -unity-text-align: middle-left;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+
+    background-color: rgb(232, 232, 232);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200, 200, 200);
+    border-radius: 0;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+.unity-button:hover {
+    background-color: rgba(184, 184, 184, 1);
+}
+
+.unity-button.active {
+    background-color: rgba(44, 93, 135, 1);
+    color: #FFF;
+}
+
+.unity-button.active:hover {
+}

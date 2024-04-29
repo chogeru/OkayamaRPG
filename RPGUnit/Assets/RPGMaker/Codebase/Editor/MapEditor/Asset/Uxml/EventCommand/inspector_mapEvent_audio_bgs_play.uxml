@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_BGSPerformance" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0941" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0942" display-tooltip-when-elided="true"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:VisualElement>
+                    <ui:VisualElement name="menu" style="width: auto; height: auto; min-width: 50px;"/>
+                    <ui:Button name="sound_import" text="WORD_0047"/>
+                    <ui:Button name="play" text="WORD_0932" display-tooltip-when-elided="true" />
+                    <ui:Button name="stop" text="WORD_0933" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="volume_sliderArea" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="pitch_sliderArea" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="pan_sliderArea" />
+        </ex:InspectorItemUnit>
+
+    </ui:VisualElement>
+</ui:UXML>

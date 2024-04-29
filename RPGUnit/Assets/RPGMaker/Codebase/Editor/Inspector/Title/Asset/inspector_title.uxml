@@ -1,0 +1,141 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0089">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1295"/>
+                <ex:ImTextField name="title_name" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0091">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0094"/>
+                <ui:VisualElement>
+                    <uie:IntegerField picking-mode="Ignore" name="title_titlename_x" label="X"/>
+                    <uie:IntegerField picking-mode="Ignore" name="title_titlename_y" label="Y"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:GroupBox>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-initialization-display1"/>
+                    <ui:Foldout text="WORD_0092" name="title_titlename_foldout1" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0096"/>
+                                <ui:VisualElement name="title_titlename_text_dropdown"/>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0097"/>
+                                <ui:VisualElement name="title_titleName_text_sliderArea" />
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0098"/>
+                                <ex:ColorFieldBase name="title_titlename_text_color" display-tooltip-when-elided="true"/>
+                            </ex:InspectorItemUnit>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-initialization-display2"/>
+                    <ui:Foldout text="WORD_0093" name="title_titlename_foldout2" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:VisualElement/>
+                                <ui:VisualElement  class="image_selector">
+                                    <ui:Label name="title_titlename_text" text="Label" display-tooltip-when-elided="true"/>
+                                    <ui:Button name="title_titlename_text_image" text="WORD_0101" display-tooltip-when-elided="true"/>
+                                    <ui:Button name="title_titlename_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0097"/>
+                                <ui:VisualElement name="title_titlename_image_sliderArea" />
+                            </ex:InspectorItemUnit>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0101">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="image_selector">
+                    <ui:Label name="title_bg_text" text="Label" display-tooltip-when-elided="true"/>
+                    <ui:Button name="title_bg_image" text="WORD_0101" display-tooltip-when-elided="true"/>
+                    <ui:Button name="title_bg_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0102">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="image_selector">
+                    <ui:Label name="title_fr_text" text="Label" display-tooltip-when-elided="true"/>
+                    <ui:Button name="title_fr_image" text="WORD_0102" display-tooltip-when-elided="true"/>
+                    <ui:Button name="title_fr_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0094"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField picking-mode="Ignore" name="title_decoration_x" label="X"/>
+                    <uie:IntegerField picking-mode="Ignore" name="title_decoration_y" label="Y"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0097"/>
+                <ui:VisualElement name="title_decoration_sliderArea" />
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_5" text="WORD_0103">
+            <ui:Foldout name="foldout_6" text="WORD_0104" class="title_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Toggle name="title_startmenu_newgame_toggle" text="WORD_0105"/>
+                    <ui:VisualElement name="title_startmenu_newgame_toggle_contents">
+                        <ex:ImTextField name="title_startmenu_newgame_text" picking-mode="Ignore" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Toggle name="title_startmenu_continue_toggle" text="WORD_0106"/>
+                    <ui:VisualElement name="title_startmenu_continue_toggle_contents">
+                        <ex:ImTextField name="title_startmenu_continue_text" picking-mode="Ignore" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Toggle name="title_startmenu_gamesetting_toggle" text="WORD_2514"/>
+                    <ui:VisualElement name="title_startmenu_gamesetting_toggle_contents">
+                        <ex:ImTextField name="title_startmenu_gamesetting_text" picking-mode="Ignore" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_7" text="WORD_0095" class="title_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0095"/>
+                    <ui:VisualElement name="title_fontsetting_dropdown"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0097"/>
+                    <ui:VisualElement name="title_fontsetting_sliderArea" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0098"/>
+                    <ex:ColorFieldBase name="title_fontsetting_color" display-tooltip-when-elided="true"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_8" text="WORD_0094" class="title_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0094"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField label="X" name="title_uisetting_textx"/>
+                        <uie:IntegerField label="Y" name="title_uisetting_texty"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_9" text="WORD_0044">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ex:ImTextField name="note" picking-mode="Ignore" multiline="true" max-length="140"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

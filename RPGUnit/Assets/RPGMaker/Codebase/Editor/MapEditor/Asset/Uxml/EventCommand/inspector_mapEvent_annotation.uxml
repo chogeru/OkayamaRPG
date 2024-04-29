@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_annotation" >
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                <ui:Label text="WORD_1172" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1172" display-tooltip-when-elided="true" />
+            <ex:ImTextField picking-mode="Ignore" name="annotationText" style="min-width: 50px;" />
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

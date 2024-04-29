@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_transparency" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1094" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1095" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display21"/>
+                    <ui:Label text="WORD_0052" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display22"/>
+                    <ui:Label text="WORD_0533" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

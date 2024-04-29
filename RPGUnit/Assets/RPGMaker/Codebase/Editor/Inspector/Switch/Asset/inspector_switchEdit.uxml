@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="attribute_ID"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="attribute_name"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Button name="search" text="WORD_1464"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_1484">
+            <ui:VisualElement name="search_result_area"/>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

@@ -1,0 +1,337 @@
+/*---------------------------------------------------------------------------------------------------------------------- 
+ コンポーネント共通
+ ---------------------------------------------------------------------------------------------------------------------*/
+ColorField {
+    flex-grow: 1;
+}
+
+Slider, SliderInt {
+    flex-direction: row-reverse;
+    flex-grow: 1;
+}
+Slider > Label,
+SliderInt > Label {
+    min-width: auto;
+    margin-left: 4px;
+}
+
+Label,
+Button {
+    color: #FFF;
+}
+
+TextField {
+    flex-grow: 1;
+}
+
+ImTextField {
+    flex-grow: 1;
+}
+
+Button {
+    width: 200px;
+}
+Button.small {
+    width: 60px;
+}
+
+PopupFieldBase {
+    flex-grow: 1;
+}
+PopupFieldBase > Button {
+    width: auto;
+    flex-grow: 1;
+}
+
+
+/*3桁用のField*/
+
+IntegerField.input_field_3{
+    width: 40px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ Foldoutのスタイル
+ ---------------------------------------------------------------------------------------------------------------------*/
+.unity-foldout > .unity-toggle {
+    background-color: rgb(62, 62, 62);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(48, 48, 48);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 2px;
+}
+
+.unity-toggle__text {
+    margin-left: 5px;
+}
+
+.unity-foldout__content {
+    /*padding-top: 2px;*/
+    /*padding-bottom: 2px;*/
+}
+
+.unity-foldout--depth-0 > .unity-toggle {
+    margin-left: 0;
+    padding-left: 15px;
+}
+.unity-foldout--depth-0 > .unity-foldout__content {
+    margin-left: 0;
+    padding-left: 30px;
+}
+
+.unity-foldout--depth-1 > .unity-toggle {
+    margin-left: -30px;
+    padding-left: 34px;
+}
+.unity-foldout--depth-1 > .unity-foldout__content {
+    margin-left: -30px;
+    padding-left: 47px;
+}
+
+.unity-scroll-view__content-viewport {
+    overflow: visible !important;
+}
+
+.unity-scroll-view--vertical.unity-scroll-view--scroll > .unity-scroll-view__content-viewport > .unity-scroll-view__content-container {
+    overflow: visible !important;
+}
+
+.unity-foldout:hover .unity-foldout__toggle:hover {
+    background-color: rgba(48, 48, 48, 1);
+}
+
+.unity-foldout > Toggle,
+.unity-foldout > VisualElement > Toggle {
+    margin: 2px 2px 2px 8px;
+}
+
+.foldout_transparent > .unity-toggle {
+    background-color: rgba(0, 0, 0, 0);
+    border-bottom-width: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.foldout_transparent:hover .unity-foldout__toggle:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ Foldout以下40%60%ルール
+ ---------------------------------------------------------------------------------------------------------------------*/
+.block_40_60 {
+    display: flex;
+    flex-direction: row;
+    padding: 1px 8px;
+}
+.block_40_60_first {
+    min-width: auto;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+}
+.block_40_60_second {
+    min-width: auto;
+    flex-basis: 60%;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-direction: row;
+}
+
+.block_40_60 Label {
+    align-self: center;
+}
+.block_40_60_first > Label {
+    align-self: flex-start;
+    padding-top: 3px;
+}
+
+.block_40_60_second > VisualElement {
+    flex-grow: 1;
+}
+
+.block_40_60_second Button {
+    flex-grow: 1;
+    width: auto;
+}
+
+
+.block_40_60_second ImTextField{
+    margin-top: 4px;
+}
+
+.block_40_60 IntegerField,
+.block_40_60 FloatField{
+    flex-grow: 1;
+}
+.block_40_60 IntegerField > Label,
+.block_40_60 FloatField > Label {
+    min-width: auto;
+    flex-grow: 0;
+    flex-shrink: 1;
+    margin-right: 4px;
+}
+.block_40_60 IntegerField > IntegerInput,
+.block_40_60 IntegerField > FloatInput {
+    min-width: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ 共通クラス
+ ---------------------------------------------------------------------------------------------------------------------*/
+.row {
+    flex-direction: row;
+}
+
+.row_element {
+    flex-direction: row;
+}
+
+.flex_column {
+    flex-direction: column !important;
+}
+
+.base_container {
+    color: #FFF;
+}
+
+/* チェックボックスとFoldoutのパターン */
+.toggle_foldout_wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4px 0 3px;
+}
+.toggle_foldout_wrapper > Toggle {
+    align-items: flex-start;
+    margin-top:3px;
+}
+.toggle_foldout_wrapper > Foldout {
+    flex-grow: 1;
+}
+
+/*チェックボックスのデフォルトのmargin*/
+Toggle .unity-toggle__checkmark{
+    margin-top: 4px;
+}
+
+/*Foldoutのデフォルトのmargin*/
+Foldout > Toggle .unity-toggle__checkmark{
+    margin-top: 2px !important;
+}
+
+/*チェックボックスとFoldoutの組み合わせ時のmargin*/
+.toggle_foldout_wrapper > Toggle .unity-toggle__checkmark{
+    margin-top: 1px !important;
+}
+.toggle_foldout_wrapper > Foldout > Toggle .unity-toggle__checkmark{
+    margin-top: 3px !important;
+}
+
+/* 画像選択 */
+.image_manage_unit {
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+.image_manage_unit > * {
+    margin-bottom: 2px;
+}
+.image_manage_unit > Label {
+    align-self: flex-start;
+    margin-top: 4px;
+}
+.image_manage_unit > Image {
+    width: 100px;
+    height: 100px;
+}
+
+/* 1行にアイテムを並べる場合 */
+.multiple_item_in_row {
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.multiple_item_in_row.button_row Button{
+    flex-grow: 1;
+    width: auto;
+}
+
+/* 一段ずらす */
+.one_step_off{
+    left: 20px;
+}
+
+/* カラーピッカー */
+.color_picker {
+    flex-direction: column;
+}
+.color_picker > Label {
+    align-self: flex-start;
+}
+
+.image_icon {
+    width:100px;
+    height:100px;
+    align-items:center;
+}
+
+.icon_button{
+    width:30;
+    height:30;
+}
+
+.block_40_60_second .multiple_item_in_row VisualElement{
+    flex-grow: 1;
+}
+/*---------------------------------------------------------------------------------------------------------------------- 
+ Toggle/Label
+ ---------------------------------------------------------------------------------------------------------------------*/
+.toggle_block {
+ height: 18px;
+}
+
+.toggle_block .toggle_label {
+ padding-left:16px;
+ margin-top: 2px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ GroupBox / RadioButton
+ ---------------------------------------------------------------------------------------------------------------------*/
+
+GroupBox {
+  margin-top:0px !important;
+}
+
+GroupBox .multiple_item_in_row Label {
+  margin-top:-3px !important;
+}
+
+RadioButton .unity-radio-button__checkmark{
+  margin-bottom:2px;
+}
+
+.toggle_foldout_wrapper > RadioButton {
+    align-items: flex-start;
+    margin-top:3px;
+}
+
+.multiple_item_in_row  RadioButton {
+    margin-top:2px !important;
+}
+
+.multiple_item_in_row .radiobuttonToVisualElement,
+.toggle_foldout_wrapper .radiobuttonToVisualElement {
+    margin-top:7px !important;
+}
+
+.toggle_block .unity-radio-button__checkmark-background{
+ margin-top: 5px;
+}

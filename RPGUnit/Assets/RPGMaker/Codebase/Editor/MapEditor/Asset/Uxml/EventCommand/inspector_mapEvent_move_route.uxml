@@ -1,0 +1,100 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_moveRoute">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1000" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:VisualElement style="align-self: center;">
+                <ui:Label text="WORD_0043" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:VisualElement name="provisional_map_popupfield_container" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0287"/>
+            <ui:VisualElement name="eventSelect"/>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0982"/>
+            <ui:VisualElement name="moveKind"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement/>
+            <ui:Button text="WORD_1583" name="route_setting_button"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement/>
+            <ui:Button text="WORD_1637" name="route_init_button"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement/>
+            <ui:Button text="WORD_0991" name="preview_button"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0365"/>
+            <ui:VisualElement name="moveSpeed"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1004"/>
+            <ui:VisualElement name="moveFrequency"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0858"/>
+            <ui:VisualElement name="direction"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0865"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display11"/>
+                    <ui:Label text="WORD_0052" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display12"/>
+                    <ui:Label text="WORD_0533" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0866"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display13"/>
+                    <ui:Label text="WORD_0052" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display14"/>
+                    <ui:Label text="WORD_0533" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="slidingThrough_toggle"/>
+                <ui:Label text="WORD_0867" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0073">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="repeatOperation_toggle"/>
+                    <ui:Label text="WORD_0989" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="moveSkip_toggle"/>
+                    <ui:Label text="WORD_0990" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="waitComplete_toggle"/>
+                    <ui:Label text="WORD_0952" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

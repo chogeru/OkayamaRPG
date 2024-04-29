@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout text="WORD_0037" name="fBasic">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0038"/>
+            <ui:Label text="" display-tooltip-when-elided="true" name="WORD_0038" style="white-space: normal;"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0039"/>
+            <ex:ImTextField picking-mode="Ignore" value="" name="name"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0040" display-tooltip-when-elided="true"/>
+            <ui:VisualElement>
+                <ui:SliderInt picking-mode="Ignore" label="WORD_0041" value="0" high-value="100" name="supposedLevelMin" show-input-field="true"/>
+                <ui:SliderInt picking-mode="Ignore" label="WORD_0042" value="0" high-value="100" name="supposedLevelMax" show-input-field="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+    <ui:Foldout text="WORD_0009" name="fFieldMap">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row button_row">
+                <ui:VisualElement name="selectMap" style="flex-grow: 1;"/>
+                <ui:Button text="WORD_1459" display-tooltip-when-elided="true" name="btnEditMap"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+    <ui:Foldout text="WORD_0044" name="fMemo">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0044"/>
+            <ex:ImTextField picking-mode="Ignore" value="" name="memo" multiline="true" max-length="140"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

@@ -1,0 +1,9627 @@
+[
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "0",
+			"iconId": "IconSet_000",
+			"id": "db56b1eb-5c6e-42a3-915f-c2ec4d9c7290",
+			"itemType": 0,
+			"name": "-----予備",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 1
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": -1,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "敵に掛けられた魅了を回復させる。",
+			"iconId": "IconSet_176",
+			"id": "386dbcf2-1202-44f0-8a11-4a2a4c071fa8",
+			"itemType": 1,
+			"name": "ディスチャーム",
+			"price": 150,
+			"sell": 75,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 8,
+					"traitsId": 1,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "0",
+			"iconId": "IconSet_000",
+			"id": "28faadbb-61b2-4485-8644-c021c3cb1265",
+			"itemType": 0,
+			"name": "-----回復系",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 1
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": -1,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＨＰを３００ポイント回復する。",
+			"iconId": "IconSet_176",
+			"id": "cd8fab08-5b93-4d99-afb2-1ce3c114b68e",
+			"itemType": 1,
+			"name": "ポーション",
+			"price": 30,
+			"sell": 15,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 1,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 1,
+						"value": 300
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 1,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＨＰを６００ポイント回復する。",
+			"iconId": "IconSet_176",
+			"id": "6d2f0c68-448c-4a0c-9259-d5b288e88d56",
+			"itemType": 1,
+			"name": "ハイポーション",
+			"price": 100,
+			"sell": 50,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 1,
+						"value": 600
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＨＰを完全に回復する。",
+			"iconId": "IconSet_176",
+			"id": "06f43d66-9d82-4376-8802-ab50f487cfcf",
+			"itemType": 1,
+			"name": "フルポーション",
+			"price": 350,
+			"sell": 175,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 100
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＭＰを５０ポイント回復する。",
+			"iconId": "IconSet_176",
+			"id": "d1972e18-b84f-4a76-bdf5-575dce07d91d",
+			"itemType": 1,
+			"name": "マジックウォーター",
+			"price": 250,
+			"sell": 125,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 1,
+						"value": 50
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "戦闘不能から復活させる。",
+			"iconId": "IconSet_176",
+			"id": "f58dcf32-a832-487b-9e68-2a8a151cb0af",
+			"itemType": 1,
+			"name": "復活薬",
+			"price": 500,
+			"sell": 250,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "1e475e25-faab-4332-9e7e-7adc4ae4bdc0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "b.mhp / 2"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 20,
+						"distributeEnabled": 1,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 0,
+					"traitsId": 2,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 1,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "戦闘不能以外の状態異常を回復する。",
+			"iconId": "IconSet_176",
+			"id": "c4d11796-0b75-497c-b06b-f587aef274bc",
+			"itemType": 1,
+			"name": "万能薬",
+			"price": 400,
+			"sell": 200,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "ba9ee7e9-d99b-4ab2-bd16-c06e22dd8299",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 1,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 3,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 4,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 5,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 6,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 7,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 8,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 9,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 10,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 11,
+					"traitsId": 2,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 1,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "毒状態を治療する。",
+			"iconId": "IconSet_176",
+			"id": "f0fc6bc2-ffe6-4987-8ac5-165379bd459d",
+			"itemType": 1,
+			"name": "アンチポイズン",
+			"price": 40,
+			"sell": 20,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "ba9ee7e9-d99b-4ab2-bd16-c06e22dd8299",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 3,
+					"traitsId": 2,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "麻痺状態を治療する。",
+			"iconId": "IconSet_176",
+			"id": "cd53fff7-b4d1-4bd1-a280-89da77066f0b",
+			"itemType": 1,
+			"name": "アンチパラライズ",
+			"price": 120,
+			"sell": 60,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "ba9ee7e9-d99b-4ab2-bd16-c06e22dd8299",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 10,
+					"traitsId": 2,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＨＰとＭＰを半分回復する。",
+			"iconId": "IconSet_176",
+			"id": "f4925f46-5ed7-4df4-830c-585c99ac22ae",
+			"itemType": 1,
+			"name": "ミラクルドロップ",
+			"price": 360,
+			"sell": 180,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 50
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 50
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ＨＰとＭＰを完全に回復する。",
+			"iconId": "IconSet_176",
+			"id": "d120c7c1-7294-459a-b9bc-584b4f481c71",
+			"itemType": 1,
+			"name": "エリクサー",
+			"price": 1200,
+			"sell": 600,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 100
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 100
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "0",
+			"iconId": "IconSet_000",
+			"id": "bf27e7af-00fc-4740-8014-03767f463e0b",
+			"itemType": 0,
+			"name": "-----特殊系",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 1
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": -1,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "しばらくの間、敵との遭遇率を半減させる。",
+			"iconId": "IconSet_129",
+			"id": "cc4dd9ce-6b7e-4e57-96fc-55200a9d707d",
+			"itemType": 1,
+			"name": "魔除けの魔法陣",
+			"price": 150,
+			"sell": 75,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 1
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 26,
+					"traitsId": 1,
+					"value": 50
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "しばらくの間、戦闘で得られるアイテムや賞金の獲得率を上げる。",
+			"iconId": "IconSet_176",
+			"id": "c79964ab-6bad-4c75-bc23-2dec8ab21c7c",
+			"itemType": 1,
+			"name": "ドロップアッパー",
+			"price": 300,
+			"sell": 150,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 1
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 27,
+					"traitsId": 1,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 1,
+			"consumable": 0,
+			"description": "戦闘中使用すると、TPがアップする",
+			"iconId": "IconSet_129",
+			"id": "13e0da52-08b1-4e28-825a-1d6450b013f8",
+			"itemType": 1,
+			"name": "秘儀の魔法陣",
+			"price": 100,
+			"sell": 50,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 1,
+					"fix": {
+						"enabled": 1,
+						"value": 40
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 1,
+			"consumable": 0,
+			"description": "戦闘中使用すると、しばらくの間攻撃力が上がる",
+			"iconId": "IconSet_129",
+			"id": "b8d77f3e-0ae7-4164-96a0-06e0bdc1515a",
+			"itemType": 1,
+			"name": "剛力の魔法陣",
+			"price": 200,
+			"sell": 100,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 2,
+					"effectId": 2,
+					"traitsId": 1,
+					"value": 5
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "0",
+			"iconId": "IconSet_000",
+			"id": "a821f54c-b1b9-4cc3-a88b-262d7f3e3b06",
+			"itemType": 0,
+			"name": "-----強化系",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 1
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": -1,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "最大ＨＰを３０ポイント上げる。",
+			"iconId": "IconSet_032",
+			"id": "38900dd6-dfdd-4fd8-b025-e85d91d8fcc5",
+			"itemType": 1,
+			"name": "生命の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 0,
+					"traitsId": 2,
+					"value": 30
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "最大ＭＰを１０ポイント上げる。",
+			"iconId": "IconSet_033",
+			"id": "0f8a2b65-5123-42d6-844b-b43118f5ae24",
+			"itemType": 1,
+			"name": "精神の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 1,
+					"traitsId": 2,
+					"value": 10
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "攻撃力を１ポイント上げる。",
+			"iconId": "IconSet_034",
+			"id": "03ecea67-619f-40fe-95dc-3a21e4466415",
+			"itemType": 1,
+			"name": "力の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 2,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "防御力を１ポイント上げる。",
+			"iconId": "IconSet_035",
+			"id": "e7220099-a55f-438a-a116-59d0915efd5c",
+			"itemType": 1,
+			"name": "防御の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 3,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "魔法力を１ポイント上げる。",
+			"iconId": "IconSet_036",
+			"id": "3df04c1b-10b6-4801-8c46-983bb8859eb0",
+			"itemType": 1,
+			"name": "魔力の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 4,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "魔法防御力を１ポイント上げる。",
+			"iconId": "IconSet_037",
+			"id": "6b55eb5c-bf69-4fef-9b89-632ed514666e",
+			"itemType": 1,
+			"name": "魔法耐性の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 5,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "敏捷性を１ポイント上げる。",
+			"iconId": "IconSet_038",
+			"id": "328815a7-b0eb-4e23-859d-0bb34e780c33",
+			"itemType": 1,
+			"name": "敏捷の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 6,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 2,
+			"consumable": 0,
+			"description": "運を１ポイント上げる。",
+			"iconId": "IconSet_039",
+			"id": "a61c6b6c-35c9-45b7-9285-56941451f545",
+			"itemType": 1,
+			"name": "運の秘薬",
+			"price": 3000,
+			"sell": 1500,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "18cc2bb1-d583-4fa7-9559-26d8174d252e",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 3,
+					"effectId": 7,
+					"traitsId": 2,
+					"value": 1
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "0",
+			"iconId": "IconSet_000",
+			"id": "d3a7576d-354e-4429-a98d-c50d61b119a7",
+			"itemType": 0,
+			"name": "-----イベント系",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 1
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": -1,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "ノームから取れるきのこ。ＨＰ２００回復の効果。",
+			"iconId": "IconSet_178",
+			"id": "cede8fa1-5b8b-4281-9612-790afef97d50",
+			"itemType": 2,
+			"name": "ノームのきのこ",
+			"price": 100,
+			"sell": 50,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 0,
+			"canUseTiming": 0,
+			"consumable": 0,
+			"description": "【万能薬】を作る材料。いろんな病を治せるらしい。",
+			"iconId": "IconSet_181",
+			"id": "0700b477-be82-4c4c-8285-eca7373742a3",
+			"itemType": 2,
+			"name": "万能草",
+			"price": 300,
+			"sell": 150,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [
+				{
+					"categoryId": 1,
+					"effectId": 3,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 4,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 5,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 6,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 7,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 8,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 9,
+					"traitsId": 2,
+					"value": 100
+				},
+				{
+					"categoryId": 1,
+					"effectId": 10,
+					"traitsId": 2,
+					"value": 100
+				}
+			],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 0,
+			"description": "関所を通過する為の許可証。",
+			"iconId": "IconSet_193",
+			"id": "bf3b0180-1705-4b5f-baf7-b9ff799d5cf0",
+			"itemType": 2,
+			"name": "通行許可証",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "遊牧民の村カラハリに代々伝わる酒。",
+			"iconId": "IconSet_176",
+			"id": "f88d84c2-8540-424e-83ad-35872a4c2f25",
+			"itemType": 2,
+			"name": "神稲荷の酒",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "簡単なカギならなんでも開けられるカギ。",
+			"iconId": "IconSet_195",
+			"id": "5a77c49b-76dd-41cb-a825-9d1d05f86ee8",
+			"itemType": 2,
+			"name": "最初のカギ",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 0,
+			"description": "くじ屋でこの券一枚につき一回くじが引ける。くじ屋で使ってみよう。",
+			"iconId": "IconSet_188",
+			"id": "b51f7200-2121-4ad1-9f48-4096f5f9534b",
+			"itemType": 1,
+			"name": "くじ券",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "城郭都市ガルド【見張り塔】の牢屋のカギ。",
+			"iconId": "IconSet_195",
+			"id": "25a879be-1147-4562-9b6b-1af155f05fe1",
+			"itemType": 2,
+			"name": "牢屋のカギ（見張り塔）",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "モンスター【スライム】から稀に取れる素材。",
+			"iconId": "IconSet_219",
+			"id": "3cada728-399d-4804-8df8-06a5d597437b",
+			"itemType": 2,
+			"name": "スライムの目玉",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "モンスター【ホーネット】から稀に取れる素材。",
+			"iconId": "IconSet_219",
+			"id": "433e8530-5dd1-4e3a-933b-0b2b306950b7",
+			"itemType": 2,
+			"name": "ホーネットの針",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "【海神祭】で使用されたとされる祭器の可能性が高い器。",
+			"iconId": "IconSet_180",
+			"id": "ca4945f6-2a92-4533-9b20-824b1345fd1a",
+			"itemType": 2,
+			"name": "海神の祭器？",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "【海神祭】で使用されたとされる祭器。",
+			"iconId": "IconSet_180",
+			"id": "3f9b0e85-6338-495a-8815-4afb7df3706e",
+			"itemType": 2,
+			"name": "海神の祭器",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "【海神の粉】【海神のしずく】を作る為の材料とレシピを魔女の道具屋の女主人がまとめてくれた袋",
+			"iconId": "IconSet_208",
+			"id": "839d1eb0-c8fd-4961-b399-251aa4c7f999",
+			"itemType": 2,
+			"name": "祭器のレシピと材料",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "【海神祭】の儀式で使う道具。",
+			"iconId": "IconSet_219",
+			"id": "87ff8de1-5adb-41a3-a972-6052ddafc0f7",
+			"itemType": 2,
+			"name": "海神の粉",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "【海神祭】の儀式で使う道具。",
+			"iconId": "IconSet_176",
+			"id": "2cdd2e6c-88f6-42b3-b066-1b23408da845",
+			"itemType": 2,
+			"name": "海神のしずく",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 3,
+			"consumable": 1,
+			"description": "湾岸都市ミリターナと王都ダウンタウンの定期船の乗船フリーパス。",
+			"iconId": "IconSet_188",
+			"id": "b9aad331-7c10-496b-b7af-e3f08cb70bfc",
+			"itemType": 2,
+			"name": "定期船フリーパス",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	},
+	{
+		"basic": {
+			"canSell": 1,
+			"canUseTiming": 0,
+			"consumable": 1,
+			"description": "老師から譲り受けた、翡翠の首飾り。",
+			"iconId": "IconSet_146",
+			"id": "e62ad405-e313-4b03-8c71-a225098dc478",
+			"itemType": 2,
+			"name": "ヒスイの首飾り",
+			"price": 0,
+			"sell": 0,
+			"switchItem": 0
+		},
+		"memo": "",
+		"targetEffect": {
+			"activate": {
+				"animationId": "0",
+				"continuousNumber": 1,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 100
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": "0"
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 2,
+			"targetUser": 0
+		},
+		"userEffect": {
+			"activate": {
+				"animationId": "",
+				"continuousNumber": 0,
+				"correctionSpeed": 0,
+				"getTp": 0,
+				"hitType": 0,
+				"successRate": 0
+			},
+			"damage": {
+				"critical": 0,
+				"damageType": 0,
+				"distribute": 0,
+				"distributeEnabled": 0,
+				"elements": [],
+				"max": 0,
+				"maxEnabled": 0,
+				"min": 0,
+				"minEnabled": 0,
+				"value": ""
+			},
+			"heal": {
+				"hp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"mp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				},
+				"tp": {
+					"calc": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 1,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": ""
+					},
+					"enabled": 0,
+					"fix": {
+						"enabled": 0,
+						"value": 0
+					},
+					"perMax": {
+						"distribute": 0,
+						"distributeEnabled": 0,
+						"enabled": 0,
+						"max": 0,
+						"maxEnabled": 0,
+						"value": 0
+					}
+				}
+			},
+			"otherEffects": [],
+			"randomNumber": 0,
+			"targetRange": 0,
+			"targetStatus": 0,
+			"targetTeam": 0,
+			"targetUser": 0
+		}
+	}
+]

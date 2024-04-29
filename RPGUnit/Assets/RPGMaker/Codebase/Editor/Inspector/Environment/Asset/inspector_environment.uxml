@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0056">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0057"/>
+                <ui:VisualElement name="platform"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0058"/>
+                <ui:VisualElement class="right_move" name="display_size"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0059"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-environment-display1"/>
+                        <ui:Label text="WORD_0060"/>
+                        <ui:RadioButton name="radioButton-environment-display2"/>
+                        <ui:Label text="WORD_0061"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

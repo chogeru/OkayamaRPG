@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="quickevent_door_modalwindow.uss" />
+    <ui:VisualElement class="row">
+        <ui:VisualElement style="margin-right: 15;">
+            <ui:Label text="WORD_0093" />
+            <ui:Button name="button" class="class_button">
+                <ui:VisualElement name="image" class="class_image" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:Label text="WORD_0043" />
+            <ui:VisualElement name="map_select_list" class="class_map_list" />
+            <ui:VisualElement class="row_element">
+                <ui:Label text="X" />
+                <ui:Label name="X_point" />
+                <ui:Label text="Y" />
+                <ui:Label name="Y_point" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement class="row_reverse" >
+        <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+        <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+    </ui:VisualElement>
+</ui:UXML>

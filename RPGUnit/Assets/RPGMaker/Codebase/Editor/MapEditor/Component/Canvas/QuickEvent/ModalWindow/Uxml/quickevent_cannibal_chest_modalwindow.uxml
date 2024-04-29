@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="quickevent_treasure_chest_modalwindow.uss" />
+    <ui:VisualElement class="row">
+        <ui:VisualElement style="margin-right: 15;">
+            <ui:Label text="WORD_0093" />
+            <ui:Button name="button" class="class_button">
+                <ui:VisualElement name="image" class="class_image" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement class="column">
+            <ui:Foldout text="WORD_0564" value="true" style="display: flex;">
+                <ui:GroupBox style="margin-top:0px; padding-top:0px">
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:RadioButton name="radioButton-other-display5" />
+                        <ui:Label text="WORD_0922" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="direct" style="width: 200px; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:RadioButton name="radioButton-other-display6" />
+                        <ui:Label text="WORD_0994" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="variable" style="width: 200px; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:RadioButton name="radioButton-other-display7" />
+                        <ui:Label text="WORD_1053" display-tooltip-when-elided="true" />
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0073" value="true" style="display: flex;">
+                <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                    <ui:Toggle name="escape_toggle" />
+                    <ui:Label text="WORD_1054" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                    <ui:Toggle name="defeat_toggle" />
+                    <ui:Label text="WORD_1055" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement class="row_reverse" >
+        <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+        <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+    </ui:VisualElement>
+</ui:UXML>

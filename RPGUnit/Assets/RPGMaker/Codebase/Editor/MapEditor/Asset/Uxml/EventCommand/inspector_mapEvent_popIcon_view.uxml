@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_popIconView">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0953" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="popIcon_area">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement style="align-self: center;">
+                    <ui:Label text="WORD_0043" />
+                </ui:VisualElement>
+                <ui:VisualElement>
+                    <ui:VisualElement name="provisional_map_popupfield_container" />
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0287"/>
+                <ui:VisualElement name="character"/>
+            </ex:InspectorItemUnit>
+    
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0954" display-tooltip-when-elided="true"/>
+                <ui:VisualElement>
+                    <ui:VisualElement name="popIcon"/>
+                    <ui:Button text="WORD_0991" name="PreviewButton"/>
+                    <ui:VisualElement name="popIcon_image"
+                                      style="border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); width: 70px; height: 70px;"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0952" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="weight_toggle"/>
+                    <ui:Label text="WORD_0060" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

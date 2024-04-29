@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_distantViewChange" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1181" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0776" display-tooltip-when-elided="true"/>
+            <ui:VisualElement class="image_manage_unit">
+                <ui:Label name="distant_view_image_name"/>
+                <ui:Button name="distant_view_image_change" text="WORD_0583"/>
+                <ui:Button name="distant_view_image_import" text="WORD_0047"/>
+                <ui:Image name="distant_view_image"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement name="preview"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="height"/>
+                <ui:Label text="WORD_1182" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0777" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+            <uie:IntegerField picking-mode="Ignore" name="heightScrollNum"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="width"/>
+                <ui:Label text="WORD_1183" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0777" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+            <uie:IntegerField picking-mode="Ignore" name="widthScrollNum"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

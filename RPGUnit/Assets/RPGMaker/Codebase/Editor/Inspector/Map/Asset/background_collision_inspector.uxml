@@ -1,0 +1,60 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514"/>
+                <ui:Label text="WORD_3007"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout name="foldout_1" text="WORD_0807">
+            <ui:VisualElement name="pass_type_select_container"/>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0811"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="is_pass_top_toggle"/>
+                    <ui:Label text="WORD_0297"/>
+                    <ui:Toggle name="is_pass_left_toggle"/>
+                    <ui:Label text="WORD_0813"/>
+                    <ui:Toggle name="is_pass_right_toggle"/>
+                    <ui:Label text="WORD_0814"/>
+                    <ui:Toggle name="is_pass_bottom_toggle"/>
+                    <ui:Label text="WORD_0299"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0816"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="is_ladder_toggle"/>
+                    <ui:Label text="WORD_0052"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0817"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="is_bush_toggle"/>
+                    <ui:Label text="WORD_0052"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0819">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="is_damage_floor_toggle"/>
+                    <ui:Label text="WORD_0052"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="damage_floor_type_select_container"/>
+            <ex:InspectorItemUnit>
+                <uie:FloatField picking-mode="Ignore" name="damage_floor_value_text"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+
+        <ui:Foldout name="foldout_3" text="WORD_3013">
+            <ex:InspectorItemUnit>
+                <ui:Button name="vehicle_add_button" text="WORD_0050"/>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="vehicle_aria"/>
+        </ui:Foldout>
+
+    </ui:ScrollView>
+</ui:UXML>

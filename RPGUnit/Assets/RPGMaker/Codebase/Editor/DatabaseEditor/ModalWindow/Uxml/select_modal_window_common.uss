@@ -1,0 +1,44 @@
+TemplateContainer {
+    flex-grow: 1;
+}
+
+Button {
+    flex-grow: 1;
+    width: 120px;
+    height: 20px;
+}
+Button.small {
+    width: 60px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.selector_pane {
+    flex-basis: 200px;
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+    height: 100%;
+}
+
+.preview_pane {
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.image_pane {
+    flex-grow: 1;
+}
+
+.button_pane {
+    flex-direction: row;
+    padding: 8px;
+    justify-content: center;
+}
+
+.image_container {
+}

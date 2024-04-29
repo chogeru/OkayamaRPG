@@ -1,0 +1,53 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout text="WORD_0045" name="fTemplate" style="display:none;">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement name="template" style="margin-top: 2; margin-bottom: 1;"/>
+                <ui:VisualElement name="template-select" style="flex-direction: row; margin-top: 1; margin-bottom: 2;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row button_row">
+                    <ui:Button text="WORD_0047" name="import_button"/>
+                    <ui:Button text="WORD_0048" name="export_button"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_1" text="WORD_0027">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:VisualElement name="maps"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row button_row">
+                    <ui:VisualElement name="map-select" style="flex-grow:1; flex-direction: row;"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0037" name="fBasic">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label text="" display-tooltip-when-elided="true" name="WORD_0038" style="white-space: normal;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0004"/>
+                <ui:VisualElement name="selectChapterId"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField picking-mode="Ignore" value="" name="name"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0051" name="fSwitch"></ui:Foldout>
+        <ui:Foldout text="WORD_0054" name="fCondition">
+            <ui:Foldout text="WORD_0613" name="fAppearanceCondition"></ui:Foldout>
+            <ui:Foldout text="WORD_1139" name="fBranchCondition"></ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0044" name="fMemo">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0044"/>
+                <ex:ImTextField picking-mode="Ignore" value="" name="memo" multiline="true" max-length="140"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

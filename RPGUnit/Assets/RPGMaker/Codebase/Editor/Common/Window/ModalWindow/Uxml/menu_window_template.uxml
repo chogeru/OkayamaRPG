@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="menu_window_template.uss" />
+    <ui:VisualElement class="class_base" >
+        <ui:VisualElement class="class_description">
+            <ui:Label name="description_text" text="" />
+        </ui:VisualElement>
+        <ui:GroupBox>
+            <ui:VisualElement class="row">
+                <ui:RadioButton name="radioButton-other-display8" value="false" class="class_toggle" />
+                <ui:Label name="toggle1_text" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row">
+                <ui:RadioButton name="radioButton-other-display9" value="false" class="class_toggle" />
+                <ui:Label name="toggle2_text" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+        <ui:VisualElement class="class_path" >
+            <ui:VisualElement class="class_path_bottom_margin">
+                <ui:Label name="project_name_label" text="" />
+                <ex:ImTextField name="project_name" picking-mode="Ignore" text="" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:Label name="path_label" text="" />
+                <ui:VisualElement class="row_path">
+                    <ex:ImTextField name="path" picking-mode="Ignore" text="" style="flex-grow: 1; flex-shrink: 1;" />
+                    <ui:Button name="path_button" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="row_center" >
+            <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+            <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

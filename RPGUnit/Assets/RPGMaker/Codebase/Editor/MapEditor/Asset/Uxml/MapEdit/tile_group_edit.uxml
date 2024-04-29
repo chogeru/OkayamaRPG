@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="two_rows_panel">
+        <ui:VisualElement class="two_columns_panel" style="margin-top:8px">
+            <ui:VisualElement class="two_columns_panel_main" name="tile_group_container"/>
+            <ui:VisualElement class="two_columns_panel_controller">
+                <ui:Button name="remove_tile_button" text="WORD_3010"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement class="two_columns_panel">
+            <ui:VisualElement class="two_columns_panel_main" name="tile_list_container"/>
+            <ui:VisualElement class="two_columns_panel_controller">
+                <ui:Button name="add_tile_button" text="WORD_3011" style="margin-top: 24px"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

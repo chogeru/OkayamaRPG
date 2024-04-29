@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False" style="width: 450px; height: 450px;">
+    <Style src="select_ui_modalwindow.uss" />
+    <ui:VisualElement style="flex-direction: row;">
+        <ui:VisualElement name="system_window_leftwindow" class="system_window_leftwindow" />
+        <ui:VisualElement name="iconwindow" style="flex-direction: row;" />
+        <ui:VisualElement name="system_window_iconwindow" />
+        <ui:VisualElement name="system_window_rightwindow">
+            <ui:VisualElement name="titlefield" class="system_window_titlefield">
+                <ui:VisualElement name="titleback2" style="flex-grow: 1; overflow: hidden;">
+                    <ui:VisualElement name="titleback1" style="flex-grow: 1; overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                <ui:Button text="OK" name="Common_Button_Ok" class="Common_Button" />
+                <ui:Button text="Cancel" name="Common_Button_Cancel" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

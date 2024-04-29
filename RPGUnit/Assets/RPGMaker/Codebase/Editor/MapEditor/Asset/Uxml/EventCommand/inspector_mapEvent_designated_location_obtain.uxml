@@ -1,0 +1,82 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_mapGetPoint">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1184" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0839"/>
+            <ui:VisualElement name="variable"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1185"/>
+            <ui:VisualElement name="mapSelect"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1189"/>
+            <ui:VisualElement name="layer"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0921" display-tooltip-when-elided="true"/>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:VisualElement style="align-self: center;" class="multiple_item_in_row one_step_off">
+                <ui:Label text="WORD_0043" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:VisualElement name="provisional_map_popupfield_container" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+
+        <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display111"/>
+                    <ui:Label text="WORD_0922"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label name="xPos" display-tooltip-when-elided="true"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label name="yPos" display-tooltip-when-elided="true"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                    <ui:Button text="WORD_0356" display-tooltip-when-elided="true" name="directButton"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display112"/>
+                    <ui:Label text="WORD_0924"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="xPos2"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="yPos2"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display113"/>
+                    <ui:Label text="WORD_1190"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="character"/>
+            </ex:InspectorItemUnit>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

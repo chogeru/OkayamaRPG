@@ -1,0 +1,208 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:VisualElement name="menu_event_layout">
+            <ui:Foldout name="foldout_1" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label name="event_id" picking-mode="Ignore" label=""/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField name="event_name" picking-mode="Ignore" label=""/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0295"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField label="X" picking-mode="Ignore" name="map_X"/>
+                        <uie:IntegerField label="Y" picking-mode="Ignore" name="map_Y"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0044"/>
+                    <ex:ImTextField name="event_memo" picking-mode="Ignore" label="" multiline="true" max-length="140"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_2" text="WORD_0837">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0004" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="chapter"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0022" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="section"/>
+                </ex:InspectorItemUnit>
+                <ui:Foldout name="foldout_3" text="WORD_0045" class="foldout_transparent">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0046" display-tooltip-when-elided="true"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row button_row">
+                            <ui:Button name="event_templete_inport" text="WORD_0047" display-tooltip-when-elided="true"/>
+                            <ui:Button name="event_templete_export" text="WORD_0048" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_4" text="WORD_0613" class="foldout_transparent">
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_switch1_toggle" value="false"/>
+                            <ui:Label text="WORD_0605" display-tooltip-when-elided="true"/>
+                            <ui:Label text="1" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_switch1"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_switch2_toggle" value="false"/>
+                            <ui:Label text="WORD_0605" display-tooltip-when-elided="true"/>
+                            <ui:Label text="2" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_switch2"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_variable_toggle" value="false"/>
+                            <ui:Label text="WORD_0839" display-tooltip-when-elided="true" style="-unity-text-align: middle-left;"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:VisualElement name="event_variable"/>
+                            <ui:Label text="WORD_1509" display-tooltip-when-elided="true"/>
+                            <uie:IntegerField name="event_variable_field" picking-mode="Ignore"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_self_toggle" value="false"/>
+                            <ui:Label text="WORD_0840" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_self_switch"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_item_toggle" value="false"/>
+                            <ui:Label text="WORD_2591" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_item"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_actor_toggle" value="false"/>
+                            <ui:Label text="WORD_0301" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_actor"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_switch_item_toggle" value="false"/>
+                            <ui:Label text="WORD_0532" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_switch_item"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_5" text="WORD_0093" class="foldout_transparent">
+
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_chatacter_image_Toggle" value="false"/>
+                            <ui:Label text="WORD_0287" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_character_image_area">
+                            <ui:VisualElement name="event_character_image_popupfield_container"/>
+                            <ui:Button name="event_character_image" style="width: 80px; height: 80px; "/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_select_image_toggle"/>
+                            <ui:Label text="WORD_0842" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="event_select_image_area">
+                            <ui:Button name="event_sd_image" style="width: 80px; height: 80px; "/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0039"/>
+                        <ui:Label name="event_picture_name" picking-mode="Ignore" />
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_6" text="WORD_0843">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0510" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_auto_move"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button text="WORD_1583" name="route_setting_button"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button text="WORD_1637" name="route_init_button"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button text="WORD_0991" name="preview_button"/>
+                    </ex:InspectorItemUnit>
+                    <ui:Foldout name="foldout_7" text="WORD_0073">
+                        <ex:InspectorItemUnit>
+                            <ui:VisualElement class="multiple_item_in_row">
+                                <ui:Toggle name="repeatOperation_toggle"/>
+                                <ui:Label text="WORD_0989" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ex:InspectorItemUnit>
+                        <ex:InspectorItemUnit>
+                            <ui:VisualElement class="multiple_item_in_row">
+                                <ui:Toggle name="moveSkip_toggle"/>
+                                <ui:Label text="WORD_0990" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ex:InspectorItemUnit>
+                    </ui:Foldout>
+                        <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0365" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_move_speed"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0858" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_direction"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Toggle name="event_direction_fix"/>
+                            <ui:Label text="WORD_3060" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0865" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_move_animation"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0866" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_step_animation"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0867" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_passing"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_1004" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_move_Rate"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_8" text="WORD_0869">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0869" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_priority"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_9" text="WORD_0873">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0873" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement name="event_trigger"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

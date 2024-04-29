@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="dlcimport_result_window.uss" />
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement name="system_window_topwindow" class="system_window_topwindow" >
+            <ui:VisualElement name="system_window_list_window" class="system_window_list_window" />
+        </ui:VisualElement>
+
+        <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end; min-height: 24px;">
+            <ui:Button text="Execute" name="Execute" class="Common_Button" />
+        </ui:VisualElement>
+
+    </ui:VisualElement>
+</ui:UXML>

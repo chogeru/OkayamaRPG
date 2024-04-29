@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0115">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0096"/>
+            <ui:VisualElement name="font_select_dropDown"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0097"/>
+            <ui:VisualElement name="font_size_sliderArea" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0098"/>
+            <ui:VisualElement class="color_picker">
+                <ui:Label text="R G B " name="font_rgb_text"/>
+                <ex:ColorFieldBase name="font_color" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

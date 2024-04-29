@@ -1,0 +1,129 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="command_setting" style="margin-left: 3px; margin-right: 3px; margin-top: 3px; margin-bottom: 3px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-top-left-radius: 3px; border-bottom-left-radius: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; background-color: rgba(79, 211, 212, 0.26); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); height: auto;">
+        <ui:VisualElement name="character" style="display: flex;">
+        </ui:VisualElement>
+        <ui:VisualElement name="gameProgression">
+            <ui:VisualElement name="command_variableControl" style="display: none;">
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                  <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                  <ui:Label text="WORD_1015" display-tooltip-when-elided="true" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                    <ui:Toggle name="sole_toggle" />
+                    <ui:Label text="WORD_1013" display-tooltip-when-elided="true" />
+                    <ui:VisualElement name="sole" style="width: auto; height: auto;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row; align-items: center;">
+                    <ui:Toggle name="range_toggle" />
+                    <ui:Label text="WORD_1014" display-tooltip-when-elided="true" />
+                    <ui:VisualElement style="flex-direction: row; align-items: center;">
+                        <ui:Label text="最小" display-tooltip-when-elided="true" />
+                        <uie:IntegerField picking-mode="Ignore" name="range_min" style="width: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; align-items: center;">
+                        <ui:Label text="最大" display-tooltip-when-elided="true" />
+                        <uie:IntegerField picking-mode="Ignore" name="range_max" style="width: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" style="flex-direction: row;">
+                    <ui:Label text="WORD_0893" display-tooltip-when-elided="true" />
+                    <ui:VisualElement name="control" />
+                </ui:VisualElement>
+                <ui:Foldout name="foldout_1" text="WORD_0897" value="true">
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="constant_toggle" />
+                        <ui:Label text="WORD_0820" display-tooltip-when-elided="true" />
+                        <uie:IntegerField picking-mode="Ignore" name="constant" style="width: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="variable_toggle" />
+                        <ui:Label text="WORD_0839" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="variable" style="width: auto; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; align-items: center;">
+                        <ui:Toggle name="rand_toggle" />
+                        <ui:Label text="WORD_1020" display-tooltip-when-elided="true" />
+                        <ui:VisualElement style="flex-direction: row; align-items: center;">
+                            <ui:Label text="最小" display-tooltip-when-elided="true" />
+                            <uie:IntegerField picking-mode="Ignore" name="rand_min" style="width: auto; min-width: 50px;" />
+                        </ui:VisualElement>
+                        <ui:VisualElement style="flex-direction: row; align-items: center;">
+                            <ui:Label text="最大" display-tooltip-when-elided="true" />
+                            <uie:IntegerField picking-mode="Ignore" name="rand_max" style="width: auto; min-width: 50px;" />
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_2" text="WORD_1021" value="true" style="display: flex;">
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="itemNum_toggle" />
+                        <ui:Label text="WORD_1022" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="itemNum" style="width: auto; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="weapon_toggle" />
+                        <ui:Label text="WORD_1023" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="weapon" style="width: auto; height: auto;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="armor_toggle" />
+                        <ui:Label text="WORD_1024" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="equipArmorType" style="width: auto; height: auto; display: flex; min-width: 50px;" />
+                        <ui:VisualElement name="equipList" style="width: auto; height: auto; margin-left: 0; padding-left: 5px; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="actor_toggle" />
+                        <ui:Label text="WORD_0301" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="actorList" style="width: auto; height: auto; min-width: 50px;" />
+                        <ui:VisualElement name="statusList" style="width: auto; height: auto; margin-left: 0; padding-left: 5px; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="enemy_toggle" />
+                        <ui:Label text="WORD_0559" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="enemyList" style="width: auto; height: auto; min-width: 50px;" />
+                        <ui:VisualElement name="enemyStatusList" style="width: auto; height: auto; margin-left: 0; padding-left: 5px; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="character_toggle" />
+                        <ui:Label text="WORD_0287" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="eventList" style="width: auto; height: auto; min-width: 50px;" />
+                        <ui:VisualElement name="dataList" style="width: auto; height: auto; margin-left: 0; padding-left: 5px; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="party_toggle" />
+                        <ui:Label text="パーティ(アクターID)" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="actorID" style="width: auto; height: auto; min-width: 50px; display: none;" />
+                        <ui:VisualElement name="sortOderList" style="width: auto; height: auto; margin-left: 0; padding-left: 5px; padding-right: 0; padding-top: 0; padding-bottom: 0; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="justBefor_toggle" />
+                        <ui:Label text="WORD_1034" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="justBeforList" style="width: auto; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                        <ui:Toggle name="other_toggle" />
+                        <ui:Label text="WORD_0868" display-tooltip-when-elided="true" />
+                        <ui:VisualElement name="otherList" style="width: auto; height: auto; min-width: 50px;" />
+                    </ui:VisualElement>
+                </ui:Foldout>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="picture">
+        </ui:VisualElement>
+        <ui:VisualElement name="flowControl" style="display: flex;">
+        </ui:VisualElement>
+        <ui:VisualElement name="partie">
+        </ui:VisualElement>
+        <ui:VisualElement name="actor">
+        </ui:VisualElement>
+        <ui:VisualElement name="screen">
+        </ui:VisualElement>
+        <ui:VisualElement name="WORD_0931">
+        </ui:VisualElement>
+        <ui:VisualElement name="map">
+        </ui:VisualElement>
+        <ui:VisualElement name="scene">
+        </ui:VisualElement>
+        <ui:VisualElement name="event">
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

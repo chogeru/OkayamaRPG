@@ -1,0 +1,107 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:VisualElement name="pen_buttons_root" />
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0995" name="encounter_map_id" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="encounter_map_id_area"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="" name="encounter_region_id" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1176"/>
+                <ui:Label name="map_name"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="" name="encounter_foldout">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0823"/>
+                <uie:IntegerField name="encounter_walk_count" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_2" text="WORD_0824" class="encounter_foldout">
+                <ui:Label text="WORD_0297" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row button_row">
+                    <ui:Button name="battle_scene_bg_bottom_image_change" text="WORD_0583"/>
+                    <ui:Button name="battle_scene_bg_bottom_image_import" text="WORD_0047"/>
+                </ui:VisualElement>
+                <ui:Label name="battle_scene_bg_bottom_image_name"/>
+                <ui:Image name="battle_scene_bg_bottom_image" style="width: 100%;max-height:300px;"/>
+                <ui:Label text="WORD_0299" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row button_row">
+                    <ui:Button name="battle_scene_bg_top_image_change" text="WORD_0583"/>
+                    <ui:Button name="battle_scene_bg_top_image_import" text="WORD_0047"/>
+                </ui:VisualElement>
+                <ui:Label name="battle_scene_bg_top_image_name"/>
+                <ui:Image name="battle_scene_bg_top_image" style="width: 100%;max-height:300px;"/>
+            </ui:Foldout>
+
+            <ui:Foldout name="foldout_3" text="WORD_0826">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1320" display-tooltip-when-elided="true" />
+                    <ui:VisualElement text="WORD_1320" name="Soundsetting_dropdown" width="10" style="width: 200px;" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement />
+                    <ui:Button name="sound_import" text="WORD_0047" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement />
+                    <ui:Button name="musicStart" text="WORD_0932" display-tooltip-when-elided="true" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement />
+                    <ui:Button name="musicStop" text="WORD_0933" display-tooltip-when-elided="true" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Slider picking-mode="Ignore" value="90" low-value="0" high-value="100" name="volume_slider"/>
+                        <ui:VisualElement style="flex-direction: row; width: 50px;">
+                            <uie:IntegerField picking-mode="Ignore" value="90" name="volume_text"/>
+                            <ui:Label text="%" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Slider picking-mode="Ignore" value="100" low-value="50" high-value="150" name="pitch_slider"/>
+                        <ui:VisualElement style="flex-direction: row; width: 50px;">
+                            <uie:IntegerField picking-mode="Ignore" value="100" name="pitch_text"/>
+                            <ui:Label text="%" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Slider picking-mode="Ignore" value="0" low-value="-100" high-value="100" name="pan_slider"/>
+                        <ui:VisualElement style="flex-direction: row; width: 50px;">
+                            <uie:IntegerField picking-mode="Ignore" value="0" name="pan_text"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+
+            </ui:Foldout>
+            <ui:Foldout name="foldout_4" text="WORD_0829">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0827" display-tooltip-when-elided="true"/>
+                    <uie:IntegerField name="encounter_enemy_max" picking-mode="Ignore" />
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0828" display-tooltip-when-elided="true"/>
+                    <uie:IntegerField name="encounter_enemy_parsent" picking-mode="Ignore" />
+                </ex:InspectorItemUnit>
+                <ui:Foldout text="WORD_0559" name="encounter_enemy_foldout" class="encounter_foldout" >
+                    <ui:Button name="encounter_enemy_add" text="WORD_0050" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="encounter_enemy_area" />
+                </ui:Foldout>
+                <ui:Foldout text="WORD_0564" name="encounter_group_foldout" class="encounter_foldout" >
+                    <ui:Button name="encounter_enemy_group_add" text="WORD_0050" display-tooltip-when-elided="true" />
+                    <ui:VisualElement name="encounter_enemy_group_area" />
+                </ui:Foldout>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

@@ -1,0 +1,267 @@
+.Common_Button {
+    width: 160px;
+}
+.system_window_systemwindow {
+    flex-grow: 1;
+    margin: 4px 4px 0px 4px;
+}
+
+.tab_type_content {
+    flex-grow: 1;
+}
+
+.system_window_topwindow {
+    height: 400px;
+    flex-grow: 1;
+}
+
+.system_window_tabs {
+    height: 24px;
+    flex-grow: 1;
+    padding: 4;
+}
+
+.system_window_typecontentwindow {
+    flex-grow: 1;
+    padding: 4;
+}
+
+.system_window_type_label_window {
+    height: 16px
+    padding: 2;
+    margin: 2;
+}
+
+.system_window_type_value_window {
+    height: 228px;
+    padding: 4;
+    margin: 4;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+}
+
+.system_window_type_description_window {
+    flex-grow: 1;
+    padding: 4;
+    margin: 4;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+    border-radius: 8px;
+}
+
+.system_window_textcontentwindow {
+    flex-grow: 1;
+    padding: 4;
+}
+
+.system_window_text_label_window {
+    height: 16px
+    padding: 2;
+    margin: 2;
+}
+
+.system_window_text_value_window {
+    height: 228px;
+    padding: 2;
+    margin: 4;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+}
+
+.system_window_text_description_window {
+    flex-grow: 1;
+    padding: 4;
+    margin: 4;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+    border-radius: 8px;
+}
+
+.system_window_bottomwindow {
+    height: 29px;
+}
+
+.multiline_height {
+    height: 200px;
+}
+
+TextField TextInput {
+    -unity-text-align: upper-left;
+}
+
+.textfield_align {
+}
+
+.rectangle_marker {
+    width: 7px;
+    height: 11px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.0;
+    position: absolute;
+}
+
+/*************************************************/
+/* Style for tabs */
+#tabs {
+    flex-basis: 10%;
+    flex-direction: row;
+    /*font-size: 12px;*/
+    -unity-font-style: bold;
+    /*font-size: 14px;*/
+}
+
+/* Sets each label in tabs to have the same size. */
+.tab {
+    flex-grow: 1;
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+    border-radius: 8px 8px 0px 0px;
+    padding: 4px;
+    background-color: rgb(48, 48, 48);
+}
+
+/* Adds background color for the selected tab */
+.currentlySelectedTab {
+    background-color: rgb(56, 56, 56);
+}
+
+/* Style for tabContent */
+#tabContent {
+    flex-basis: 90%;
+    /*font-size: 20px;*/
+}
+
+/* Hides the unselected tab content */
+.unselectedContent {
+    display: none;
+}
+
+/*************************************************/
+
+.horizontal_space {
+    width: 8px;
+}
+
+.vertical_space {
+    height: 8px;
+}
+
+.four_borders {
+    border-top-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.53);
+    border-bottom-width: 1px;
+    border-bottom-color: rgba(0, 0, 0, 0.53);
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.53);
+    border-right-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.53);
+    border-radius: 8px;
+}
+
+.margin4px {
+    margin: 4px;
+}
+
+.list_view {
+    flex-grow: 1;
+}
+
+
+.list_view_item_foldout {
+    width: 20px;
+}
+
+.list_view_item_name_label {
+    width: 120px;
+}
+
+.list_view_item_value_label {
+    flex-grow: 1;
+}
+
+.list_view_item_toggle {
+    width: 120px;
+}
+
+.list_view_item_name_label {
+    width: 165px;
+}
+
+.list_view_item_description_label {
+    width: 390px;
+}
+
+.text_ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#unity-checkmark {
+    -unity-background-scale-mode: scale-to-fit;
+    width: 100%;
+    height: 100%;
+}
+ 
+.unity-toggle__input {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+ 
+.unity-toggle__label {
+    flex-grow: 1;
+    min-width: auto;
+}
+
+
+.text_underline {
+    text-decoration: underline;
+}
+
+.text_ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#TextArea, #MyOtherFields
+{
+    padding-left: 22px;
+    border-width: 0px 0px 0px 2px;
+}
+
+.titleback1 {
+    width: 100%;
+    height: 100%;
+}
+
+.titleback2 {
+    width: 100%;
+    height: 100%;
+}

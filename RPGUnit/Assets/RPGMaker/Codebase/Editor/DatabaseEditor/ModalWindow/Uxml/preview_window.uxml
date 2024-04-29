@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="preview_window.uss" />
+    <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row;">
+        <ui:VisualElement name="system_window_rightwindow">
+            <ui:VisualElement name="titlefield" class="system_window_titlefield">
+                <ui:VisualElement name="titleback2" style="flex-grow: 1; overflow: hidden;">
+                    <ui:VisualElement name="titleback1" style="flex-grow: 1; overflow: hidden;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

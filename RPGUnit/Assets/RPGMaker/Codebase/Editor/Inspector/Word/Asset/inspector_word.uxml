@@ -1,0 +1,694 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0083">
+            <ui:Foldout text="WORD_0084" name="basic_status_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0139"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_0"/>
+                        <ex:ImTextField name="basic_states_0" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0140"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_1"/>
+                        <ex:ImTextField name="basic_states_1" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0133"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_2"/>
+                        <ex:ImTextField name="basic_states_2" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0141"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_3"/>
+                        <ex:ImTextField name="basic_states_3" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0135"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_4"/>
+                        <ex:ImTextField name="basic_states_4" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0142"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_5"/>
+                        <ex:ImTextField name="basic_states_5" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0136"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_6"/>
+                        <ex:ImTextField name="basic_states_6" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0143"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_7"/>
+                        <ex:ImTextField name="basic_states_7" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0144"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_8"/>
+                        <ex:ImTextField name="basic_states_8" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0145"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_9"/>
+                        <ex:ImTextField name="basic_states_9" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0146"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="basic_states_toggle_10"/>
+                        <ex:ImTextField name="basic_states_10" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+
+            <ui:Foldout text="WORD_0086" name="commands_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0156"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_0"/>
+                        <ex:ImTextField name="command_0" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0157"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_1"/>
+                        <ex:ImTextField name="command_1" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0158"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_2"/>
+                        <ex:ImTextField name="command_2" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0159"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_3"/>
+                        <ex:ImTextField name="command_3" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0068"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_4"/>
+                        <ex:ImTextField name="command_4" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0069"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_5"/>
+                        <ex:ImTextField name="command_5" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0070"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_6"/>
+                        <ex:ImTextField name="command_6" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0071"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_7"/>
+                        <ex:ImTextField name="command_7" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0072"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_8"/>
+                        <ex:ImTextField name="command_8" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0073"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_9"/>
+                        <ex:ImTextField name="command_9" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0074"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_10"/>
+                        <ex:ImTextField name="command_10" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0075"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_11"/>
+                        <ex:ImTextField name="command_11" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0128"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_12"/>
+                        <ex:ImTextField name="command_12" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0129"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_13"/>
+                        <ex:ImTextField name="command_13" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0130"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_14"/>
+                        <ex:ImTextField name="command_14" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0070"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_15"/>
+                        <ex:ImTextField name="command_15" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0162"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_16"/>
+                        <ex:ImTextField name="command_16" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0163"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_17"/>
+                        <ex:ImTextField name="command_17" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0164"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_18"/>
+                        <ex:ImTextField name="command_18" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0165"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_19"/>
+                        <ex:ImTextField name="command_19" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0105"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_20"/>
+                        <ex:ImTextField name="command_20" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0106"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_21"/>
+                        <ex:ImTextField name="command_21" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0166"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_22"/>
+                        <ex:ImTextField name="command_22" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0167"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_23"/>
+                        <ex:ImTextField name="command_23" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0168"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_24"/>
+                        <ex:ImTextField name="command_24" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0169"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_25"/>
+                        <ex:ImTextField name="command_25" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0170"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_26"/>
+                        <ex:ImTextField name="command_26" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0171"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_27"/>
+                        <ex:ImTextField name="command_27" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0172"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_28"/>
+                        <ex:ImTextField name="command_28" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0173"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_29"/>
+                        <ex:ImTextField name="command_29" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0174"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="command_toggle_30"/>
+                        <ex:ImTextField name="command_30" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+
+            <ui:Foldout text="WORD_0085" name="status_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0395"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_0"/>
+                        <ex:ImTextField name="status_0" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0539"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_1"/>
+                        <ex:ImTextField name="status_1" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0177"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_2"/>
+                        <ex:ImTextField name="status_2" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0178"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_3"/>
+                        <ex:ImTextField name="status_3" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0179"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_4"/>
+                        <ex:ImTextField name="status_4" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0180"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_5"/>
+                        <ex:ImTextField name="status_5" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0181"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_6"/>
+                        <ex:ImTextField name="status_6" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0182"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_7"/>
+                        <ex:ImTextField name="status_7" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0183"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_8"/>
+                        <ex:ImTextField name="status_8" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0184"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="status_toggle_9"/>
+                        <ex:ImTextField name="status_9" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0185" name="messages_nomal_foldout">
+            <ui:Foldout name="foldout_2" text="WORD_0186">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0187"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_0"/>
+                        <ex:ImTextField name="messages_0" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0189"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_1"/>
+                        <ex:ImTextField name="messages_1" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0191"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_2"/>
+                        <ex:ImTextField name="messages_2" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0193"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_3"/>
+                        <ex:ImTextField name="messages_3" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0195"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_4"/>
+                        <ex:ImTextField name="messages_4" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0196"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_5"/>
+                        <ex:ImTextField name="messages_5" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0185" name="messages_battle_foldout">
+            <ui:Foldout name="foldout_3" text="WORD_0198">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0199"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_6"/>
+                        <ex:ImTextField name="messages_6" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0201"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_7"/>
+                        <ex:ImTextField name="messages_7" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0203"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_8"/>
+                        <ex:ImTextField name="messages_8" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0205"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_9"/>
+                        <ex:ImTextField name="messages_9" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0207"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_10"/>
+                        <ex:ImTextField name="messages_10" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0209"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_11"/>
+                        <ex:ImTextField name="messages_11" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0211"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_12"/>
+                        <ex:ImTextField name="messages_12" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0213"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_13"/>
+                        <ex:ImTextField name="messages_13" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0215"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_14"/>
+                        <ex:ImTextField name="messages_14" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0217"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_15"/>
+                        <ex:ImTextField name="messages_15" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0219"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_16"/>
+                        <ex:ImTextField name="messages_16" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0221"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_17"/>
+                        <ex:ImTextField name="messages_17" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0223"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_18"/>
+                        <ex:ImTextField name="messages_18" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0225"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_19"/>
+                        <ex:ImTextField name="messages_19" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0227"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_20"/>
+                        <ex:ImTextField name="messages_20" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0229"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_21"/>
+                        <ex:ImTextField name="messages_21" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0231"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_22"/>
+                        <ex:ImTextField name="messages_22" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0233"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_23"/>
+                        <ex:ImTextField name="messages_23" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0235"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_24"/>
+                        <ex:ImTextField name="messages_24" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0237"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_25"/>
+                        <ex:ImTextField name="messages_25" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0239"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_26"/>
+                        <ex:ImTextField name="messages_26" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0241"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_27"/>
+                        <ex:ImTextField name="messages_27" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0243"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_28"/>
+                        <ex:ImTextField name="messages_28" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0245"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_29"/>
+                        <ex:ImTextField name="messages_29" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0246"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_30"/>
+                        <ex:ImTextField name="messages_30" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0247"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_31"/>
+                        <ex:ImTextField name="messages_31" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0248"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_32"/>
+                        <ex:ImTextField name="messages_32" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0250"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_33"/>
+                        <ex:ImTextField name="messages_33" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0252"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_34"/>
+                        <ex:ImTextField name="messages_34" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0254"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_35"/>
+                        <ex:ImTextField name="messages_35" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0256"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_36"/>
+                        <ex:ImTextField name="messages_36" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0258"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_37"/>
+                        <ex:ImTextField name="messages_37" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0260"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_38"/>
+                        <ex:ImTextField name="messages_38" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0262"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_39"/>
+                        <ex:ImTextField name="messages_39" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0264"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_40"/>
+                        <ex:ImTextField name="messages_40" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0266"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_41"/>
+                        <ex:ImTextField name="messages_41" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0268"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_42"/>
+                        <ex:ImTextField name="messages_42" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0270"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="messages_toggle_43"/>
+                        <ex:ImTextField name="messages_43" class="text_160"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

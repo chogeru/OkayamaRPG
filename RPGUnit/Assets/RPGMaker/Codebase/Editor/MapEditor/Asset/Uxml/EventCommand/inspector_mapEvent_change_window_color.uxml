@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="systemSetting_changeWindowColor">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1080"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1081"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Slider name="red_slider" picking-mode="Ignore" low-value="0" high-value="255"/>
+                <uie:IntegerField picking-mode="Ignore" name="red_text" value="filler text" text="filler text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1082"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Slider name="green_slider" picking-mode="Ignore" low-value="0" high-value="255"/>
+                <uie:IntegerField picking-mode="Ignore" name="green_text" value="filler text" text="filler text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1083"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Slider name="blue_slider" picking-mode="Ignore" low-value="0" high-value="255"/>
+                <uie:IntegerField picking-mode="Ignore" name="blue_text" value="filler text" text="filler text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement name="color_window"
+                              style="flex-direction: row; justify-content: space-around; width: 80px; height: 80px; align-items: stretch; flex-wrap: no-wrap; margin-top: 17px; background-color: rgb(255, 0, 0);"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

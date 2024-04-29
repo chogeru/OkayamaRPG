@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_inputNumber">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                <ui:Label text="WORD_1209" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0839" />
+            <ui:VisualElement name="Variable" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1210" />
+                <ui:Label text="WORD_1515" />
+            </ui:VisualElement>
+            <uie:IntegerField picking-mode="Ignore" value="1" name="Digits" style="width: 90px;" />
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

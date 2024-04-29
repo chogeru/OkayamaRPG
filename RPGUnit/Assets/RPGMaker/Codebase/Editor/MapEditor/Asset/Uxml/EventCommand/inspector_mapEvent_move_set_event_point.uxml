@@ -1,0 +1,91 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_positionSettings">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0919" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+
+        <ex:InspectorItemUnit>
+            <ui:VisualElement style="align-self: center;">
+                <ui:Label text="WORD_0043" />
+            </ui:VisualElement>
+            <ui:VisualElement>
+                <ui:VisualElement name="provisional_map_popupfield_container" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1638"/>
+            <ui:VisualElement name="eventList"/>
+        </ex:InspectorItemUnit>
+
+        <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display129"/>
+                    <ui:Label text="WORD_0922" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label display-tooltip-when-elided="true" name="xPos"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label display-tooltip-when-elided="true" name="yPos"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                    <ui:Button name="directButton" text="WORD_0922" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display130"/>
+                    <ui:Label text="WORD_0994" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="xPos2"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement />
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="yPos2"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display131"/>
+                    <ui:Label text="WORD_0925" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1638" class="multiple_item_in_row one_step_off"/>
+                <ui:VisualElement name="eventList2"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label name="xPos3"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label text="[ " display-tooltip-when-elided="true"/>
+                    <ui:Label name="yPos3"/>
+                    <ui:Label text=" ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:GroupBox>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0858"/>
+            <ui:VisualElement name="direction"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

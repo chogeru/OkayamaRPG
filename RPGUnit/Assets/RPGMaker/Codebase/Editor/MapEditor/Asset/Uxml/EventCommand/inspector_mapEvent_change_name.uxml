@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_actorSetting" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0916" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout text="WORD_0301" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0301" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="actor"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="name_toggle"/>
+                    <ui:Label text="WORD_0039" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ex:ImTextField picking-mode="Ignore" name="name"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="nickname_toggle"/>
+                    <ui:Label text="WORD_0337" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ex:ImTextField picking-mode="Ignore" name="nickname"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="profile_toggle"/>
+                    <ui:Label text="WORD_0339" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ex:ImTextField picking-mode="Ignore" name="profile"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

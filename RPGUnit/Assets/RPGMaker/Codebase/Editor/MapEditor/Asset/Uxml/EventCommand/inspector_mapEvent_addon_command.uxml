@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="inspector_mapEvent_addon_command.uss" />
+    <ui:VisualElement name="command_Addon" focusable="false">
+        <ui:VisualElement name="system_window_upperwindow" class="system_window_upperwindow" >
+            <ui:VisualElement style="flex-direction: row; align-items: center;">
+              <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+              <ui:Label text="WORD_2510" display-tooltip-when-elided="true" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: row; width: auto; height: auto;">
+                <ui:VisualElement name="system_window_addonwindow" class="system_window_addonwindow" />
+                <ui:VisualElement name="system_window_commandwindow" class="system_window_commandwindow" />
+            </ui:VisualElement>
+            <ui:VisualElement name="system_window_descriptionwindow" class="system_window_descriptionwindow" >
+            </ui:VisualElement>
+        </ui:VisualElement>
+
+        <ui:VisualElement name="system_window_lowerwindow" class="system_window_lowerwindow" >
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,36 @@
+TemplateContainer {
+    flex-grow: 1;
+}
+
+.two_rows_panel {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.two_columns_panel {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.two_columns_panel_main {
+    flex-grow: 1;
+    background-color: rgb(56, 56, 56);
+}
+
+.two_columns_panel_controller {
+    flex-basis: 200px;
+    padding: 4px 8px 4px;
+    border-left-width: 1px;
+    border-left-color: rgb(80, 80, 80);
+}
+
+.two_columns_panel_controller Button {
+    width: 100%;
+}
+
+.panel_title {
+    margin: 4px 2px;
+    color: #FFF;
+}

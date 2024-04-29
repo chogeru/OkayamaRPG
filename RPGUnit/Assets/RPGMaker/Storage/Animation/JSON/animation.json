@@ -1,0 +1,4759 @@
+[
+	{
+		"expansion": 100,
+		"flashList": [],
+		"id": "54b168ea-5141-48ed-9e42-4336ac58755c",
+		"offset": "0;0",
+		"particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+		"particleName": "なし",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [],
+		"id": "111419c2-2152-4b18-901d-4465c6771d4f",
+		"offset": "0;0",
+		"particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+		"particleName": "通常攻撃",
+		"particlePos": 0,
+		"particleType": 0,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 50,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			}
+		],
+		"id": "5a4e5e29-5f55-408e-b17d-d69c9ee0e43b",
+		"offset": "0;0",
+		"particleId": "f6bad097-a340-4fe8-b90e-9676c577cfeb",
+		"particleName": "打撃/物理",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "10;10;10",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blow1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 60,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			}
+		],
+		"id": "e7530c2a-a2f2-453e-a8a7-7ac5eddd6cff",
+		"offset": "0;0",
+		"particleId": "5b32c153-14a4-4d0f-8ad2-8d25dddd47d3",
+		"particleName": "打撃/エフェクト",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Evasion2.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Damage4.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Powerup.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,119,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,136,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 30
+			}
+		],
+		"id": "951fe5cc-a0d0-4e05-8a08-71483e1fec2b",
+		"offset": "0;0",
+		"particleId": "e53500c2-2138-406d-bd24-baa0506134b1",
+		"particleName": "打撃/炎",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blow1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Fire1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "119,187,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "187,221,221",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 30
+			}
+		],
+		"id": "9cce14f3-171b-4089-b88d-0f7f8b770a70",
+		"offset": "0;0",
+		"particleId": "fbdad983-6a1d-4ff9-b206-c0901beed796",
+		"particleName": "打撃/氷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blow1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 30
+			}
+		],
+		"id": "17d8cff7-4f57-4a6d-954b-cb65636cb64f",
+		"offset": "0;0",
+		"particleId": "49325f2a-89b8-4887-8d3d-12c5709c23e8",
+		"particleName": "打撃/雷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder8.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Thunder8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			}
+		],
+		"id": "3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d",
+		"offset": "0;0",
+		"particleId": "8f4d153a-4cd9-4810-8091-6acbdbdc0465",
+		"particleName": "斬撃/物理",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			}
+		],
+		"id": "2f9df539-cd03-4696-a040-222c772e35eb",
+		"offset": "0;0",
+		"particleId": "090f89de-4e7c-4463-8f68-2d7abbcbae39",
+		"particleName": "斬撃/エフェクト",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Evasion2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Powerup.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,119,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,136,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			}
+		],
+		"id": "821af2a5-344e-4208-bc85-3b5d0635ea8b",
+		"offset": "0;0",
+		"particleId": "aa3c21f8-4bdb-42b5-8718-bec6c40acf47",
+		"particleName": "斬撃/炎",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Fire1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "119,187,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "187,221,221",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			}
+		],
+		"id": "6cd100d3-ed59-4331-86e7-3a274c7e6eb2",
+		"offset": "0;0",
+		"particleId": "221f1f67-89a1-40dd-b4b4-c628d5190068",
+		"particleName": "斬撃/氷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			}
+		],
+		"id": "9e46582d-59cb-4512-b607-17231d3ca174",
+		"offset": "0;0",
+		"particleId": "7eb8498a-975e-4753-a6b1-411445c44ada",
+		"particleName": "斬撃/雷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 60,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			}
+		],
+		"id": "f4da0dde-49bc-4ab3-b597-b05d8b6eb75b",
+		"offset": "0;0",
+		"particleId": "397c2841-3436-40f0-81ae-a74a473d4870",
+		"particleName": "刺突/物理",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			}
+		],
+		"id": "680296e3-2377-472e-8387-9c7dca64217b",
+		"offset": "0;0",
+		"particleId": "81bb5e91-2d0a-411e-ae3f-d96ff67b8cd3",
+		"particleName": "刺突/エフェクト",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Evasion2.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Thunder4.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Powerup.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "255,119,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,136,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 4,
+				"time": 30
+			}
+		],
+		"id": "cd7ed346-f284-4873-a54a-526ddc72a209",
+		"offset": "0;0",
+		"particleId": "e45ab9d2-f4ff-4448-bb21-8278b438d17b",
+		"particleName": "刺突/炎",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": -37,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Fire1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "119,187,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "187,221,221",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 4,
+				"time": 30
+			}
+		],
+		"id": "6cc01af0-03bc-4f0f-b262-921f84075c40",
+		"offset": "0;0",
+		"particleId": "a371c5c7-af56-4836-853d-fc26ba55e358",
+		"particleName": "刺突/氷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Ice3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "255,255,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 60
+			},
+			{
+				"color": "255,255,85",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 4,
+				"time": 60
+			}
+		],
+		"id": "9f23347e-5823-46b4-994e-25665f4cb0c0",
+		"offset": "0;0",
+		"particleId": "0ca59363-f5ff-4dd4-b20c-69734f8c74c0",
+		"particleName": "刺突/雷",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder3.ogg"
+			},
+			{
+				"frame": 0,
+				"seId": 0,
+				"seName": ""
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 70
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 70
+			}
+		],
+		"id": "ac61511c-5025-4862-aafd-1ca48ff48ffe",
+		"offset": "0;0",
+		"particleId": "fb7e8894-f47a-4bf8-b9fe-e7cd384ba272",
+		"particleName": "打撃/必殺技1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Blow1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Blow1.ogg"
+			},
+			{
+				"frame": 28,
+				"seId": 0,
+				"seName": "Thunder5.ogg"
+			},
+			{
+				"frame": 35,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 45,
+				"seId": 0,
+				"seName": "Thunder5.ogg"
+			},
+			{
+				"frame": 45,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 52,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Thunder5.ogg"
+			},
+			{
+				"frame": 85,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 92,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 100,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 200,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 27
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 28,
+				"time": 27
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 55,
+				"time": 35
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 30
+			}
+		],
+		"id": "c0deecc4-c730-4b3e-94b5-0f9f6ecab46d",
+		"offset": "0;0",
+		"particleId": "18f62052-133b-4f95-b684-1d832d9ace67",
+		"particleName": "打撃/必殺技2",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 25,
+				"seId": 0,
+				"seName": "Blow2.ogg"
+			},
+			{
+				"frame": 28,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 35,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 45,
+				"seId": 0,
+				"seName": "Blow2.ogg"
+			},
+			{
+				"frame": 55,
+				"seId": 0,
+				"seName": "Blow3.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Damage2.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Damage2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 27,
+				"time": 27
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 28,
+				"time": 28
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "71bbf7c7-339b-46f6-9504-9da7aec677d3",
+		"offset": "0;0",
+		"particleId": "0884eee2-0c91-4d72-8168-036e274a3b51",
+		"particleName": "斬撃/必殺技1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 12,
+				"seId": 0,
+				"seName": "Slash4.ogg"
+			},
+			{
+				"frame": 16,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 18,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 24,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 28,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 48,
+				"seId": 0,
+				"seName": "Evasion2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 17
+			},
+			{
+				"color": "255,68,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 40
+			}
+		],
+		"id": "8660a770-a992-4318-b23c-91e7a6f9c260",
+		"offset": "0;0",
+		"particleId": "1fba7dba-d99d-41da-902a-3c8d4c1520aa",
+		"particleName": "斬撃/必殺技2",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Wind4.ogg"
+			},
+			{
+				"frame": 8,
+				"seId": 0,
+				"seName": "Slash8.ogg"
+			},
+			{
+				"frame": 8,
+				"seId": 0,
+				"seName": "Water4.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 17,
+				"seId": 0,
+				"seName": "Ice3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 22
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 23,
+				"time": 37
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 40
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 15
+			}
+		],
+		"id": "f5a99cfe-c064-4c81-a25e-4b1173708ae9",
+		"offset": "0;0",
+		"particleId": "194140b5-79f8-4c64-b0fb-e64434c8ca88",
+		"particleName": "斬撃/必殺技3",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 12,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 23,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 29,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 34,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 38,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 44,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Evasion1.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Evasion1.ogg"
+			},
+			{
+				"frame": 96,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 100,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 32,
+				"time": 32
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 63,
+				"time": 31
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 27
+			}
+		],
+		"id": "34e0f6e7-92ba-4aed-98a1-a953fe850e23",
+		"offset": "0;0",
+		"particleId": "cc627d4c-6109-4752-8f69-3f9fd39fbfc4",
+		"particleName": "刺突/必殺技1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind6.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 12,
+				"seId": 0,
+				"seName": "Wind6.ogg"
+			},
+			{
+				"frame": 16,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 22,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 27,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 32,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 36,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 39,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 42,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 47,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 53,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 57,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 63,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 67,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 75,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 1,
+				"time": 31
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 32,
+				"time": 8
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 70,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 30
+			}
+		],
+		"id": "87ea5402-87da-40cf-9d55-6f25b79e7f70",
+		"offset": "0;0",
+		"particleId": "8ecc1226-dbb9-4859-86b1-fbf8a368f034",
+		"particleName": "刺突/必殺技2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind5.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 8,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 11,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 14,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 17,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 18,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 24,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 28,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 32,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 40,
+				"seId": 0,
+				"seName": "Sword5.ogg"
+			},
+			{
+				"frame": 44,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,119,153",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,119,153",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 31,
+				"time": 30
+			},
+			{
+				"color": "255,119,153",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 75,
+				"time": 30
+			}
+		],
+		"id": "4dc68053-5033-46ed-9fc2-4e469d1ffc4c",
+		"offset": "0;0",
+		"particleId": "901a67db-a4bc-41f1-b7f7-05825b4e3e45",
+		"particleName": "爪/必殺技",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Attack3.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 8,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 11,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 17,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 18,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 22,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 26,
+				"seId": 0,
+				"seName": "Slash3.ogg"
+			},
+			{
+				"frame": 30,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 31,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 42,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 42,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 75,
+				"seId": 0,
+				"seName": "Attack2.ogg"
+			},
+			{
+				"frame": 75,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 3
+			},
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 3
+			},
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 9,
+				"time": 3
+			},
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 14,
+				"time": 3
+			},
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 25,
+				"time": 10
+			},
+			{
+				"color": "255,255,204",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 20
+			}
+		],
+		"id": "cc8e022b-94b8-43e0-ae6d-995e8420c5e2",
+		"offset": "0;0",
+		"particleId": "0c1b1d6b-923a-4acf-a3ec-0bba1ba9318e",
+		"particleName": "矢/必殺技",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Crossbow.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Attack3.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Attack3.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Battle3.ogg"
+			},
+			{
+				"frame": 14,
+				"seId": 0,
+				"seName": "Battle3.ogg"
+			},
+			{
+				"frame": 14,
+				"seId": 0,
+				"seName": "Wind3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 30
+			},
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 9,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 13,
+				"time": 30
+			},
+			{
+				"color": "255,255,187",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 16,
+				"time": 30
+			},
+			{
+				"color": "255,255,187",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 18,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 23,
+				"time": 30
+			},
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 26,
+				"time": 30
+			},
+			{
+				"color": "255,255,187",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 32,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 36,
+				"time": 30
+			},
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 50
+			},
+			{
+				"color": "255,255,187",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 55,
+				"time": 30
+			},
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 65,
+				"time": 50
+			},
+			{
+				"color": "255,170,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 50
+			}
+		],
+		"id": "a1b9baff-b7a4-4eb8-bcef-a0bda7cc77e0",
+		"offset": "0;0",
+		"particleId": "377f5f9d-5c31-4b12-acbb-07b28c7cabd6",
+		"particleName": "汎用/必殺技1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Slash4.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Slash5.ogg"
+			},
+			{
+				"frame": 13,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 16,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 18,
+				"seId": 0,
+				"seName": "Damage2.ogg"
+			},
+			{
+				"frame": 23,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 26,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 36,
+				"seId": 0,
+				"seName": "Damage2.ogg"
+			},
+			{
+				"frame": 42,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 50,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Damage2.ogg"
+			},
+			{
+				"frame": 96,
+				"seId": 0,
+				"seName": "Slash2.ogg"
+			},
+			{
+				"frame": 105,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 0,
+				"seId": 0,
+				"seName": ""
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 2,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 9,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 12,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 16,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 26,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 35,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 45,
+				"time": 30
+			}
+		],
+		"id": "92e0c674-6be1-4861-a1a6-923b2174abcf",
+		"offset": "0;0",
+		"particleId": "e6eebc40-fd4c-4101-ac92-e79043ab24a0",
+		"particleName": "汎用/必殺技2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder3.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Thunder3.ogg"
+			},
+			{
+				"frame": 12,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 16,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Thunder3.ogg"
+			},
+			{
+				"frame": 26,
+				"seId": 0,
+				"seName": "Slash1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 25
+			},
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 25
+			},
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 25
+			},
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 25
+			}
+		],
+		"id": "a729ced7-5bad-4184-9777-514816e07fd5",
+		"offset": "0;0",
+		"particleId": "f6383d8d-9784-4e7b-89aa-dfefb5c706a6",
+		"particleName": "超音波",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Sound3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "221,221,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 25,
+				"time": 30
+			},
+			{
+				"color": "255,170,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 35,
+				"time": 30
+			},
+			{
+				"color": "255,170,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 55,
+				"time": 30
+			}
+		],
+		"id": "26239baf-496a-4760-ac87-c3b05346eebd",
+		"offset": "0;0",
+		"particleId": "2041b385-0b4c-4484-9cf0-88076e653d1d",
+		"particleName": "歌",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 10
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 10
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 10
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 10
+			}
+		],
+		"id": "bed0dabf-3bc1-4f9f-b567-9b8d6391538e",
+		"offset": "0;0",
+		"particleId": "583f48e2-7e7a-4569-b707-ebe463d317d8",
+		"particleName": "咆哮",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Monster1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 150,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 3,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 25,
+				"time": 10
+			}
+		],
+		"id": "b8157822-7796-4052-8bc5-7866ad6e59f1",
+		"offset": "0;0",
+		"particleId": "042025dd-d674-479e-93ff-f366edbc31c1",
+		"particleName": "閃光",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Flash2.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Sword1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "102,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "b238e665-2a0a-4ac9-aad4-cb38e90f55b3",
+		"offset": "0;0",
+		"particleId": "6c0a42ce-697a-4bcb-81e5-c874ac60b77b",
+		"particleName": "回復/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Heal3.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Saint2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 70,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 30
+			}
+		],
+		"id": "3d0dcec1-b2c8-4a7b-9074-e99dbd82d240",
+		"offset": "0;0",
+		"particleId": "1da3a2c6-fc23-470a-bd17-a9dbf4c2de30",
+		"particleName": "回復/単体2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Starlight.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Saint2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 5
+			},
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "d31eee1b-eb9f-4b9f-9453-fbea9828e628",
+		"offset": "0;0",
+		"particleId": "15786887-06c9-46ef-93f7-1434cfc703f0",
+		"particleName": "回復/全体1",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Saint4.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Heal1.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Ice5.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 5
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "f3e3a6aa-e493-49a7-9fae-a240d56f79bb",
+		"offset": "0;0",
+		"particleId": "ab7e83e1-5abe-4144-b008-80034984c9e2",
+		"particleName": "回復/全体2",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Explosion2.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Flash2.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "102,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "ba9ee7e9-d99b-4ab2-bd16-c06e22dd8299",
+		"offset": "0;0",
+		"particleId": "340e5979-68cd-433b-ae9c-3b28a8d249d3",
+		"particleName": "治療/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Recovery.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "102,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "d3e8d87f-b2ed-4872-8118-68ab52f8b973",
+		"offset": "0;0",
+		"particleId": "ed637f8a-8f1f-4637-9a82-d82b8f4178a1",
+		"particleName": "治療/単体2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "153,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 5
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 25,
+				"time": 30
+			}
+		],
+		"id": "f16bdeb4-c618-444e-af8c-3c54cfec5056",
+		"offset": "0;0",
+		"particleId": "9d153fd3-419e-4917-8de8-d13ad196cf05",
+		"particleName": "治療/全体1",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Starlight.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Ice1.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Heal3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 150,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "153,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 5
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 25,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 20
+			}
+		],
+		"id": "afbcb18c-fc5b-44b6-80ab-8948d74458e8",
+		"offset": "0;0",
+		"particleId": "19955264-6df9-439b-949f-7098bea80667",
+		"particleName": "治療/全体2",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Saint4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "102,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "136,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "1e475e25-faab-4332-9e7e-7adc4ae4bdc0",
+		"offset": "0;0",
+		"particleId": "ebdb8b66-8142-4e8e-96dd-51b159acfede",
+		"particleName": "蘇生1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic1.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Starlight.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Skill1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "102,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "5e16330a-587b-4656-a84a-27b066ad4a1d",
+		"offset": "0;0",
+		"particleId": "2b74517e-327a-43e6-a14b-1fb53e4d9131",
+		"particleName": "蘇生2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 50,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic2.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Ice4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "85,0,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 15
+			},
+			{
+				"color": "85,0,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 30
+			}
+		],
+		"id": "fabe5643-217c-4487-a065-5e928fe9797a",
+		"offset": "0;0",
+		"particleId": "1590340c-c640-463e-a2ad-3c07852adaf9",
+		"particleName": "弱体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Down2.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Magic2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "85,0,136",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			}
+		],
+		"id": "b48c8f8e-b6f3-4862-8177-82a6395e540c",
+		"offset": "0;0",
+		"particleId": "59c17764-3a1c-4837-b63c-b8af22ef9e72",
+		"particleName": "弱体2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Stare.ogg"
+			},
+			{
+				"frame": 7,
+				"seId": 0,
+				"seName": "Earth2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 20
+			},
+			{
+				"color": "170,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			},
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "8a92b9b8-a82d-493e-8cf3-9bdc1ac9813c",
+		"offset": "0;0",
+		"particleId": "9e8e95d1-d240-4691-b6bb-aa4a48267e24",
+		"particleName": "弱体3",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Blind.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Darkness7.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Darkness8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 70,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 20
+			},
+			{
+				"color": "170,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			},
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "944f6b3b-ea4e-4e2f-8ffd-c790b85e4aa0",
+		"offset": "0;0",
+		"particleId": "3f5bdb63-cfb6-44e8-a2a3-0d2a95404dae",
+		"particleName": "呪縛",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind5.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Darkness4.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "170,0,136",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 60
+			}
+		],
+		"id": "20565e51-2afa-42bd-bb4e-5cce9b02836d",
+		"offset": "0;0",
+		"particleId": "c3526cf2-fa58-4a3d-afff-56d3ccb877e9",
+		"particleName": "吸収",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Twine.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Particles1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "68,0,187",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 60
+			}
+		],
+		"id": "3906a0b2-d732-4c7a-9996-a430bdb62fc8",
+		"offset": "0;0",
+		"particleId": "5e3df95c-a0bc-4a23-9580-5d001f4bc747",
+		"particleName": "毒",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 0,
+				"seId": 0,
+				"seName": "Poison.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 0
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 50
+			}
+		],
+		"id": "e989554c-fba8-4646-9141-05b616aa0b77",
+		"offset": "0;0",
+		"particleId": "9f6c22bb-b9c6-40e6-ad3b-267b756ed0ee",
+		"particleName": "暗闇",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Blind.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Darkness2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "170,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 50
+			}
+		],
+		"id": "eb0d7ed8-b007-498b-b745-140c1b2b8b32",
+		"offset": "0;0",
+		"particleId": "5a98bd33-e3aa-47ad-ae00-6dcab720bb53",
+		"particleName": "沈黙",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Silence.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Sound2.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Flash1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 10
+			},
+			{
+				"color": "170,170,238",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "8c828720-131d-424b-82a8-0ad39560268a",
+		"offset": "0;0",
+		"particleId": "d14faecb-fa57-4a65-b320-a2075680422f",
+		"particleName": "睡眠",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Up1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Sheep.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 50,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 10
+			},
+			{
+				"color": "255,136,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "8bd2b861-ea21-4a7a-8b60-ad8b8bb9feb7",
+		"offset": "0;0",
+		"particleId": "5f0e846d-c1c9-4810-b009-411c909e5d57",
+		"particleName": "混乱",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Absorb2.ogg"
+			},
+			{
+				"frame": 5,
+				"seId": 0,
+				"seName": "Raise2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 20
+			},
+			{
+				"color": "170,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			},
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "e01e8dd3-eae4-457a-a47c-9e5e33254c97",
+		"offset": "0;0",
+		"particleId": "b72cc588-91ad-4d3f-80b9-853f644fe3bd",
+		"particleName": "麻痺",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Paralyze3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 15,
+				"time": 30
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 80,
+				"time": 50
+			}
+		],
+		"id": "4bd3d21e-51d5-4135-a413-b7a89f69e820",
+		"offset": "0;0",
+		"particleId": "607938ee-3e56-4b3d-a485-5f0df35ddb1f",
+		"particleName": "即死",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Stare.ogg"
+			},
+			{
+				"frame": 45,
+				"seId": 0,
+				"seName": "Darkness5.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,170,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "250,170,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "de838c0a-5aa9-4f68-949b-53acb08de848",
+		"offset": "0;0",
+		"particleId": "96791f12-2682-4114-857e-f51b3dba485e",
+		"particleName": "炎/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Fire8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,221,51",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			},
+			{
+				"color": "187,102,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 30
+			},
+			{
+				"color": "255,221,51",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 50,
+				"time": 30
+			},
+			{
+				"color": "187,102,102",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 80,
+				"time": 50
+			}
+		],
+		"id": "55ed02bc-d7de-493e-85c3-dbaf377eac7b",
+		"offset": "0;0",
+		"particleId": "9e181bfb-3295-4246-af9b-abde28b83e53",
+		"particleName": "炎/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Fire8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "119,204,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 80
+			}
+		],
+		"id": "49b56827-f9a9-4659-83e4-b523cba74009",
+		"offset": "0;0",
+		"particleId": "9e2a3082-81ad-4d7b-953f-2321eb3eea96",
+		"particleName": "氷/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Starlight.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Wind1.ogg"
+			},
+			{
+				"frame": 4,
+				"seId": 0,
+				"seName": "Crash.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Ice11.ogg"
+			},
+			{
+				"frame": 11,
+				"seId": 0,
+				"seName": "Sword2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "119,204,153",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 30,
+				"time": 25
+			},
+			{
+				"color": "119,204,255",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 100,
+				"time": 50
+			}
+		],
+		"id": "73f5ec26-f51c-4c43-9f5e-27b062663e1f",
+		"offset": "0;0",
+		"particleId": "656c5833-b469-4ef2-8017-22f5cedab599",
+		"particleName": "氷/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder4.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Flash2.ogg"
+			},
+			{
+				"frame": 17,
+				"seId": 0,
+				"seName": "Earth1.ogg"
+			},
+			{
+				"frame": 18,
+				"seId": 0,
+				"seName": "Ice5.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Ice11.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 50
+			}
+		],
+		"id": "591f85b0-e9d1-4728-99d9-dcb12fdc7190",
+		"offset": "0;0",
+		"particleId": "c7887351-f1d3-4e1a-a9af-11371e8ca4d2",
+		"particleName": "雷/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder6.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 120,
+		"flashList": [
+			{
+				"color": "255,255,119",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 50
+			},
+			{
+				"color": "255,255,136",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 20
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 20
+			}
+		],
+		"id": "86670098-08da-4c2e-94a2-37793061e58b",
+		"offset": "0;0",
+		"particleId": "2ba7e864-3a51-495b-aa6e-8e3941c22ba2",
+		"particleName": "雷/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Paralyze1.ogg"
+			},
+			{
+				"frame": 50,
+				"seId": 0,
+				"seName": "Thunder1.ogg"
+			},
+			{
+				"frame": 51,
+				"seId": 0,
+				"seName": "Paralyze1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "170,204,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 60
+			}
+		],
+		"id": "21a2e604-3ae0-4920-8130-7b825501e743",
+		"offset": "0;0",
+		"particleId": "0e2dec46-8444-49b9-a11d-a62bb4da08a0",
+		"particleName": "水/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Water5.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Water2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "170,204,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 30
+			},
+			{
+				"color": "170,204,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 80
+			}
+		],
+		"id": "d8deb2e5-5668-491e-bc45-effc8505b260",
+		"offset": "0;0",
+		"particleId": "6ad2cea5-e608-4372-9432-22c8f613f771",
+		"particleName": "水/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Water5.ogg"
+			},
+			{
+				"frame": 12,
+				"seId": 0,
+				"seName": "Water4.ogg"
+			},
+			{
+				"frame": 14,
+				"seId": 0,
+				"seName": "Water1.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Water1.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Water1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			}
+		],
+		"id": "9b892bcf-8314-4d45-99cd-be6f0fcfa653",
+		"offset": "0;0",
+		"particleId": "66f60c34-6a4c-4271-b0e7-d3b51e4cabcf",
+		"particleName": "土/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Earth1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Break.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 10
+			},
+			{
+				"color": "225,221,170",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 15,
+				"time": 30
+			}
+		],
+		"id": "961681d1-d539-4f6a-b9a1-72fc9373303a",
+		"offset": "0;0",
+		"particleId": "5ce48b93-8222-4806-8974-a38373bd50a0",
+		"particleName": "土/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Earth1.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Fire3.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Earth3.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Fire1.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Sand.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 30
+			}
+		],
+		"id": "76f9dce4-659d-4b31-8d30-35fbcad114d9",
+		"offset": "0;0",
+		"particleId": "3bdd1746-147f-4bfc-ac6e-b78796deb42a",
+		"particleName": "風/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind5.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "170,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "9bce18f4-d210-418f-b446-298be809a1de",
+		"offset": "0;0",
+		"particleId": "6a0be4e1-20f4-495c-a530-9890b579c966",
+		"particleName": "風/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind5.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Wind2.ogg"
+			},
+			{
+				"frame": 6,
+				"seId": 0,
+				"seName": "Wind2.ogg"
+			},
+			{
+				"frame": 9,
+				"seId": 0,
+				"seName": "Wind2.ogg"
+			},
+			{
+				"frame": 30,
+				"seId": 0,
+				"seName": "Sand.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 50
+			}
+		],
+		"id": "f9958be6-4f20-42fa-aa6c-4a08fc1d6b1f",
+		"offset": "0;0",
+		"particleId": "43b2e258-fdd5-4cfe-b9d3-52a374ad2daf",
+		"particleName": "光/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Up3.ogg"
+			},
+			{
+				"frame": 15,
+				"seId": 0,
+				"seName": "Reflection.ogg"
+			},
+			{
+				"frame": 15,
+				"seId": 0,
+				"seName": "Sword4.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Reflection.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 10
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 20
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 70,
+				"time": 50
+			}
+		],
+		"id": "6c9deba0-ffe5-4efa-9fb4-66f2255d7444",
+		"offset": "0;0",
+		"particleId": "3eebfcdd-1144-4f7f-bda2-f74a05b3a6e7",
+		"particleName": "光/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Starlight.ogg"
+			},
+			{
+				"frame": 2,
+				"seId": 0,
+				"seName": "Ice5.ogg"
+			},
+			{
+				"frame": 3,
+				"seId": 0,
+				"seName": "Up1.ogg"
+			},
+			{
+				"frame": 65,
+				"seId": 0,
+				"seName": "Sword2.ogg"
+			},
+			{
+				"frame": 75,
+				"seId": 0,
+				"seName": "Sword2.ogg"
+			},
+			{
+				"frame": 85,
+				"seId": 0,
+				"seName": "Sword2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 2
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 20
+			}
+		],
+		"id": "2f3c0099-dcec-4058-a537-b1a813baab8a",
+		"offset": "0;0",
+		"particleId": "335dc016-14bc-481c-8d28-2ca8540acda1",
+		"particleName": "闇/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 80,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 5,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 50
+			}
+		],
+		"id": "7ebd57c7-b979-49a3-ae47-1534fd997c04",
+		"offset": "0;0",
+		"particleId": "f876127b-2578-48f6-bfd4-bec7e4e912bd",
+		"particleName": "闇/単体2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness3.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 130,
+				"time": 50
+			}
+		],
+		"id": "115dd21f-50ed-49bb-bba5-fc862d0c3958",
+		"offset": "0;0",
+		"particleId": "cba31784-49f6-4334-8933-ddeac8aea2f0",
+		"particleName": "闇/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness4.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Thunder3.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Fire9.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Fire9.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Fire9.ogg"
+			},
+			{
+				"frame": 100,
+				"seId": 0,
+				"seName": "Fire9.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 150,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 20
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 100,
+				"time": 50
+			}
+		],
+		"id": "739c0114-490a-410d-91f0-5138f5fed3ee",
+		"offset": "0;0",
+		"particleId": "6bee8fd0-9b2b-495d-ac3b-4ec3f8a26797",
+		"particleName": "闇/全体2",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Teleport.ogg"
+			},
+			{
+				"frame": 30,
+				"seId": 0,
+				"seName": "Blind.ogg"
+			},
+			{
+				"frame": 30,
+				"seId": 0,
+				"seName": "Float2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 30,
+				"time": 50
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 80,
+				"time": 30
+			},
+			{
+				"color": "0,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 140,
+				"time": 40
+			}
+		],
+		"id": "89c9b395-e78a-47d2-a787-b08364effd2c",
+		"offset": "0;0",
+		"particleId": "b85fabe3-3087-431f-9b83-7c3f3147ed27",
+		"particleName": "闇/全体3",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Wind2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic1.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Darkness4.ogg"
+			},
+			{
+				"frame": 65,
+				"seId": 0,
+				"seName": "Magic10.ogg"
+			},
+			{
+				"frame": 65,
+				"seId": 0,
+				"seName": "Blind.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "85,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "790790ef-c1c4-4825-b2db-b3e8f05b730f",
+		"offset": "0;0",
+		"particleId": "76d0b423-1f38-474a-a755-040709897a3c",
+		"particleName": "無属性/単体1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Darkness1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic5.ogg"
+			},
+			{
+				"frame": 45,
+				"seId": 0,
+				"seName": "Particles1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 70,
+		"flashList": [
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "214a1b93-e18c-480e-b759-5f796cd29928",
+		"offset": "0;0",
+		"particleId": "49d1ab5c-4a97-470d-9f86-bb63b6a91d97",
+		"particleName": "無属性/単体2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Explosion2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Particles1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 70,
+				"time": 15
+			},
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 90,
+				"time": 30
+			}
+		],
+		"id": "b1620577-5728-4364-af9a-3f50d4299be4",
+		"offset": "0;0",
+		"particleId": "379e3e9d-42b6-4ed5-860b-ff6264cfc05f",
+		"particleName": "無属性/全体1",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Particles4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "30,255,102",
+				"flashId": 0,
+				"flashType": 0,
+				"frame": 1,
+				"time": 30
+			},
+			{
+				"color": "30,255,102",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 50,
+				"time": 30
+			}
+		],
+		"id": "64661b32-3217-4229-bd75-24da04693288",
+		"offset": "0;0",
+		"particleId": "f4291bed-47f6-4d4c-8e89-1bd8bcea9889",
+		"particleName": "無属性/全体2",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Fire9.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 80,
+				"time": 30
+			},
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 110,
+				"time": 30
+			},
+			{
+				"color": "255,102,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 130,
+				"time": 30
+			}
+		],
+		"id": "da4dea98-aa84-439e-b904-2d99f16ad495",
+		"offset": "0;0",
+		"particleId": "c4a30651-29d7-4152-93e0-d671cd549511",
+		"particleName": "無属性/全体3",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Particles1.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Fire8.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Fire7.ogg"
+			},
+			{
+				"frame": 80,
+				"seId": 0,
+				"seName": "Fire8.ogg"
+			},
+			{
+				"frame": 90,
+				"seId": 0,
+				"seName": "Fire7.ogg"
+			},
+			{
+				"frame": 100,
+				"seId": 0,
+				"seName": "Fire8.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 5
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 5
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 10
+			}
+		],
+		"id": "5120815c-f675-4cab-a4c0-775de7e9849a",
+		"offset": "0;0",
+		"particleId": "13ddf4b1-5c1a-44f8-b76b-5c30a550246b",
+		"particleName": "銃撃/単発",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 0,
+				"seId": 0,
+				"seName": "Gun1.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 5
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 5
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 5
+			}
+		],
+		"id": "59388460-7b42-4375-90f0-6a06a3f5e772",
+		"offset": "0;0",
+		"particleId": "c55298b9-5722-48b3-b60d-29276a8c179a",
+		"particleName": "銃撃/連発",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 0,
+				"seId": 0,
+				"seName": "Gun2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 1,
+				"time": 5
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 10,
+				"time": 5
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 20,
+				"time": 10
+			}
+		],
+		"id": "5f616ef0-32a8-473c-99c9-dd646d45b607",
+		"offset": "0;0",
+		"particleId": "a0cc0a8c-7407-408e-a1cc-50abae8db169",
+		"particleName": "銃撃/全体",
+		"particlePos": 1,
+		"particleType": 2,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Gun1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Crash.ogg"
+			},
+			{
+				"frame": 10,
+				"seId": 0,
+				"seName": "Gun1.ogg"
+			},
+			{
+				"frame": 20,
+				"seId": 0,
+				"seName": "Gun3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 70,
+				"time": 10
+			},
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 120,
+				"time": 10
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 140,
+				"time": 10
+			},
+			{
+				"color": "255,0,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 155,
+				"time": 30
+			},
+			{
+				"color": "255,255,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 200,
+				"time": 30
+			}
+		],
+		"id": "2e44176b-52ba-494f-9391-eb229ba55bf9",
+		"offset": "0;0",
+		"particleId": "1f6e5543-88dc-4a5e-903b-6d7fe442e03c",
+		"particleName": "銃撃/必殺技",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Phone.ogg"
+			},
+			{
+				"frame": 25,
+				"seId": 0,
+				"seName": "Skill1.ogg"
+			},
+			{
+				"frame": 70,
+				"seId": 0,
+				"seName": "Skill2.ogg"
+			},
+			{
+				"frame": 110,
+				"seId": 0,
+				"seName": "Wind6.ogg"
+			},
+			{
+				"frame": 125,
+				"seId": 0,
+				"seName": "Wind6.ogg"
+			},
+			{
+				"frame": 150,
+				"seId": 0,
+				"seName": "Explosion2.ogg"
+			},
+			{
+				"frame": 170,
+				"seId": 0,
+				"seName": "Fire2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 30
+			},
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			},
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 60,
+				"time": 30
+			}
+		],
+		"id": "5880c70c-8b83-481a-99f5-4f970e3e8015",
+		"offset": "0;0",
+		"particleId": "41e339ae-3183-4685-be93-c815804eb4bb",
+		"particleName": "レーザー/単発",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Laser1.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Paralyze2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Evasion2.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 30
+			},
+			{
+				"color": "255,136,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "6ce95828-1dd6-4a2a-a032-136222878a0a",
+		"offset": "0;0",
+		"particleId": "bafc21d2-951d-4f80-8c12-e79c85d7c13d",
+		"particleName": "レーザー/全体",
+		"particlePos": 1,
+		"particleType": 3,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Powerup.ogg"
+			},
+			{
+				"frame": 30,
+				"seId": 0,
+				"seName": "Fire6.ogg"
+			},
+			{
+				"frame": 60,
+				"seId": 0,
+				"seName": "Fire3.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 30
+			},
+			{
+				"color": "102,170,0",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "e17ba90a-4d19-478c-9b5f-e3c799ac2ecc",
+		"offset": "0;0",
+		"particleId": "9c0307d5-1002-4a1d-b1a9-47ac385e56ff",
+		"particleName": "光の柱1",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Up3.ogg"
+			},
+			{
+				"frame": 40,
+				"seId": 0,
+				"seName": "Magic4.ogg"
+			},
+			{
+				"frame": 40,
+				"seId": 0,
+				"seName": "Darkness4.ogg"
+			}
+		],
+		"targetImageName": ""
+	},
+	{
+		"expansion": 100,
+		"flashList": [
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 6,
+				"time": 30
+			},
+			{
+				"color": "255,255,255",
+				"flashId": 0,
+				"flashType": 1,
+				"frame": 40,
+				"time": 30
+			}
+		],
+		"id": "50c36bd7-9f61-4cc5-8fef-5b84a2bbc5fd",
+		"offset": "0;0",
+		"particleId": "c03b5d9e-c328-4754-89b9-49fe633810e9",
+		"particleName": "光の柱2",
+		"particlePos": 1,
+		"particleType": 1,
+		"playSpeed": 100,
+		"rotation": "0;0;0",
+		"seList": [
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Magic2.ogg"
+			},
+			{
+				"frame": 1,
+				"seId": 0,
+				"seName": "Up3.ogg"
+			},
+			{
+				"frame": 40,
+				"seId": 0,
+				"seName": "Flash1.ogg"
+			},
+			{
+				"frame": 40,
+				"seId": 0,
+				"seName": "Darkness4.ogg"
+			}
+		],
+		"targetImageName": ""
+	}
+]

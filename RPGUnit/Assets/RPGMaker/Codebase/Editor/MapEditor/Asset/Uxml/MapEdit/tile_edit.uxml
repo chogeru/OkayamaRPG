@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="two_rows_panel">
+        <ui:VisualElement name="tile_list_container"/>
+        <ui:VisualElement class="two_columns_panel" style="border-top-width: 2px;border-top-color: rgb(25,25,25);">
+            <ui:VisualElement class="two_columns_panel_main">
+                <ui:Label class="panel_title" text="WORD_0583"/>
+                <ui:VisualElement name="file_list_container"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="two_columns_panel_controller">
+                <ui:Button name="load_tile_button" text="WORD_3012" style="margin-top: 24px"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

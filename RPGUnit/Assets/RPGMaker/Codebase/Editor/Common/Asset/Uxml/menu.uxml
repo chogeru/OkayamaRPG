@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="menu.uss" />
+    <ui:VisualElement class="list">
+        <ui:VisualElement name="menu_area" class="menu_list">
+        </ui:VisualElement>
+        <ui:Button text="HELP" name="help_area" class="help" />
+        <ui:VisualElement name="logo_area" class="logo">
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

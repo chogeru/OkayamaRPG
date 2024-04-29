@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0104">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0289"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-initialization-display18"/>
+                    <ui:Label text="WORD_0290"/>
+                    <ui:RadioButton name="radioButton-initialization-display19"/>
+                    <ui:Label text="WORD_0291"/>
+                    <ui:RadioButton name="radioButton-initialization-display20"/>
+                    <ui:Label text="WORD_0292"/>
+                    <ui:RadioButton name="radioButton-initialization-display21"/>
+                    <ui:Label text="WORD_0293"/>
+                    <ui:RadioButton name="radioButton-initialization-display22"/>
+                    <ui:Label text="WORD_0294"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0295"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <uie:IntegerField label="X" picking-mode="Ignore" name="number_integer_x" value="filler text" text="filler text"/>
+                <uie:IntegerField label="Y" picking-mode="Ignore" name="number_integer_y" value="filler text" text="filler text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+    <ui:Foldout name="foldout_2" text="WORD_0115">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0096"/>
+            <ui:VisualElement name="font_select_dropDown"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0097"/>
+            <ui:VisualElement name="font_size_sliderArea" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0098"/>
+            <ui:VisualElement class="color_picker">
+                <ex:ColorFieldBase name="font_color" display-tooltip-when-elided="true"/>
+                <ui:Label text="R G B " name="font_rgb_text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

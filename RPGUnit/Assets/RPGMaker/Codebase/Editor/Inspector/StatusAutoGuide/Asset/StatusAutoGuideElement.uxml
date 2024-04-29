@@ -1,0 +1,61 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0390" display-tooltip-when-elided="true"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Slider picking-mode="Ignore" value="0" name="hp_mp_slider"/>
+                <uie:IntegerField value="0" name="hp_mp_integer"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout name="foldout_1" text="WORD_0391" class="foldout_transparent">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0177" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0178" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0179" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0180" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0181" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0182" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider picking-mode="Ignore" value="0" name="auto_guid_slider"/>
+                    <uie:IntegerField value="0" name="auto_guid_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0393" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField value="30" name="max_integer"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

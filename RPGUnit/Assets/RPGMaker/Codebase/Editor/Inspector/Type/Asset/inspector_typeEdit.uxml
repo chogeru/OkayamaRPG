@@ -1,0 +1,129 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:VisualElement name="attribute_type_list" style="display: none;">
+            <ui:Foldout name="foldout_1" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label picking-mode="Ignore" name="attribute_ID" focusable="true" password="false" readonly="false" multiline="false" style="display: flex; visibility: visible;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField picking-mode="Ignore" name="attribute_name"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0524"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="icon_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                        <ui:Button name="icon_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                        <ui:Label name="icon_image_name" text="" display-tooltip-when-elided="true"/>
+                        <ui:Image name="icon_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_2" text="WORD_1280">
+                <ui:Foldout name="foldout_3" text="同属性" style="padding-left: 20px; display: none;">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="ダメージ倍率"/>
+                        <uie:IntegerField name="sameElement_damage" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_4" text="WORD_1281">
+                    <ex:InspectorItemUnit>
+                        <ui:Button text="WORD_0050" name="advantages_type_button"/>
+                    </ex:InspectorItemUnit>
+                    <ui:ScrollView>
+                        <ui:VisualElement name="advantages_type_list"/>
+                    </ui:ScrollView>
+                    <ex:InspectorItemUnit>
+                        <uie:IntegerField picking-mode="Ignore" name="advantages_type_num" style="display: none;"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_5" text="WORD_1284">
+                    <ex:InspectorItemUnit>
+                        <ui:Button text="WORD_0050" name="inferiority_type_button"/>
+                    </ex:InspectorItemUnit>
+                    <ui:ScrollView>
+                        <ui:VisualElement name="inferiority_type_list"/>
+                    </ui:ScrollView>
+                    <ex:InspectorItemUnit>
+                        <uie:IntegerField picking-mode="Ignore" name="inferiority_type_num" style="display: none;"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+            </ui:Foldout>
+        </ui:VisualElement>
+        <ui:Foldout text="WORD_0380" name="skill_type_list" style="display: none;">
+            <ui:Foldout name="foldout_6" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label picking-mode="Ignore" name="type_edit_skill_ID"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField picking-mode="Ignore" name="type_edit_skill_name"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_7" text="WORD_1286">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1287"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-typeEdit-display1"/>
+                            <ui:Label text="WORD_0052"/>
+                            <ui:RadioButton name="radioButton-typeEdit-display2"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0378" name="weapon_type_list" style="display: none;">
+            <ui:Foldout name="foldout_8" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label picking-mode="Ignore" name="type_edit_weapon_ID"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField picking-mode="Ignore" name="type_edit_weapon_name"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_9" text="WORD_1286">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1288" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="weapon_setting_motion" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0093" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="weapon_setting_image" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Image name="weapon_setting_image_preview" style="width: 100%; height: 120px"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0379" name="armor_type_list" style="display: none;">
+            <ui:Foldout name="foldout_10" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label picking-mode="Ignore" name="type_edit_armor_ID"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField picking-mode="Ignore" name="type_edit_armor_name"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0541" name="equipment_type_list" style="display: none;">
+            <ui:Foldout name="foldout_11" text="WORD_0037">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label picking-mode="Ignore" name="type_edit_equipment_ID"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField picking-mode="Ignore" name="type_edit_equipment_name"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

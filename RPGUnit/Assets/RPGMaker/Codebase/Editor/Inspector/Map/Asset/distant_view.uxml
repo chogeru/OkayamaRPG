@@ -1,0 +1,50 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0776">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0093"/>
+                <ui:VisualElement name="distant_view_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="horizontal_toggle"/>
+                    <ui:Label text="WORD_0769"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider name="horizontal_slider" class="slider"/>
+                    <uie:IntegerField name="horizontal_integerField" class="integerField"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="vertical_toggle"/>
+                    <ui:Label text="WORD_0768"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Slider name="vertical_slider" class="slider"/>
+                    <uie:IntegerField name="vertical_integerField" class="integerField"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="display_toggle"/>
+                    <ui:Label text="WORD_3021"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_3023">
+            <ex:InspectorItemUnit>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-mapEdit-display11"/>
+                        <ui:Label text="WORD_0061"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display12"/>
+                        <ui:Label text="WORD_3026"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display13"/>
+                        <ui:Label text="WORD_3027"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

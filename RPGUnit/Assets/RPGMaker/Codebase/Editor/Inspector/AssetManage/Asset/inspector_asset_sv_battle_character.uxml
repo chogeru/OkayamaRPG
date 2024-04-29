@@ -1,0 +1,396 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0301">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="asset_name" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="asset_description" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0510" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="asset_type"/>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_top_text_battlecharacter_1" text="WORD_1357" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_2" text="WORD_3028" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_3" text="WORD_1358" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_4" text="WORD_0159" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_5" text="WORD_0509" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_6" text="WORD_0254" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_7" text="WORD_1289" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_8" text="WORD_1290" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_9" text="WORD_1291" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_10" text="WORD_1362" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_11" text="WORD_0420" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_12" text="WORD_0068" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_13" text="WORD_0157" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_14" text="WORD_0209" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_15" text="WORD_1364" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_16" text="WORD_0666" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_17" text="WORD_0667" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_top_text_battlecharacter_18" text="WORD_0451" class="top_text">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0348" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement>
+                        <ui:Button name="image_button"/>
+                        <ui:Button name="asset_import" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1352"/>
+                    <uie:Vector2IntField name="asset_image_size" picking-mode="Ignore" style="flex-grow: 1;"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_1353"/>
+                    <uie:IntegerField name="asset_animation_frame" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0716"/>
+                    <uie:IntegerField name="asset_animation_speed" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

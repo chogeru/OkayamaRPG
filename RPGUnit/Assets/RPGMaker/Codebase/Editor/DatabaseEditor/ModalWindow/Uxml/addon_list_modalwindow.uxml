@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="addon_list_modalwindow.uss" />
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement name="system_window_listwindow" class="system_window_listwindow" />
+        <ui:VisualElement name="system_window_commentwindow" class="system_window_commentwindow" />
+        <ui:VisualElement name="system_window_bottomwindow" class="system_window_bottomwindow " >
+            <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                <ui:VisualElement style="flex-grow: 1;" />
+                <ui:Button text="WORD_1529" name="Common_Button_Ok" class="Common_Button" />
+                <ui:Button text="WORD_1530" name="Common_Button_Cancel" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

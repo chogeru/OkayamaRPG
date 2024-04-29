@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0104">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0295" />
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-initialization-display23" />
+                    <ui:Label text="WORD_0297" />
+                    <ui:RadioButton name="radioButton-initialization-display24" />
+                    <ui:Label text="WORD_0298" />
+                    <ui:RadioButton name="radioButton-initialization-display25" />
+                    <ui:Label text="WORD_0299" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>    
+    <ui:Foldout name="foldout_2" text="WORD_0115">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0096" />
+            <ui:VisualElement name="font_select_dropDown" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0097" />
+            <ui:VisualElement name="font_size_sliderArea" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0098" />
+            <ui:VisualElement class="color_picker">
+                <ex:ColorFieldBase name="font_color" display-tooltip-when-elided="true" />
+                <ui:Label text="R G B " name="font_rgb_text" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

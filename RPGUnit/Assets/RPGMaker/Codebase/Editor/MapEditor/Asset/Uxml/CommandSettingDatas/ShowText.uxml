@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement>
+        <Style src="ShowText.uss" />
+        <ui:VisualElement style="flex-direction: row;">
+            <ui:VisualElement style="width: 150px;">
+                <ui:Label text="Face:" />
+                <ui:VisualElement name="imageView" style="width: 100px; height: 100px;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-direction: column;">
+                <ui:VisualElement style="height: 200px;">
+                    <ex:ImTextField name="textField" picking-mode="Ignore" label="Text:" value="filler text" text=""  multiline="true" style="flex-direction: column; height: 200px;" />
+                </ui:VisualElement>
+                <ui:VisualElement style="height: 40px; flex-direction: row;">
+                    <ui:VisualElement name="Background">
+                        <uie:EnumField label="Enum" value="Center" style="flex-direction: column;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="WindowPosition">
+                        <uie:EnumField label="Enum" value="Center" style="flex-direction: column;" />
+                    </ui:VisualElement>
+                    <ui:Button text="Preview..." name="ButtonPreview" style="height: 20px; justify-content: flex-end; flex-direction: column-reverse; top: 20px; width: 120px;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-direction: row-reverse;">
+            <ui:Button text="Cancel" name="ButtonCancel" />
+            <ui:Button text="Ok" name="ButtonOk" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

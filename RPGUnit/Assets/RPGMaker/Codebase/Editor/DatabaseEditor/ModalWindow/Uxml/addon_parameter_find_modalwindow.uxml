@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="addon_parameter_find_modalwindow.uss" />
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement class="system_window_topwindow" style="align-items: stretch; flex-direction: row; justify-content: flex-end; flex-grow: 1;">
+            <ui:VisualElement name="system_window_leftwindow" class="system_window_leftwindow" >
+                <ui:VisualElement name="system_window_patternwindow" class="system_window_patternwindow" />
+                <ui:VisualElement name="system_window_matchwindow" class="system_window_matchwindow" />
+            </ui:VisualElement>
+            <ui:VisualElement class="horizontal_space" />
+            <ui:VisualElement name="system_window_rightwindow" class="system_window_rightwindow" >
+                <ui:Button text="WORD_1465" name="Common_Button_Next" class="Common_Button" />
+                <ui:Button text="WORD_1466" name="Common_Button_Previous" class="Common_Button" />
+                <ui:Button text="WORD_2004" name="Common_Button_Close" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

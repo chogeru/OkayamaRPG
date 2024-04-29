@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_replaceMember" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1089" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0301" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="actor"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0893" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display17"/>
+                    <ui:Label text="WORD_1090" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display18"/>
+                    <ui:Label text="WORD_1091" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1092" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement name="toggle_contents" class="multiple_item_in_row">
+                    <ui:VisualElement class="multiple_item_in_row toggle_contents">
+                        <ui:RadioButton name="radioButton-eventCommand-display19"/>
+                        <ui:Label text="WORD_1093" display-tooltip-when-elided="true"/>
+                        <ui:RadioButton name="radioButton-eventCommand-display20"/>
+                        <ui:Label text="WORD_0061" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

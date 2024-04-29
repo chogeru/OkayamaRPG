@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout text="WORD_0557" name="battleSettingFoldout">
+        <ui:Button text="WORD_0558" name="battleSceneButton" class="AnalyticsTag__page_view__battle_scene" />
+        <ui:Foldout text="WORD_0559" name="enemyCharacterFoldout" class="AnalyticsTag__page_view__enemy">
+            <ui:VisualElement name="enemyCharacterListContainer" />
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0564" name="enemyGroupFoldout" class="AnalyticsTag__page_view__troop">
+            <ui:VisualElement name="enemyGroupListContainer" />
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0829" name="encounterSettingFoldout" style="display: none;">
+            <ui:VisualElement name="encounterSettingListContainer" />
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

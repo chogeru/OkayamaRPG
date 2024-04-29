@@ -1,0 +1,137 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="armor_id"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="armor_name"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0524"/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="icon_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="icon_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="icon_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="icon_image"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0423"/>
+                <ex:ImTextField name="armor_description"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0379"/>
+                <ui:VisualElement name="armor_equipment_type"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0541"/>
+                <ui:VisualElement name="armor_type"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0527"/>
+                <uie:IntegerField name="armor_price"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0528"/>
+                <uie:IntegerField name="armor_sell"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0529"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="row">
+                        <ui:VisualElement class="row">
+                            <ui:RadioButton name="radioButton-equipItem-display5"/>
+                            <ui:Label text="WORD_0530"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="row">
+                            <ui:RadioButton name="radioButton-equipItem-display6"/>
+                            <ui:Label text="WORD_0531"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0532"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="row">
+                        <ui:VisualElement class="row">
+                            <ui:RadioButton name="radioButton-equipItem-display7"/>
+                            <ui:Label text="WORD_0052"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement class="row">
+                            <ui:RadioButton name="radioButton-equipItem-display8"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0534">
+            <ui:Foldout name="foldout_3" text="WORD_0389" class="armor_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0535"/>
+                    <uie:IntegerField name="armor_level"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Button text="WORD_0394" name="disp_auto_guide"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0178"/>
+                    <ui:Label name="armor_cant_enter0"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0527"/>
+                    <ui:Label name="armor_cant_enter1"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0528"/>
+                    <ui:Label name="armor_cant_enter2"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0537" name="status_edit" class="armor_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0177"/>
+                    <uie:IntegerField name="armor_num2"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0178"/>
+                    <uie:IntegerField name="armor_num3"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0179"/>
+                    <uie:IntegerField name="armor_num4"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0180"/>
+                    <uie:IntegerField name="armor_num5"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0181"/>
+                    <uie:IntegerField name="armor_num6"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0182"/>
+                    <uie:IntegerField name="armor_num7"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0395"/>
+                    <uie:IntegerField name="armor_num0"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0539"/>
+                    <uie:IntegerField name="armor_num1"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0347">
+            <ui:VisualElement name="armor_traits"/>
+        </ui:Foldout>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0044"/>
+            <ex:ImTextField name="armor_memo" multiline="true" max-length="140"/>
+        </ex:InspectorItemUnit>
+    </ui:ScrollView>
+</ui:UXML>

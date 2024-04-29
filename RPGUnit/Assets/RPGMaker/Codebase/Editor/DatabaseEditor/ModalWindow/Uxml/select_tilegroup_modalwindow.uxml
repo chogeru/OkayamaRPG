@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="select_tilegroup_modalwindow.uss" />
+    <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row;">
+        <ui:VisualElement name="system_window_leftwindow" class="system_window_leftwindow" />
+        <ui:VisualElement name="iconwindow" style="flex-direction: row;" />
+        <ui:VisualElement name="system_window_iconwindow"/>
+        <ui:VisualElement name="system_window_rightwindow">
+            <ui:VisualElement name="tile_list"/>
+            <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                <ui:Button text="OK" name="Common_Button_Ok" class="Common_Button" />
+                <ui:Button text="Cancel" name="Common_Button_Cancel" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

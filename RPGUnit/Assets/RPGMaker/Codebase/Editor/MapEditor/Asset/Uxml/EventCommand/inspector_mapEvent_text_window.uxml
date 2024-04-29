@@ -1,0 +1,81 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_textWindow">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1191" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Button text="WORD_0991" name="ButtonPreview"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0841" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="character" value="Center"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0093"/>
+            <ui:VisualElement>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="face_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="face_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="face_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="face_image"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="picture_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="picture_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="picture_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="picture_image"/>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="nameText" picking-mode="Ignore"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1192" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display1"/>
+                    <ui:Label text="WORD_0060" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display2"/>
+                    <ui:Label text="WORD_0061" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1193" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display3"/>
+                    <ui:Label text="WORD_0060" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display4"/>
+                    <ui:Label text="WORD_0061" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1194" display-tooltip-when-elided="true"/>
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display5"/>
+                    <ui:Label text="WORD_0060" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display6"/>
+                    <ui:Label text="WORD_0061" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0780" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="backGround" label="WORD_0780" value="Center"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1204" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="windowPosition" label="ウィンドウの位置" value="Center"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

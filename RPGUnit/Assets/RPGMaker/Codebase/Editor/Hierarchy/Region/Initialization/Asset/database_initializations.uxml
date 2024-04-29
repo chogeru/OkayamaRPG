@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0062">
+        <ui:Button text="WORD_1295" name="title_button" class="AnalyticsTag__page_view__title"/>
+        <ui:Foldout name="foldout_2" text="WORD_0064" class="AnalyticsTag__page_view__ui_setting">
+            <ui:Button text="WORD_0065" name="common_setting"/>
+            <ui:Foldout name="foldout_3" text="WORD_0066">
+                <ui:Button text="WORD_0067" name="game_menu_0"/>
+                <ui:Button text="WORD_0068" name="game_menu_1"/>
+                <ui:Button text="WORD_0069" name="game_menu_2"/>
+                <ui:Button text="WORD_0070" name="game_menu_3"/>
+                <ui:Button text="WORD_0071" name="game_menu_4"/>
+                <ui:Button text="WORD_0072" name="game_menu_5"/>
+                <ui:Button text="WORD_0073" name="game_menu_6"/>
+                <ui:Button text="WORD_0074" name="game_menu_7"/>
+                <ui:Button text="WORD_0075" name="game_menu_8"/>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_4" text="WORD_0076">
+                <ui:Button text="WORD_0067" name="battle_menu_0"/>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_5" text="WORD_0296">
+                <ui:Button text="WORD_0079" name="talk_window_0"/>
+                <ui:Button text="WORD_0080" name="talk_window_1"/>
+                <ui:Button text="WORD_0081" name="talk_window_2"/>
+                <ui:Button text="WORD_0082" name="talk_window_3"/>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_6" text="WORD_0083" class="AnalyticsTag__page_view__word">
+            <ui:Button text="WORD_0084" name="term_0"/>
+            <ui:Button text="WORD_0085" name="term_1"/>
+            <ui:Button text="WORD_0086" name="term_2"/>
+            <ui:Button text="WORD_0087" name="term_3"/>
+            <ui:Button text="WORD_0088" name="term_4"/>
+        </ui:Foldout>
+        <ui:Button text="WORD_0073" name="option" class="AnalyticsTag__page_view__option"/>
+        <ui:Button text="WORD_0055" name="environment" class="AnalyticsTag__page_view__environment"/>
+    </ui:Foldout>
+</ui:UXML>

@@ -1,0 +1,45 @@
+#basic_assets_label {
+    background-image: resource("Assets/RPGMaker/Storage/System/Images/Dialog/basic_assets.png");
+}
+
+#full_game_label {
+    background-image: resource("Assets/RPGMaker/Storage/System/Images/Dialog/full_game_asset.png");
+}
+
+.row {
+    flex-direction: row;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+.row_center {
+    margin-top: 20px;
+    flex-direction: row;
+    align-self: center;
+}
+.row_path {
+    flex-direction: row;
+}
+.row_reverse_element {
+    width: 75px;
+}
+.class_base{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.class_description {
+    margin-bottom: 20px;
+}
+.class_toggle{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.class_path{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.class_path_bottom_margin{
+    margin-bottom: 5px;
+}

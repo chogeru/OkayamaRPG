@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="battle_enemy_state">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                <ui:Label text="WORD_1106" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="enemy_area">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0559"/>
+                <ui:VisualElement name="enemy_select"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0893"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display157"/>
+                        <ui:Label text="WORD_0901"/>
+                        <ui:RadioButton name="radioButton-eventCommand-display158"/>
+                        <ui:Label text="WORD_0902"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0602"/>
+                <ui:VisualElement name="state_select"/>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

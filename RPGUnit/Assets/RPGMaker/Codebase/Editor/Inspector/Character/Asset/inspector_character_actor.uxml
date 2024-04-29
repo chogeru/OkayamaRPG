@@ -1,0 +1,138 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="inspector_character.uss"/>
+    <ui:ScrollView>
+        <ui:VisualElement name="actor_area">
+            <ui:Foldout name="foldout_1" text="WORD_0301">
+                <ui:Foldout name="foldout_2" text="WORD_0037">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0038"/>
+                        <ui:Label name="actor_id_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0039"/>
+                        <ex:ImTextField name="actor_name_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0336"/>
+                        <ui:VisualElement name="class_dropdown" width="10"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0337"/>
+                        <ex:ImTextField name="actor_secondName_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0338"/>
+                        <uie:IntegerField name="initialLevel_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0368"/>
+                        <uie:IntegerField name="maxLevel_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0339"/>
+                        <ex:ImTextField name="profile_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0044"/>
+                        <ex:ImTextField name="memo_text" picking-mode="Ignore" multiline="true" max-length="140"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_3" text="WORD_0340">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0341"/>
+                        <ui:Label name="actor_class_element_text" picking-mode="Ignore"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0340"/>
+                        <ui:VisualElement name="actor_class_dropdown" width="10"/>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_4" text="WORD_0342">
+                    <ui:VisualElement name="initial_equips"/>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_5" text="WORD_0347">
+                    <ui:VisualElement name="class_traits_area"/>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_6" text="WORD_0348">
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0110"/>
+                        <ui:VisualElement class="image_manage_unit">
+                            <ui:Button name="actor_face_change_btn" text="WORD_0583"/>
+                            <ui:Button name="actor_face_import_btn" text="WORD_0047"/>
+                            <ui:Label name="actor_face_image_name"/>
+                            <ui:Image name="actor_face_image"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0111"/>
+                        <ui:VisualElement>
+                            <ui:VisualElement class="image_manage_unit">
+                                <ui:Button name="actor_map_change_btn" text="WORD_0583"/>
+                                <ui:Label name="actor_map_image_name"/>
+                                <ui:Image name="actor_map_image"/>
+                            </ui:VisualElement>
+                            <ui:VisualElement class="image_manage_unit">
+                                <ui:Button name="actor_battle_change_btn" text="WORD_0583"/>
+                                <ui:Label name="actor_battle_image_name"/>
+                                <ui:Image name="actor_battle_image"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0112"/>
+                        <ui:VisualElement class="image_manage_unit">
+                            <ui:Button name="actor_adv_change_btn" text="WORD_0583"/>
+                            <ui:Button name="actor_adv_import_btn" text="WORD_0047"/>
+                            <ui:Label name="actor_adv_image_name"/>
+                            <ui:Image name="actor_adv_image"/>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                </ui:Foldout>
+            </ui:Foldout>
+        </ui:VisualElement>
+        <ui:VisualElement name="npc_area">
+            <ui:Foldout name="foldout_7" text="WORD_0306">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0038"/>
+                    <ui:Label name="npc_id_text" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0039"/>
+                    <ex:ImTextField name="npc_name_text" picking-mode="Ignore"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0044"/>
+                    <ex:ImTextField name="npc_memo_text" picking-mode="Ignore" multiline="true" max-length="140"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_8" text="WORD_0348">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0110"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="npc_face_change_btn" text="WORD_0583"/>
+                        <ui:Button name="npc_face_import_btn" text="WORD_0047"/>
+                        <ui:Label name="npc_face_image_name"/>
+                        <ui:Image name="npc_face_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0111"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="npc_map_change_btn" text="WORD_0583"/>
+                        <ui:Label name="npc_map_image_name"/>
+                        <ui:Image name="npc_map_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0112"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="npc_adv_change_btn" text="WORD_0583"/>
+                        <ui:Button name="npc_adv_import_btn" text="WORD_0047"/>
+                        <ui:Label name="npc_adv_image_name"/>
+                        <ui:Image name="npc_adv_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

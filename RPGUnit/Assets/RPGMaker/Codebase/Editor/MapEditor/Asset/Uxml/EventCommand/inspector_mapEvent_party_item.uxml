@@ -1,0 +1,45 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_itemIncreaseDecrease" focusable="false">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1100" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="party_area">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0068" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="item" style="width: auto; height: auto; min-width: 50px;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0893" display-tooltip-when-elided="true"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display29"/>
+                        <ui:Label text="WORD_0894" display-tooltip-when-elided="true"/>
+                        <ui:RadioButton name="radioButton-eventCommand-display30"/>
+                        <ui:Label text="WORD_0895" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+            <ui:Foldout text="WORD_0897" value="true">
+                <ui:GroupBox>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-eventCommand-display31"/>
+                            <ui:Label text="WORD_0820" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <uie:IntegerField name="constantNum"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-eventCommand-display32"/>
+                            <ui:Label text="WORD_0839" display-tooltip-when-elided="true"/>
+                        </ui:VisualElement>
+                        <ui:VisualElement name="variable"/>
+                    </ex:InspectorItemUnit>
+                </ui:GroupBox>
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

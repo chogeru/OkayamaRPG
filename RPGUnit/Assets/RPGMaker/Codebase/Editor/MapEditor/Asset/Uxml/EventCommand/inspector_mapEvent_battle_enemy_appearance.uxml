@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="battle_enemy_appearance">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true" />
+                <ui:Label text="WORD_1107" />
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:VisualElement name="enemy_area">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0559"/>
+                <ui:VisualElement name="enemy_select"/>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

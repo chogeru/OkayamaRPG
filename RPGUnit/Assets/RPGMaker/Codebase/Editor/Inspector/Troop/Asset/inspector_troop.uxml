@@ -1,0 +1,110 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038" display-tooltip-when-elided="true"/>
+                <ui:Label name="enemyGroup_id" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField label="" name="enemyGroup_name" picking-mode="Ignore"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Button text="WORD_0607" name="enemy_name_random" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0824">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0297" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Label name="battle_scene_bg_bottom_image_name"/>
+                    <ui:Button name="battle_scene_bg_bottom_image_change" text="WORD_0583"/>
+                    <ui:Button name="battle_scene_bg_bottom_image_import" text="WORD_0047"/>
+                    <ui:Image name="battle_scene_bg_bottom_image" style="display:none"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0299" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Label name="battle_scene_bg_top_image_name"/>
+                    <ui:Button name="battle_scene_bg_top_image_change" text="WORD_0583"/>
+                    <ui:Button name="battle_scene_bg_top_image_import" text="WORD_0047"/>
+                    <ui:Image name="battle_scene_bg_top_image" style="display:none"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:VisualElement name="front_view_switch"/>
+        <ui:VisualElement name="side_view_switch"/>
+        <ui:Foldout text="WORD_0565" name="battle_event">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0622" display-tooltip-when-elided="true"/>
+                    <ui:Label name="event_page" text="" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_3" text="WORD_0623" class="enemyGroup">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0624"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0625" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0626" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row" name="turn_area">
+                        <uie:IntegerField name="turn_param" picking-mode="Ignore"/>
+                        <ui:Label text="WORD_1516" display-tooltip-when-elided="true"/>
+                        <uie:IntegerField name="turn_param" picking-mode="Ignore"/>
+                        <ui:Label text="*X" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0627" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row" name="enemy_area">
+                        <ui:VisualElement name="enemy_dropdown"/>
+                        <uie:IntegerField name="enemy_param" picking-mode="Ignore"/>
+                        <ui:Label text="%" display-tooltip-when-elided="true"/>
+                        <ui:Label text="WORD_0628" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0629" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row" name="actor_area">
+                        <ui:VisualElement name="actor_dropdown"/>
+                        <uie:IntegerField name="actor_param" picking-mode="Ignore"/>
+                        <ui:Label text="%" display-tooltip-when-elided="true"/>
+                        <ui:Label text="WORD_0628" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="battle_event_toggle"/>
+                        <ui:Label text="WORD_0630" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="switch_dropdown"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_4" text="WORD_1641" class="enemyGroup">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0631" display-tooltip-when-elided="true"/>
+                    <ui:VisualElement name="enemyGroup_span_dropdown"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

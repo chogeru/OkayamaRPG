@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="select_modal_window_common.uss"/>
+    <ui:VisualElement class="container">
+        <ui:VisualElement name="system_window_leftwindow" class="selector_pane"/>
+        <ui:VisualElement name="system_window_rightwindow" class="preview_pane">
+            <ui:VisualElement name="titlefield" class="image_pane">
+                <ui:ScrollView mode="VerticalAndHorizontal" class="image_scroll_view" style="flex-grow: 1;">
+                    <ui:VisualElement name="image" class="image_container"/>
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement class="button_pane">
+                <ui:Button text="WORD_0792" name="Common_Button_Ok"/>
+                <ui:Button text="WORD_1530" name="Common_Button_Cancel"/>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

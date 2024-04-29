@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement class="map_edit_container">
+        <ui:VisualElement name="map_canvas_container" class="map_canvas_container"/>
+        <ui:VisualElement name="control_panel_container" class="control_panel_container">
+            <ui:VisualElement name="point_label_container" class="point_label_container"/>
+            <ui:VisualElement name="layer_inventory_main_container" class="layer_inventory_main_container"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

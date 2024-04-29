@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_1321">
+        <ui:VisualElement name="asset_manage_list"/>
+        <ui:Foldout name="foldout_2" text="WORD_0287" class="AnalyticsTag__page_view__resource_character">
+            <ui:Foldout text="WORD_0111" name="walkingCharacterFoldout">
+                <ui:VisualElement name="walkingCharacterListContainer"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1326" name="objectFoldout">
+                <ui:VisualElement name="objectListContainer"/>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0954" name="popupIconFoldout" class="AnalyticsTag__page_view__resource_ballon_icon">
+            <ui:VisualElement name="popupIconListContainer"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_1335" name="foldout_sv_battle_list" class="AnalyticsTag__page_view__resource_sv_character">
+            <ui:Foldout text="WORD_0301" name="actorFoldout">
+                <ui:VisualElement name="actorListContainer"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0128" name="weaponFoldout">
+                <ui:VisualElement name="weaponListContainer"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1344" name="stateOverlapFoldout">
+                <ui:VisualElement name="stateListContainer"/>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0703" name="battleEffectFoldout" class="AnalyticsTag__page_view__resource_battle_effect">
+            <ui:VisualElement name="battleEffectListContainer"/>
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

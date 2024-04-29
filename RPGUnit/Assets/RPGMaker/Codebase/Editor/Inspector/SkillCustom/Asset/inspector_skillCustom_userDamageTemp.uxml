@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ex:InspectorItemUnit>
+        <ui:Label text="WORD_0510"/>
+        <ui:VisualElement name="item_user_impact_damage_type"/>
+    </ex:InspectorItemUnit>
+    <ui:VisualElement name="item_user_impact_damage_area">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0480"/>
+            <ui:VisualElement name="item_user_impact_attribute_type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_0493"/>
+            </ui:VisualElement>
+            <ex:ImTextField name="item_user_impact_damage_formula"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="item_user_impact_damage_dispersity_toggle"/>
+                <ui:Label text="WORD_0469"/>
+            </ui:VisualElement>
+            <ui:VisualElement class="multiple_item_in_row" name="item_user_impact_damage_dispersity_contents">
+                <uie:IntegerField name="item_user_impact_damage_dispersity" class="toggle_contents"/>
+                <ui:Label text="%" class="toggle_contents"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0497"/>
+            <ui:VisualElement name="item_user_impact_satisfaction"/>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

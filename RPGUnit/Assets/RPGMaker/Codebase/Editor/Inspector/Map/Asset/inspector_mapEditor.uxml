@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:VisualElement name="menu_layout" class="initial_setting" style="height: 30px; flex-direction: row;">
+            <ui:Button text="WORD_0001" display-tooltip-when-elided="true" name="outline_button" style="width: 70px;" />
+            <ui:Button text="WORD_0027" display-tooltip-when-elided="true" name="map_button" style="width: 70px;" />
+            <ui:Button text="WORD_0014" display-tooltip-when-elided="true" name="event_button" style="width: 70px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="menu_event_layout" class="initial_setting" style="height: auto;" />
+        <ui:VisualElement name="menu_command_layout" class="initial_setting" style="height: auto;" />
+    </ui:ScrollView>
+</ui:UXML>

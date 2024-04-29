@@ -1,0 +1,155 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_variableControl">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1015" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display91"/>
+                    <ui:Label text="WORD_1013" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="sole"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display92"/>
+                    <ui:Label text="WORD_1014" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label display-tooltip-when-elided="true"/>
+                    <uie:IntegerField picking-mode="Ignore" name="range_min"/>
+                    <ui:Label text="～" display-tooltip-when-elided="true"/>
+                    <uie:IntegerField picking-mode="Ignore" name="range_max"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:GroupBox>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0893" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="control"/>
+        </ex:InspectorItemUnit>
+        <ui:GroupBox>
+            <ui:Foldout text="WORD_0897" value="true">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display93"/>
+                        <ui:Label text="WORD_0820" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <uie:IntegerField picking-mode="Ignore" name="constant"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display94"/>
+                        <ui:Label text="WORD_0839" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="variable"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display95"/>
+                        <ui:Label text="WORD_1020" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Label display-tooltip-when-elided="true"/>
+                        <uie:IntegerField picking-mode="Ignore" name="rand_min"/>
+                        <ui:Label text="～" display-tooltip-when-elided="true"/>
+                        <uie:IntegerField picking-mode="Ignore" name="rand_max"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1021" value="true">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display96"/>
+                        <ui:Label text="WORD_1022" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="itemNum"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display97"/>
+                        <ui:Label text="WORD_1023" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="weapon"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display98"/>
+                        <ui:Label text="WORD_1024" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:VisualElement name="equipmentList"/>
+                        <ui:VisualElement name="armorType"/>
+                        <ui:VisualElement name="armorList"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display99"/>
+                        <ui:Label text="WORD_0301" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:VisualElement name="actorList"/>
+                        <ui:VisualElement name="statusList"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display100"/>
+                        <ui:Label text="WORD_0443" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:VisualElement name="enemyList"/>
+                        <ui:VisualElement name="enemyStatusList"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+    
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display101"/>
+                        <ui:Label text="WORD_0287" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:VisualElement name="eventList"/>
+                        <ui:VisualElement name="dataList"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement style="align-self: center;" class="multiple_item_in_row one_step_off">
+                        <ui:Label text="WORD_0043" />
+                    </ui:VisualElement>
+                    <ui:VisualElement>
+                        <ui:VisualElement name="provisional_map_popupfield_container" />
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+    
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display102"/>
+                        <ui:Label text="WORD_1029" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:VisualElement name="sortOderList"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display103"/>
+                        <ui:Label text="WORD_1034" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="justBeforList"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-eventCommand-display104"/>
+                        <ui:Label text="WORD_0868" display-tooltip-when-elided="true"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="otherList"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

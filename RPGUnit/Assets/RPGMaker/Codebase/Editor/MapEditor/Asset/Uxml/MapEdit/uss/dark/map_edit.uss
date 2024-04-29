@@ -1,0 +1,54 @@
+.map_edit_container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.map_canvas_container {
+    flex-grow: 1;
+}
+
+.map_canvas_container MapEditCanvas {
+    width: 100%;
+    height: 10px;
+}
+
+.control_panel_container {
+    flex-grow: 1;
+    height: 300px;    
+    /*flex-basis: 300px;*/
+}
+
+.point_label_container {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 2px 4px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(80, 80, 80);
+}
+
+.point_label_container Label {
+    color: #FFF !important;
+}
+
+.layer_inventory_container,
+.tile_inventory_container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.layer_inventory_main_container,
+.tile_inventory_main_container {
+    flex-grow: 1;
+}
+
+.layer_inventory_controller_container,
+.tile_inventory_controller_container {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 200px;
+    border-left-width: 1px;
+    border-left-color: rgb(80, 80, 80);
+}

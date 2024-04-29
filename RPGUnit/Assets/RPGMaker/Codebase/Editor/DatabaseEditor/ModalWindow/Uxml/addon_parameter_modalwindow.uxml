@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="addon_parameter_modalwindow.uss" />
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement class="system_window_topwindow" style="align-items: stretch; flex-direction: row; justify-content: flex-end; flex-grow: 1;">
+            <ui:VisualElement name="system_window_leftwindow" class="system_window_leftwindow" >
+                <ui:VisualElement name="system_window_leftupwindow" class="system_window_leftupwindow" >
+                    <ui:VisualElement name="system_window_namestatusauthorwindow" class="system_window_namestatusauthorwindow" style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                        <ui:VisualElement name="system_window_namewindow" class="system_window_namewindow" />
+                        <ui:VisualElement name="system_window_statuswindow" class="system_window_statuswindow" />
+                        <ui:VisualElement name="system_window_authorwindow" class="system_window_authorwindow" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="system_window_descriptionwindow" class="system_window_descriptionwindow" />
+                    <ui:VisualElement name="system_window_urlwindow" class="system_window_urlwindow" />
+                </ui:VisualElement>
+                <ui:VisualElement class="vertical_space" />
+                <ui:VisualElement name="system_window_leftdownwindow" class="system_window_leftdownwindow" >
+                    <ui:VisualElement name="system_window_helpwindow" class="system_window_helpwindow" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement class="horizontal_space" />
+            <ui:VisualElement name="system_window_rightwindow" class="system_window_rightwindow" />
+        </ui:VisualElement>
+
+        <ui:VisualElement name="system_window_bottomwindow" class="system_window_bottomwindow " >
+            <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                <ui:VisualElement style="flex-grow: 1;" />
+                <ui:Button text="WORD_1529" name="Common_Button_Ok" class="Common_Button" />
+                <ui:Button text="WORD_1530" name="Common_Button_Cancel" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

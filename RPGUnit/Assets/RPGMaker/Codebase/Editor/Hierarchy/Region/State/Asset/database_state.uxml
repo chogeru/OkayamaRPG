@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0657">
+        <ui:Foldout name="foldout_2" text="WORD_0658" class="AnalyticsTag__page_view__state_basic">
+            <ui:Button text="WORD_0451" name="unable_fight_state_button"/>
+            <ui:Button text="WORD_0159" name="defense_state_button"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0659" name="customStateFoldout" class="AnalyticsTag__page_view__state_custom">
+            <ui:VisualElement name="state_custom_list"/>
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

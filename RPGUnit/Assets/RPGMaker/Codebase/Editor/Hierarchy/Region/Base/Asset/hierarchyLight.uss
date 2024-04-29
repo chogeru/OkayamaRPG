@@ -1,0 +1,168 @@
+/*---------------------------------------------------------------------------------------------------------------------- 
+ Foldoutの左マージン調整
+ ---------------------------------------------------------------------------------------------------------------------*/
+Label, Button {
+    color: #000;
+}
+
+.top_foldout .unity-toggle {
+    background-color: rgb(232, 232, 232) !important;
+}
+
+.unity-foldout > .unity-toggle {
+    background-color: rgb(232, 232, 232);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200, 200, 200);
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.unity-foldout > .unity-foldout__content > .unity-button {
+    padding-left: 15px;
+}
+
+.unity-toggle__checkmark {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.unity-foldout--depth-0 > * {
+    margin-left: 40px;
+}
+
+.unity-foldout--depth-0 > .unity-toggle,
+.unity-foldout--depth-0 > .unity-foldout__content {
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.unity-foldout--depth-1 > .unity-toggle,
+.unity-foldout--depth-1 > .unity-foldout__content {
+    margin-left: -15px;
+    padding-left: 15px;
+}
+
+.unity-foldout--depth-2 > .unity-toggle,
+.unity-foldout--depth-2 > .unity-foldout__content {
+    margin-left: -15px;
+    padding-left: 45px;
+}
+
+.unity-foldout--depth-3 > .unity-toggle,
+.unity-foldout--depth-3 > .unity-foldout__content {
+    margin-left: -45px;
+    padding-left: 60px;
+}
+
+.unity-foldout--depth-4 > .unity-toggle,
+.unity-foldout--depth-4 > .unity-foldout__content {
+    margin-left: -60px;
+    padding-left: 75px;
+}
+.unity-foldout--depth-max > .unity-toggle,
+.unity-foldout--depth-max > .unity-foldout__content {
+    margin-left: -75px;
+    padding-left: 90px;
+}
+
+.unity-foldout--depth-0 .unity-button {
+    margin-left: -15px;
+    padding-left: 35px;
+}
+
+.unity-foldout--depth-1 .unity-button {
+    margin-left: -15px;
+    padding-left: 63px;
+}
+
+.unity-foldout--depth-2 .unity-button {
+    margin-left: -45px;
+    padding-left: 82px;
+}
+
+.unity-foldout--depth-3 .unity-button {
+    margin-left: -60px;
+    padding-left: 95px;
+}
+
+.unity-foldout--depth-4 .unity-button {
+    margin-left: -75px;
+    padding-left: 110px;
+}
+.unity-foldout--depth-max .unity-button {
+    margin-left: -90px;
+    padding-left: 125px;
+}
+
+.unity-scroll-view__content-viewport {
+    overflow: visible !important;
+}
+
+.unity-scroll-view--vertical.unity-scroll-view--scroll > .unity-scroll-view__content-viewport > .unity-scroll-view__content-container {
+    overflow: visible !important;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ Foldoutのスタイル
+ ---------------------------------------------------------------------------------------------------------------------*/
+.unity-foldout:hover .unity-foldout__toggle:hover {
+    background-color: rgba(184, 184, 184, 1);
+}
+
+.unity-foldout.active > .unity-foldout__toggle {
+    background-color: rgba(44, 93, 135, 1);
+}
+
+.unity-foldout.active > .unity-foldout__toggle:hover {
+    background-color: rgba(44, 93, 135, 1);
+}
+
+.unity-foldout.active > Label {
+    color: #FFF;
+}
+
+/*.unity-foldout--depth-0 > .unity-foldout__toggle {
+    background-color: rgba(77, 77, 77, 1);
+}*/
+
+/*---------------------------------------------------------------------------------------------------------------------- 
+ ボタンのスタイル
+ ---------------------------------------------------------------------------------------------------------------------*/
+.unity-button {
+    visibility: visible;
+    white-space: nowrap;
+    -unity-text-align: middle-left;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0);
+
+    background-color: rgb(232, 232, 232);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(200, 200, 200);
+    border-radius: 0;
+
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+.unity-button:hover {
+    background-color: rgba(184, 184, 184, 1);
+}
+
+.unity-button.active {
+    background-color: rgba(44, 93, 135, 1);
+    color: #FFF;
+}
+
+.unity-button.active:hover {
+}
+
+Label.active {
+    color: #FFF;
+}

@@ -1,0 +1,126 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ui:GroupBox>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-battleEdit-display1" class="toggle_foldout"/>
+                    <ui:Foldout text="WORD_0608" name="battle_scene_frontView" class="foldout_transparent">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit name="battle_scene_front_type_toggles" style="display:none;"/>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0637" picking-mode="Ignore"/>
+                                <uie:IntegerField label="Y:" name="battle_scene_front_y" picking-mode="Ignore"/>
+                            </ex:InspectorItemUnit>
+                            <ui:VisualElement style="flex-direction: row;">
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-battleEdit-display2" class="toggle_foldout"/>
+                    <ui:Foldout text="WORD_0616" name="battle_scene_sideView" class="foldout_transparent ">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0638" class="unity-base-field__label" display-tooltip-when-elided="true"/>
+                                <ui:VisualElement class="multiple_item_in_row">
+                                    <uie:IntegerField label="X:" name="battle_scene_side_x" picking-mode="Ignore"/>
+                                    <uie:IntegerField label="Y:" name="battle_scene_side_y" picking-mode="Ignore"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0639"/>
+                                <uie:IntegerField class="unity-base-field__label" name="battle_scene_side_party_inclined" picking-mode="Ignore"/>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0640"/>
+                                <uie:IntegerField class="unity-base-field__label" name="battle_scene_side_actor_y" picking-mode="Ignore"/>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0641"/>
+                                <uie:IntegerField class="unity-base-field__label" name="battle_scene_side_enemy_inclined" picking-mode="Ignore"/>
+                            </ex:InspectorItemUnit>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0642">
+            <ex:InspectorItemUnit>
+                <ui:Button name="battle_scene_map_test_exec" text="WORD_0643" display-tooltip-when-elided="true"/>
+            </ex:InspectorItemUnit>
+            <ui:GroupBox>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-battleEdit-display3" class="toggle_foldout"/>
+                    <ui:Foldout text="WORD_0644" class="foldout_transparent " name="scene_map_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0645" display-tooltip-when-elided="true"/>
+                                <ui:VisualElement name="battle_scene_map_dropdown"/>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0646" display-tooltip-when-elided="true"/>
+                                <ui:VisualElement name="battle_scene_region_dropdown"/>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Button name="battle_scene_map_actor_add" text="WORD_4000" display-tooltip-when-elided="true"/>
+                            </ex:InspectorItemUnit>
+                            <ui:VisualElement name="battle_scene_map_actor_list_area"/>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+                <ui:VisualElement class="toggle_foldout_wrapper">
+                    <ui:RadioButton name="radioButton-battleEdit-display4" class="toggle_foldout"/>
+                    <ui:Foldout text="WORD_0652" class="foldout_transparent " name="scene_unit_foldout">
+                        <ui:VisualElement class="toggle_contents">
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0297" display-tooltip-when-elided="true"/>
+                                <ui:VisualElement class="image_manage_unit">
+                                    <ui:Label name="battle_scene_bg_bottom_image_name"/>
+                                    <ui:Button name="battle_scene_bg_bottom_image_change" text="WORD_0583"/>
+                                    <ui:Button name="battle_scene_bg_bottom_image_import" text="WORD_0047"/>
+                                    <ui:Image name="battle_scene_bg_bottom_image" style="display:none"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ex:InspectorItemUnit>
+                                <ui:Label text="WORD_0299" display-tooltip-when-elided="true"/>
+                                <ui:VisualElement class="image_manage_unit">
+                                    <ui:Label name="battle_scene_bg_top_image_name"/>
+                                    <ui:Button name="battle_scene_bg_top_image_change" text="WORD_0583"/>
+                                    <ui:Button name="battle_scene_bg_top_image_import" text="WORD_0047"/>
+                                    <ui:Image name="battle_scene_bg_top_image" style="display:none"/>
+                                </ui:VisualElement>
+                            </ex:InspectorItemUnit>
+                            <ui:Foldout name="foldout_3" text="WORD_0654" class="foldout_transparent">
+                                <ui:GroupBox>
+                                    <ex:InspectorItemUnit>
+                                        <ui:VisualElement class="multiple_item_in_row" style="align-self: flex-start">
+                                            <ui:RadioButton name="radioButton-battleEdit-display5"/>
+                                            <ui:Label text="WORD_0559"/>
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="battle_scene_enemy_label_select_dropdown">
+                                            <ui:VisualElement name="battle_scene_enemy_label_select_dropdown" class="row">
+                                                <ui:Button text="WORD_0050" name="enemy_add_button" display-tooltip-when-elided="true"/>
+                                            </ui:VisualElement>
+                                        </ui:VisualElement>
+                                    </ex:InspectorItemUnit>
+                                    <ui:VisualElement name="battle_scene_enemy_select_dropdown"/>
+                                    <ex:InspectorItemUnit>
+                                        <ui:VisualElement class="multiple_item_in_row" style="align-self: flex-start">
+                                            <ui:RadioButton name="radioButton-battleEdit-display6"/>
+                                            <ui:Label text="WORD_0564"/>
+                                        </ui:VisualElement>
+                                        <ui:VisualElement name="battle_scene_enemy_group_label_select_dropdown">
+                                            <ui:VisualElement name="battle_scene_enemy_group_select_dropdown" style="flex-grow:1"/>
+                                        </ui:VisualElement>
+                                    </ex:InspectorItemUnit>
+                                </ui:GroupBox>
+                            </ui:Foldout>
+                            <ui:Button name="battle_scene_unit_actor_add" text="WORD_4000" display-tooltip-when-elided="true"/>
+                            <ui:VisualElement name="battle_scene_unit_actor_list_area"/>
+                        </ui:VisualElement>
+                    </ui:Foldout>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

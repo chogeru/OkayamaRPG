@@ -1,0 +1,68 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_placeMove">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_0993" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display9"/>
+                    <ui:Label text="WORD_0922" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0644" class="multiple_item_in_row one_step_off"/>
+                <ui:VisualElement name="mapSelect"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:Button text="WORD_0983" name="direct_button"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0996" style="padding-left: 20px;" />
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ex:ImTextField name="mapName" picking-mode="Ignore"/>
+                    <ui:Label text="X :" display-tooltip-when-elided="true"/>
+                    <ui:Label name="xPos" text="[     ]" display-tooltip-when-elided="true"/>
+                    <ui:Label text="Y :" display-tooltip-when-elided="true"/>
+                    <ui:Label name="yPos" text="[     ]" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-eventCommand-display10"/>
+                    <ui:Label text="WORD_0994" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0995" class="multiple_item_in_row one_step_off"/>
+                <ui:VisualElement name="mapIDSelect"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="X :"/>
+                    <ui:VisualElement name="x_select"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="Y :"/>
+                    <ui:VisualElement name="y_select"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0858"/>
+                <ui:VisualElement name="direction"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0997"/>
+                <ui:VisualElement name="feed"/>
+            </ex:InspectorItemUnit>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

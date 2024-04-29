@@ -1,0 +1,56 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="systemSetting_changeActorPicture">
+        <ui:ScrollView>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                    <ui:Label text="WORD_1084"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0301"/>
+                <ui:VisualElement text="WORD_1633" name="actor_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ui:Foldout text="WORD_0110">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0110"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="actor_face_change_btn" text="WORD_0583"/>
+                        <ui:Button name="actor_face_import_btn" text="WORD_0047"/>
+                        <ui:Label name="actor_face_image_name"/>
+                        <ui:Image name="actor_face_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0111">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0111"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:VisualElement text="WORD_1633" name="walk_dropdown"/>
+                        <ui:Image name="walk_preview"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0351">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0351"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:VisualElement text="WORD_1633" name="battle_dropdown"/>
+                        <ui:Image name="battle_preview"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0112">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0112"/>
+                    <ui:VisualElement class="image_manage_unit">
+                        <ui:Button name="actor_adv_change_btn" text="WORD_0583"/>
+                        <ui:Button name="actor_adv_import_btn" text="WORD_0047"/>
+                        <ui:Label name="actor_adv_image_name"/>
+                        <ui:Image name="actor_adv_image"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:ScrollView>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,32 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_inputSelect">
+        <ui:VisualElement name="Choices">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                    <ui:Label text="WORD_0080" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1203" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="choices_num_select" label="WORD_0780" value="Center" style="flex-direction: column;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0780" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="backGround_select" label="WORD_0780" value="Center" style="flex-direction: column;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1204" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="window_pos" label="WORD_0780" value="Center" style="flex-direction: column;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1205" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="default" label="WORD_0780" value="Center" style="flex-direction: column;"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1530" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="cancel" label="WORD_0780" value="Center" style="flex-direction: column;"/>
+            </ex:InspectorItemUnit>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0407">
+        <ui:Foldout name="foldout_2" text="WORD_0065" class="AnalyticsTag__page_view__skill_common">
+            <ui:Button text="WORD_0414" name="skill_common_button"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0408" class="AnalyticsTag__page_view__skill_basic">
+            <ui:Button text="WORD_0158" name="attack_skill_button"/>
+            <ui:Button text="WORD_0159" name="defense_skill_button"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0409" name="customSkillFoldout" class="AnalyticsTag__page_view__skill_custom">
+            <ui:VisualElement name="skill_custom_list"/>
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

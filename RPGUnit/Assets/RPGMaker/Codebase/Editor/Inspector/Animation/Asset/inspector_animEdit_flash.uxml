@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="anim_flash_foldout" text="WORD_0722">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1088"/>
+            <uie:IntegerField name="anim_flash_flame" picking-mode="Ignore"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0724"/>
+            <uie:IntegerField name="anim_flash_time" picking-mode="Ignore"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0098"/>
+            <ui:VisualElement class="color_picker">
+                <ex:ColorFieldBase name="anim_flash_color" display-tooltip-when-elided="true"/>
+                <ui:Label text="R G B " name="anim_flash_color_text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0727" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="anim_flash_type"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Button name="anim_flash_delete" text="WORD_1061"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

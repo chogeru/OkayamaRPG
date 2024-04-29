@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="width: 100%; height: 100%; flex-direction: row;">
+        <ui:VisualElement name="system_window_rightwindow">
+            <ui:ScrollView>
+                <ui:VisualElement name="system_window_iconwindow" style="flex-direction: row; flex-wrap: wrap;" />
+            </ui:ScrollView>
+            <ui:VisualElement style="flex-direction: row-reverse; height: 25px;">
+                <ui:Button text="Cancel" name="Common_Button_Cancel" class="Common_Button" />
+                <ui:Button text="OK" name="Common_Button_Ok" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

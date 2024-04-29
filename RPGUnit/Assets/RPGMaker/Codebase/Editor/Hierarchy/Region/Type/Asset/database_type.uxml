@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_1230">
+        <ui:Foldout text="WORD_0340" name="element_type" class="AnalyticsTag__page_view__type_element">
+            <ui:VisualElement name="attribute_type_list"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0380" name="skill_type" class="AnalyticsTag__page_view__type_skill">
+            <ui:VisualElement name="skill_type_list"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0378" name="weapon_type" class="AnalyticsTag__page_view__type_weapon">
+            <ui:VisualElement name="weapon_type_list"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0379" name="armor_type" class="AnalyticsTag__page_view__type_armor">
+            <ui:VisualElement name="armor_type_list"/>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0541" name="equip_type" class="AnalyticsTag__page_view__type_equipment">
+            <ui:VisualElement name="equipment_type_list"/>
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

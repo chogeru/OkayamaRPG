@@ -1,0 +1,160 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="inspector_mapEvent_command.uss" />
+    <ui:ScrollView>
+        <ui:VisualElement style="width: auto; align-items: stretch;">
+            <ui:Foldout text="WORD_0434" name="box1-1" value="false" style="display: flex;">
+                <ui:Button text="WORD_1191" display-tooltip-when-elided="true" name="command_text_button"/>
+                <ui:Button text="WORD_0080" display-tooltip-when-elided="true" name="command_inputSelect_button"/>
+                <ui:Button text="WORD_1209" display-tooltip-when-elided="true" name="command_inbutNumber_button"/>
+                <ui:Button text="WORD_1211" display-tooltip-when-elided="true" name="command_input_selectItem_button"/>
+                <ui:Button text="WORD_1213" display-tooltip-when-elided="true" name="command_textScroll_button"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0287" value="false" name="box1-2">
+                <ui:Button text="WORD_0951" display-tooltip-when-elided="true" name="CharacterShowAnimation"/>
+                <ui:Button text="WORD_0953" display-tooltip-when-elided="true" name="CharacterShowIcon"/>
+                <ui:Button text="WORD_0858" display-tooltip-when-elided="true" name="Direction"/>
+                <ui:Button text="WORD_0967" display-tooltip-when-elided="true" name="AnimationSetting"/>
+                <ui:Button text="WORD_0972" display-tooltip-when-elided="true" name="CharacterImageSetting"/>
+                <ui:Foldout name="foldout_1" text="WORD_0992" value="false"  style="margin-left: 20px;">
+                    <ui:Button text="WORD_0993" display-tooltip-when-elided="true" name="PlaceMove"/>
+                    <ui:Button text="WORD_1000" display-tooltip-when-elided="true" name="MoveRouteSetting"/>
+                    <ui:Button text="WORD_1005" display-tooltip-when-elided="true" name="OneStepForward"/>
+                    <ui:Button text="WORD_1006" display-tooltip-when-elided="true" name="OneStepBack"/>
+                    <ui:Button text="WORD_2800" display-tooltip-when-elided="true" name="CustomMove"/>
+                    <ui:Button text="WORD_2802" display-tooltip-when-elided="true" name="StepMove"/>
+                    <ui:Button text="WORD_1547" display-tooltip-when-elided="true" name="ChangeMoveSpeed"/>
+                    <ui:Button text="WORD_1548" display-tooltip-when-elided="true" name="ChangeMoveFrequency"/>
+                    <ui:Button text="WORD_0867" display-tooltip-when-elided="true" name="PassThrough"/>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_2" text="WORD_0979" value="false" style="margin-left: 20px;">
+                    <ui:Button text="WORD_1640" display-tooltip-when-elided="true" name="Jump"/>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_4" text="WORD_0463" value="true" style="margin-left: 20px; display: none;">
+                    <ui:Button text="WORD_0968" display-tooltip-when-elided="true"/>
+                    <ui:Button text="WORD_0969" display-tooltip-when-elided="true"/>
+                    <ui:Button text="WORD_0970" display-tooltip-when-elided="true"/>
+                    <ui:Button text="WORD_0971" display-tooltip-when-elided="true"/>
+                </ui:Foldout>
+                <ui:Foldout name="foldout_6" text="WORD_1007" value="false" style="margin-left: 20px;">
+                    <ui:Button text="WORD_1008" display-tooltip-when-elided="true" name="Vehicle"/>
+                    <ui:Button text="WORD_1010" display-tooltip-when-elided="true" name="RideVehicle"/>
+                </ui:Foldout>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1086" value="false" name="box1-3">
+                <ui:Button name="Timing" text="WORD_1087" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1029" value="false" name="box1-4">
+                <ui:Button name="ChangePartyMenber" text="WORD_1089" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeAlpha" text="WORD_1094" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeWalk" text="WORD_1096" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeParty" text="WORD_1098" display-tooltip-when-elided="true"/>
+                <ui:Button name="PartyGold" text="WORD_1099" display-tooltip-when-elided="true"/>
+                <ui:Button name="PartyItem" text="WORD_1100" display-tooltip-when-elided="true"/>
+                <ui:Button name="PartyWeapon" text="WORD_1101" display-tooltip-when-elided="true"/>
+                <ui:Button name="PartyArmor" text="WORD_1102" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0301" value="false" name="box1-5">
+                <ui:Button text="WORD_0891" display-tooltip-when-elided="true" name="hpButton"/>
+                <ui:Button text="WORD_0898" display-tooltip-when-elided="true" name="mpButton"/>
+                <ui:Button text="WORD_0899" display-tooltip-when-elided="true" name="tpButton"/>
+                <ui:Button text="WORD_0900" display-tooltip-when-elided="true" name="stateChange"/>
+                <ui:Button text="WORD_0903" display-tooltip-when-elided="true" name="fullRecovery"/>
+                <ui:Button text="WORD_0904" display-tooltip-when-elided="true" name="expButton"/>
+                <ui:Button text="WORD_0906" display-tooltip-when-elided="true" name="levelButton"/>
+                <ui:Button text="WORD_0907" display-tooltip-when-elided="true" name="statusButton"/>
+                <ui:Button text="WORD_0908" display-tooltip-when-elided="true" name="skillButton"/>
+                <ui:Button text="WORD_0911" display-tooltip-when-elided="true" name="equipButton"/>
+                <ui:Button text="WORD_0913" display-tooltip-when-elided="true" name="classButton"/>
+                <ui:Button text="WORD_0916" display-tooltip-when-elided="true" name="actorSetting"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0027" value="false" name="box1-6">
+                <ui:Button name="MapScroll" text="WORD_1173" display-tooltip-when-elided="true"/>
+                <ui:Button name="MapNameChange" text="WORD_1175" display-tooltip-when-elided="true"/>
+                <ui:Button name="BattleBackGroundChange" text="WORD_1179" display-tooltip-when-elided="true"/>
+                <ui:Button name="DistantViewChange" text="WORD_1181" display-tooltip-when-elided="true"/>
+                <ui:Button name="MapGetPoint" text="WORD_1184" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1011" value="false" name="box1-7">
+                <ui:Button name="SwitchControl" text="WORD_1012" display-tooltip-when-elided="true"/>
+                <ui:Button name="VariableControl" text="WORD_1015" display-tooltip-when-elided="true"/>
+                <ui:Button name="SelfSwitchControl" text="WORD_1048" display-tooltip-when-elided="true"/>
+                <ui:Button name="TimerControl" text="WORD_1049" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1138" value="false" name="box1-8">
+                <ui:Button name="ConditionalBranch" text="WORD_1139" display-tooltip-when-elided="true"/>
+                <ui:Button name="Loop" text="WORD_1166" display-tooltip-when-elided="true"/>
+                <ui:Button name="LoopBreak" text="WORD_1167" display-tooltip-when-elided="true"/>
+                <ui:Button name="EventBreak" text="WORD_1168" display-tooltip-when-elided="true"/>
+                <ui:Button name="CommonEvent" text="WORD_0506" display-tooltip-when-elided="true"/>
+                <ui:Button name="Label" text="WORD_1169" display-tooltip-when-elided="true"/>
+                <ui:Button name="LabelJump" text="WORD_1171" display-tooltip-when-elided="true"/>
+                <ui:Button name="Annotation" text="WORD_1172" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0014" value="false" name="box1-9">
+                <ui:Button name="CharacterIsEvent" text="WORD_0918" display-tooltip-when-elided="true"/>
+                <ui:Button name="MoveSetEventPoint" text="WORD_0919" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0112" value="false" name="box1-10">
+                <ui:Button name="ShowPicture" text="WORD_1116" display-tooltip-when-elided="true"/>
+                <ui:Button name="MovePicture" text="WORD_1121" display-tooltip-when-elided="true"/>
+                <ui:Button name="RoutePicture" text="WORD_1128" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeColorPicture" text="WORD_1130" display-tooltip-when-elided="true"/>
+                <ui:Button name="ErasurePicture" text="WORD_1137" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1215" value="false" name="box1-11">
+                <ui:Button text="WORD_1216" display-tooltip-when-elided="true" name="ScreenFadeOut"/>
+                <ui:Button text="WORD_1217" display-tooltip-when-elided="true" name="ScreenFadeIn"/>
+                <ui:Button text="WORD_1218" display-tooltip-when-elided="true" name="ScreenChangeColor"/>
+                <ui:Button text="WORD_1220" display-tooltip-when-elided="true" name="ScreenFlash"/>
+                <ui:Button text="WORD_1222" display-tooltip-when-elided="true" name="ScreenShake"/>
+                <ui:Button text="WORD_1225" display-tooltip-when-elided="true" name="WeatherSetting"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0929" value="false" name="box1-12">
+                <ui:Button text="WORD_0930" display-tooltip-when-elided="true" name="BGMPerformance"/>
+                <ui:Button text="WORD_0937" display-tooltip-when-elided="true" name="BGMFeadOut"/>
+                <ui:Button text="WORD_0939" display-tooltip-when-elided="true" name="BGMSave"/>
+                <ui:Button text="WORD_0940" display-tooltip-when-elided="true" name="BGMPlay"/>
+                <ui:Button text="WORD_0941" display-tooltip-when-elided="true" name="BGSPerformance"/>
+                <ui:Button text="WORD_0943" display-tooltip-when-elided="true" name="BGSFeadOut"/>
+                <ui:Button text="WORD_0944" display-tooltip-when-elided="true" name="MEPerformance"/>
+                <ui:Button text="WORD_0946" display-tooltip-when-elided="true" name="SEPerformance"/>
+                <ui:Button text="WORD_0948" display-tooltip-when-elided="true" name="SEStop"/>
+                <ui:Button text="WORD_0949" display-tooltip-when-elided="true" name="MoviePlay"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1517" value="false" name="box1-13">
+                <ui:Button name="BattleProcess" text="WORD_1052" display-tooltip-when-elided="true"/>
+                <ui:Button name="ShopProcess" text="WORD_1059" display-tooltip-when-elided="true"/>
+                <ui:Button name="NameInput" text="WORD_1064" display-tooltip-when-elided="true"/>
+                <ui:Button name="OpenMenu" text="WORD_1066" display-tooltip-when-elided="true"/>
+                <ui:Button name="OpenSave" text="WORD_1067" display-tooltip-when-elided="true"/>
+                <ui:Button name="GameOver" text="WORD_1068" display-tooltip-when-elided="true"/>
+                <ui:Button name="GOTOTitle" text="WORD_1069" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0632" value="false" name="box1-14" style="display: flex;">
+                <ui:Button name="battle_enemy_status" text="WORD_1103" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_state" text="WORD_1106" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_appearance" text="WORD_1107" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_transform" text="WORD_1108" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_animation" text="WORD_1110" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_battleForced" text="WORD_1111" display-tooltip-when-elided="true"/>
+                <ui:Button name="battle_enemy_stop" text="WORD_1115" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_1070" value="false" name="box1-15">
+                <ui:Button name="ChangeBattleBGM" text="WORD_1071" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeVictoryME" text="WORD_1072" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeLoseME" text="WORD_1073" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeVehicleBGM" text="WORD_1074" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeProhibitedSave" text="WORD_1075" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeProhibitedMenu" text="WORD_1077" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeProhibitedEncounter" text="WORD_1078" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeProhibitedSort" text="WORD_1079" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeWindowColor" text="WORD_1080" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeActorPicture" text="WORD_1084" display-tooltip-when-elided="true"/>
+                <ui:Button name="ChangeVehiclePicture" text="WORD_1085" display-tooltip-when-elided="true"/>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_2509" value="false" name="box1-16">
+                <ui:Button name="AddonCommands" text="WORD_2510" display-tooltip-when-elided="true" />
+            </ui:Foldout>
+        </ui:VisualElement>
+    </ui:ScrollView>
+</ui:UXML>

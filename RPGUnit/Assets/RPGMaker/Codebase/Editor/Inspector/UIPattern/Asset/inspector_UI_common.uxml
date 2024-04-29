@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="inspector_UI_common.uss" />
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_common_1" text="WORD_0107" >
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0108" />
+                <ui:VisualElement name="UI_pattern_dropdown" style="height: 20px; width: 120px;" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="reverse_toggle" />
+                    <ui:Label text="WORD_3030" />
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:VisualElement name="ui_main_view" />
+    </ui:ScrollView>
+</ui:UXML>

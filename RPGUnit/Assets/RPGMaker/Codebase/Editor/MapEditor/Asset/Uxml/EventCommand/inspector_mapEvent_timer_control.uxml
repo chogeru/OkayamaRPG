@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_timerControl">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1049" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="activation"/>
+                <ui:Label text="WORD_1050" display-tooltip-when-elided="true"/>
+                <ui:Toggle name="stop"/>
+                <ui:Label text="WORD_0933" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0724" display-tooltip-when-elided="true"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="[" display-tooltip-when-elided="true"/>
+                <uie:IntegerField picking-mode="Ignore" name="minute"/>
+                <ui:Label text="]分 " display-tooltip-when-elided="true"/>
+                <ui:Label text="[" display-tooltip-when-elided="true"/>
+                <uie:IntegerField picking-mode="Ignore" name="second"/>
+                <ui:Label text="]秒" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,171 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0037">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0038"/>
+            <ui:Label name="map_id_label"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0039"/>
+            <ex:ImTextField name="map_name_text"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0763"/>
+            <ex:ImTextField name="map_display_name_text"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0097"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:SliderInt name="map_size_width_slider" picking-mode="Ignore" value="1000" low-value="100" high-value="3000" style="display:none;"/>
+                <ui:Label text="WORD_0764"/>
+                <uie:IntegerField picking-mode="Ignore" name="map_size_width_text"/>
+                <ui:Label text="WORD_0765"/>
+                <ui:SliderInt name="map_size_height_slider" picking-mode="Ignore" value="1000" low-value="100" high-value="3000" style="display:none;"/>
+                <uie:IntegerField picking-mode="Ignore" name="map_size_height_text"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0766"/>
+            <ui:VisualElement name="map_scroll_type_select_container" style="flex-grow:1"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0044"/>
+            <ex:ImTextField picking-mode="Ignore" value="" name="map_memo" multiline="true" max-length="140"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+    <ui:Foldout name="foldout_2" text="WORD_3020">
+        <ui:VisualElement class="multiple_item_in_row button_row">
+            <ui:Button text="WORD_3020" name="map_thumbnail_update"/>
+            <ui:Button text="WORD_3061" name="map_image_save"/>
+        </ui:VisualElement>
+        <ex:InspectorItemUnit>
+            <ui:Image name="map_thumbnail_preview" style="width: 100%;max-height:300px;"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+    <ui:Foldout name="foldout_3" text="WORD_0771">
+        <ui:Foldout name="foldout_4" text="WORD_0931">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="map_bgm_auto_play_toggle"/>
+                    <ui:Label text="WORD_0772"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="map_bgm_auto_play_toggle_contents_pulldown">
+                    <ui:VisualElement class="toggle_contents">
+                        <ui:VisualElement name="map_bgm_select_container"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="map_bgm_auto_play_toggle_contents">
+                <ui:VisualElement class="toggle_contents">
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgm_import" text="WORD_0047"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgm_musicStart" text="WORD_0932" display-tooltip-when-elided="true"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgm_musicStop" text="WORD_0933" display-tooltip-when-elided="true"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="90" low-value="0" high-value="100" name="bgm_volume_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="90" name="bgm_volume_text"/>
+                                <ui:Label text="%" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="100" low-value="50" high-value="150" name="bgm_pitch_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="100"  name="bgm_pitch_text"/>
+                                <ui:Label text="%" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="0" low-value="-100" high-value="100" name="bgm_pan_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="0" name="bgm_pan_text"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_5" text="WORD_0942">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="map_bgs_auto_play_toggle"/>
+                    <ui:Label text="WORD_0773"/>
+                </ui:VisualElement>
+                <ui:VisualElement name="map_bgs_auto_play_toggle_contents_pulldown">
+                    <ui:VisualElement class="toggle_contents">
+                        <ui:VisualElement name="map_bgs_select_container"/>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:VisualElement name="map_bgs_auto_play_toggle_contents">
+                <ui:VisualElement class="toggle_contents">
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgs_import" text="WORD_0047"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgs_musicStart" text="WORD_0932" display-tooltip-when-elided="true"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:VisualElement />
+                        <ui:Button name="bgs_musicStop" text="WORD_0933" display-tooltip-when-elided="true"/>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0934" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="90" low-value="0" high-value="100" name="bgs_volume_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="90" name="bgs_volume_text"/>
+                                <ui:Label text="%" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0935" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="100" low-value="50" high-value="150" name="bgs_pitch_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="100" name="bgs_pitch_text"/>
+                                <ui:Label text="%" display-tooltip-when-elided="true"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                    <ex:InspectorItemUnit>
+                        <ui:Label text="WORD_0936" display-tooltip-when-elided="true"/>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:Slider picking-mode="Ignore" value="0" low-value="-100" high-value="100" name="bgs_pan_slider"/>
+                            <ui:VisualElement style="flex-direction: row; width: 50px;">
+                                <uie:IntegerField picking-mode="Ignore" value="0" name="bgs_pan_text"/>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ex:InspectorItemUnit>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:Foldout>
+    </ui:Foldout>
+    <ui:Foldout name="foldout_6" text="WORD_0774">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0774"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="map_forbid_dash_toggle"/>
+                <ui:Label text="WORD_0775"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

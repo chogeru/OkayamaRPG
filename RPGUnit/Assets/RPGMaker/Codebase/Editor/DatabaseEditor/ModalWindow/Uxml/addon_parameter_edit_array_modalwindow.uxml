@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="addon_parameter_edit_array_modalwindow.uss" />
+    <ui:VisualElement class="system_window_systemwindow" >
+        <ui:VisualElement name="system_window_topwindow" class="system_window_topwindow" >
+
+            <ui:VisualElement name="tabs" class="system_window_tabs">
+                <ui:Label name="TypeTab" text="Type" class="tab currentlySelectedTab" style="flex-grow: 0;"/>
+                <ui:Label name="TextTab" text="Text" class="tab" style="flex-grow: 0;"/>
+            </ui:VisualElement>
+            <ui:VisualElement name="tabContent">
+                <ui:VisualElement name="TypeContent" class="system_window_typecontentwindow" >
+                    <ui:VisualElement name="system_window_type_label_window" class="system_window_type_label_window" />
+                    <ui:VisualElement name="system_window_type_value_window" class="system_window_type_value_window" />
+                    <ui:VisualElement name="system_window_type_description_window" class="system_window_type_description_window" />
+                </ui:VisualElement>
+                <ui:VisualElement name="TextContent" class="system_window_textcontentwindow unselectedContent" >
+                    <ui:VisualElement name="system_window_text_label_window" class="system_window_text_label_window" />
+                    <ui:VisualElement name="system_window_text_value_window" class="system_window_text_value_window" />
+                    <ui:VisualElement name="system_window_text_description_window" class="system_window_text_description_window" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+        </ui:VisualElement>
+
+        <ui:VisualElement name="system_window_bottomwindow" class="system_window_bottomwindow " >
+            <ui:VisualElement style="align-items: stretch; flex-direction: row; justify-content: flex-end;">
+                <ui:VisualElement style="flex-grow: 1;" />
+                <ui:Button text="WORD_1529" name="Common_Button_Ok" class="Common_Button" />
+                <ui:Button text="WORD_1530" name="Common_Button_Cancel" class="Common_Button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="unity_sign_in_prompt_window.uss" />
+    <ui:VisualElement class="container">
+        <ui:Label text="WORD_5002" />
+        <ui:Label name="restart_unity_message" text="WORD_5013" />
+        <ui:Button text="WORD_5003" name="to_unity_id_button"/>
+    </ui:VisualElement>
+</ui:UXML>

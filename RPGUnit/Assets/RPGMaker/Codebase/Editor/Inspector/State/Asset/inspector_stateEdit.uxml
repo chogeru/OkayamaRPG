@@ -1,0 +1,173 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="state_id"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="state_name"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0524"/>
+                <ui:VisualElement class="image_manage_unit">
+                    <ui:Button name="icon_image_change_btn" text="WORD_0583" display-tooltip-when-elided="true"/>
+                    <ui:Button name="icon_image_import_btn" text="WORD_0047" display-tooltip-when-elided="true"/>
+                    <ui:Label name="icon_image_name" text="" display-tooltip-when-elided="true"/>
+                    <ui:Image name="icon_image"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0664"/>
+                <uie:IntegerField name="state_priority"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0463"/>
+                <ui:VisualElement name="state_animation"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1365"/>
+                <ui:VisualElement name="state_superposition"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0679"/>
+                <ui:VisualElement name="state_application"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0044"/>
+                <ex:ImTextField name="state_memo" multiline="true" max-length="140"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0682">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0682"/>
+                <ui:VisualElement name="state_action_constraints"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0347">
+            <ui:VisualElement name="state_traits_area"/>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_4" text="WORD_0687">
+            <ui:Foldout name="foldout_5" text="WORD_0680" class="state_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_end_battle_time"/>
+                        <ui:Label text="WORD_0688"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_out_combat_toggle"/>
+                        <ui:Label text="WORD_0689" class="label_2"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement name="state_out_combat_contents">
+                        <ui:VisualElement name="state_out_combat_Timing" class="toggle_contents"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Label text="WORD_0692"/>
+                        <ui:Label text="WORD_1515"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField name="state_continuation_num_turns_min"/>
+                        <ui:Label text="~"/>
+                        <uie:IntegerField name="state_continuation_num_turns_max"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_release_action_restrictions"/>
+                        <ui:Label text="WORD_0693"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_canceled_damage"/>
+                        <ui:Label text="WORD_0694" class="label_2"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField name="state_probability"/>
+                        <ui:Label text="%"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_6" text="WORD_0681" class="state_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_release_num_step_toggle"/>
+                        <ui:Label text="WORD_0695" class="label_2"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField name="state_release_num_step"/>
+                        <ui:Label text="WORD_0696"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_7" text="WORD_0427" class="state_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_released_behavioral_constraintse"/>
+                        <ui:Label text="WORD_0693"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="state_continuous_canceled_damage"/>
+                        <ui:Label text="WORD_0694" class="label_2"/>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <uie:IntegerField name="state_continuous_probability"/>
+                        <ui:Label text="%"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_8" text="WORD_0697">
+            <ui:Foldout name="foldout_9" text="WORD_0427" class="state_foldout">
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="step_generation"/>
+                        <ui:Label text="WORD_0698" class="label_2"/>
+                    </ui:VisualElement>
+                    <uie:IntegerField name="status_continuous_num_step"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_10" text="WORD_0434">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0699"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ex:ImTextField name="state_added_by_ally_timing"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0700"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ex:ImTextField name="state_added_by_enemy_timing"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0701"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ex:ImTextField name="state_continued_timing"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_0702"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ex:ImTextField name="state_canceled_timing"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

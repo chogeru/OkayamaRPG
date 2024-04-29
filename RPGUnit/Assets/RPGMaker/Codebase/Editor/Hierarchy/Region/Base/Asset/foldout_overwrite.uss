@@ -1,0 +1,82 @@
+/*****************************************************************************/
+/* UnitySubFoldout (Child foldout of another foldout; indented)              */
+/*****************************************************************************/
+.unity-sub-foldout .unity-foldout__toggle {
+    margin-left: 15px;
+}
+
+.unity-sub-foldout .unity-builder-double-field-label {
+    margin-left: 17px;
+    margin-right: -14px;
+}
+
+.unity-sub-foldout.unity-foldout-field .unity-base-field__label {
+    margin-right: -16px;
+}
+
+/*****************************************************************************/
+/* Foldout Field                                                             */
+/*****************************************************************************/
+
+.unity-foldout-field {
+    margin-left: -16px;
+}
+
+.unity-foldout-field .unity-builder-style-row__content-container {
+    margin-left: 28px;
+}
+
+.unity-foldout-field .unity-foldout-field__textfield {
+    min-width: 10px;
+    flex-grow: 1;
+}
+
+.unity-foldout-field .unity-foldout-field__dragger-field {
+    position: absolute;
+    left: 12px;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.unity-foldout-field .unity-foldout-field__dragger-field .unity-base-field__input {
+    display: none;
+}
+
+.unity-foldout-field .unity-foldout-field__color-field {
+    min-width: 10px;
+    flex-grow: 1;
+}
+
+.unity-foldout-field .unity-foldout-field__color-field .unity-imgui-container {
+    flex-basis: 0;
+    justify-content: center;
+}
+
+.unity-foldout-field__mixed-value-line {
+    width: 20px;
+    height: 1px;
+    background-color: rgb(49, 49, 49);
+}
+
+/* These selectors need to match widths:
+    .unity-builder-inspector .unity-base-field__label
+    .unity-foldout-field .unity-foldout__toggle
+    .unity-builder-double-field-label
+*/
+.unity-foldout-field .unity-foldout__toggle {
+    width: 99px;
+    margin-right: 3px;
+}
+
+.unity-foldout-field > .unity-foldout__header > Toggle {
+    flex-grow: 0;
+}
+
+#inspector-style-section-foldout-text-outline .unity-builder-style-row__content-container {
+    margin-left: 27px;
+}
+
+#inspector-style-section-foldout-text-outline .unity-builder-style-row .unity-base-field__label {
+    min-width: 90px;
+}

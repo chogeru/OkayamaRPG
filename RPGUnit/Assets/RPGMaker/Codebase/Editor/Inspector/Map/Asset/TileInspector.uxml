@@ -1,0 +1,180 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514"/>
+                <ui:Label text="WORD_3006" name="setting_name"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout name="foldout_1" text="WORD_0037">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0038"/>
+                <ui:Label name="tile_id_label"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0039"/>
+                <ex:ImTextField name="tile_name_text"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0746">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0510" class="main_elem"/>
+                <ui:VisualElement name="tile_type_select_container"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0757" class="flex_column" name="image_adjust_type_select_foldout">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_3004" class="main_elem"/>
+                <ui:GroupBox>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-mapEdit-display-tile_adjust"/>
+                        <ui:Label text="WORD_0758"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display-tile_adjust"/>
+                        <ui:Label text="WORD_0759"/>
+                        <ui:RadioButton name="radioButton-mapEdit-display-tile_adjust"/>
+                        <ui:Label text="WORD_3005"/>
+                        <ui:VisualElement name="image_adjust_type_select_container" class="flex_column"/>
+                    </ui:VisualElement>
+                </ui:GroupBox>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_3000" name="animation_foldout">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0463" class="main_elem" name="animation_toggle_label"/>
+                <ui:VisualElement class="multiple_item_in_row" name="multiple_item_in_row">
+                    <ui:Toggle name="animation_toggle"/>
+                    <ui:Label text="WORD_0060"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0761" class="main_elem" name="animation_frame_amount_label"/>
+                <uie:IntegerField picking-mode="Ignore" name="animation_frame_amount_text" class="sub_elem"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0716" class="main_elem"/>
+                <uie:IntegerField picking-mode="Ignore" name="animation_speed_text" class="sub_elem"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:VisualElement name="tile_setting">
+            <ui:Foldout name="foldout_3" text="WORD_3003">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0807" class="main_elem"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="is_pass_toggle"/>
+                        <ui:Label text="WORD_0808"/>
+                        <ui:Toggle name="is_pass_under_toggle"/>
+                        <ui:Label text="WORD_0809"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0811" class="main_elem"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:Toggle name="is_pass_top_toggle"/>
+                        <ui:Label text="WORD_0297"/>
+                        <ui:Toggle name="is_pass_left_toggle"/>
+                        <ui:Label text="WORD_0813"/>
+                        <ui:Toggle name="is_pass_right_toggle"/>
+                        <ui:Label text="WORD_0814"/>
+                        <ui:Toggle name="is_pass_bottom_toggle"/>
+                        <ui:Label text="WORD_0299"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0816" class="main_elem"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-mapEdit-display1"/>
+                            <ui:Label text="WORD_0052"/>
+                            <ui:RadioButton name="radioButton-mapEdit-display2"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0817" class="main_elem"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-mapEdit-display3"/>
+                            <ui:Label text="WORD_0052"/>
+                            <ui:RadioButton name="radioButton-mapEdit-display4"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0818" class="main_elem"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-mapEdit-display5"/>
+                            <ui:Label text="WORD_0052"/>
+                            <ui:RadioButton name="radioButton-mapEdit-display6"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout name="foldout_4" text="WORD_0819">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_3001" class="main_elem"/>
+                    <ui:GroupBox>
+                        <ui:VisualElement class="multiple_item_in_row">
+                            <ui:RadioButton name="radioButton-mapEdit-display7"/>
+                            <ui:Label text="WORD_0052"/>
+                            <ui:RadioButton name="radioButton-mapEdit-display8"/>
+                            <ui:Label text="WORD_0533"/>
+                        </ui:VisualElement>
+                    </ui:GroupBox>
+                </ex:InspectorItemUnit>
+                <ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0509" class="main_elem"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-mapEdit-display9"/>
+                        <ui:Label text="WORD_0820"/>
+                        <uie:IntegerField picking-mode="Ignore" name="damage_int_value_text"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="" class="main_elem"/>
+                    <ui:VisualElement class="multiple_item_in_row">
+                        <ui:RadioButton name="radioButton-mapEdit-display10"/>
+                        <ui:Label text="WORD_0821"/>
+                        <uie:FloatField picking-mode="Ignore" name="damage_float_value_text"/>
+                        <ui:Label text="%"/>
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                </ui:GroupBox>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement name="damage_floor_type_select_container"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0822" class="main_elem" style="margin-left: 32px;"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField picking-mode="Ignore" name="terrain_tag_int_value_text"/>
+                    <ui:Button name="terrain_tag_minus_btn" text="-" style="width: 24px;"/>
+                    <ui:Button name="terrain_tag_plus_btn" text="+" style="width: 24px;"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ui:Foldout name="foldout_5" text="WORD_3013">
+                <ex:InspectorItemUnit>
+                    <ui:Button name="vehicle_add_button" text="WORD_0050"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:VisualElement name="vehicle_aria"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:VisualElement>
+        <ui:Foldout name="foldout_6" text="WORD_0785">
+            <ex:InspectorItemUnit>
+                <ui:Button name="register_btn" text="WORD_0762"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement
+                    style="height: 250px; width: 250px; border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+                    <ui:VisualElement name="tile_image" style="height: 200px; width: 200px;"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

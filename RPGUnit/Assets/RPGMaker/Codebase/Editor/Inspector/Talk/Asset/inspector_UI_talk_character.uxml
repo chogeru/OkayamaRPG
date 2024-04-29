@@ -1,0 +1,72 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout name="foldout_1" text="WORD_0104">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0039"/>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Toggle name="name_display"/>
+                <ui:Label text="WORD_1491"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ui:Foldout name="foldout_2" text="WORD_0287">
+          <ui:GroupBox>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0110"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-initialization-display15"/>
+                    <ui:Label text="WORD_1491"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0112"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-initialization-display16"/>
+                    <ui:Label text="WORD_1491"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0113"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:RadioButton name="radioButton-initialization-display17"/>
+                    <ui:Label text="WORD_1491"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+          </ui:GroupBox>
+        </ui:Foldout>
+    </ui:Foldout>
+    <ui:Foldout name="foldout_3" text="WORD_0115">
+        <ui:Foldout name="foldout_4" text="WORD_0288">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0096"/>
+                <ui:VisualElement name="font_select_dropDown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0097"/>
+                <ui:VisualElement name="font_size_sliderArea" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0098"/>
+                <ui:VisualElement class="color_picker">
+                    <ex:ColorFieldBase name="font_color" display-tooltip-when-elided="true"/>
+                    <ui:Label text="R G B " name="font_rgb_text"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_5" text="WORD_0039">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0096"/>
+                <ui:VisualElement name="font_select_dropDown2"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0097"/>
+                <ui:VisualElement name="font_size_slider2Area" />
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0098"/>
+                <ui:VisualElement class="color_picker">
+                    <ex:ColorFieldBase name="font_color2" display-tooltip-when-elided="true"/>
+                    <ui:Label text="R G B " name="font_rgb_text2"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:Foldout>
+</ui:UXML>

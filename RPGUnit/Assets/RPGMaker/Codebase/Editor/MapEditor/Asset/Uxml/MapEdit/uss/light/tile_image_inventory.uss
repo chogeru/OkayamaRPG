@@ -1,0 +1,22 @@
+TileImageInventory {
+}
+
+TileImageInventory .unity-listview-item {
+    padding: 0 16px;
+}
+
+TileImageInventory .unity-listview-item.list-row-even {
+    background-color: rgb(80, 80, 80);
+}
+
+TileImageInventory .unity-listview-item.list-row-odd {
+    background-color: rgb(89, 87, 86);
+}
+
+TileImageInventory .unity-listview-item:hover {
+    background-color: rgb(56, 56, 56);
+}
+
+TileImageInventory .unity-listview-item.unity-list-view__item--selected {
+    background-color: rgb(17, 73, 109);
+}

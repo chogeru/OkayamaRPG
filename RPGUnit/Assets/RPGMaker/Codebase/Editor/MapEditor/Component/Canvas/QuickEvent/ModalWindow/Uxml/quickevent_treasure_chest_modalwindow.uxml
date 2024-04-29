@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="quickevent_treasure_chest_modalwindow.uss" />
+    <ui:VisualElement class="row">
+        <ui:VisualElement style="margin-right: 15;">
+            <ui:Label text="WORD_0093" />
+            <ui:Button name="button" class="class_button">
+                <ui:VisualElement name="image" class="class_image" />
+            </ui:Button>
+        </ui:VisualElement>
+        <ui:VisualElement class="column">
+            <ui:GroupBox>
+                <ui:VisualElement class="row_element">
+                    <ui:Label text="WORD_1639" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row_element">
+                    <ui:RadioButton name="radioButton-other-display1" value="false" />
+                    <ui:Label text="WORD_1544" class="class_label" />
+                    <uie:IntegerField name="gold" class="class_gold" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row_element">
+                    <ui:RadioButton name="radioButton-other-display2" value="false" />
+                    <ui:Label text="WORD_0068" class="class_label" />
+                    <ui:VisualElement name="item" class="class_popup" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row_element">
+                    <ui:RadioButton name="radioButton-other-display3" value="false" />
+                    <ui:Label text="WORD_0128" class="class_label" />
+                    <ui:VisualElement name="weapon" class="class_popup" />
+                </ui:VisualElement>
+                <ui:VisualElement class="row_element">
+                    <ui:RadioButton name="radioButton-other-display4" value="false" />
+                    <ui:Label text="WORD_0129" class="class_label" />
+                    <ui:VisualElement name="armor" class="class_popup" />
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement class="row_reverse" >
+        <ui:Button text="OK" name="OK_button" class="row_reverse_element" />
+        <ui:Button text="CANCEL" name="CANCEL_button" class="row_reverse_element" />
+    </ui:VisualElement>
+</ui:UXML>

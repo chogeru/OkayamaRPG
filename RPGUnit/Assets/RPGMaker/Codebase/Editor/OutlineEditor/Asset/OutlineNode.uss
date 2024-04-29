@@ -1,0 +1,130 @@
+/* 全体 */
+.oe-node__chapter-container-part {
+    width: 200px;
+    background-color: #393939;
+    --border-radius: 4px;
+    --selection-border-radius: 8px;
+}
+
+/*　block1 */
+.oe-node__block1 {
+    padding: 10px 12px;
+}
+
+/*　block2 */
+.oe-node__block2 {
+    background-color: #2B2B2B;
+    padding: 10px 12px;
+}
+
+/*　block3 */
+.oe-node__block3 {
+    background-color: #414141;
+    margin: 4px 12px 2px;
+    padding: 3px 3px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #2B2B2B;
+    border-bottom-color: #2B2B2B;
+    border-left-color: #2B2B2B;
+    border-right-color: #2B2B2B;
+    --border-radius: 4px;
+}
+
+/*　block4 */
+.oe-node__block4 {
+    background-color: #414141;
+    margin: 2px 12px 4px;
+    padding: 3px 3px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-color: #2B2B2B;
+    border-bottom-color: #2B2B2B;
+    border-left-color: #2B2B2B;
+    border-right-color: #2B2B2B;
+    --border-radius: 4px;
+}
+
+/*　block5 */
+.oe-node__block5 {
+}
+.oe-node__map-image {
+    width: 100%;
+    height: 120px;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+
+
+/* portコンテナ */
+.ge-vertical-port-container-part {
+    background-color: rgba(52, 52, 52, 0) !important;
+}
+
+.oe-node__top-port-container-part {
+}
+
+.oe-node__bottom-port-container-part {
+}
+
+.oe-node__vertical-port-container {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.oe-node__side-port-container-part {
+    position: absolute;
+    top: 42%;
+}
+
+.oe-node__inputs {
+    align-items: flex-start;
+    position: relative;
+    left: -8px;
+}
+
+.oe-node__outputs {
+    align-items: flex-end;
+    position: relative;
+    left: 8px;
+}
+
+/* port */
+.ge-port {
+    height: 24px;
+    align-items: center;
+    --port-color: #c8c8c8;
+    --disabled-port-color: #464646;
+    --selected-port-color: #44C0FF;
+}
+
+.ge-port--vertical {
+    height: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+}
+
+.ge-port__connector-container {
+    min-height: 0;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ge-port-connector-part__connector {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    border-width: 1px;
+}
+
+.ge-port-connector-part__cap {
+    width: 3px;
+    height: 3px;
+    border-radius: 3px;
+}

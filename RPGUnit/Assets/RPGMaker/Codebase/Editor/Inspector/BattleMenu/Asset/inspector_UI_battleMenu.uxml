@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0076">
+            <ui:Foldout name="foldout_2" text="WORD_0104">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0133" />
+                    <ui:VisualElement class="multiple_item_in_row" >
+                        <ui:Toggle name="battleMenu_0" />
+                        <ui:Label text="WORD_0126" />
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0135" />
+                    <ui:VisualElement class="multiple_item_in_row" >
+                        <ui:Toggle name="battleMenu_1" />
+                        <ui:Label text="WORD_0126" />
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0136" />
+                    <ui:VisualElement class="multiple_item_in_row" >
+                        <ui:Toggle name="battleMenu_2" />
+                        <ui:Label text="WORD_0126" />
+                    </ui:VisualElement>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>>
+        </ui:Foldout>>
+    </ui:ScrollView>
+</ui:UXML>

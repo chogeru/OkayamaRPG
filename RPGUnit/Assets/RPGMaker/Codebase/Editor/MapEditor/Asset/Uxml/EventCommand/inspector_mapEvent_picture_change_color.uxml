@@ -1,0 +1,41 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="command_changeColorPicture">
+        <ex:InspectorItemUnit>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:Label text="WORD_1514" display-tooltip-when-elided="true"/>
+                <ui:Label text="WORD_1130" display-tooltip-when-elided="true"/>
+            </ui:VisualElement>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_1117" display-tooltip-when-elided="true"/>
+            <ui:VisualElement name="number"/>
+        </ex:InspectorItemUnit>
+
+        <ui:Foldout text="WORD_1131" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0045" display-tooltip-when-elided="true"/>
+                <ui:VisualElement name="template"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0119" display-tooltip-when-elided="true"/>
+                <ex:ColorFieldBase name="colorPicker"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0724" value="true">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_1127"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField picking-mode="Ignore" name="flame"/>
+                    <ui:Label text="WORD_1088" display-tooltip-when-elided="true"/>
+                    <ui:Label text="WORD_1219" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="wait_toggle"/>
+                    <ui:Label text="WORD_0952" display-tooltip-when-elided="true"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:Foldout text="" name="attribute_foldout">
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0480" />
+            <ui:VisualElement name="attribute" picking-mode="Ignore" style="width: 200px;" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_3017" name="attribute_name"/>
+            <ui:Label text="["/>
+            <uie:IntegerField name="damage_multiplier"/>
+            <ui:Label text="]%"/>
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Button text="WORD_0383" name="delete" class="small"/>
+        </ex:InspectorItemUnit>
+    </ui:Foldout>
+</ui:UXML>

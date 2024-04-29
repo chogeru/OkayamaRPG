@@ -1,0 +1,102 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout name="foldout_1" text="WORD_0352">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0353"/>
+                <ui:VisualElement name="maxMember_dropdown"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_2" text="WORD_0354">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0043"/>
+                <ui:VisualElement name="selectMap_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0295"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <uie:IntegerField label="X" picking-mode="Ignore" name="map_X"/>
+                    <uie:IntegerField label="Y" picking-mode="Ignore" name="map_Y"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:VisualElement/>
+                <ui:Button name="designation_button"/>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_3" text="WORD_0358">
+            <ui:Foldout text="WORD_0359" class="character_foldout" name="member1Foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0301"/>
+                    <ui:VisualElement name="characterNameDropdown1"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0336"/>
+                    <ui:Label text="" name="member_class1"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0338"/>
+                    <ui:Label text="" name="member_level1"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text=""/>
+                    <ui:VisualElement text="" name="member_icon1" style="flex-grow: 0;flex-shrink: 0;"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_0361" class="character_foldout" name="member2Foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0301"/>
+                    <ui:VisualElement name="characterNameDropdown2"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0336"/>
+                    <ui:Label text="" name="member_class2"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0338"/>
+                    <ui:Label text="" name="member_level2"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text=""/>
+                    <ui:VisualElement text="" name="member_icon2" style="flex-grow: 0;flex-shrink: 0;"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+
+            <ui:Foldout text="WORD_0362" class="character_foldout" name="member3Foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0301"/>
+                    <ui:VisualElement name="characterNameDropdown3"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0336"/>
+                    <ui:Label text="" name="member_class3"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0338"/>
+                    <ui:Label text="" name="member_level3"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text=""/>
+                    <ui:VisualElement text="" name="member_icon3" style="flex-grow: 0;flex-shrink: 0;"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+            <ui:Foldout text="WORD_3014" class="character_foldout" name="member4Foldout">
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0301"/>
+                    <ui:VisualElement name="characterNameDropdown4"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0336"/>
+                    <ui:Label text="" name="member_class4"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text="WORD_0338"/>
+                    <ui:Label text="" name="member_level4"/>
+                </ex:InspectorItemUnit>
+                <ex:InspectorItemUnit>
+                    <ui:Label text=""/>
+                    <ui:VisualElement text="" name="member_icon4" style="flex-grow: 0;flex-shrink: 0;"/>
+                </ex:InspectorItemUnit>
+            </ui:Foldout>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

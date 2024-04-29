@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:VisualElement name="systemSetting_two_toggle">
+        <ex:InspectorItemUnit>
+            <ui:Label text="" display-tooltip-when-elided="true" name="Label" />
+        </ex:InspectorItemUnit>
+        <ex:InspectorItemUnit>
+            <ui:Label text="WORD_0893" display-tooltip-when-elided="true" />
+            <ui:GroupBox>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="WORD_1076" display-tooltip-when-elided="true" />
+                    <ui:RadioButton name="radioButton-eventCommand-display161" />
+                    <ui:Label text="WORD_0775" display-tooltip-when-elided="true"/>
+                    <ui:RadioButton name="radioButton-eventCommand-display162"/>
+                </ui:VisualElement>
+            </ui:GroupBox>
+        </ex:InspectorItemUnit>
+    </ui:VisualElement>
+</ui:UXML>

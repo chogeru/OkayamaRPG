@@ -1,0 +1,115 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <ui:ScrollView>
+        <ui:Foldout text="WORD_0104" name="menu_foldout">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0068" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_item_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0069" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_skill_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0070" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_equipment_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0071" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_status_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0072" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_sort_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0074" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_save_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0073" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_option_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0075" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="gamemenu_end_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout text="WORD_0104" name="item_foldout">
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0068" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="item_item_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0128" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="item_weapon_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0129" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="item_armor_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0130" display-tooltip-when-elided="true"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Toggle name="item_important_toggle"/>
+                    <ui:Label text="WORD_0126"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+        <ui:Foldout name="foldout_1" text="WORD_0095" style="display: none;">
+            <ex:InspectorItemUnit>
+                <ui:VisualElement name="gamemenu_text_dropdown"/>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="WORD_0097"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ex:ImTextField name="gamemenu_font_size"/>
+                    <ui:Slider picking-mode="Ignore" name="gamemenu_fontSize_slider" value="42" high-value="100"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+            <ex:InspectorItemUnit>
+                <ui:Label text="フォントカラー"/>
+                <ui:VisualElement class="multiple_item_in_row">
+                    <ui:Label text="R"/>
+                    <ex:ImTextField name="font_color_R"/>
+                    <ui:Label text="WORD_0155"/>
+                    <ex:ImTextField name="font_color_G"/>
+                    <ui:Label text="WORD_0782"/>
+                    <ex:ImTextField name="font_color_B"/>
+                </ui:VisualElement>
+            </ex:InspectorItemUnit>
+        </ui:Foldout>
+    </ui:ScrollView>
+</ui:UXML>

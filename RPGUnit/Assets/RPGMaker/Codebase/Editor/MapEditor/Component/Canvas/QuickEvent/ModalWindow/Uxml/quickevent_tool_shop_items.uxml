@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:ex="RPGMaker.Codebase.Editor.Common.View" editor-extension-mode="False">
+    <Style src="quickevent_tool_shop_items.uss" />
+    <ex:InspectorItemUnit>
+        <ui:Label text="WORD_0068" display-tooltip-when-elided="true"/>
+        <ui:VisualElement class="multiple_item_in_row">
+            <ui:VisualElement name="classification" />
+            <ui:VisualElement name="itemList" />
+            <ui:Button text="WORD_0383" display-tooltip-when-elided="true" name="delete" />
+        </ui:VisualElement>
+    </ex:InspectorItemUnit>
+    <ex:InspectorItemUnit>
+        <ui:Label text="WORD_0527" display-tooltip-when-elided="true"/>
+        <ui:GroupBox>
+            <ui:VisualElement class="multiple_item_in_row">
+                <ui:RadioButton name="radioButton-eventCommand-price1" />
+                <ui:Label text="WORD_0850" display-tooltip-when-elided="true" />
+                <ui:RadioButton name="radioButton-eventCommand-price2" />
+                <ui:Label text="WORD_0356" display-tooltip-when-elided="true" />
+                <uie:IntegerField picking-mode="Ignore" name="num" class="input_field_3" />
+            </ui:VisualElement>
+        </ui:GroupBox>
+    </ex:InspectorItemUnit>
+</ui:UXML>
