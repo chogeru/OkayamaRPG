@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a0a7bad34e7ab4a9c4ede821da3700, type: 3}
+  m_Name: ui
+  m_EditorClassIdentifier: 
+  dataModel:
+    battleMenu:
+      menuHp:
+        enabled: 0
+      menuMp:
+        enabled: 0
+      menuTp:
+        enabled: 0
+    commonMenus:
+    - backgroundImage:
+        color: fe000000fe000000fe00000000000000
+        image: UI_bg_01
+        type: 0
+      buttonFrameImage:
+        color: 00000000000000000000000000000000
+        image: UI_window_frame_01
+        type: 0
+      buttonImage:
+        color: 00000000000000000000000050000000
+        image: UI_button_bg_01
+        type: 0
+      buttonImageHighlight: 26000000af000000ff00000053000000
+      characterType: 2
+      id: 1
+      menuFontSetting:
+        color: ff000000ff000000ff000000ff000000
+        font: mplus-1m-regular
+        size: 40
+      windowBackgroundImage:
+        color: 00000000000000000000000080000000
+        image: UI_window_bg_01
+        type: 0
+      windowFrameImage:
+        color: f5000000f9000000fc00000000000000
+        image: UI_window_frame_02
+        type: 1
+      windowFrameImageHighlight: ea0000008f000000c700000000000000
+    gameMenu:
+      categoryArmor:
+        enabled: 1
+      categoryImportant:
+        enabled: 1
+      categoryItem:
+        enabled: 1
+      categoryWeapon:
+        enabled: 1
+      menuEquipment:
+        enabled: 1
+      menuFontSetting:
+        color: 6400000096000000c8000000
+        font: AAA
+        size: 16
+      menuGameEnd:
+        enabled: 1
+      menuItem:
+        enabled: 1
+      menuOption:
+        enabled: 1
+      menuSave:
+        enabled: 1
+      menuSkill:
+        enabled: 1
+      menuSort:
+        enabled: 1
+      menuStatus:
+        enabled: 1
+    talkMenu:
+      characterMenu:
+        characterEnabled: 1
+        nameEnabled: 1
+        nameFontSetting:
+          color: ff000000ff000000ff000000
+          font: 002
+          size: 100
+        talkFontSetting:
+          color: ff000000ff000000ff000000
+          font: AAA
+          size: 100
+      itemSelectMenu:
+        menuFontSetting:
+          color: 000000000000000000000000
+          font: 002
+          size: 100
+        positionItemWindow: 2
+      numberMenu:
+        menuFontSetting:
+          color: 000000000000000000000000
+          font: 002
+          size: 100
+        numberEnabled: 0
+        positionNumberWindow: 0000000000000000
+      selectMenu:
+        menuFontSetting:
+          color: f6000000e5000000e5000000
+          font: 002
+          size: 100

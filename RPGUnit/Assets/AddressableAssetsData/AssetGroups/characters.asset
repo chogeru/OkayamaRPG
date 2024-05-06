@@ -1,0 +1,993 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: characters
+  m_EditorClassIdentifier: 
+  m_GroupName: characters
+  m_Data:
+    m_SerializedData: []
+  m_GUID: acaf4263242811b4e8a090cbb8acbf80
+  m_SerializeEntries:
+  - m_GUID: b978cb0a50e900c4fa515ab8313f6ab1
+    m_Address: Characters/001_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 934a76c24658c654d9b85a824ab1095b
+    m_Address: Characters/001_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed569e08e449eec45901fc66b9f30264
+    m_Address: Characters/001_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 01d4e5ed74760e04599f545b29c109fa
+    m_Address: Characters/001_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d7464edd8f0cb64cb4ab7528488ecbc
+    m_Address: Characters/001_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b2a80b9068ac254393ef006d371a2cf
+    m_Address: Characters/002_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b035edfd8d0a4240af4f5591cb7b68e
+    m_Address: Characters/002_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c26f9f1098bf763438ce3d37f331cca5
+    m_Address: Characters/002_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a0e1ea701d9efbb45871c0184bdfabda
+    m_Address: Characters/002_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4769fac0c9f16c34db856e2d5c54a9cf
+    m_Address: Characters/002_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c27f9d12d25f60b46b06aac766ab56bc
+    m_Address: Characters/003_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b9f24d6c35768d4a84281fee432c108
+    m_Address: Characters/003_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fb72d146a01d5d4db76fe567b9e8572
+    m_Address: Characters/003_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5f0a5581f827e3640951c765e4b7dd39
+    m_Address: Characters/003_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8841d415c99706e4f947d035ece69d30
+    m_Address: Characters/003_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de4a572b34843fb44984059c3dd60664
+    m_Address: Characters/004_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af8bc65f4363d8d4296e19a5f5af8004
+    m_Address: Characters/004_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 087b214e2f489d148918d645b3f0ab3b
+    m_Address: Characters/004_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 909971063edf212469aa63c09aaae84e
+    m_Address: Characters/004_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9139fe0a06ad67c43ba409b0375b465a
+    m_Address: Characters/004_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7edc670d751b63340ba3d9e92f648de2
+    m_Address: Characters/005_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c554af0bccd82234181e85e1804fb95c
+    m_Address: Characters/005_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f115ad11f884a9049bb9a545088e3b8f
+    m_Address: Characters/005_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f0c06f5472dc124d8e2da9daef7c876
+    m_Address: Characters/005_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa3d6d27158276e40b694c6b0ccdfb9e
+    m_Address: Characters/005_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b67441ab42c2224faf8d5ed9509559f
+    m_Address: Characters/006_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2098bb7ad389ea409c6b5c00d6dd633
+    m_Address: Characters/006_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c3d338801404b94bb56a3c76b820e7b
+    m_Address: Characters/006_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50e25c2120890564fa98283b92174635
+    m_Address: Characters/006_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc3032e581cda2b4396b3c3f02147c63
+    m_Address: Characters/006_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 269b5c9729842874cb3f0aa923ff0d89
+    m_Address: Characters/007_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa8ec7754670ab947823f5c8bf41a993
+    m_Address: Characters/007_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aae5947d7b3297a43856e71acc21b8a8
+    m_Address: Characters/007_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79380fcb9c9cf704d9b95ac0ac64f745
+    m_Address: Characters/007_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 311c1e785f2ac394e9b205128460db6c
+    m_Address: Characters/007_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ba46647bddb5744a96fa592b70ecf23
+    m_Address: Characters/008_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 80aff679b93d5274b98b757250b50078
+    m_Address: Characters/008_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b461de7fff31f3d4bb62c6e9e17e2163
+    m_Address: Characters/008_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 98c2c69ad64f1e341a44844822140707
+    m_Address: Characters/008_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3050d035681d31544927f00f3fb03e78
+    m_Address: Characters/008_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f53b6351942f0b94ba69bc67308edffa
+    m_Address: Characters/015_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67be5ecfd1eb63c4ab699c716a913aaa
+    m_Address: Characters/015_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0a6eb4599256b84183e62bf5389cb13
+    m_Address: Characters/015_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e51191fc41618cf438378b8557bc38d3
+    m_Address: Characters/015_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4147f725d3a7a0b44b2d6db38cedcf56
+    m_Address: Characters/015_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: faec1c025c2ecf14bad8373c70a07d07
+    m_Address: Characters/016_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 35860bdbc78a7c641b28b20be4f74471
+    m_Address: Characters/016_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 49c490cc9ccf74048a0a16ab8ed04ea2
+    m_Address: Characters/016_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 670c6f0b3e712dc40823d41e4ee23857
+    m_Address: Characters/016_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d1905478450009469fe529c2ca478f8
+    m_Address: Characters/016_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6594e92b10754fa41be446b287c26ef5
+    m_Address: Characters/019_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d8f26ccd10dd31459d165851187a8e6
+    m_Address: Characters/019_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bfc5d47567a994438ec341332a15c12
+    m_Address: Characters/019_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ed47c278b36b67449b79856da4b2f14c
+    m_Address: Characters/019_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 800a0196887f22d4cb2e1f723ba05320
+    m_Address: Characters/019_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7c3eb1de1ef3c3a468a97efdc2711e5e
+    m_Address: Characters/020_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a773356533b36bb4a9d808141852742e
+    m_Address: Characters/020_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79e87898f36079040a3c1c3f7b013570
+    m_Address: Characters/020_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c90f72dd543a341458ea579895c000e6
+    m_Address: Characters/020_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e78b6767db9ab434587dc06d72deddc1
+    m_Address: Characters/020_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 443351e4e5eba9d4b939e03c39b03d0f
+    m_Address: Characters/021_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 871d0e47dbeae364b92ae328338bc861
+    m_Address: Characters/021_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91b2db202069d494ba6e3e27a051b952
+    m_Address: Characters/021_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37d83676d4a79764087a860da6de5da4
+    m_Address: Characters/021_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f848ac25aee4c4d4ea9b28100f639336
+    m_Address: Characters/021_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3cfb5d82a4990f42a8b37b330f4e81d
+    m_Address: Characters/022_Actor_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee3447faa51556d48a701b5b42e833e9
+    m_Address: Characters/022_Actor_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 737857b16b5b95b4d998acae2c5a11f5
+    m_Address: Characters/022_Actor_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 094a0148522439e47b375c219c10171a
+    m_Address: Characters/022_Actor_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bf14cef49e0e8b941b4bb19ae16e4166
+    m_Address: Characters/022_Actor_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93d76867a160162409b31712d1c95204
+    m_Address: Characters/025_Evil_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ef033754f63e2144fb660ff257e67095
+    m_Address: Characters/025_Evil_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6044cb46a604dbb44864c2fef953bf91
+    m_Address: Characters/025_Evil_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 494c64f1f0a393240b085de859fa769e
+    m_Address: Characters/025_Evil_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1cbe03e726c89940a68d58ae6b59552
+    m_Address: Characters/025_Evil_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c41eea3d93b97644684c7a24319bd262
+    m_Address: Characters/026_Evil_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 13638cf30d29b5d4d9317276703ce0dc
+    m_Address: Characters/026_Evil_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7bcfe68ec447b9d458dc3ca03cbc567f
+    m_Address: Characters/026_Evil_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 71588650999cbd4439d9605e5ef345c5
+    m_Address: Characters/026_Evil_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43f63e34c75e13349b1e32015df2b8cb
+    m_Address: Characters/026_Evil_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8127965fbc1d90f4db492c02562a2a4e
+    m_Address: Characters/027_Evil_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 50058fb668e3e2040b77ec87358c481b
+    m_Address: Characters/027_Evil_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a18a7ceff2000c4f93bbe341c286315
+    m_Address: Characters/027_Evil_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e98888dc14f16d14bb1c8213d0540d18
+    m_Address: Characters/027_Evil_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4fd589b413e33a8479221e7dbf1a8405
+    m_Address: Characters/027_Evil_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa78b4b5d089bf1498df480d16832075
+    m_Address: Characters/028_Evil_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5840c311d9d4fa04ab3264c69b29f317
+    m_Address: Characters/028_Evil_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3b2f4615ca1a7d049aba92bce092d71e
+    m_Address: Characters/028_Evil_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 566ab2d64bc9a7a4b9a174f9f7b3bab8
+    m_Address: Characters/028_Evil_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b163dfd8d2ac9d4bb0e26cfbc4414c2
+    m_Address: Characters/028_Evil_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d31db23459d7d74caa80e1de6aea099
+    m_Address: Characters/033_Demihuman_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cee87a40e91f82e428608ee42e1c3af6
+    m_Address: Characters/033_Demihuman_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f5f2e3201b462c4a9c21e895587f576
+    m_Address: Characters/033_Demihuman_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd8553617f88b9043bbcac42a3c69dc5
+    m_Address: Characters/033_Demihuman_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44b9e75e98e346f4a886b729efe3a934
+    m_Address: Characters/033_Demihuman_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 028deda40b0b5a041ad27a5e2d69304f
+    m_Address: Characters/034_Demihuman_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a5f1ff9f3f259b44b49bba6d89635be
+    m_Address: Characters/034_Demihuman_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6f2bd07dbd315f545a85a9bb48581f7e
+    m_Address: Characters/034_Demihuman_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fac1ec1ec1f7c38478a683f560662842
+    m_Address: Characters/034_Demihuman_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fdea983286d32b54aac6d6e717938f84
+    m_Address: Characters/034_Demihuman_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7f383bfde9ca29e4b8b5dbfff159b708
+    m_Address: Characters/037_Demihuman_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d574909e61c9d094cb97c208818be842
+    m_Address: Characters/037_Demihuman_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db0782958d5907c4ebe71120186dac21
+    m_Address: Characters/037_Demihuman_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7d3c9b3d41d9b0419f37d51cc5fafb1
+    m_Address: Characters/037_Demihuman_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 76b49f5e78668c14686c24d6aa3f402c
+    m_Address: Characters/037_Demihuman_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74377c6051b96d640844325de073335c
+    m_Address: Characters/041_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ec9982d3b97034449ba5ca975cc60fdd
+    m_Address: Characters/041_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 094bea2136722454d8dd8a84bfb8300a
+    m_Address: Characters/041_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0563fe826b6b51c43a27a8084e893f19
+    m_Address: Characters/041_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a83ba51609de9504aadcade1122d4af2
+    m_Address: Characters/041_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a82a9a939431bfd46b7d2e4caadf1b29
+    m_Address: Characters/042_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 86a7fd9a540120e4dadc2e10376d6d27
+    m_Address: Characters/042_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a266e0c0c4a7bff4cb38b8a619b688da
+    m_Address: Characters/042_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 617eba12a946060419252f5564ff02cd
+    m_Address: Characters/042_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8e333ccc8f717ad42ba3e6967a190ea9
+    m_Address: Characters/042_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b28e70ff37fba2b4ca6654dc87e4329e
+    m_Address: Characters/043_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 07aad92635803e04a8344133a2452181
+    m_Address: Characters/043_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 12fccac811d9f9645ace0a4e372ad82a
+    m_Address: Characters/043_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 765afa65395d96a40893a171638542b1
+    m_Address: Characters/043_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 423b7b8cf86dae046989b675afc2653d
+    m_Address: Characters/043_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53141b15a7b71a74aace7ce57d45a237
+    m_Address: Characters/044_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f4c9642c4b8d9343b41ebffd2c1247a
+    m_Address: Characters/044_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b4faab5ceabeea54abe87157f62601d3
+    m_Address: Characters/044_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b2b4b1b3968a14f499677cadb4a2e5db
+    m_Address: Characters/044_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34803d6491900eb4f92614af208f0b2c
+    m_Address: Characters/044_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc6a912d7ecaa8241a2eecd25f6aa02f
+    m_Address: Characters/045_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 68692e8018b7f5a41b52b8a440646862
+    m_Address: Characters/045_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0301dd786a828b241b251a0015c91213
+    m_Address: Characters/045_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f27f2b644e3a3aa4ab22eac88ae877a6
+    m_Address: Characters/045_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8357f59d56ccbd14bb98c4fe40c5c757
+    m_Address: Characters/045_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd6cda2c6598cfe41b3bf29fe087393e
+    m_Address: Characters/046_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 52b5b19c92277564da1cb0ec75a93ae0
+    m_Address: Characters/046_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 43c59f12ae786c04cb7e08bf60a39443
+    m_Address: Characters/046_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 073bc48c61e86e145aaf9b12a9b4533c
+    m_Address: Characters/046_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c2ef83195a1e51489fe576037350cf7
+    m_Address: Characters/046_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20afeeb68ca213547a1ce26274bd95f2
+    m_Address: Characters/047_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b23fff4c779515469f189e5edfa623c
+    m_Address: Characters/047_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: da4b30f701bb117458455df861b4c6e2
+    m_Address: Characters/047_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1e17039a0b48d640b56b231625d639f
+    m_Address: Characters/047_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e0e814b29918d2a47a58c0170567639d
+    m_Address: Characters/047_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1af6673629db3045976087de0fe786a
+    m_Address: Characters/048_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 820a42169394c5a40a1ef31dc3e24412
+    m_Address: Characters/048_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8a103498f01969441bc186ee851e90aa
+    m_Address: Characters/048_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1dd8cff518c963e48bcf29269ca14d4a
+    m_Address: Characters/048_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b5e3e5ebdda416f47adc9b653735d17b
+    m_Address: Characters/048_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 48b0eb82678d07648a327e00366f958f
+    m_Address: Characters/049_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac5c1ac317282844fb5cf007c66819d4
+    m_Address: Characters/049_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 20b29713c8be6054e8649bb4e8d56a82
+    m_Address: Characters/049_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9ebad7f918ca2cd428848564d9ae6e7c
+    m_Address: Characters/049_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1c1785b0f48fc14e9c72c39c912d84e
+    m_Address: Characters/049_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08cb0eb0ae3453047a4f3e9219d67d28
+    m_Address: Characters/053_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 452aa5e9ce1a689459986a1a2a9aef30
+    m_Address: Characters/053_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d15ddd5d7c7c39741bce661bce8aad60
+    m_Address: Characters/053_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a68e248bdae651b48a27847441612a55
+    m_Address: Characters/053_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5609e8a1ed929e342b7b0d2dbedc4826
+    m_Address: Characters/053_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 521094842b0ca6242886929bb5cf1fa5
+    m_Address: Characters/054_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 06a2e5a7d1a1d534fa9cf3681c27bab9
+    m_Address: Characters/054_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8192719320c55f4c954a15aac48426d
+    m_Address: Characters/054_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cca2ce7be0ae52e4a877e735cb640a0a
+    m_Address: Characters/054_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cf24d998fdfd6f4fbdaa5bf9b116dca
+    m_Address: Characters/054_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: defb60e57936028469f1e72866b1f886
+    m_Address: Characters/055_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 30159580d59d24a418b1a5b7ec583552
+    m_Address: Characters/055_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bdcf6acb23a9254c8c3a5eaca4de77d
+    m_Address: Characters/055_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d509490fdae1beb44ad3c117b5eb1754
+    m_Address: Characters/055_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4204ef1da5e835649a188cedd1afb070
+    m_Address: Characters/055_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcc7b9dac699ba047a22c3d23279c17d
+    m_Address: Characters/056_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bff5c49310164d74d81aec0eb4612915
+    m_Address: Characters/056_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c2cf6081ca39536499eae4cbdac9c382
+    m_Address: Characters/056_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 32210fd93d7d794409a355630fd85e0c
+    m_Address: Characters/056_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 40631b5d6e042d94ca73c66cec92be94
+    m_Address: Characters/056_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 478a69e40495e374c9fca14f17af9f3b
+    m_Address: Characters/057_People_fielddamage_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d35cb634b7945974593a4c780bd8bffe
+    m_Address: Characters/057_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f0c6cde925b6e134da654da374b84aa8
+    m_Address: Characters/057_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5c29923e267f664d894ad2c445d0165
+    m_Address: Characters/057_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41a6173199f8dd84493b8b64ee5c1937
+    m_Address: Characters/057_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ebeadefab8c46f44aba66c264d4c1274
+    m_Address: Characters/058_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2ecd5f8100e32f84faf6fb21cbaf4069
+    m_Address: Characters/058_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e458ceb66ed0eb545bae1a2adaf3e9d4
+    m_Address: Characters/058_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d1017baa08d3d8409112532d9733995
+    m_Address: Characters/058_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cdfd1518303836c4291eb0e3fb1ed423
+    m_Address: Characters/058_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 85b5cbc43f5582b44a06275f4b5bac46
+    m_Address: Characters/059_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9242f067f16a0124ca2c56b4047aabf6
+    m_Address: Characters/059_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8615632d4fb6504abcd91ba41759cb6
+    m_Address: Characters/059_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d4adbaf6ad3d5347a506277cabd42b4
+    m_Address: Characters/059_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69304de184828894b91c8c7b4457a9d8
+    m_Address: Characters/059_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aa88f2e61ef9bf64dbccb8ac9ac1235f
+    m_Address: Characters/062_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 354eb38078bb6224cba1291c4caceca9
+    m_Address: Characters/062_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 790a7bf59ae887249bd1ae1c13899ea0
+    m_Address: Characters/062_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2c399447a4859b04dacb98cae3a13700
+    m_Address: Characters/062_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1583d530319fe734cb9d3522446c1393
+    m_Address: Characters/062_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a1061c1e823993e4ebd4dcb865998049
+    m_Address: Characters/063_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5e1ae2c34fa504b48ac7633e2aa18f6d
+    m_Address: Characters/063_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9fa6fefd1b307e544a474a74687eed66
+    m_Address: Characters/063_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8dd0e3f299803e94c9ad3d1ce7ca5e4a
+    m_Address: Characters/063_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 967f2e36ab867f544875c201429ff56f
+    m_Address: Characters/063_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e09ca85069a45934fb6cf69473656fe1
+    m_Address: Characters/066_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a9497e944f9b1144795e33581bdc4579
+    m_Address: Characters/066_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3c2d2c6d48e163349bacf88ba1d625df
+    m_Address: Characters/066_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fec8ab7be53dd0b4288aa3cd95afea3b
+    m_Address: Characters/066_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b00faae30358114facd74fa9969a257
+    m_Address: Characters/066_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b6e19db90e1e69a498b198a08af6ec34
+    m_Address: Characters/067_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe5443609f7c4344ab7e3065f85fbabf
+    m_Address: Characters/067_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67fed0006b7a8d643ba9e6499266e45e
+    m_Address: Characters/067_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 05465d85acfbb5440a01bca14608b0fa
+    m_Address: Characters/067_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 456628df0bad3d24190ca52050d50996
+    m_Address: Characters/067_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b45d5351bdc0034fae84f51459349cf
+    m_Address: Characters/068_People_fielddamage_8.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ba34091244edaff47a1cbe59e070db7e
+    m_Address: Characters/068_People_walk_down_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b1cbaf24ca79aa4981c4f2f13a07166
+    m_Address: Characters/068_People_walk_left_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa83fe9203bc88f4784ebba21c6df6ba
+    m_Address: Characters/068_People_walk_right_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6462109179051084d93df2a6677b58d0
+    m_Address: Characters/068_People_walk_up_6.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a94e18a5ca1c60a40ae9f4b0a7ebef91
+    m_Address: Characters/Vehicle_001.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4123bb5193bb76f43885c96c4d820d5f
+    m_Address: Characters/Vehicle_002.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5ae6cc99a05f5cd449d02723762b8ee8
+    m_Address: Characters/Vehicle_003.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1c52e9be47e64e9429a083375a44bd87
+    m_Address: Characters/Vehicle_004.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 400c7439090003d48b3ed3a548537a18
+    m_Address: Characters/Vehicle_005.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3ae05358a74f3c2458e57476d5a5ac8e
+    m_Address: Characters/Vehicle_006.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 44cf72fae4b3258418c050a7078356bf
+    m_Address: Characters/Vehicle_007.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aed51a25ef4447b489a7fedd5307fcdf
+    m_Address: Characters/Vehicle_008.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 743c925f01f3e0c4fbf90ad619d2a972
+    m_Address: Characters/Vehicle_009.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe3b1263c497f6e49933d5b6cc863beb
+    m_Address: Characters/Vehicle_010.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f8e87e6f3bf40c04dad66bb7ee335057
+    m_Address: Characters/Vehicle_011.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5a3c33e224e5ea048934488964fd69c8
+    m_Address: Characters/Vehicle_012.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce022e79b000f48478bd9713fc678946
+    m_Address: Characters/Vehicle_013.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08298dc7d4fbf0f42a6742b5de2862fb
+    m_Address: Characters/Vehicle_014.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 504a2c15a2c0b6742bc2b939c5c6f31c
+    m_Address: Characters/Vehicle_015.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b837ab01986b6e41a3d66ef02ac8aa2
+    m_Address: Characters/Vehicle_016.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d9951bf9998d8814da5fcea3a904db5e
+    m_Address: Characters/Vehicle_017.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f032f1107c74f8d49a6c1678c4b9a7b7
+    m_Address: Characters/Vehicle_018.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 268ca6d742bedaf488f87b7294f8838a
+    m_Address: Characters/Vehicle_019.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5535fd9e9040b08459842d289b8e4c52
+    m_Address: Characters/Vehicle_020.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 258ddcefb35dd9442b3dd8f1d4eedf86
+    m_Address: Characters/Vehicle_021.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: beea1592dff716b478f74d791b12996c
+    m_Address: Characters/Vehicle_022.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bd8c91fba5ed064e9d8d4369edec9bb
+    m_Address: Characters/Vehicle_023.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 79c90dbd7301f204db762dff8d14f867
+    m_Address: Characters/Vehicle_024.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: de766afcd78447942befa3ddcdff0f37
+    m_Address: Characters/Vehicle_025.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08175d42ba1098a4c83bfbc198feb2ea
+    m_Address: Characters/Vehicle_026.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8baa2dfe083fda41b9cb246d7e1ec9a
+    m_Address: Characters/Vehicle_027.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8085328b6b2bf144a3636c912ed3a9c
+    m_Address: Characters/Vehicle_028.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fedb19c17c3f8344e89b328ff13ab14b
+    m_Address: Characters/Vehicle_029.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2740b6e48de02f64e9c603d65087eaf6
+    m_Address: Characters/Vehicle_030.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd8fb6f49a0cb2849bdf231c7284a87f
+    m_Address: Characters/Vehicle_031.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bcb863d861275da45867a1c8090d434e
+    m_Address: Characters/Vehicle_032.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 034437bad5c516d4ebf8a2b188d57450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8141d3de2e59cdd46b9fe07a94b1bca1, type: 2}
+    - {fileID: 11400000, guid: 07ab8b439b311e146a09a5d088e1c9af, type: 2}

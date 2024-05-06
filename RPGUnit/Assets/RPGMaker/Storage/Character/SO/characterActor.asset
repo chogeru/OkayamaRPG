@@ -1,0 +1,552 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4f294abf2c7390468e4c0917c70c271, type: 3}
+  m_Name: characterActor
+  m_EditorClassIdentifier: 
+  dataModels:
+  - basic:
+      classId: 39450ee1-598b-4a2e-b249-b615cd2a2ea5
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30AF\u30E9\u30D5\u30C8"
+      profile: "\u738B\u90FD\u3067\u306E\u4ED5\u5B98\u3092\u76EE\u6307\u3059\u8FBA\u5883\u306E\u753A\u30B3\u30B3\u30AB\u30E9\u51FA\u8EAB\u306E\u5C11\u5E74"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 661cb624-e856-494e-94b8-0e41064e90b0
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_001_Actor
+      battler: e7c8511c-dda2-4812-9ddb-03a8674ce085
+      character: 78a965c8-7400-432e-a17f-93432f6b9ff5
+      face: charaface_001_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30AF\u30E9\u30D5\u30C8"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: a8230358-b349-4687-aaf9-e3ccb8d55479
+  - basic:
+      classId: 090b07bd-223d-488e-8016-f3a8293f57a1
+      initialLevel: 4
+      maxLevel: 99
+      memo: 
+      name: "\u30DF\u30B2\u30EB"
+      profile: "\u904A\u7267\u6C11\u306E\u6751\u30AB\u30E9\u30CF\u30EA\u51FA\u8EAB\u306E\u5F1F\u60F3\u3044\u306E\u5C11\u5E74 "
+      secondName: 
+    charaType: 1
+    element: 8
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 9f302811-0a5e-4ecc-b00c-d4601eedea60
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: d410334d-6fb2-486a-839f-cf655dd6bfdb
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 261f4871-4cf2-4aeb-94cb-87821c1534f8
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_003_Actor
+      battler: c1ecd373-0b09-4299-ab11-e320903e0c87
+      character: 60cc7e88-f27a-4608-9152-06ca3704de2a
+      face: charaface_003_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30DF\u30B2\u30EB"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 25542bfa-c069-4b3c-87e3-d2cc02b4fa37
+  - basic:
+      classId: e3912a26-0c3c-44c9-9454-5cb91c0aa689
+      initialLevel: 7
+      maxLevel: 99
+      memo: 
+      name: "\u30B7\u30E3\u30ED\u30F3"
+      profile: "\u6E7E\u5CB8\u4EA4\u6613\u90FD\u5E02\u30EA\u30DF\u30BF\u30FC\u30CA\u3067\u51FA\u4F1A\u3046\u9B54\u6CD5\u90FD\u5E02\u30CF\u30FC\u30C7\u30F3\u30AE\u30A2\u51FA\u8EAB\u306E\u5C11\u5973 "
+      secondName: 
+    charaType: 1
+    element: 3
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 3b43e5d9-721a-4beb-82e9-be48c2240f74
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 8ca616b4-e9ef-40cc-87cd-c149a7c0e0d4
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 9904b0cf-5213-4a74-9dce-89c834f552e7
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 3a226a2f-6a3b-430c-917c-7bd7750e4612
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_006_Actor
+      battler: 01a22294-1de0-47a9-b0a2-8a210364bd1b
+      character: 6c7b7fea-11b5-4789-ae62-c18670faacae
+      face: charaface_006_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30B7\u30E3\u30ED\u30F3"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: cfa785a6-03ef-484f-b886-70023368038e
+  - basic:
+      classId: 39450ee1-598b-4a2e-b249-b615cd2a2ea5
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30AF\u30E9\u30EA\u30B9"
+      profile: "\u597D\u5947\u5FC3\u65FA\u76DB\u3067\u5192\u967A\u597D\u304D\u306A\u65C5\u3059\u308B\u5C11\u5973"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 88790220-72d8-4b34-95ec-947af47a5e22
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 595e24d8-1455-491b-8704-13c237dc9ee1
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 261f4871-4cf2-4aeb-94cb-87821c1534f8
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_002_Actor
+      battler: 97305d27-f354-47a6-b753-17665fac01cc
+      character: 02c771b2-247a-42d5-b6dd-ad398d3c6557
+      face: charaface_002_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30EB\u30FC\u30B7\u30A3"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 2a0e1092-eaef-4654-9d0b-6eea03728a3f
+  - basic:
+      classId: 090b07bd-223d-488e-8016-f3a8293f57a1
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30DF\u30B7\u30A7\u30EB"
+      profile: "\u6A5F\u68B0\u5C4B\u306B\u624B\u89E3\u304D\u3055\u308C\u3066\u9283\u3084\u30DC\u30A6\u30AC\u30F3\u306E\u6271\u3044\u306B\u9577\u3051\u305F\u30B9\u30CA\u30A4\u30D1\u30FC "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: bcdd9a69-f5f6-41ef-9f70-642b54083042
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: feef80d5-8908-433a-bad6-ddd609c664e7
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 261f4871-4cf2-4aeb-94cb-87821c1534f8
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_004_Actor
+      battler: 1b557c2e-6b62-450f-8631-f871d38a5e2f
+      character: d6b49430-02b5-41fa-95b1-47d8574f2df8
+      face: charaface_004_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30B8\u30FC\u30AF\u30CF\u30EB\u30C8"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 0c03b35d-ad15-443b-b252-4f9852be7c63
+  - basic:
+      classId: e3912a26-0c3c-44c9-9454-5cb91c0aa689
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30BB\u30EA\u30AA"
+      profile: "\u9B54\u6CD5\u90FD\u5E02\u30CF\u30FC\u30C7\u30F3\u30AE\u30A2\u306E\u5B66\u5712\u90FD\u5E02\u3067\u5B66\u5E74\u4E3B\u5E2D\u306E\u512A\u7B49\u751F "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 3b43e5d9-721a-4beb-82e9-be48c2240f74
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 3a226a2f-6a3b-430c-917c-7bd7750e4612
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_005_Actor
+      battler: d3a6de19-dfce-45b1-aa5f-bd48c4c59431
+      character: 352c7990-8acf-4037-a0f6-c19d05583f10
+      face: charaface_005_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30C6\u30A3\u30A2"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: dfe5c39c-aae8-4f10-bc26-59cb8b4627a7
+  - basic:
+      classId: 14ea366f-85a0-4d2f-90d3-4d367fb026bc
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30B4\u30EC\u30A2\u30CE\u30B9"
+      profile: "\u6545\u90F7\u30AA\u30E9\u30C9\u306B\u964D\u308A\u304B\u304B\u3063\u305F\u7570\u5909\u3092\u4F1D\u3048\u308B\u305F\u3081\u306B\u65C5\u306B\u51FA\u305F\u6B74\u6226\u306E\u52C7\u58EB "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 13e9216c-958d-49ea-8394-cd92bda32b00
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_007_Actor
+      battler: 53dbe1dc-8928-4ff9-a20e-68e4ca18ae3b
+      character: cca6e316-9c3f-4aa1-a82e-3925a14bcad0
+      face: charaface_007_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30B4\u30FC\u30B7\u30E5"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 7f1f2710-7ff8-432a-89b7-79d167a08ab0
+  - basic:
+      classId: 14ea366f-85a0-4d2f-90d3-4d367fb026bc
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30F4\u30A1\u30CD\u30C3\u30B5"
+      profile: "\u6226\u5834\u3068\u306A\u3063\u305F\u30AA\u30E9\u30C9\u3092\u5B88\u308B\u524D\u7DDA\u3067\u5473\u65B9\u3092\u9F13\u821E\u3057\u7D9A\u3051\u308B\u6307\u63EE\u5B98 "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 13e9216c-958d-49ea-8394-cd92bda32b00
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 3a226a2f-6a3b-430c-917c-7bd7750e4612
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_008_Actor
+      battler: 3dc90627-ed39-4ccb-a721-5e5b4242308b
+      character: 589b264f-c609-4a4b-a18e-60bb3769a8d1
+      face: charaface_008_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: "\u30EA\u30B5\u30FC\u30CA"
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 48093463-b031-41f5-b1f5-0fd3709701da
+  - basic:
+      classId: 
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30EC\u30F3\u30B0\u30CA\u30FC"
+      profile: 
+      secondName: 
+    charaType: 2
+    element: 0
+    equips:
+    - type: 
+      value: 0
+    image:
+      adv: charaupperbody_015_Actor
+      battler: e7c8511c-dda2-4812-9ddb-03a8674ce085
+      character: abd04eef-83a3-432b-b5e7-d244ebc2ae2c
+      face: charaface_015_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: ef4497e6-acc1-4fdd-b267-97eb38b2c168
+  - basic:
+      classId: 
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30B9\u30CD\u30A2"
+      profile: 
+      secondName: 
+    charaType: 2
+    element: 0
+    equips:
+    - type: 
+      value: 0
+    image:
+      adv: charaupperbody_016_Actor
+      battler: e7c8511c-dda2-4812-9ddb-03a8674ce085
+      character: 07992b30-e4c4-454e-9335-71b9750566f7
+      face: charaface_016_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: b2875ac2-ac74-4174-b4fa-9ae16b310c59
+  - basic:
+      classId: 
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u738B\u69D8"
+      profile: 
+      secondName: 
+    charaType: 2
+    element: 0
+    equips:
+    - type: 
+      value: 0
+    image:
+      adv: charaupperbody_055_People
+      battler: e7c8511c-dda2-4812-9ddb-03a8674ce085
+      character: 3972e31c-64ec-4258-8df0-0f969d85ce85
+      face: charaface_055_People
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 0906c814-5478-475d-845b-6ce9053132ce
+  - basic:
+      classId: cb80cc56-5314-499f-ae7b-b6f6232b4e43
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30EC\u30F3\u30B0\u30CA\u30FC"
+      profile: "\u30D6\u30EB\u30BF\u30FC\u30CB\u30E5\u738B\u5BA4\u76F4\u5C5E\u9A0E\u58EB\u3068\u3057\u3066\u5E02\u6C11\u306B\u4FE1\u983C\u3055\u308C\u308B\u51B7\u9759\u6C88\u7740\u306A\u30EA\u30FC\u30C0\u30FC"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 88790220-72d8-4b34-95ec-947af47a5e22
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 61edc1cf-0b24-4a1e-a835-6e0f7929da4b
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: b60beb8a-f79d-4ab1-b7fa-1c5435022376
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: ffd9dd7d-00ed-4835-9545-3cc098401895
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_015_Actor
+      battler: 3925ea86-f13f-45f5-901e-09f199ffe945
+      character: abd04eef-83a3-432b-b5e7-d244ebc2ae2c
+      face: charaface_015_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 130a9ac5-001a-4cb3-9f8e-42ffa92cbb98
+  - basic:
+      classId: cb80cc56-5314-499f-ae7b-b6f6232b4e43
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30B9\u30CD\u30A2"
+      profile: "\u30EC\u30F3\u30B0\u30CA\u30FC\u3082\u4E00\u76EE\u7F6E\u304F\u6226\u95D8\u30BB\u30F3\u30B9\u3092\u6301\u3064\u738B\u90FD\u95D8\u6280\u5927\u4F1A\u3067\u51FA\u4F1A\u3046\u5BFE\u6226\u30C1\u30FC\u30E0\u306E\u5C11\u5973 "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 7c3ff758-46b8-4ec5-99f7-d10c94afb499
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 61edc1cf-0b24-4a1e-a835-6e0f7929da4b
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: b60beb8a-f79d-4ab1-b7fa-1c5435022376
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: ffd9dd7d-00ed-4835-9545-3cc098401895
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_016_Actor
+      battler: 56f31f05-e2ec-4042-bd34-9ff19ac8c48f
+      character: 07992b30-e4c4-454e-9335-71b9750566f7
+      face: charaface_016_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 79ae51ff-1761-4f00-b890-96da27ca154e
+  - basic:
+      classId: f510cdd3-624b-434d-b2a0-d330f2f60f3f
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30B2\u30F3"
+      profile: "\u5263\u8853\u4FEE\u884C\u306B\u660E\u3051\u66AE\u308C\u3066\u6D6A\u4EBA\u751F\u6D3B\u3092\u7D9A\u3051\u3066\u3044\u308B\u9752\u5E74"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_019_Actor
+      battler: 28c29c99-ed83-449f-883f-996ecd55257f
+      character: ee4c8593-3c5b-430b-8072-9ab4bd1691c0
+      face: charaface_019_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 86629cf3-53d7-42b4-b36f-4cb915af1bbc
+  - basic:
+      classId: f510cdd3-624b-434d-b2a0-d330f2f60f3f
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30AB\u30A4"
+      profile: "\u82E5\u304F\u3057\u3066\u514D\u8A31\u7686\u4F1D\u3092\u8A31\u3055\u308C\u81EA\u3089\u9053\u5834\u3092\u6301\u3064\u5929\u624D\u5263\u58EB "
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: 
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_020_Actor
+      battler: eec27fac-b1d7-4c81-bbc8-101afabc4968
+      character: 1ea5b36f-c25d-48cf-82a2-d793aaa6084b
+      face: charaface_020_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 3f7d0a53-2971-41fb-a67b-22151666d26f
+  - basic:
+      classId: 87138fce-4a1a-4bda-bc31-7b8cd9243957
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30A2\u30EB\u30D5\u30EC\u30C3\u30C9"
+      profile: "\u666E\u6BB5\u306F\u53E4\u4EE3\u6280\u8853\u306E\u7D99\u627F\u8005\u3068\u3057\u3066\u6A5F\u68B0\u5C4B\u3092\u55B6\u3080\u5B64\u9AD8\u306E\u30CB\u30F3\u30B8\u30E3"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: dfad600e-e663-48b6-bc53-8513403ad5b2
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_021_Actor
+      battler: a101e8dc-1f0a-44f2-8662-040c507b32d8
+      character: 78862513-7992-4c79-aef2-b741571ebd88
+      face: charaface_021_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: c1817d39-cf33-4dc7-b9e1-1b58103575d0
+  - basic:
+      classId: 87138fce-4a1a-4bda-bc31-7b8cd9243957
+      initialLevel: 1
+      maxLevel: 99
+      memo: 
+      name: "\u30B1\u30A4\u30EA\u30FC"
+      profile: "\u5F53\u4E3B\u3092\u5F71\u306A\u304C\u3089\u652F\u3048\u308B\u30CB\u30F3\u30B8\u30E3\u96C6\u56E3\u306E\u82E5\u304D\u5973\u982D\u76EE"
+      secondName: 
+    charaType: 1
+    element: 0
+    equips:
+    - type: 48254f68-178f-448e-98fd-60a0bb616a28
+      value: dfad600e-e663-48b6-bc53-8513403ad5b2
+    - type: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      value: 
+    - type: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      value: 
+    - type: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      value: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+    - type: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      value: 
+    image:
+      adv: charaupperbody_022_Actor
+      battler: e5fb36b8-648f-4814-8037-43c79159b715
+      character: 408b6775-6a5e-4a32-94cf-d00309d4d6ae
+      face: charaface_022_Actor
+    initialLevel: 1
+    maxLevel: 99
+    name: 
+    nickname: 
+    profile: 
+    traits: []
+    uuId: 586442f0-bb12-4ca2-8196-815b2a3842ed

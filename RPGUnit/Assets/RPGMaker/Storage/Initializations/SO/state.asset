@@ -1,0 +1,1020 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f624fbb6e7a899c4689a50231d17ae4f, type: 3}
+  m_Name: state
+  m_EditorClassIdentifier: 
+  dataModels:
+  - autoRemovalTiming: 0
+    iconId: IconSet_001
+    id: 8fd93d41-fb58-401b-8d6b-f7d5396d3fec
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: "%1\u306F\u5012\u308C\u305F\uFF01"
+    message2: "%1\u3092\u5012\u3057\u305F\uFF01"
+    message3: 
+    message4: "%1\u306F\u7ACB\u3061\u4E0A\u304C\u3063\u305F\uFF01"
+    minTurns: 0
+    motion: 3
+    name: "\u6226\u95D8\u4E0D\u80FD"
+    note: "\u30B9\u30C6\u30FC\u30C81\u756A\u306FHP0\u306E\u3068\u304D\u306B\u4ED8\u4E0E\u3055\u308C\u307E\u3059"
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 100
+    removeAtBattleEnd: 0
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 4
+    stateOn: 2
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 9
+      traitsId: 3
+      value: 0
+  - autoRemovalTiming: 2
+    iconId: IconSet_000
+    id: c774d36d-b857-4899-8498-d079e2850956
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 1
+    maxTurns: 1
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 1
+    motion: 0
+    name: "\u9632\u5FA1"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 0
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 6
+      effectId: 1
+      traitsId: 2
+      value: 0
+  - autoRemovalTiming: 0
+    iconId: IconSet_000
+    id: 7eaae2d6-a0d5-4462-be28-1ef3370ef2aa
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 0
+    motion: 0
+    name: "\u4E0D\u6B7B\u8EAB"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 0
+    removeAtBattleEnd: 1
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 1
+      effectId: 0
+      traitsId: 4
+      value: 0
+  - autoRemovalTiming: 2
+    iconId: IconSet_002
+    id: 158a2017-a757-41c2-bd40-41f464f64784
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u6BD2\u306B\u304B\u304B\u3063\u305F\uFF01"
+    message2: "%1\u306B\u6BD2\u3092\u304B\u3051\u305F\uFF01"
+    message3: 
+    message4: "%1\u306E\u6BD2\u304C\u6D88\u3048\u305F\uFF01"
+    minTurns: 3
+    motion: 1
+    name: "\u6BD2"
+    note: 
+    occurrenceFrequencyStep: 100
+    overlay: eafa135e-b529-45ae-b9d5-8f5c1ec45731
+    priority: 50
+    removeAtBattleEnd: 0
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 1
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 1
+    stepsToRemove: 200
+    traits:
+    - categoryId: 2
+      effectId: 7
+      traitsId: 2
+      value: -100
+  - autoRemovalTiming: 1
+    iconId: IconSet_003
+    id: 268c49ba-7f44-492b-9e8f-23d6c6ea923b
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u6697\u95C7\u306B\u9589\u3056\u3055\u308C\u305F\uFF01"
+    message2: "%1\u3092\u6697\u95C7\u306B\u9589\u3056\u3057\u305F\uFF01"
+    message3: 
+    message4: "%1\u306E\u6697\u95C7\u304C\u6D88\u3048\u305F\uFF01"
+    minTurns: 3
+    motion: 1
+    name: "\u6697\u95C7"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 7a8bfbcf-8256-4cbf-8358-0f43a13c9a9e
+    priority: 60
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: -500
+  - autoRemovalTiming: 1
+    iconId: IconSet_004
+    id: a75d2d8b-ba3b-41fc-a82b-7d89ec15d5b5
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u6C88\u9ED9\u3057\u305F\uFF01"
+    message2: "%1\u3092\u6C88\u9ED9\u3055\u305B\u305F\uFF01"
+    message3: 
+    message4: "%1\u306E\u6C88\u9ED9\u304C\u89E3\u3051\u305F\uFF01"
+    minTurns: 3
+    motion: 1
+    name: "\u6C88\u9ED9"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 82c30cfb-10fd-4a8a-acca-484fec9b7440
+    priority: 65
+    removeAtBattleEnd: 1
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 4
+      effectId: 1
+      traitsId: 2
+      value: 0
+  - autoRemovalTiming: 1
+    iconId: IconSet_005
+    id: 3152071c-6700-432d-84b4-1d844fc7fe30
+    inBattleRemoveDamage: 1
+    inBattleRemoveProbability: 50
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: "%1\u306F\u6FC0\u6602\u3057\u305F\uFF01"
+    message2: "%1\u3092\u6FC0\u6602\u3055\u305B\u305F\uFF01"
+    message3: 
+    message4: "%1\u306F\u6211\u306B\u8FD4\u3063\u305F\uFF01"
+    minTurns: 2
+    motion: 1
+    name: "\u6FC0\u6602"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 916a3bd6-09bd-429c-87a9-10b7d52773dd
+    priority: 70
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 1
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits: []
+  - autoRemovalTiming: 1
+    iconId: IconSet_006
+    id: 1a057584-230c-4b88-9653-c048c9160a4b
+    inBattleRemoveDamage: 1
+    inBattleRemoveProbability: 50
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: "%1\u306F\u6DF7\u4E71\u3057\u305F"
+    message2: "%1\u3092\u6DF7\u4E71\u3055\u305B\u305F\uFF01"
+    message3: 
+    message4: "%1\u306F\u6211\u306B\u8FD4\u3063\u305F\uFF01"
+    minTurns: 2
+    motion: 1
+    name: "\u6DF7\u4E71"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: a02783a5-1184-4af3-a15f-5be6663e12bc
+    priority: 75
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 2
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits: []
+  - autoRemovalTiming: 1
+    iconId: IconSet_007
+    id: 6b625eb8-2b7b-48e1-a792-7cc584fc7f8f
+    inBattleRemoveDamage: 1
+    inBattleRemoveProbability: 60
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: "%1\u9B45\u4E86\u3055\u308C\u305F\uFF01"
+    message2: "%1\u3092\u9B45\u4E86\u3057\u305F\uFF01"
+    message3: 
+    message4: "%1\u306F\u6211\u306B\u8FD4\u3063\u305F\uFF01"
+    minTurns: 2
+    motion: 1
+    name: "\u9B45\u4E86"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: e44b7b11-80ff-4556-b81e-265c04e8189f
+    priority: 80
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 3
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits: []
+  - autoRemovalTiming: 1
+    iconId: IconSet_008
+    id: 0219aa38-7a8e-446f-8a34-901775bea0ab
+    inBattleRemoveDamage: 1
+    inBattleRemoveProbability: 100
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u7720\u3063\u305F\uFF01"
+    message2: "%1\u3092\u7720\u3089\u305B\u305F\uFF01"
+    message3: "%1\u306F\u7720\u3063\u3066\u3044\u308B\u3002"
+    message4: "%1\u306F\u76EE\u3092\u899A\u307E\u3057\u305F\uFF01"
+    minTurns: 3
+    motion: 1
+    name: "\u7761\u7720"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 88bdb3ca-53d8-443e-a5b3-05fbb1e7bc74
+    priority: 90
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 4
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: -1000
+  - autoRemovalTiming: 0
+    iconId: IconSet_009
+    id: 925708ca-9673-4e2b-b467-7aeb3afcd094
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: "%1\u306F\u3057\u3073\u308C\u3066\u52D5\u3051\u306A\u304F\u306A\u3063\u305F\uFF01"
+    message2: "%1\u3092\u9EBB\u75FA\u3055\u305B\u305F\uFF01"
+    message3: "%1\u306F\u3057\u3073\u308C\u3066\u52D5\u3051\u306A\u3044\uFF01"
+    message4: "%1\u306E\u9EBB\u75FA\u304C\u89E3\u3051\u305F\uFF01"
+    minTurns: 0
+    motion: 2
+    name: "\u9EBB\u75FA"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 4132981d-b0a6-4f8d-bfcf-535350a6caea
+    priority: 95
+    removeAtBattleEnd: 0
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 1
+    removeProbability: 0
+    restriction: 4
+    stateOn: 2
+    stepGeneration: 0
+    stepsToRemove: 200
+    traits:
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: -1000
+  - autoRemovalTiming: 2
+    iconId: IconSet_009
+    id: 19927bc1-b43e-412f-869e-e0090386432d
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 3
+    message1: "%1\u306F\u30D0\u30E9\u30F3\u30B9\u3092\u5D29\u3057\u305F\uFF01"
+    message2: "%1\u306F\u30D0\u30E9\u30F3\u30B9\u3092\u5D29\u3057\u305F\uFF01"
+    message3: "%1\u306F\u30D0\u30E9\u30F3\u30B9\u3092\u5D29\u3057\u3066\u3044\u308B\u2026\u2026"
+    message4: "%1\u306F\u4F53\u52E2\u3092\u7ACB\u3066\u76F4\u3057\u305F\uFF01"
+    minTurns: 2
+    motion: 0
+    name: "\u30B9\u30BF\u30F3"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 90
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 4
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: -1000
+  - autoRemovalTiming: 2
+    iconId: IconSet_072
+    id: 05aed46d-3fd1-47f9-9ab5-804f8472da1b
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 4
+    motion: 0
+    name: "HP\u518D\u751F"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 7
+      traitsId: 2
+      value: 100
+  - autoRemovalTiming: 2
+    iconId: IconSet_072
+    id: 01594cd3-42fd-47e2-9397-1dbb9bd13ac9
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 4
+    motion: 0
+    name: "MP\u518D\u751F"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 8
+      traitsId: 2
+      value: 100
+  - autoRemovalTiming: 2
+    iconId: IconSet_072
+    id: ee6ef550-cbc8-41ba-aaf4-fa1232c57e99
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 4
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 4
+    motion: 0
+    name: "TP\u518D\u751F"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 9
+      traitsId: 2
+      value: 100
+  - autoRemovalTiming: 2
+    iconId: IconSet_070
+    id: 1e47bd58-0162-4987-81a0-b945906df2a6
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 3
+    motion: 0
+    name: "\u9B54\u6CD5\u53CD\u5C04"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 5
+      traitsId: 2
+      value: 1000
+  - autoRemovalTiming: 2
+    iconId: IconSet_081
+    id: 48ad499b-8504-4ad9-ab8c-73df9346a8c6
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 1
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 1
+    motion: 0
+    name: "\u304B\u3070\u3046"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 6
+      effectId: 2
+      traitsId: 2
+      value: 0
+  - autoRemovalTiming: 2
+    iconId: IconSet_076
+    id: 5fe624d0-f534-438a-ad9c-412b30e9f61f
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u72D9\u308F\u308C\u3084\u3059\u304F\u306A\u3063\u305F\uFF01"
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u6311\u767A"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 3
+      value: 9000
+  - autoRemovalTiming: 2
+    iconId: IconSet_081
+    id: 036c7074-cadb-4a92-b1cb-deb4d56b363b
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u72D9\u308F\u308C\u306B\u304F\u304F\u306A\u3063\u305F\uFF01"
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u96A0\u308C\u308B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 40
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 3
+      value: 0
+  - autoRemovalTiming: 1
+    iconId: IconSet_077
+    id: 341a42d9-03c3-4f17-96ab-f0496d9ac372
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 3
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 3
+    motion: 0
+    name: "\u53CD\u6483"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 6
+      traitsId: 2
+      value: 1000
+  - autoRemovalTiming: 2
+    iconId: IconSet_070
+    id: 5ce71d22-cc6e-4a0c-a50b-22c017dd7e76
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u72B6\u614B\u7570\u5E38\u9632\u6B62"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 1
+      effectId: 4
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 5
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 6
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 7
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 8
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 9
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 3
+      traitsId: 4
+      value: 0
+  - autoRemovalTiming: 2
+    iconId: IconSet_070
+    id: 4b6b2cb7-07d8-46eb-8b7c-4e47467737fc
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u6D88\u8CBBMP\u6E1B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 4
+      traitsId: 3
+      value: 250
+  - autoRemovalTiming: 2
+    iconId: IconSet_064
+    id: 7c6374d0-5f54-467b-84ab-bd4b54c6a8bb
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u708E\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message2: "%1\u306F\u708E\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u708E\u306E\u529B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 3
+      effectId: 3
+      traitsId: 1
+      value: 0
+    - categoryId: 1
+      effectId: 3
+      traitsId: 1
+      value: 500
+    - categoryId: 2
+      effectId: 2
+      traitsId: 1
+      value: 1100
+  - autoRemovalTiming: 2
+    iconId: IconSet_064
+    id: 7a064891-f19f-4b44-ad08-5a5d9f8588ed
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u6C37\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message2: "%1\u306F\u6C37\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u6C37\u306E\u529B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 3
+      effectId: 4
+      traitsId: 1
+      value: 0
+    - categoryId: 1
+      effectId: 4
+      traitsId: 1
+      value: 500
+    - categoryId: 2
+      effectId: 2
+      traitsId: 1
+      value: 1100
+  - autoRemovalTiming: 2
+    iconId: IconSet_066
+    id: 50bd2cb0-29de-40be-8aa0-f0e75d10da57
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u96F7\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message2: "%1\u306F\u96F7\u306E\u529B\u3092\u8EAB\u306B\u307E\u3068\u3063\u305F\u3002"
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u96F7\u306E\u529B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 3
+      effectId: 5
+      traitsId: 1
+      value: 0
+    - categoryId: 1
+      effectId: 5
+      traitsId: 1
+      value: 500
+    - categoryId: 2
+      effectId: 2
+      traitsId: 1
+      value: 1100
+  - autoRemovalTiming: 0
+    iconId: IconSet_000
+    id: c37ea6ef-5791-4129-9120-138971b876d5
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 0
+    motion: 0
+    name: "\u30A8\u30F3\u30AB\u30A6\u30F3\u30C8\u306A\u3057"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 20
+    removeAtBattleEnd: 0
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 1
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 6
+      effectId: 1
+      traitsId: 4
+      value: 0
+  - autoRemovalTiming: 0
+    iconId: IconSet_072
+    id: d14159d3-bd77-4352-871a-13f846b626a8
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 0
+    motion: 0
+    name: "\u30A8\u30F3\u30AB\u30A6\u30F3\u30C8\u534A\u6E1B"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 20
+    removeAtBattleEnd: 0
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 1
+    removeProbability: 0
+    restriction: 0
+    stateOn: 1
+    stepGeneration: 0
+    stepsToRemove: 100
+    traits:
+    - categoryId: 6
+      effectId: 0
+      traitsId: 4
+      value: 0
+  - autoRemovalTiming: 0
+    iconId: IconSet_070
+    id: 7cf44740-46af-4804-bd78-396f4bc4b3ad
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 0
+    message1: 
+    message2: 
+    message3: 
+    message4: 
+    minTurns: 0
+    motion: 0
+    name: "\u8CDE\u91D1\u30FB\u30A2\u30A4\u30C6\u30E02\u500D"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 20
+    removeAtBattleEnd: 1
+    removeAtBattling: 0
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 1
+    removeProbability: 0
+    restriction: 0
+    stateOn: 2
+    stepGeneration: 0
+    stepsToRemove: 100
+    traits:
+    - categoryId: 6
+      effectId: 5
+      traitsId: 4
+      value: 0
+    - categoryId: 6
+      effectId: 4
+      traitsId: 4
+      value: 0
+  - autoRemovalTiming: 2
+    iconId: IconSet_000
+    id: c7cdc663-10e5-462c-afce-9c46ef427b5e
+    inBattleRemoveDamage: 0
+    inBattleRemoveProbability: 0
+    inBattleRemoveRestriction: 0
+    maxTurns: 5
+    message1: "%1\u306F\u672C\u6C17\u306B\u306A\u3063\u305F\u3002"
+    message2: "%1\u306F\u672C\u6C17\u306B\u306A\u3063\u305F\u3002"
+    message3: 
+    message4: 
+    minTurns: 5
+    motion: 0
+    name: "\u672C\u6C17"
+    note: 
+    occurrenceFrequencyStep: 0
+    overlay: 
+    priority: 50
+    removeAtBattleEnd: 1
+    removeAtBattling: 1
+    removeByDamage: 0
+    removeByRestriction: 0
+    removeByWalking: 0
+    removeProbability: 0
+    restriction: 0
+    stateOn: 0
+    stepGeneration: 0
+    stepsToRemove: 0
+    traits:
+    - categoryId: 2
+      effectId: 2
+      traitsId: 1
+      value: 1200

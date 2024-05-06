@@ -1,0 +1,2221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daeed937d76c8364a866fcbe63722622, type: 3}
+  m_Name: enemy
+  m_EditorClassIdentifier: 
+  dataModels:
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 2
+      level: 2
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: cd8fab08-5b93-4d99-afb2-1ce3c114b68e
+      denominator: 8
+      kind: 1
+    - dataId: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+      denominator: 2
+      kind: 3
+    elements: 02000000
+    exp: 4
+    gold: 149
+    id: 0b783c13-a4df-4876-88c5-82604c677501
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 1
+      high: 0
+      image: 039_enemy_Goblin_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B4\u30D6\u30EA\u30F3"
+    param: 7d00000000000000850000003f000000000000000e0000003f00000028000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 4
+      conditionType: 1
+      rating: 1
+      skillId: 36b3df8c-b001-4416-b2ef-ad932ef0b3dc
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 3
+      level: 2
+      magicGuardSetting: 1
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: f0fc6bc2-ffe6-4987-8ac5-165379bd459d
+      denominator: 8
+      kind: 1
+    - dataId: cede8fa1-5b8b-4281-9612-790afef97d50
+      denominator: 12
+      kind: 1
+    elements: 02000000
+    exp: 4
+    gold: 149
+    id: a990bffa-a812-45c9-ac9b-f732ad61cb59
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 1
+      high: 0
+      image: 043_enemy_Gnome
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30CE\u30FC\u30E0"
+    param: bc0000005a000000850000003f0000003b000000440000003f00000028000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 358f6e76-608f-48f7-83c9-c2a93afcf5d0
+    autoGuide:
+      attackTurn: 1
+      guardTurn: 1
+      level: 0
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 0
+    gold: 0
+    id: aaafdcd4-5351-4f39-9ac8-cffb40416436
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 1
+      high: 0
+      image: 045_enemy_Mimic
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30C0\u30DF\u30FC"
+    param: 64000000e80300000a0000000a0000000a0000000a0000000a0000000a000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: d3fb9c7c-354f-46c7-a405-ebf2f44c8c1e
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 4
+      level: 2
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 4
+    gold: 149
+    id: da18f761-08b5-46b1-b1aa-4d6cb36d2772
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 035_enemy_Crow_01
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30AF\u30ED\u30A6"
+    param: fa00000000000000930000003f000000000000000e0000003f00000028000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 3
+      conditionType: 1
+      rating: 1
+      skillId: 36b3df8c-b001-4416-b2ef-ad932ef0b3dc
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 5
+      level: 2
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: f0fc6bc2-ffe6-4987-8ac5-165379bd459d
+      denominator: 8
+      kind: 1
+    - dataId: 595e24d8-1455-491b-8704-13c237dc9ee1
+      denominator: 12
+      kind: 3
+    elements: 02000000
+    exp: 4
+    gold: 149
+    id: c272cfa2-e386-4bc6-97a7-f9c3ad06710f
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 056_enemy_Snake_01
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B9\u30CD\u30FC\u30AF"
+    param: 3801000000000000ab0000003f000000000000000e0000003f00000028000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 1
+      effectId: 3
+      traitsId: 1
+      value: 2000
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 64d6b741-7cca-4091-933b-af92e5b21290
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 16
+      level: 3
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: feef80d5-8908-433a-bad6-ddd609c664e7
+      denominator: 1
+      kind: 3
+    elements: 02000000
+    exp: 4
+    gold: 183
+    id: 561069bf-bb09-4160-9fef-a0db630054e0
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 016_enemy_Skeleton_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B9\u30B1\u30EB\u30C8\u30F3"
+    param: e004000000000000b40000004e00000000000000100000005000000033000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 64d6b741-7cca-4091-933b-af92e5b21290
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 4
+      level: 3
+      magicGuardSetting: 1
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 4
+    gold: 183
+    id: d1bb6b0c-6386-465a-bbe3-567be2dccb22
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 060_enemy_Ghost
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B4\u30FC\u30B9\u30C8"
+    param: 3801000000000000e40000004e00000000000000520000005000000033000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 5
+      level: 4
+      magicGuardSetting: 1
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 5
+    gold: 214
+    id: bb09a559-b249-42b6-bf53-c0228f6f1063
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 041_enemy_Wraith_01
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30EC\u30A4\u30B9"
+    param: d401000000000000f00000005e0000000000000060000000600000003d000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 6
+      level: 4
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 5
+    gold: 214
+    id: db483c86-144b-44e4-9856-83f86aa21c97
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 1
+      high: 0
+      image: 067_enemy_Treant_01
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30C8\u30EC\u30F3\u30C8"
+    param: 3102000000000000f60000005e0000000000000013000000600000003d000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: eee77d04-7f8f-11ec-a8a3-0242ac120002
+    autoGuide:
+      attackTurn: 8
+      guardTurn: 3
+      level: 4
+      magicGuardSetting: 2
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 08000000
+    exp: 5
+    gold: 214
+    id: 94ef565c-ba06-4ea2-8173-17d8496ab86b
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 063_enemy_Windspirit
+      scale: 70
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B7\u30EB\u30D5"
+    param: 18010000c2000000a40000005e00000017000000c0000000600000003d000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 5
+      level: 5
+      magicGuardSetting: 1
+      magicPowerSetting: 2
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 7
+    gold: 244
+    id: f5586c1e-48e5-4693-a025-105df5147af3
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 037_enemy_Demonpot_01
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u5931\u610F\u306E\u58FA"
+    param: 21020000e2000000f60000006d000000f10000006d0000007000000047000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 9399554c-64c5-4be5-8e92-aac450b4db26
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 3
+      level: 6
+      magicGuardSetting: 2
+      magicPowerSetting: 2
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 9
+    gold: 272
+    id: 810852f8-4449-4b21-b86e-4b3d3010cc9c
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 058_enemy_Succubus_01
+      scale: 85
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B5\u30AD\u30E5\u30D0\u30B9"
+    param: 7601000003010000fe0000007d000000b7000000f50000008000000052000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 4
+      level: 6
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 9
+    gold: 272
+    id: bf0e8bcc-c075-42bf-8482-aa1698479d3f
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 001_enemy_Hoodlum_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u91CE\u76D7"
+    param: f201000000000000170100009600000001000000190000008000000052000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 3
+      level: 6
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 9
+    gold: 272
+    id: e81e1e59-d9db-4ae7-9d78-25d5fda0f4fd
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 007_enemy_Sailor_male_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30C1\u30F3\u30D4\u30E9"
+    param: 7601000000000000fe0000007d00000000000000180000008000000052000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 6
+      guardTurn: 15
+      level: 7
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 12
+    gold: 301
+    id: 76f0227b-b675-4a98-847c-cda3dc2b41b6
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 021_enemy_Pirate_male_boss
+      scale: 85
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B2\u30EB\u30B9"
+    param: 34080000000000000a0100008c000000000000001b000000900000005c000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 3
+      conditionParam2: 3
+      conditionType: 1
+      rating: 9
+      skillId: eb7922b2-04a0-4794-859a-38e38c255277
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 30
+      level: 10
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 24
+    gold: 386
+    id: 7c6a48c8-2267-4f8c-b301-400fe5e94f38
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 021_enemy_Pirate_male_boss
+      scale: 85
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B2\u30EB\u30B9"
+    param: 88130000000000005e010000a00000000000000023000000c10000007b000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 3
+      conditionParam2: 3
+      conditionType: 1
+      rating: 5
+      skillId: 211533bc-abec-4654-9ebd-c101f9a332d8
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 19
+      level: 8
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 15
+    gold: 329
+    id: f9054a78-05bd-43ed-acdf-4a705b21d367
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 019_enemy_Hoodlum_male_boss
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u8C6A\u4E71\u56E3\u68DF\u6881"
+    param: 701700000000000086010000be000000010000001e000000a000000066000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 358f6e76-608f-48f7-83c9-c2a93afcf5d0
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 7
+      level: 7
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: cd53fff7-b4d1-4bd1-a280-89da77066f0b
+      denominator: 8
+      kind: 1
+    - dataId: 433e8530-5dd1-4e3a-933b-0b2b306950b7
+      denominator: 40
+      kind: 1
+    elements: 02000000
+    exp: 12
+    gold: 301
+    id: 2dc044ba-2413-4b80-883b-997d1a2e189f
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 044_enemy_Machinerybee
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30DB\u30FC\u30CD\u30C3\u30C8"
+    param: d403000000000000670100008c000000000000001b000000900000005c000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 64d6b741-7cca-4091-933b-af92e5b21290
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 00423d13-84e2-4de2-b795-70af4269c540
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 10
+      level: 8
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 15
+    gold: 329
+    id: 380641d6-7264-45d8-a069-e64396daabb8
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 049_enemy_Tigerbunny
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30BF\u30A4\u30AC\u30FC\u30D0\u30CB\u30FC"
+    param: 13060000000000008d0100009c000000000000001e000000a000000066000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 36b3df8c-b001-4416-b2ef-ad932ef0b3dc
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 6
+      level: 8
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: f0fc6bc2-ffe6-4987-8ac5-165379bd459d
+      denominator: 6
+      kind: 1
+    elements: 02000000
+    exp: 15
+    gold: 329
+    id: a26d0e8b-ebaa-478d-8c88-51fd080d8893
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 061_enemy_Spider
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B9\u30D1\u30A4\u30C0\u30FC"
+    param: a503000000000000860100009c000000010000001e000000a000000066000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1371aa58-7f8d-11ec-a8a3-0242ac120002
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 7
+      level: 9
+      magicGuardSetting: 2
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: d1972e18-b84f-4a76-bdf5-575dce07d91d
+      denominator: 9
+      kind: 1
+    elements: 05000000
+    exp: 19
+    gold: 357
+    id: 07d700fa-7424-4f91-8fa4-aa0853dc7095
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 062_enemy_Willowisp
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30A6\u30A3\u30EB\u30AA\u30A6\u30A3\u30B9\u30D7"
+    param: ad040000f9000000b3010000ab000000e400000048010000b000000071000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 4592538e-7f8d-11ec-a8a3-0242ac120002
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 0c1fa5a0-096a-42ce-b2b7-6f096f783407
+    autoGuide:
+      attackTurn: 3
+      guardTurn: 7
+      level: 10
+      magicGuardSetting: 2
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: 386dbcf2-1202-44f0-8a11-4a2a4c071fa8
+      denominator: 8
+      kind: 1
+    elements: 06000000
+    exp: 24
+    gold: 386
+    id: 842dadbf-fc97-43f5-8a69-a2a8c1a48297
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 050_enemy_Undine
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30A6\u30F3\u30C7\u30A3\u30FC\u30CD"
+    param: 1d05000085010000d9010000bb0000003e01000062010000c10000007b000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 211533bc-abec-4654-9ebd-c101f9a332d8
+    - conditionParam1: 2
+      conditionParam2: 4
+      conditionType: 1
+      rating: 6
+      skillId: 71ef7190-a1fc-4aae-aa36-de63004194e6
+    autoGuide:
+      attackTurn: 15
+      guardTurn: 25
+      level: 20
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: 1992794f-ca58-4c09-a11f-3eff196bf067
+    images:
+      autofit: 0
+      autofitPattern: 2
+      battleAlignment: 0
+      high: 0
+      image: 079_enemy_Dragon_boss
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u6CC9\u306E\u5B88\u8B77\u8005"
+    param: 7221000000000000fb01000057010000000000003f00000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 2
+      conditionType: 1
+      rating: 3
+      skillId: 36b3df8c-b001-4416-b2ef-ad932ef0b3dc
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 10
+      level: 12
+      magicGuardSetting: 1
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: f0fc6bc2-ffe6-4987-8ac5-165379bd459d
+      denominator: 7
+      kind: 1
+    elements: 02000000
+    exp: 36
+    gold: 444
+    id: 39989c3a-440b-47cd-aee3-719dd9c6dc68
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 023_enemy_Femaleghost_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30D5\u30A1\u30F3\u30C8\u30E0"
+    param: 840800003e010000de010000da00000088000000cd000000e100000090000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 96c34a79-01df-4c91-9566-d978c44e6a82
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 15
+      level: 13
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 44
+    gold: 473
+    id: 2578f4fe-077d-406b-b807-b0871dfa8371
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 071_enemy_Ogre_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30AA\u30FC\u30AC"
+    param: ae0d000000000000ff010000ea000000000000002c000000f10000009a000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 19946ce8-7f8f-11ec-a8a3-0242ac120002
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 20
+      level: 15
+      magicGuardSetting: 0
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 60
+    gold: 532
+    id: 3f997822-56c7-418f-9d2e-de5e81bb2cf8
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 026_enemy_Sandgolem_01
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B5\u30F3\u30C9\u30B4\u30FC\u30EC\u30E0"
+    param: aa140000000000004102000009010000000000003100000011010000af000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 71ef7190-a1fc-4aae-aa36-de63004194e6
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: b3ec48a5-db73-4f0d-b419-8f880c8bf466
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 13
+      level: 15
+      magicGuardSetting: 1
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: cd53fff7-b4d1-4bd1-a280-89da77066f0b
+      denominator: 8
+      kind: 1
+    elements: 03000000
+    exp: 60
+    gold: 532
+    id: 0b4cf4ae-b434-4aec-a408-cab7957e3839
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 046_enemy_Salamander
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B5\u30E9\u30DE\u30F3\u30C0\u30FC"
+    param: 6e0d000082010000410200000901000033010000f500000011010000af000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: b024c520-094e-441f-be0e-4a0b7f1c502a
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 2
+      skillId: d3fb9c7c-354f-46c7-a405-ebf2f44c8c1e
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 16
+      level: 16
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: 6d2f0c68-448c-4a0c-9259-d5b288e88d56
+      denominator: 8
+      kind: 1
+    elements: 07000000
+    exp: 69
+    gold: 562
+    id: e4ee46bf-2e2e-4fec-b5d5-4e6ff60a300f
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 052_enemy_Sandworm
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B5\u30F3\u30C9\u30EF\u30FC\u30E0"
+    param: 80110000000000006202000018010000000000003400000021010000b9000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 40
+      conditionParam2: 50
+      conditionType: 2
+      rating: 6
+      skillId: 8fe4229a-90d4-4553-92c6-61b70176076b
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 211533bc-abec-4654-9ebd-c101f9a332d8
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 30
+      level: 20
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: 23ae99ea-9b54-4481-a7fb-505147b84674
+    images:
+      autofit: 1
+      autofitPattern: 2
+      battleAlignment: 0
+      high: 0
+      image: 065_enemy_Behemoth
+      scale: 100
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30AA\u30D9\u30EA\u30B9\u30AF\u306E\u5B88\u8B77\u8005"
+    param: 23280000000000009e02000057010000000000003f00000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 850
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 7a71692b-9df3-4fc2-a231-c28f7548e420
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 2
+      skillId: 152a3d7d-b10a-468c-ae54-8455a82a8c7a
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 15
+      level: 17
+      magicGuardSetting: 1
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 79
+    gold: 592
+    id: 3cae1d3c-11ae-49f8-b9c8-c52a6d85a4f7
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 053_enemy_Gazer_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30EC\u30C3\u30C9\u30B9\u30E9\u30A4\u30E0"
+    param: 50110000af0100008402000028010000c60100001101000031010000c3000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 3
+      skillId: 376e165b-f1ea-4f63-be51-b1ef0581b341
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 2
+      skillId: 2511feb2-0dca-4d70-addd-1eb2202e447a
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 20
+      level: 17
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 79
+    gold: 592
+    id: d2f67f42-017e-4859-8ca0-511607c36070
+    images:
+      autofit: 1
+      autofitPattern: 1
+      battleAlignment: 0
+      high: 0
+      image: 029_enemy_Smallminotaur_01
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30DF\u30CE\u30BF\u30A6\u30ED\u30B9"
+    param: 16170000000000008402000028010000000000003700000031010000c3000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 15
+      level: 20
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: 4460ef65-cf04-43ea-8c7d-913f9813d5ac
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 010_enemy_Sailor_female_01
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u50AD\u5175"
+    param: 1214000000000000e702000057010000000000003f00000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 2
+      conditionParam2: 2
+      conditionType: 0
+      rating: 6
+      skillId: 2511feb2-0dca-4d70-addd-1eb2202e447a
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 20
+      level: 20
+      magicGuardSetting: 1
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: e7951c37-3150-4f20-b186-83bc0e8ed129
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 019_enemy_Hoodlum_male_boss
+      scale: 90
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u89AA\u5206"
+    param: c21a000000000000e702000057010000000000003a01000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 3
+      conditionParam2: 3
+      conditionType: 0
+      rating: 7
+      skillId: 211533bc-abec-4654-9ebd-c101f9a332d8
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 17
+      level: 21
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 126
+    gold: 711
+    id: 7cce655a-85df-42ff-9e67-1f44ab876c3b
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 006_enemy_Assassin_03
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u5973\u5263\u58EB"
+    param: c6170000000000000803000066010000000000004100000072010000ed000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 17
+      level: 20
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: d7d06ad7-5a89-4b39-babe-95eeb26f09b6
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 008_enemy_Sailor_male_02
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B2\u30EB\u30B9\u89AA\u885B\u968A"
+    param: be16000000000000e702000057010000000000003f00000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 2
+      conditionParam2: 3
+      conditionType: 1
+      rating: 6
+      skillId: eb7922b2-04a0-4794-859a-38e38c255277
+    - conditionParam1: 10
+      conditionParam2: 3
+      conditionType: 1
+      rating: 7
+      skillId: f02d39a2-d77f-4546-a198-60c5a096f767
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 23
+      level: 22
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: 6d2f0c68-448c-4a0c-9259-d5b288e88d56
+      denominator: 8
+      kind: 1
+    elements: 02000000
+    exp: 139
+    gold: 741
+    id: 94089182-bdb7-4b4b-8f7e-1da1a0ade842
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 021_enemy_Pirate_male_boss
+      scale: 85
+      wide: 0
+    level: 1
+    memo: "\u884C\u52D5\u30D1\u30BF\u30FC\u30F3\u306E\u30BF\u30FC\u30F3\u8A2D\u5B9A\u3092\u518D\u78BA\u8A8D\uFF08\u3053\u308C\u306F\u5742\u4E0B\u306E\u30B3\u30E1\u30F3\u30C8\uFF09"
+    name: "\u30B2\u30EB\u30B9"
+    param: 8e210000000000002903000076010000000000004400000082010000f7000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: b3ec48a5-db73-4f0d-b419-8f880c8bf466
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 5c2a61d1-7aad-4cba-abee-caf4237111aa
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 20
+      level: 20
+      magicGuardSetting: 1
+      magicPowerSetting: 1
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 113
+    gold: 681
+    id: f6a4a6db-d440-4a3b-85e5-6530ac068ffe
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 083_enemy_fullarmor_female
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30B9\u30CD\u30A2"
+    param: c21a0000f4010000e702000057010000460100003a01000062010000e2000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 0002448f-8be6-43ee-ad0b-6f8d4fe53ca2
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 21
+      level: 21
+      magicGuardSetting: 1
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 126
+    gold: 711
+    id: 9c7c1c54-362b-47f7-a360-d7e631912f3d
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 082_enemy_fullarmor_male
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30EC\u30F3\u30B0\u30CA\u30FC"
+    param: 5e1d0000000000000803000066010000000000004701000072010000ed000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: b3ec48a5-db73-4f0d-b419-8f880c8bf466
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 5c2a61d1-7aad-4cba-abee-caf4237111aa
+    - conditionParam1: 0
+      conditionParam2: 70
+      conditionType: 2
+      rating: 9
+      skillId: b3ec48a5-db73-4f0d-b419-8f880c8bf466
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 26
+      level: 23
+      magicGuardSetting: 1
+      magicPowerSetting: 2
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 153
+    gold: 772
+    id: 0c9417a0-78ec-4f46-9f20-97165e8cf0af
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 083_enemy_fullarmor_female
+      scale: 80
+      wide: 0
+    level: 1
+    memo: "\u30B9\u30BF\u30F3\u7121\u52B9\u3067\u306F\u306A\u304F\u3001\u6C88\u9ED9\u3067\u306F\uFF1F\uFF08\u3053\u308C\u306F\u5742\u4E0B\u306E\u30B3\u30E1\u30F3\u30C8\uFF09"
+    name: "\u30B9\u30CD\u30A2"
+    param: 822700002d0300004a0300007b01000000010000630100009201000001010000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 4
+      skillId: 0002448f-8be6-43ee-ad0b-6f8d4fe53ca2
+    - conditionParam1: 0
+      conditionParam2: 70
+      conditionType: 2
+      rating: 9
+      skillId: 0002448f-8be6-43ee-ad0b-6f8d4fe53ca2
+    autoGuide:
+      attackTurn: 4
+      guardTurn: 25
+      level: 25
+      magicGuardSetting: 1
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems: []
+    elements: 02000000
+    exp: 183
+    gold: 832
+    id: 78ce325a-bf57-4ea6-9538-537f2f99859b
+    images:
+      autofit: 1
+      autofitPattern: 0
+      battleAlignment: 0
+      high: 0
+      image: 082_enemy_fullarmor_male
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u30EC\u30F3\u30B0\u30CA\u30FC"
+    param: 04290000000000008d030000a4010000000000007e010000b301000016010000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 950
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 50
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 6
+      effectId: 1
+      traitsId: 3
+      value: 0
+    - categoryId: 1
+      effectId: 10
+      traitsId: 4
+      value: 0
+    - categoryId: 1
+      effectId: 11
+      traitsId: 4
+      value: 0
+  - actions:
+    - conditionParam1: 0
+      conditionParam2: 0
+      conditionType: 0
+      rating: 5
+      skillId: 1
+    autoGuide:
+      attackTurn: 5
+      guardTurn: 2
+      level: 2
+      magicGuardSetting: 0
+      magicPowerSetting: 0
+    battlerHue: 0
+    deleted: 0
+    dropItems:
+    - dataId: cd8fab08-5b93-4d99-afb2-1ce3c114b68e
+      denominator: 8
+      kind: 1
+    - dataId: 2f1bced4-122a-4ee2-98fa-bd80f381036d
+      denominator: 2
+      kind: 3
+    elements: 02000000
+    exp: 396
+    gold: 396
+    id: 86908f48-244c-47dc-bd81-4061ec7710fd
+    images:
+      autofit: 0
+      autofitPattern: 0
+      battleAlignment: 1
+      high: 0
+      image: "\u3056\u3076\u308D"
+      scale: 80
+      wide: 0
+    level: 1
+    memo: 
+    name: "\u3056\u3076\u308D"
+    param: 01000000000000009f8601003f000000000000000e0000003f00000028000000
+    traits:
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 500
+    - categoryId: 2
+      effectId: 1
+      traitsId: 2
+      value: 800
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
