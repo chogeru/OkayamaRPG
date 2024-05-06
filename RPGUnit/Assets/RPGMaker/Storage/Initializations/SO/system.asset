@@ -1,0 +1,454 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cba1a168a9321bd45a17162752434636, type: 3}
+  m_Name: system
+  m_EditorClassIdentifier: 
+  dataModels:
+    armorTypes:
+    - delete: 0
+      id: 1
+      name: "\u4E00\u822C\u9632\u5177"
+    - delete: 0
+      id: b4bcd669-5923-47e4-aef2-791a6256ce89
+      name: "\u9B54\u6CD5\u9632\u5177"
+    - delete: 0
+      id: 5d44ec7b-6494-4e4c-b18f-b552a8500fd6
+      name: "\u8EFD\u88C5\u9632\u5177"
+    - delete: 0
+      id: ef649a06-d430-49b8-a81d-6c73d26afb02
+      name: "\u91CD\u88C5\u9632\u5177"
+    - delete: 0
+      id: c01b25d3-bdb5-4c23-a375-dcfdc05abad6
+      name: "\u5C0F\u578B\u76FE"
+    - delete: 0
+      id: 1bd115d3-72d1-40d6-a6c8-aa8d49c0d594
+      name: "\u5927\u578B\u76FE"
+    battleScene:
+      frontEnemyPositionY: 670
+      frontMiddleStartFlag: 1
+      sideActorSpace: 2
+      sideEnemyInclined: 10
+      sidePartyInclined: -5
+      sidePartyPosition: 78050000c2010000
+      viewType: 0
+    bgm:
+      battleBgm:
+        name: U_Battle_01.wav
+        pan: 0
+        pitch: 100
+        volume: 90
+      defeatMe:
+        name: Gameover1
+        pan: 0
+        pitch: 100
+        volume: 90
+      gameOverMe:
+        name: Gag.ogg
+        pan: 0
+        pitch: 100
+        volume: 90
+      title:
+        name: TitleBGM.ogg
+        pan: 0
+        pitch: 100
+        volume: 90
+      victoryMe:
+        name: Victory1.ogg
+        pan: 0
+        pitch: 100
+        volume: 90
+    displaySize: 0
+    DisplaySize:
+    - {x: 1920, y: 1080}
+    - {x: 1280, y: 720}
+    elements:
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 6dd648fd-fe18-4003-8927-bb6d7e88c755
+      sameElement: 0
+      value: "\u306A\u3057"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 7c5710a2-7636-49c4-a028-b18e35e82f0c
+      sameElement: 0
+      value: "\u901A\u5E38\u653B\u6483"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 6174b58d-4929-4491-870a-6061b8e96ea5
+      sameElement: 0
+      value: "\u7269\u7406"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 2d02c5ec-8131-4bfd-8abc-748f881d633b
+      sameElement: 0
+      value: "\u708E"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 3a7a5ea6-3c93-438d-a806-eb735b39a0af
+      sameElement: 0
+      value: "\u6C37"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: b2ca58fd-f231-48d4-b14b-9aba5c993dbd
+      sameElement: 0
+      value: "\u96F7"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: b60ba9e6-ff79-45df-bc7a-1f0f6eac0986
+      sameElement: 0
+      value: "\u6C34"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: c836265a-7f83-466c-b4a9-7caa9188652d
+      sameElement: 0
+      value: "\u571F"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: c575e98a-5880-473a-a020-6803177b2c9a
+      sameElement: 0
+      value: "\u98A8"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: 264f7c01-9663-4e8e-829c-0c0d3a16d69b
+      sameElement: 0
+      value: "\u5149"
+    - advantageous: []
+      delete: 0
+      disadvantage: []
+      icon: 
+      id: cb6aa753-ef01-4a07-8eb9-7c59ea3f4cd4
+      sameElement: 0
+      value: "\u95C7"
+    equipTypes:
+    - delete: 0
+      id: 48254f68-178f-448e-98fd-60a0bb616a28
+      name: "\u6B66\u5668"
+    - delete: 0
+      id: 7832ae68-aecc-4724-8765-e8e04e3cb64f
+      name: "\u76FE"
+    - delete: 0
+      id: 312419fb-bc20-44b4-bb2b-0c28c7c3a987
+      name: "\u982D"
+    - delete: 0
+      id: c557c358-d63e-4992-b7a2-f8dadd9eeb71
+      name: "\u8EAB\u4F53"
+    - delete: 0
+      id: 5ae4faaf-5561-4420-9eb6-81b6b1d3eeb4
+      name: "\u88C5\u5099\u54C1"
+    initialParty:
+      party:
+      - a8230358-b349-4687-aaf9-e3ccb8d55479
+      - 25542bfa-c069-4b3c-87e3-d2cc02b4fa37
+      - cfa785a6-03ef-484f-b886-70023368038e
+      - 2a0e1092-eaef-4654-9d0b-6eea03728a3f
+      partyMax: 4
+      startMap:
+        mapId: 7b39455b-9aa3-4dd6-8b1e-b35a6777477a
+        position: 0a000000f2ffffff
+    isController: 0
+    optionSetting:
+      enabledAutoSave: 0
+      locale: 
+      optDisplayTp: 0
+      optExtraExp: 0
+      optFloorDeath: 0
+      optFollowers: 1
+      optSlipDeath: 0
+      optTransparent: 1
+      showKeyItemNum: 0
+      windowTone: 
+    skillTypes:
+    - delete: 0
+      id: 7955b088-df05-461c-b2e3-7d9dfc3941f6
+      motion: 0
+      value: "\u306A\u3057"
+    - delete: 0
+      id: 64183358-c72f-4190-b42c-4ba9b373282c
+      motion: 1
+      value: "\u9B54\u6CD5"
+    - delete: 0
+      id: 16b91790-cb8f-4a38-a663-d3a4fe2a4614
+      motion: 0
+      value: "\u5FC5\u6BBA\u6280"
+    soundSetting:
+      actorDamage:
+        name: Damage5
+        pan: 0
+        pitch: 100
+        volume: 90
+      actorDied:
+        name: Collapse4
+        pan: 0
+        pitch: 100
+        volume: 90
+      battleStart:
+        name: Battle1
+        pan: 0
+        pitch: 100
+        volume: 90
+      bossCollapse1:
+        name: Collapse2
+        pan: 0
+        pitch: 100
+        volume: 90
+      bossCollapse2:
+        name: Collapse3
+        pan: 0
+        pitch: 100
+        volume: 90
+      buzzer:
+        name: Buzzer1
+        pan: 0
+        pitch: 100
+        volume: 90
+      cancel:
+        name: Cancel2
+        pan: 0
+        pitch: 109
+        volume: 90
+      cursor:
+        name: Cursor3
+        pan: 0
+        pitch: 100
+        volume: 90
+      enemyAttack:
+        name: Attack3
+        pan: 0
+        pitch: 100
+        volume: 90
+      enemyCollapse:
+        name: Collapse1
+        pan: 0
+        pitch: 100
+        volume: 90
+      enemyDamage:
+        name: Damage4
+        pan: 0
+        pitch: 100
+        volume: 90
+      equip:
+        name: Equip1
+        pan: 0
+        pitch: 100
+        volume: 90
+      escape:
+        name: Run
+        pan: 0
+        pitch: 100
+        volume: 90
+      evasion:
+        name: Evasion1
+        pan: 0
+        pitch: 100
+        volume: 90
+      load:
+        name: Load2
+        pan: 0
+        pitch: 100
+        volume: 90
+      magicEvasion:
+        name: Evasion2
+        pan: 0
+        pitch: 100
+        volume: 90
+      magicReflection:
+        name: Reflection
+        pan: 0
+        pitch: 100
+        volume: 90
+      miss:
+        name: Miss
+        pan: 0
+        pitch: 100
+        volume: 90
+      ok:
+        name: Decision2
+        pan: 0
+        pitch: 100
+        volume: 90
+      recovery:
+        name: Recovery
+        pan: 0
+        pitch: 100
+        volume: 90
+      save:
+        name: Save2
+        pan: 0
+        pitch: 100
+        volume: 90
+      shop:
+        name: Shop1
+        pan: 0
+        pitch: 100
+        volume: 90
+      useItem:
+        name: Item3
+        pan: 0
+        pitch: 100
+        volume: 90
+      useSkill:
+        name: Item3
+        pan: 0
+        pitch: 100
+        volume: 90
+    uiPatternId: 4
+    weaponTypes:
+    - delete: 0
+      id: 57d8fa5d-f169-47e1-8bb1-4241de04756b
+      image: c9b1d31b-72bb-45d6-a771-1119f4325c5b
+      motionId: 0
+      value: "\u7D20\u624B(\u306A\u3057)"
+    - delete: 0
+      id: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+      image: e47f074e-92e7-4c73-88e9-238bd8fd9116
+      motionId: 1
+      value: "\u5263"
+    - delete: 0
+      id: cba25876-d9d6-47a8-a1fd-8f856f1fe95f
+      image: 9cfb8ede-847b-46c0-a303-1abc27c3e6f9
+      motionId: 1
+      value: "\u5927\u5263"
+    - delete: 0
+      id: fe2c539e-10df-4d32-8103-b06ee37a157d
+      image: 6c11557f-8bf1-4395-a95a-a68f4a512ef9
+      motionId: 1
+      value: "\u30C0\u30AC\u30FC"
+    - delete: 0
+      id: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+      image: 0d66a0aa-baa6-4720-98d6-c21deea32b15
+      motionId: 1
+      value: "\u65A7"
+    - delete: 0
+      id: d287eed4-cb87-4994-aaa5-91c00e918283
+      image: 85272cfa-0ab9-48e8-9b0b-53088c508f62
+      motionId: 1
+      value: "\u5927\u65A7"
+    - delete: 0
+      id: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+      image: e2d64708-59c1-4a3c-b780-c228d95da763
+      motionId: 1
+      value: "\u69CD"
+    - delete: 0
+      id: 159ea6ce-ea6b-43f8-9521-6fc800565100
+      image: 05d26f24-bf40-43af-8217-2b93752e717e
+      motionId: 1
+      value: "\u6756"
+    - delete: 0
+      id: 9d8e72ce-0945-4cc8-bcd3-97c736c13a20
+      image: 66dbd791-286f-4ae3-afb2-1a650c1e7ca2
+      motionId: 1
+      value: "\u5927\u6756"
+    - delete: 0
+      id: 660fea10-4f25-4e2d-a824-49015a57e2d0
+      image: aa7e60cc-7f5b-4066-b0ec-967a9ed2a7c8
+      motionId: 1
+      value: "\u30EF\u30F3\u30C9"
+    - delete: 0
+      id: 38d031f6-f054-4c7b-a336-1171701c5109
+      image: 53000a3f-dc8c-4857-bfc4-cd2f2e6f47f4
+      motionId: 1
+      value: "\u30E1\u30A4\u30B9"
+    - delete: 0
+      id: 9d7b6b75-adf2-422b-8d50-43a64c4ab2af
+      image: 84d7057e-2500-4b17-a576-d84bab831460
+      motionId: 1
+      value: "\u5200"
+    - delete: 0
+      id: 40dfbfe3-1506-4218-9575-5d6be5bbeb71
+      image: 002a2ac8-e582-4310-b054-651c5bdf75cd
+      motionId: 1
+      value: "\u5927\u938C"
+    - delete: 0
+      id: c829e22a-75cf-4ace-993a-3085e69199ba
+      image: 72f7ad97-b038-4da3-888b-2bb3d527fbb2
+      motionId: 1
+      value: "\u672C"
+    - delete: 0
+      id: 8d21e2cc-fe38-402d-9689-a10bf3048c82
+      image: 15f06357-192c-4ff9-8015-d272e1832b77
+      motionId: 1
+      value: "\u624B\u88CF\u5263"
+    - delete: 0
+      id: 99daeb92-e757-42d7-8cd1-53bc2690a482
+      image: c7bcec44-3ad0-4148-951a-928876540da6
+      motionId: 0
+      value: "\u5927\u69CD"
+    - delete: 0
+      id: 860407fd-fd8d-4660-8ca5-f1d2e4541551
+      image: 089cb64c-4d53-4a11-814a-9b3d49b3ef4f
+      motionId: 0
+      value: "\u7D30\u69CD"
+    - delete: 0
+      id: bf7300f0-c155-492d-a171-6325d2677819
+      image: 21ab4af8-bfd1-4a9e-b9b8-f5bce766b786
+      motionId: 0
+      value: "\u30EC\u30A4\u30D4\u30A2"
+    - delete: 0
+      id: a90cb9b1-000a-453b-820d-ab390d28fd14
+      image: 4cbd9e17-37a1-4eed-b4c4-30b6c87d6f7f
+      motionId: 0
+      value: "\u722A"
+    - delete: 0
+      id: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+      image: cccffcb5-7886-4271-85ef-b7edf108f667
+      motionId: 0
+      value: "\u68CD\u68D2"
+    - delete: 0
+      id: 86eebe26-d2b2-419f-92ab-ae8a69b74fa2
+      image: 6b4aed78-9069-4a03-b7d9-a5d9d3211463
+      motionId: 0
+      value: "\u76FE"
+    - delete: 0
+      id: 32d47769-9783-4745-acba-954e454108f5
+      image: 1b027fc4-9a41-4732-a0c3-5c0ad7de1b27
+      motionId: 2
+      value: "\u30AF\u30ED\u30B9\u30DC\u30A6"
+    - delete: 0
+      id: fd18e0d8-1c9d-4db7-9e91-c16499017f3f
+      image: d79da8d4-fa1f-4afc-82e0-1041e008b34a
+      motionId: 2
+      value: "\u30CF\u30F3\u30C9\u30AF\u30ED\u30B9\u30DC\u30A6"
+    - delete: 0
+      id: 1bca59b7-0d26-4213-bcd0-741dcc405435
+      image: 35a6e8d7-4517-4d1f-a9e0-04a53088ae00
+      motionId: 2
+      value: "\u30ED\u30F3\u30B0\u30DC\u30A6"
+    - delete: 0
+      id: 3ef5ff5a-778a-473e-aef3-13096bc5e9ac
+      image: c1d68d6d-f6ea-449a-a8c7-38217ca36a1e
+      motionId: 2
+      value: "\u30B7\u30E7\u30FC\u30C8\u30DC\u30A6"
+    - delete: 0
+      id: 56c3b34b-eb79-4a15-b9f5-d693a9d5a0be
+      image: be343f14-c25a-4d47-ba73-dbacf22478e2
+      motionId: 2
+      value: "\u30DE\u30B9\u30B1\u30C3\u30C8\u9283"
