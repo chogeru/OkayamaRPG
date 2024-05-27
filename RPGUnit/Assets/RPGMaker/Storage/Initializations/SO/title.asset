@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcf24ecbc5c0828409a81abe37b26aa9, type: 3}
+  m_Name: title
+  m_EditorClassIdentifier: 
+  dataModel:
+    bgm:
+      name: Title1
+      pan: 0
+      pitch: 100
+      volume: 900
+    gameTitle: "\u5CA1\u5C71RPG\u53E4\u4EE3\u5409\u5099\u738B\u56FD\u504F"
+    gameTitleCommon:
+      gameTitleType: 2
+      position: 18010000c8000000
+    gameTitleImage:
+      image: cooltext457544366333779
+      scale: 200
+    gameTitleText:
+      color: ff000000ff000000ff000000
+      font: ANTQUAI
+      size: 150
+    note: 
+    startMenu:
+      menuContinue:
+        enabled: 1
+        value: "\u7D9A\u304D\u304B\u3089"
+      menuFontSetting:
+        color: ff000000ff000000ff000000
+        font: DUBAI-LIGHT
+        size: 45
+      menuNewGame:
+        enabled: 1
+        value: "\u65B0\u3057\u304F\u59CB\u3081\u308B"
+      menuOption:
+        enabled: 1
+        value: "\u8A2D\u5B9A"
+      menuUiSetting:
+        color: 
+        frame: 
+        position: c00300002003000000000000
+        scale: 1.85
+        window: 
+    titleBackgroundImage: "\u30BF\u30A4\u30C8\u30EB\u80CC\u666F"
+    titleFront:
+      image: titleFlame_001
+      position: 800700001c020000
+      scale: 10

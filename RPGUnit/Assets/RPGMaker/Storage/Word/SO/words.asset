@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 663d8c8ccb82fa246b664f81e083a49f, type: 3}
+  m_Name: words
+  m_EditorClassIdentifier: 
+  dataModel:
+    basicStatus:
+      exp:
+        enabled: 1
+        initialValue: "\u7D4C\u9A13\u5024"
+        value: "\u7D4C\u9A13\u5024"
+      expShort:
+        enabled: 1
+        initialValue: EXP
+        value: EXP
+      hp:
+        enabled: 1
+        initialValue: "\uFF28\uFF30"
+        value: "\uFF28\uFF30"
+      hpShort:
+        enabled: 1
+        initialValue: HP
+        value: HP
+      level:
+        enabled: 1
+        initialValue: "\u30EC\u30D9\u30EB"
+        value: "\u30EC\u30D9\u30EB"
+      levelShort:
+        enabled: 1
+        initialValue: LV
+        value: LV
+      money:
+        enabled: 1
+        initialValue: G
+        value: G
+      mp:
+        enabled: 1
+        initialValue: "\uFF2D\uFF30"
+        value: "\uFF2D\uFF30"
+      mpShort:
+        enabled: 1
+        initialValue: MP
+        value: MP
+      tp:
+        enabled: 1
+        initialValue: "\uFF34\uFF30"
+        value: "\uFF34\uFF30"
+      tpShort:
+        enabled: 1
+        initialValue: TP
+        value: TP
+    commands:
+      alwaysDash:
+        enabled: 1
+        initialValue: "\u5E38\u6642\u30C0\u30C3\u30B7\u30E5"
+        value: "\u5E38\u6642\u30C0\u30C3\u30B7\u30E5"
+      armor:
+        enabled: 1
+        initialValue: "\u9632\u5177"
+        value: "\u9632\u5177"
+      attack:
+        enabled: 1
+        initialValue: "\u653B\u6483"
+        value: "\u653B\u6483"
+      backTitle:
+        enabled: 1
+        initialValue: "\u30BF\u30A4\u30C8\u30EB\u3078"
+        value: "\u30BF\u30A4\u30C8\u30EB\u306B\u884C\u304F"
+      battle:
+        enabled: 1
+        initialValue: "\u6226\u3046"
+        value: "\u6226\u3046"
+      buy:
+        enabled: 1
+        initialValue: "\u8CFC\u5165\u3059\u308B"
+        value: "\u8CFC\u5165\u3059\u308B"
+      equipment:
+        enabled: 1
+        initialValue: "\u88C5\u5099"
+        value: "\u88C5\u5099"
+      equipment2:
+        enabled: 1
+        initialValue: "\u88C5\u5099"
+        value: "\u88C5\u5099"
+      escape:
+        enabled: 1
+        initialValue: "\u9003\u3052\u308B"
+        value: "\u9003\u3052\u308B"
+      gameEnd:
+        enabled: 1
+        initialValue: "\u30B2\u30FC\u30E0\u7D42\u4E86"
+        value: "\u30B2\u30FC\u30E0\u7D42\u4E86"
+      guard:
+        enabled: 1
+        initialValue: "\u9632\u5FA1"
+        value: "\u9632\u5FA1"
+      item:
+        enabled: 1
+        initialValue: "\u30A2\u30A4\u30C6\u30E0"
+        value: "\u30A2\u30A4\u30C6\u30E0"
+      keyItem:
+        enabled: 1
+        initialValue: "\u5927\u4E8B\u306A\u3082\u306E"
+        value: "\u5927\u4E8B\u306A\u3082\u306E"
+      menuContinue:
+        enabled: 1
+        initialValue: "\u30B3\u30F3\u30C6\u30A3\u30CB\u30E5\u30FC"
+        value: "\u30B3\u30F3\u30C6\u30A3\u30CB\u30E5\u30FC"
+      newGame:
+        enabled: 1
+        initialValue: "\u30CB\u30E5\u30FC\u30B2\u30FC\u30E0"
+        value: "\u30CB\u30E5\u30FC\u30B2\u30FC\u30E0"
+      option:
+        enabled: 1
+        initialValue: "\u30AA\u30D7\u30B7\u30E7\u30F3"
+        value: "\u30AA\u30D7\u30B7\u30E7\u30F3"
+      pause:
+        enabled: 1
+        initialValue: "\u3084\u3081\u308B"
+        value: "\u3084\u3081\u308B"
+      possessionNum:
+        enabled: 1
+        initialValue: "\u6301\u3063\u3066\u3044\u308B\u6570"
+        value: "\u6301\u3063\u3066\u3044\u308B\u6570"
+      removeAll:
+        enabled: 1
+        initialValue: "\u5168\u3066\u5916\u3059"
+        value: "\u5168\u3066\u5916\u3059"
+      save:
+        enabled: 1
+        initialValue: "\u30BB\u30FC\u30D6"
+        value: "\u30BB\u30FC\u30D6"
+      saveCommand:
+        enabled: 1
+        initialValue: "\u30B3\u30DE\u30F3\u30C9\u8A18\u61B6"
+        value: "\u30B3\u30DE\u30F3\u30C9\u8A18\u61B6"
+      sell:
+        enabled: 1
+        initialValue: "\u58F2\u5374\u3059\u308B"
+        value: "\u58F2\u5374\u3059\u308B"
+      skill:
+        enabled: 1
+        initialValue: "\u30B9\u30AD\u30EB"
+        value: "\u30B9\u30AD\u30EB"
+      sort:
+        enabled: 1
+        initialValue: "\u4E26\u3073\u66FF\u3048"
+        value: "\u4E26\u3073\u66FF\u3048"
+      status:
+        enabled: 1
+        initialValue: "\u30B9\u30C6\u30FC\u30BF\u30B9"
+        value: "\u30B9\u30C6\u30FC\u30BF\u30B9"
+      strongestEquipment:
+        enabled: 1
+        initialValue: "\u6700\u5F37\u88C5\u5099"
+        value: "\u6700\u5F37\u88C5\u5099"
+      volumeBgm:
+        enabled: 1
+        initialValue: "BGM\u97F3\u91CF"
+        value: "BGM\u97F3\u91CF"
+      volumeBgs:
+        enabled: 1
+        initialValue: "BGS\u97F3\u91CF"
+        value: "BGS\u97F3\u91CF"
+      volumeMe:
+        enabled: 1
+        initialValue: "ME\u97F3\u91CF"
+        value: "ME\u97F3\u91CF"
+      volumeSe:
+        enabled: 1
+        initialValue: "SE\u97F3\u91CF"
+        value: "SE\u97F3\u91CF"
+      weapon:
+        enabled: 1
+        initialValue: "\u6B66\u5668"
+        value: "\u6B66\u5668"
+    messages:
+      actionFailure:
+        enabled: 1
+        initialValue: "%1\u306B\u306F\u52B9\u304B\u306A\u304B\u3063\u305F\uFF01"
+        value: "%1\u306B\u306F\u52B9\u304B\u306A\u304B\u3063\u305F\uFF01"
+      actorDamage:
+        enabled: 1
+        initialValue: "%1\u306F %2 \u306E\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\uFF01"
+        value: "%1\u306F %2 \u306E\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u305F\uFF01"
+      actorDrain:
+        enabled: 1
+        initialValue: "%1\u306F%2\u3092 %3 \u596A\u308F\u308C\u305F\uFF01"
+        value: "%1\u306F%2\u3092 %3 \u596A\u308F\u308C\u305F\uFF01"
+      actorGain:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u5897\u3048\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u5897\u3048\u305F\uFF01"
+      actorLoss:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u6E1B\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u6E1B\u3063\u305F\uFF01"
+      actorNoDamage:
+        enabled: 1
+        initialValue: "%1\u306F\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u3066\u3044\u306A\u3044\uFF01"
+        value: "%1\u306F\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u3066\u3044\u306A\u3044\uFF01"
+      actorNoHit:
+        enabled: 1
+        initialValue: "\u30DF\u30B9\uFF01\u3000%1\u306F\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u3066\u3044\u306A\u3044\uFF01"
+        value: "\u30DF\u30B9\uFF01\u3000%1\u306F\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u3066\u3044\u306A\u3044\uFF01"
+      actorRecovery:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u56DE\u5FA9\u3057\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u56DE\u5FA9\u3057\u305F\uFF01"
+      buffAdd:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C\u4E0A\u304C\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C\u4E0A\u304C\u3063\u305F\uFF01"
+      buffRemove:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C\u5143\u306B\u623B\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C\u5143\u306B\u623B\u3063\u305F\uFF01"
+      counterAttack:
+        enabled: 1
+        initialValue: "%1\u306E\u53CD\u6483\uFF01"
+        value: "%1\u306E\u53CD\u6483\uFF01"
+      criticalToActor:
+        enabled: 1
+        initialValue: "\u75DB\u6068\u306E\u4E00\u6483\uFF01\uFF01"
+        value: "\u75DB\u6068\u306E\u4E00\u6483\uFF01\uFF01"
+      criticalToEnemy:
+        enabled: 1
+        initialValue: "\u4F1A\u5FC3\u306E\u4E00\u6483\uFF01\uFF01"
+        value: "\u4F1A\u5FC3\u306E\u4E00\u6483\uFF01\uFF01"
+      debuffAdd:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C\u4E0B\u304C\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C\u4E0B\u304C\u3063\u305F\uFF01"
+      defeat:
+        enabled: 1
+        initialValue: "%1\u306F\u6226\u3044\u306B\u6557\u308C\u305F\u3002"
+        value: "%1\u306F\u6226\u3044\u306B\u6557\u308C\u305F\u3002"
+      emerge:
+        enabled: 1
+        initialValue: "%1\u304C\u51FA\u73FE\uFF01"
+        value: "%1\u304C\u51FA\u73FE\uFF01"
+      enemyDamage:
+        enabled: 1
+        initialValue: "%1\u306B %2 \u306E\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\uFF01"
+        value: "%1\u306B %2 \u306E\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u305F\uFF01"
+      enemyDrain:
+        enabled: 1
+        initialValue: "%1\u306E%2\u3092 %3 \u596A\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u3092 %3 \u596A\u3063\u305F\uFF01"
+      enemyGain:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u5897\u3048\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u5897\u3048\u305F\uFF01"
+      enemyLoss:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u6E1B\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u6E1B\u3063\u305F\uFF01"
+      enemyNoDamage:
+        enabled: 1
+        initialValue: "%1\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3089\u308C\u306A\u3044\uFF01"
+        value: "%1\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3089\u308C\u306A\u3044\uFF01"
+      enemyNoHit:
+        enabled: 1
+        initialValue: "\u30DF\u30B9\uFF01\u3000%1\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3089\u308C\u306A\u3044\uFF01"
+        value: "\u30DF\u30B9\uFF01\u3000%1\u306B\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3089\u308C\u306A\u3044\uFF01"
+      enemyRecovery:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u56DE\u5FA9\u3057\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u56DE\u5FA9\u3057\u305F\uFF01"
+      escapeFailure:
+        enabled: 1
+        initialValue: "\u3057\u304B\u3057\u9003\u3052\u308B\u3053\u3068\u306F\u3067\u304D\u306A\u304B\u3063\u305F\uFF01"
+        value: "\u3057\u304B\u3057\u9003\u3052\u308B\u3053\u3068\u306F\u3067\u304D\u306A\u304B\u3063\u305F\uFF01"
+      escapeStart:
+        enabled: 1
+        initialValue: "%1\u306F\u9003\u3052\u51FA\u3057\u305F"
+        value: "%1\u306F\u9003\u3052\u51FA\u3057\u305F"
+      evasion:
+        enabled: 1
+        initialValue: "%1\u306F\u653B\u6483\u3092\u304B\u308F\u3057\u305F\uFF01"
+        value: "%1\u306F\u653B\u6483\u3092\u304B\u308F\u3057\u305F\uFF01"
+      expNext:
+        enabled: 1
+        initialValue: "\u6B21\u306E%1\u307E\u3067"
+        value: "\u6B21\u306E%1\u307E\u3067"
+      expTotal:
+        enabled: 1
+        initialValue: "\u73FE\u5728\u306E%1"
+        value: "\u73FE\u5728\u306E%1"
+      file:
+        enabled: 1
+        initialValue: "\u30D5\u30A1\u30A4\u30EB"
+        value: "\u30D5\u30A1\u30A4\u30EB"
+      levelUp:
+        enabled: 1
+        initialValue: "%1\u306E%2\u304C %3 \u306B\u4E0A\u304C\u3063\u305F\uFF01"
+        value: "%1\u306E%2\u304C %3 \u306B\u4E0A\u304C\u3063\u305F\uFF01"
+      loadMessage:
+        enabled: 1
+        initialValue: "\u3069\u306E\u30D5\u30A1\u30A4\u30EB\u3092\u30ED\u30FC\u30C9\u3057\u307E\u3059\u304B\uFF1F"
+        value: "\u3069\u306E\u30D5\u30A1\u30A4\u30EB\u3092\u30ED\u30FC\u30C9\u3057\u307E\u3059\u304B\uFF1F"
+      magicEvasion:
+        enabled: 1
+        initialValue: "%1\u306F\u9B54\u6CD5\u3092\u6253\u3061\u6D88\u3057\u305F\uFF01"
+        value: "%1\u306F\u9B54\u6CD5\u3092\u6253\u3061\u6D88\u3057\u305F\uFF01"
+      magicReflection:
+        enabled: 1
+        initialValue: "%1\u306F\u9B54\u6CD5\u3092\u8DF3\u306D\u8FD4\u3057\u305F\uFF01"
+        value: "%1\u306F\u9B54\u6CD5\u3092\u8DF3\u306D\u8FD4\u3057\u305F\uFF01"
+      obtainExp:
+        enabled: 1
+        initialValue: "%1 \u306E%2\u3092\u7372\u5F97\uFF01"
+        value: "%1 \u306E%2\u3092\u7372\u5F97\uFF01"
+      obtainGold:
+        enabled: 1
+        initialValue: "\u304A\u91D1\u3092 %1\\G \u624B\u306B\u5165\u308C\u305F\uFF01"
+        value: "\u304A\u91D1\u3092 %1\\G \u624B\u306B\u5165\u308C\u305F\uFF01"
+      obtainItem:
+        enabled: 1
+        initialValue: "%1\u3092\u624B\u306B\u5165\u308C\u305F\uFF01"
+        value: "%1\u3092\u624B\u306B\u5165\u308C\u305F\uFF01"
+      obtainSkill:
+        enabled: 1
+        initialValue: "%1\u3092\u899A\u3048\u305F\uFF01"
+        value: "%1\u3092\u899A\u3048\u305F\uFF01"
+      partyName:
+        enabled: 1
+        initialValue: "%1\u305F\u3061"
+        value: "%1\u305F\u3061"
+      preemptive:
+        enabled: 1
+        initialValue: "%1\u306F\u5148\u624B\u3092\u53D6\u3063\u305F\uFF01"
+        value: "%1\u306F\u5148\u624B\u3092\u53D6\u3063\u305F\uFF01"
+      saveMessage:
+        enabled: 1
+        initialValue: "\u3069\u306E\u30D5\u30A1\u30A4\u30EB\u3092\u30BB\u30FC\u30D6\u3057\u307E\u3059\u304B\uFF1F"
+        value: "\u3069\u306E\u30D5\u30A1\u30A4\u30EB\u3092\u30BB\u30FC\u30D6\u3057\u307E\u3059\u304B\uFF1F"
+      substitute:
+        enabled: 1
+        initialValue: "%1\u304C%2\u3092\u304B\u3070\u3063\u305F\uFF01"
+        value: "%1\u304C%2\u3092\u304B\u3070\u3063\u305F\uFF01"
+      surprise:
+        enabled: 1
+        initialValue: "%1\u306F\u4E0D\u610F\u3092\u3064\u304B\u308C\u305F\uFF01"
+        value: "%1\u306F\u4E0D\u610F\u3092\u3064\u304B\u308C\u305F\uFF01"
+      useItem:
+        enabled: 1
+        initialValue: "%1\u306F%2\u3092\u4F7F\u3063\u305F\uFF01"
+        value: "%1\u306F%2\u3092\u4F7F\u3063\u305F\uFF01"
+      victory:
+        enabled: 1
+        initialValue: "%1\u306E\u52DD\u5229\uFF01"
+        value: "%1\u306E\u52DD\u5229\uFF01"
+    status:
+      attack:
+        enabled: 1
+        initialValue: "\u653B\u6483\u529B"
+        value: "\u653B\u6483\u529B"
+      evasion:
+        enabled: 1
+        initialValue: "\u56DE\u907F\u7387"
+        value: "\u56DE\u907F\u7387"
+      guard:
+        enabled: 1
+        initialValue: "\u9632\u5FA1\u529B"
+        value: "\u9632\u5FA1\u529B"
+      hit:
+        enabled: 1
+        initialValue: "\u547D\u4E2D\u7387"
+        value: "\u547D\u4E2D\u7387"
+      luck:
+        enabled: 1
+        initialValue: "\u904B"
+        value: "\u904B"
+      magic:
+        enabled: 1
+        initialValue: "\u9B54\u6CD5\u529B"
+        value: "\u9B54\u6CD5\u529B"
+      magicGuard:
+        enabled: 1
+        initialValue: "\u9B54\u6CD5\u9632\u5FA1"
+        value: "\u9B54\u6CD5\u9632\u5FA1"
+      maxHp:
+        enabled: 1
+        initialValue: "\u6700\u5927\uFF28\uFF30"
+        value: "\u6700\u5927\uFF28\uFF30"
+      maxMp:
+        enabled: 1
+        initialValue: "\u6700\u5927\uFF2D\uFF30"
+        value: "\u6700\u5927\uFF2D\uFF30"
+      speed:
+        enabled: 1
+        initialValue: "\u654F\u6377\u6027"
+        value: "\u654F\u6377\u6027"

@@ -1,0 +1,1269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fbdcbb42f0bf3c4ca73ea555a860ec5, type: 3}
+  m_Name: weapon
+  m_EditorClassIdentifier: 
+  dataModels:
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u8EFD\u304F\u3066\u6271\u3044\u3084\u3059\u3044\u5200\u8EAB\u306E\u77ED\u3044\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 661cb624-e856-494e-94b8-0e41064e90b0
+      name: "\u30B7\u30E7\u30FC\u30C8\u30BD\u30FC\u30C9"
+      price: 280
+      sell: 168
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 010000000000000038000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u92ED\u3044\u5207\u308C\u5473\u3092\u8A87\u308B\u6226\u95D8\u7528\u306E\u9577\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 88790220-72d8-4b34-95ec-947af47a5e22
+      name: "\u30ED\u30F3\u30B0\u30BD\u30FC\u30C9"
+      price: 530
+      sell: 318
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 03000000000000005e000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u6D17\u7DF4\u3055\u308C\u305F\u5200\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 857aeceb-bf44-497e-9409-de1efe52d9a1
+      name: "\u30B0\u30E9\u30C7\u30A3\u30A6\u30B9"
+      price: 999
+      sell: 599
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 050000000000000084000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u53CD\u308A\u306E\u3042\u308B\u5200\u8EAB\u3092\u3082\u3064\u5E45\u5E83\u306E\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 38184b20-cb99-4c8f-a7e0-3c2c440f43cc
+      name: "\u30D5\u30A1\u30EB\u30B7\u30AA\u30F3"
+      price: 1833
+      sell: 1099
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 0700000000000000aa000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u92FC\u9244\u3067\u4F5C\u3089\u308C\u305F\u9577\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: d3fd3f97-bed3-488c-a322-248aed74e37c
+      name: "\u30CA\u30A4\u30C8\u30BD\u30FC\u30C9"
+      price: 3179
+      sell: 1907
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 0900000000000000d0000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u30DF\u30B9\u30EA\u30EB\u3067\u4F5C\u3089\u308C\u305F\u9577\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: f27d7694-b951-4131-9e33-c59c08fd3b6a
+      name: "\u30DF\u30B9\u30EA\u30EB\u30BD\u30FC\u30C9"
+      price: 5184
+      sell: 3110
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 0b00000000000000f6000000000000003200000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u30A8\u30EB\u30D5\u65CF\u306B\u4F1D\u308F\u308B\u5263\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: c246934f-38fd-4f33-9694-065a6976ee70
+      name: "\u30A8\u30EB\u30D6\u30F3\u30BD\u30FC\u30C9"
+      price: 11718
+      sell: 7030
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 0f0000000000000041010000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u5263\u3011\u7802\u6F20\u5730\u65B9\u306B\u4F1D\u308F\u308B\u66F2\u304C\u3063\u305F\u7D30\u8EAB\u306E\u5200\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 38b8fbba-37ac-4647-976e-b24afc1563c7
+      name: "\u30B7\u30E3\u30E0\u30B7\u30FC\u30EB"
+      price: 26219
+      sell: 15731
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 1400000000000000a0010000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 1
+      description: "\u3010\u5263\u3011\u52C7\u6C17\u3042\u308B\u8005\u306B\u8D08\u3089\u308C\u305F\u3068\u3055\u308C\u308B\u540D\u5200\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_097
+      id: 6180abfc-05ef-444b-9120-4ef148408033
+      name: "\u30EC\u30A4\u30C9\u30BD\u30FC\u30C9"
+      price: 84951
+      sell: 50970
+      switchItem: 0
+      weaponTypeId: 94e410c8-ecd3-4c9e-a844-c978fc6e21f2
+    memo: 
+    parameters: 1e000000000000005e020000000000000000000032000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 1000
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 2
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u6756\u3011\u5B89\u4FA1\u3067\u4E00\u822C\u306B\u666E\u53CA\u3057\u3066\u3044\u308B\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: 3b43e5d9-721a-4beb-82e9-be48c2240f74
+      name: "\u30A6\u30C3\u30C9\u30B9\u30BF\u30C3\u30D5"
+      price: 387
+      sell: 232
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 02000000000000004b000000000000000e00000003000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u6756\u3011\u8853\u8005\u306E\u9B54\u529B\u3092\u3084\u3084\u5897\u5E45\u3055\u305B\u308B\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: 855e1fa4-50ed-41ae-a21e-37081909ecc2
+      name: "\u30DE\u30B8\u30C3\u30AF\u30EF\u30F3\u30C9"
+      price: 1361
+      sell: 816
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 060000000000000097000000000000001400000006000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u6756\u3011\u8853\u8005\u306E\u9B54\u529B\u3092\u5897\u5E45\u3055\u305B\u308B\u30DF\u30B9\u30EA\u30EB\u306E\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: f0e4a70f-8523-427a-8874-ddd13ffc70f8
+      name: "\u30DF\u30B9\u30EA\u30EB\u30ED\u30C3\u30C9"
+      price: 7993
+      sell: 4795
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 0d000000000000001c010000000000001c00000018000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u6756\u3011\u30A8\u30EB\u30D5\u65CF\u306B\u4F1D\u308F\u308B\u9B54\u529B\u3092\u5897\u5E45\u3055\u305B\u308B\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: b5f97c33-8f5d-4768-a647-df009e36fb67
+      name: "\u30A8\u30EB\u30D6\u30F3\u30B9\u30BF\u30C3\u30D5"
+      price: 13996
+      sell: 8397
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 10000000000000005401000000000000240000000c000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u6756\u3011\u8853\u8005\u306E\u9B54\u529B\u3092\u5927\u5E45\u306B\u5897\u5E45\u3055\u305B\u308B\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: 88907115-1f67-4f48-b873-9c8876b6f590
+      name: "\u30D5\u30A9\u30FC\u30B9\u30EF\u30F3\u30C9"
+      price: 30144
+      sell: 18086
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 1500000000000000b3010000000000002c0000000c000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 1
+      description: "\u3010\u6756\u3011\u7279\u5225\u306A\u9B54\u529B\u304C\u8FBC\u3081\u3089\u308C\u305F\u3001\u9B54\u529B\u3092\u5897\u5E45\u3055\u305B\u308B\u6756\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_101
+      id: e87144db-b559-4015-9ec8-6bdb360487b1
+      name: "\u30A6\u30A3\u30BA\u30C0\u30E0\u30B9\u30BF\u30C3\u30D5"
+      price: 84951
+      sell: 50970
+      switchItem: 0
+      weaponTypeId: 159ea6ce-ea6b-43f8-9521-6fc800565100
+    memo: 
+    parameters: 1e000000000000005e020000000000003400000018000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 2
+      effectId: 8
+      traitsId: 2
+      value: 50
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u30D5\u30EC\u30A4\u30EB\u3011\u67C4\u306E\u5148\u306B\u9396\u3067\u77F3\u7403\u3092\u3064\u306A\u3044\u3060\u9023\u63A5\u68CD\u68D2\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_098
+      id: 9a7c9a7b-8591-49d2-b619-75c06192fb7b
+      name: "\u30B9\u30C8\u30FC\u30F3\u30D5\u30EC\u30A4\u30EB"
+      price: 360
+      sell: 180
+      switchItem: 0
+      weaponTypeId: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+    memo: 
+    parameters: 000000000000000007000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u30D5\u30EC\u30A4\u30EB\u3011\u67C4\u306E\u5148\u306B\u9396\u3067\u9285\u7403\u3092\u3064\u306A\u3044\u3060\u9023\u63A5\u68CD\u68D2\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_098
+      id: cf8f6db9-f372-413e-9ef1-2d4fe862114e
+      name: "\u30D6\u30ED\u30F3\u30BA\u30D5\u30EC\u30A4\u30EB"
+      price: 680
+      sell: 340
+      switchItem: 0
+      weaponTypeId: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+    memo: 
+    parameters: 00000000000000000c000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u30D5\u30EC\u30A4\u30EB\u3011\u92FC\u9244\u3067\u5F37\u5316\u3057\u305F\u9023\u63A5\u68CD\u68D2\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_098
+      id: 1506c62a-56d0-473e-9dd9-4772e9e98d1d
+      name: "\u30E2\u30FC\u30CB\u30F3\u30B0\u30B9\u30BF\u30FC"
+      price: 1460
+      sell: 730
+      switchItem: 0
+      weaponTypeId: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+    memo: 
+    parameters: 000000000000000012000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u30D5\u30EC\u30A4\u30EB\u3011\u30DF\u30B9\u30EA\u30EB\u3067\u5F37\u5316\u3057\u305F\u9023\u63A5\u68CD\u68D2\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_098
+      id: 6de54ba9-ea51-4d94-a464-ab380f053387
+      name: "\u30DF\u30B9\u30EA\u30EB\u30D5\u30EC\u30A4\u30EB"
+      price: 2980
+      sell: 1490
+      switchItem: 0
+      weaponTypeId: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+    memo: 
+    parameters: 000000000000000017000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 5a4e5e29-5f55-408e-b17d-d69c9ee0e43b
+      canSell: 0
+      description: "\u3010\u30D5\u30EC\u30A4\u30EB\u3011\u30C9\u30E9\u30B4\u30F3\u306E\u30AD\u30D0\u3067\u5F37\u5316\u3057\u305F\u9023\u63A5\u68CD\u68D2\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_098
+      id: 2ffd5cbb-e514-4830-b1e2-020dca31e9fe
+      name: "\u30C9\u30E9\u30B4\u30F3\u30D5\u30EC\u30A4\u30EB"
+      price: 6180
+      sell: 3090
+      switchItem: 0
+      weaponTypeId: 608a2682-8841-4e0d-8e6b-752bfb8d9027
+    memo: 
+    parameters: 00000000000000001d000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u65A7\u3011\u4F10\u63A1\u306B\u4F7F\u3046\u5C0F\u578B\u306E\u65A7\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_099
+      id: 13e9216c-958d-49ea-8394-cd92bda32b00
+      name: "\u30CF\u30F3\u30C9\u30A2\u30AF\u30B9"
+      price: 480
+      sell: 240
+      switchItem: 0
+      weaponTypeId: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+    memo: 
+    parameters: 00000000000000000a000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u65A7\u3011\u6226\u95D8\u7528\u306B\u4F5C\u3089\u308C\u305F\u4E21\u5203\u306E\u65A7\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_099
+      id: e003cafc-ee60-4baa-8d07-ddb3b2d2f3f4
+      name: "\u30D0\u30C8\u30EB\u30A2\u30AF\u30B9"
+      price: 980
+      sell: 490
+      switchItem: 0
+      weaponTypeId: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+    memo: 
+    parameters: 000000000000000012000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u65A7\u3011\u4E09\u65E5\u6708\u578B\u306E\u5203\u3092\u3082\u3064\u6226\u65A7\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_099
+      id: 19c31d66-944f-4e6b-90e1-7d9788817414
+      name: "\u30D0\u30EB\u30C7\u30A3\u30C3\u30B7\u30E5"
+      price: 2180
+      sell: 1090
+      switchItem: 0
+      weaponTypeId: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+    memo: 
+    parameters: 000000000000000019000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u65A7\u3011\u30DF\u30B9\u30EA\u30EB\u3067\u4F5C\u3089\u308C\u305F\u6226\u65A7\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_099
+      id: 379b6433-199f-46b4-a0c8-d34e1a98ff72
+      name: "\u30DF\u30B9\u30EA\u30EB\u30A2\u30AF\u30B9"
+      price: 4500
+      sell: 2250
+      switchItem: 0
+      weaponTypeId: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+    memo: 
+    parameters: 000000000000000020000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u65A7\u3011\u30C9\u30E9\u30B4\u30F3\u306E\u30AD\u30D0\u3067\u4F5C\u3089\u308C\u305F\u6226\u65A7\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_099
+      id: 937258c9-c5f5-48ca-9a4d-ebc65c55a429
+      name: "\u30C9\u30E9\u30B4\u30F3\u30A2\u30AF\u30B9"
+      price: 9600
+      sell: 4800
+      switchItem: 0
+      weaponTypeId: 7b0de0fe-7cea-4f68-a89e-4dfb403b1017
+    memo: 
+    parameters: 00000000000000002d000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u69CD\u3011\u7A81\u304D\u306B\u7279\u5316\u3055\u305B\u305F\u77ED\u3081\u306E\u69CD\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_107
+      id: 7c3ff758-46b8-4ec5-99f7-d10c94afb499
+      name: "\u30B7\u30E7\u30FC\u30C8\u30B9\u30D4\u30A2"
+      price: 320
+      sell: 160
+      switchItem: 0
+      weaponTypeId: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+    memo: 
+    parameters: 000000000000000006000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u69CD\u3011\u67C4\u3092\u53EF\u80FD\u306A\u9650\u308A\u9577\u304F\u3057\u305F\u69CD\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_107
+      id: b72d99d3-8ab4-4ea7-b51c-54ee92d8cfdc
+      name: "\u30ED\u30F3\u30B0\u30B9\u30D4\u30A2"
+      price: 890
+      sell: 445
+      switchItem: 0
+      weaponTypeId: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+    memo: 
+    parameters: 00000000000000000c000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u69CD\u3011\u7A42\u5148\u306B\u65A7\u982D\u306E\u53D6\u308A\u3064\u3051\u3089\u308C\u305F\u69CD\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_107
+      id: df5914b8-83ff-473c-8f28-28de82cedb6c
+      name: "\u30CF\u30EB\u30D0\u30FC\u30C9"
+      price: 1760
+      sell: 880
+      switchItem: 0
+      weaponTypeId: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+    memo: 
+    parameters: 000000000000000012000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u69CD\u3011\u30DF\u30B9\u30EA\u30EB\u3067\u4F5C\u3089\u308C\u305F\u69CD\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_107
+      id: 0803f117-6dfe-44f4-84c9-9ed365d65c05
+      name: "\u30DF\u30B9\u30EA\u30EB\u30B9\u30D4\u30A2"
+      price: 3420
+      sell: 1710
+      switchItem: 0
+      weaponTypeId: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+    memo: 
+    parameters: 000000000000000018000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u69CD\u3011\u30C9\u30E9\u30B4\u30F3\u306E\u30AD\u30D0\u3067\u4F5C\u3089\u308C\u305F\u69CD\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_107
+      id: bb21fdde-09fd-49ef-9e10-7c06e2fe8890
+      name: "\u30C9\u30E9\u30B4\u30F3\u30B9\u30D4\u30A2"
+      price: 5980
+      sell: 2990
+      switchItem: 0
+      weaponTypeId: c483e84e-dba1-47ef-8f2a-29e9517a8fa0
+    memo: 
+    parameters: 000000000000000020000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u30B0\u30ED\u30FC\u30D6\u3011\u62F3\u982D\u306B\u30C8\u30B2\u304C\u3064\u3044\u305F\u683C\u95D8\u7528\u306E\u30B0\u30ED\u30FC\u30D6\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_106
+      id: 4519dc16-a5e0-4792-8adb-99f354a0c18b
+      name: "\u30BB\u30B9\u30BF\u30B9"
+      price: 360
+      sell: 180
+      switchItem: 0
+      weaponTypeId: a90cb9b1-000a-453b-820d-ab390d28fd14
+    memo: 
+    parameters: 000000000000000005000000050000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 5
+      effectId: 1
+      traitsId: 4
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 1
+  - basic:
+      animationId: d479f5a0-c841-4414-8b7b-d7e27d09e284
+      canSell: 0
+      description: "\u3010\u722A\u3011\u77ED\u3044\uFF14\u672C\u306E\u722A\u304C\u53D6\u308A\u3064\u3051\u3089\u308C\u305F\u683C\u95D8\u6B66\u5668\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_105
+      id: 10cf6b50-8060-4ef5-88d5-622600b3b1a6
+      name: "\u30D0\u30B0\u30CA\u30A6"
+      price: 980
+      sell: 490
+      switchItem: 0
+      weaponTypeId: a90cb9b1-000a-453b-820d-ab390d28fd14
+    memo: 
+    parameters: 00000000000000000c000000080000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 5
+      effectId: 1
+      traitsId: 4
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 1
+  - basic:
+      animationId: d479f5a0-c841-4414-8b7b-d7e27d09e284
+      canSell: 0
+      description: "\u3010\u722A\u3011\u92FC\u9244\u306E\u304B\u304E\u722A\u304C\u4ED5\u8FBC\u307E\u308C\u305F\u683C\u95D8\u6B66\u5668\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_105
+      id: aa7216f1-0913-4753-95ba-58fc3d149d98
+      name: "\u30A2\u30A4\u30A2\u30F3\u30AF\u30ED\u30A6"
+      price: 1560
+      sell: 780
+      switchItem: 0
+      weaponTypeId: a90cb9b1-000a-453b-820d-ab390d28fd14
+    memo: 
+    parameters: 0000000000000000140000000f0000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 5
+      effectId: 1
+      traitsId: 4
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 1
+  - basic:
+      animationId: d479f5a0-c841-4414-8b7b-d7e27d09e284
+      canSell: 0
+      description: "\u3010\u722A\u3011\u30DF\u30B9\u30EA\u30EB\u306E\u304B\u304E\u722A\u304C\u4ED5\u8FBC\u307E\u308C\u305F\u683C\u95D8\u6B66\u5668\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_105
+      id: 467ca3dd-9384-4306-b096-26df77bf87c8
+      name: "\u30DF\u30B9\u30EA\u30EB\u30AF\u30ED\u30A6"
+      price: 3480
+      sell: 1740
+      switchItem: 0
+      weaponTypeId: a90cb9b1-000a-453b-820d-ab390d28fd14
+    memo: 
+    parameters: 000000000000000019000000120000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 5
+      effectId: 1
+      traitsId: 4
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 1
+  - basic:
+      animationId: d479f5a0-c841-4414-8b7b-d7e27d09e284
+      canSell: 0
+      description: "\u3010\u722A\u3011\u30C9\u30E9\u30B4\u30F3\u306E\u304B\u304E\u722A\u304C\u4ED5\u8FBC\u307E\u308C\u305F\u683C\u95D8\u6B66\u5668\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_105
+      id: d1b14afa-b6fc-435a-ab79-0a741e5b67fb
+      name: "\u30C9\u30E9\u30B4\u30F3\u30AF\u30ED\u30A6"
+      price: 6890
+      sell: 3445
+      switchItem: 0
+      weaponTypeId: a90cb9b1-000a-453b-820d-ab390d28fd14
+    memo: 
+    parameters: 000000000000000020000000150000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+    - categoryId: 5
+      effectId: 1
+      traitsId: 4
+      value: 0
+    - categoryId: 3
+      effectId: 0
+      traitsId: 4
+      value: 1
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u72E9\u731F\u7528\u306B\u4F5C\u3089\u308C\u305F\u77ED\u3081\u306E\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: 9f302811-0a5e-4ecc-b00c-d4601eedea60
+      name: "\u30B7\u30E7\u30FC\u30C8\u30DC\u30A6"
+      price: 280
+      sell: 168
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 010000000000000038000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: -10
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5A01\u529B\u3092\u9AD8\u3081\u305F\u6226\u95D8\u7528\u306E\u9577\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: bcdd9a69-f5f6-41ef-9f70-642b54083042
+      name: "\u30ED\u30F3\u30B0\u30DC\u30A6"
+      price: 728
+      sell: 436
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 040000000000000071000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: -10
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5F37\u529B\u306A\u30D0\u30CD\u3067\u77E2\u3092\u5C04\u51FA\u3059\u308B\u6728\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: 03aa0b75-40aa-46c9-b24e-f7a4b186e6c0
+      name: "\u30D5\u30A9\u30EC\u30B9\u30C8\u30DC\u30A6"
+      price: 1833
+      sell: 1099
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 0700000000000000aa000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: -10
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5F37\u529B\u306A\u30D0\u30CD\u3067\u77E2\u3092\u5C04\u51FA\u3059\u308B\u9244\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_103
+      id: 5bfb79b1-51dc-426f-82d7-837089264692
+      name: "\u30B3\u30F3\u30DD\u30B8\u30C3\u30C8\u30DC\u30A6"
+      price: 4090
+      sell: 2454
+      switchItem: 0
+      weaponTypeId: 32d47769-9783-4745-acba-954e454108f5
+    memo: 
+    parameters: 0a00000000000000e3000000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5F37\u529B\u306A\u30D0\u30CD\u3067\u77E2\u3092\u5C04\u51FA\u3059\u308B\u30DF\u30B9\u30EA\u30EB\u88FD\u306E\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: 53528529-b01f-41e2-a05c-66db1e83ce16
+      name: "\u30DF\u30B9\u30EA\u30EB\u30DC\u30A6"
+      price: 7993
+      sell: 4795
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 0d000000000000001c010000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5F37\u529B\u306A\u30D0\u30CD\u3067\u77E2\u3092\u5C04\u51FA\u3059\u308B\u3001\u30A8\u30EB\u30D5\u65CF\u304C\u3057\u305F\u305F\u3081\u305F\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: c0ce483e-f78c-48df-9d85-386e15a8cd54
+      name: "\u30A8\u30EB\u30D6\u30F3\u30DC\u30A6"
+      price: 13996
+      sell: 8397
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 100000000000000054010000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u5F37\u529B\u306A\u30D0\u30CD\u3067\u92FC\u9244\u306E\u77E2\u3092\u5C04\u51FA\u3059\u308B\u6D17\u7DF4\u3055\u308C\u305F\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_103
+      id: 8928d6ca-2222-4428-b0c5-469011c09bb5
+      name: "\u30B5\u30A4\u30AF\u30ED\u30F3\u30DC\u30A6"
+      price: 34452
+      sell: 20671
+      switchItem: 0
+      weaponTypeId: 32d47769-9783-4745-acba-954e454108f5
+    memo: 
+    parameters: 1600000000000000c6010000000000000000000000000000000000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
+  - basic:
+      animationId: f4da0dde-49bc-4ab3-b597-b05d8b6eb75b
+      canSell: 0
+      description: "\u3010\u5F13\u3011\u30A8\u30EB\u30D5\u306B\u3088\u308A\u5C5E\u6027\u306E\u52A0\u8B77\u3092\u53D7\u3051\u305F\u5F13\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_102
+      id: 4e927c4b-5b86-466d-93e6-0cd9f541339d
+      name: "\u30A8\u30EC\u30E1\u30F3\u30BF\u30EB\u30DC\u30A6"
+      price: 84951
+      sell: 50970
+      switchItem: 0
+      weaponTypeId: 1bca59b7-0d26-4213-bcd0-741dcc405435
+    memo: 
+    parameters: 1e000000000000005e020000000000000000000000000000320000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 1000
+    - categoryId: 1
+      effectId: 3
+      traitsId: 1
+      value: 100
+    - categoryId: 3
+      effectId: 3
+      traitsId: 1
+      value: 1000
+    - categoryId: 1
+      effectId: 6
+      traitsId: 1
+      value: 100
+    - categoryId: 3
+      effectId: 6
+      traitsId: 1
+      value: 1000
+    - categoryId: 1
+      effectId: 7
+      traitsId: 1
+      value: 100
+    - categoryId: 3
+      effectId: 7
+      traitsId: 1
+      value: 1000
+    - categoryId: 1
+      effectId: 8
+      traitsId: 1
+      value: 100
+    - categoryId: 3
+      effectId: 8
+      traitsId: 1
+      value: 1000
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u65E5\u5E38\u751F\u6D3B\u306B\u3082\u4F7F\u3048\u308B\u30CA\u30A4\u30D5\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: dfad600e-e663-48b6-bc53-8513403ad5b2
+      name: "\u30CA\u30A4\u30D5"
+      price: 280
+      sell: 168
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 010000000000000038000000000000000000000000000000020000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u63A5\u8FD1\u6226\u3067\u4F7F\u7528\u3059\u308B\u77ED\u5200\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: 6dedd8cf-432a-49e2-a4a0-f424243232c1
+      name: "\u30C0\u30AC\u30FC"
+      price: 530
+      sell: 318
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 03000000000000005e000000000000000000000000000000040000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u30A2\u30B5\u30B7\u30F3\u7528\u9014\u306E\u30CA\u30A4\u30D5\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: ff4fadc1-7dbf-4d8a-9619-cbf8d40339f1
+      name: "\u30A2\u30B5\u30B7\u30F3\u30CA\u30A4\u30D5"
+      price: 2433
+      sell: 1459
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 0800000000000000bd000000000000000000000000000000060000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u5200\u8EAB\u306E\u7D30\u3044\u77ED\u5200\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: 1b5acd8e-8ea2-436a-84ab-0044c061d054
+      name: "\u30DE\u30A4\u30F3\u30B4\u30FC\u30B7\u30E5"
+      price: 5184
+      sell: 3110
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 0b00000000000000f6000000000000000000000000000000080000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u30DF\u30B9\u30EA\u30EB\u3067\u4F5C\u3089\u308C\u305F\u77ED\u5200\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: 025bd531-8168-4c38-a95f-18341502afe1
+      name: "\u30DF\u30B9\u30EA\u30EB\u30C0\u30AC\u30FC"
+      price: 9746
+      sell: 5847
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 0e000000000000002f0100000000000000000000000000000a0000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u30A8\u30EB\u30D5\u65CF\u306B\u4F5C\u3089\u308C\u305F\u77ED\u5200\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: 87c4a28b-d029-4c1a-8d82-daab05454898
+      name: "\u30A8\u30EB\u30D6\u30F3\u30C0\u30AC\u30FC"
+      price: 16567
+      sell: 9940
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 1100000000000000670100000000000000000000000000000c0000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 200
+    - categoryId: 2
+      effectId: 6
+      traitsId: 1
+      value: 1050
+  - basic:
+      animationId: 3f2d2acb-5b0e-44e1-9808-3e5eacf6f74d
+      canSell: 0
+      description: "\u3010\u77ED\u5263\u3011\u5200\u8EAB\u306E\u7D30\u3044\u77ED\u5200\u3002\u9AD8\u3044\u547D\u4E2D\u7387\u3068\u4FCA\u654F\u6027\u304C\u4E0A\u304C\u308B\u3002"
+      equipmentTypeId: 48254f68-178f-448e-98fd-60a0bb616a28
+      iconId: IconSet_096
+      id: 95381c16-021e-4e0b-a61f-2ecf4c56d396
+      name: "\u30CB\u30FC\u30C9\u30EB\u30C0\u30AC\u30FC"
+      price: 39164
+      sell: 23498
+      switchItem: 0
+      weaponTypeId: fe2c539e-10df-4d32-8103-b06ee37a157d
+    memo: 
+    parameters: 1700000000000000d90100000000000000000000000000000e0000000000000000000000
+    traits:
+    - categoryId: 3
+      effectId: 2
+      traitsId: 1
+      value: 0
+    - categoryId: 2
+      effectId: 0
+      traitsId: 2
+      value: 0
