@@ -30,7 +30,7 @@ internal static class ExtractOnImport
     private static readonly string LocalVersionCodePathThree = Directory.GetCurrentDirectory() + "/Packages/jp.ggg.rpgmaker.unite/versioncode3.txt";
     private static readonly string LocalVersionCodePathFour = Directory.GetCurrentDirectory() + "/Packages/jp.ggg.rpgmaker.unite/versioncode4.txt";
     private static string kAssetPackageSystemPath = "Packages/jp.ggg.rpgmaker.unite/System";
-    private const string VERSION = "1.0.8";
+    private const string VERSION = "1.0.9";
     private const string PROJECT_BASE = "project_base_v";
     // private const string DEFAULTGAME_COMMON = "masterdata_common_v";
     private const string DEFAULTGAME_JP     = "masterdata_jp_v";
